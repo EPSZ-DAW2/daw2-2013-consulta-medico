@@ -3272,3 +3272,142 @@ in C:\xampp\htdocs\yii\prueba\protected\controllers\CdsController.php (143)
 in C:\xampp\htdocs\yii\prueba\protected\views\layouts\main.php (34)
 in C:\xampp\htdocs\yii\prueba\protected\views\layouts\column2.php (22)
 in C:\xampp\htdocs\yii\prueba\protected\controllers\CdsController.php (143)
+2013/12/05 20:31:18 [trace] [system.CModule] Loading "log" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:18 [trace] [system.CModule] Loading "request" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:18 [trace] [system.CModule] Loading "urlManager" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:18 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\column1.php (2)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (32)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:18 [trace] [system.CModule] Loading "user" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\main.php (34)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\column1.php (6)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (32)
+2013/12/05 20:31:18 [trace] [system.CModule] Loading "session" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\main.php (34)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\column1.php (6)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (32)
+2013/12/05 20:31:18 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\main.php (55)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\column1.php (6)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (32)
+2013/12/05 20:31:19 [trace] [system.CModule] Loading "clientScript" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (32)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:23 [trace] [system.CModule] Loading "log" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:23 [trace] [system.CModule] Loading "request" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:23 [trace] [system.CModule] Loading "urlManager" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:23 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\column1.php (2)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:23 [trace] [system.CModule] Loading "user" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\main.php (34)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\column1.php (6)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:23 [trace] [system.CModule] Loading "session" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\main.php (34)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\column1.php (6)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:23 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\main.php (45)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\column1.php (6)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:23 [trace] [system.CModule] Loading "clientScript" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:28 [trace] [system.CModule] Loading "log" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:28 [trace] [system.CModule] Loading "request" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:28 [trace] [system.CModule] Loading "urlManager" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:28 [trace] [system.CModule] Loading "user" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\site\contact.php (14)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (72)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:28 [trace] [system.CModule] Loading "session" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\site\contact.php (14)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (72)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:28 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\site\contact.php (34)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (72)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:28 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\site\contact.php (38)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (72)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:28 [trace] [system.CModule] Loading "clientScript" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\site\contact.php (68)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (72)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:28 [trace] [system.CModule] Loading "assetManager" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (72)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:30 [trace] [system.CModule] Loading "log" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:30 [trace] [system.CModule] Loading "request" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:30 [trace] [system.CModule] Loading "urlManager" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:31 [trace] [system.CModule] Loading "session" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:32 [trace] [system.CModule] Loading "log" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:32 [trace] [system.CModule] Loading "request" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:32 [trace] [system.CModule] Loading "urlManager" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\site\login.php (23)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (98)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:32 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\site\login.php (30)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (98)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:32 [trace] [system.CModule] Loading "clientScript" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\site\login.php (52)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (98)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:32 [trace] [system.CModule] Loading "user" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\main.php (34)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\column1.php (6)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (98)
+2013/12/05 20:31:32 [trace] [system.CModule] Loading "session" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\main.php (34)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\column1.php (6)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (98)
+2013/12/05 20:31:32 [trace] [system.CModule] Loading "assetManager" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (98)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:34 [trace] [system.CModule] Loading "log" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:34 [trace] [system.CModule] Loading "request" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:34 [trace] [system.CModule] Loading "urlManager" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:34 [trace] [system.CModule] Loading "widgetFactory" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\column1.php (2)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (32)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2013/12/05 20:31:34 [trace] [system.CModule] Loading "user" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\main.php (34)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\column1.php (6)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (32)
+2013/12/05 20:31:34 [trace] [system.CModule] Loading "session" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\main.php (34)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\column1.php (6)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (32)
+2013/12/05 20:31:34 [trace] [system.CModule] Loading "coreMessages" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\main.php (55)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\views\layouts\column1.php (6)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (32)
+2013/12/05 20:31:34 [trace] [system.CModule] Loading "clientScript" application component
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (32)
+in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
