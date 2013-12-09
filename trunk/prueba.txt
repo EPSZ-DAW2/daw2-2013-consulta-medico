@@ -1,5 +1,9 @@
 Hello
+<<<<<<< .mine
+hola
+buenas tardes=======
 hola
 holita
 prueba tomas
-adios
+adios>>>>>>> .r7
+sdaf
