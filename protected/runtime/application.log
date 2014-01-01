@@ -3411,3 +3411,227 @@ in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\c
 2013/12/05 20:31:34 [trace] [system.CModule] Loading "clientScript" application component
 in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\protected\controllers\SiteController.php (32)
 in D:\Almacen_Trabajo\DTR-Sistemas\daw_php\daw2\2013_Consulta_Medico\index.php (13)
+2014/01/01 20:38:52 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:38:52 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:38:52 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:38:52 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:38:52 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/01 20:38:52 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/01 20:38:52 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (55)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/01 20:38:52 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:07 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:07 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:07 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:07 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:07 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:07 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:07 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (45)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:07 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:08 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:08 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:08 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:08 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (14)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:08 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (14)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:08 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:08 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (38)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:08 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (68)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:08 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:09 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:09 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:09 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:09 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:11 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:11 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:11 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:11 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:39:11 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/01 20:39:11 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/01 20:39:11 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (55)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/01 20:39:11 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:31 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:31 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:31 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:31 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:31 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:31 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:31 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (45)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:31 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:32 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:32 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:32 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:32 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (14)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:32 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (14)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:32 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (38)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:32 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (68)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:32 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:32 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:32 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:32 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:32 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:34 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:34 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:34 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:34 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\login.php (23)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:34 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\login.php (30)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:34 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\login.php (52)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:34 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (98)
+2014/01/01 20:45:34 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (98)
+2014/01/01 20:45:34 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:37 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:37 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:37 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:37 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/01 20:45:37 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/01 20:45:37 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/01 20:45:37 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (55)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/01 20:45:37 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\trabajodaw\index.php (13)

@@ -53,7 +53,7 @@ return array(
 		*/
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=cdcol',
+			'connectionString' => 'mysql:host=localhost;dbname=consultamedico',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',
