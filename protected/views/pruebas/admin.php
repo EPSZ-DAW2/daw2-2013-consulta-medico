@@ -3,13 +3,13 @@
 /* @var $model Pruebas */
 
 $this->breadcrumbs=array(
-	'Pruebases'=>array('index'),
-	'Manage',
+	'Pruebas'=>array('index'),
+	'Gestión de pruebas',
 );
 
 $this->menu=array(
-	array('label'=>'List Pruebas', 'url'=>array('index')),
-	array('label'=>'Create Pruebas', 'url'=>array('create')),
+	array('label'=>'Listar Pruebas', 'url'=>array('index')),
+	array('label'=>'Crear Pruebas', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "

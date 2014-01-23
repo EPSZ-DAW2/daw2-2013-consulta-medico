@@ -3,16 +3,16 @@
 /* @var $model Pruebas */
 
 $this->breadcrumbs=array(
-	'Pruebases'=>array('index'),
+	'Pruebas'=>array('index'),
 	$model->IdPrueba,
 );
 
 $this->menu=array(
-	array('label'=>'List Pruebas', 'url'=>array('index')),
-	array('label'=>'Create Pruebas', 'url'=>array('create')),
-	array('label'=>'Update Pruebas', 'url'=>array('update', 'id'=>$model->IdPrueba)),
-	array('label'=>'Delete Pruebas', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdPrueba),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Pruebas', 'url'=>array('admin')),
+	array('label'=>'Listar Pruebas', 'url'=>array('index')),
+	array('label'=>'Crear Pruebas', 'url'=>array('create')),
+	array('label'=>'Actualizar Pruebas', 'url'=>array('update', 'id'=>$model->IdPrueba)),
+	array('label'=>'Eliminar Pruebas', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdPrueba),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Gestionar Pruebas', 'url'=>array('admin')),
 );
 ?>
 
