@@ -1,13 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 3.4.5
+-- version 4.0.4.1
 -- http://www.phpmyadmin.net
 --
--- Servidor: localhost
--- Tiempo de generación: 30-12-2013 a las 13:10:32
--- Versión del servidor: 5.5.16
--- Versión de PHP: 5.3.8
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 23-01-2014 a las 17:47:55
+-- Versión del servidor: 5.5.32
+-- Versión de PHP: 5.4.19
 
-SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
@@ -17,8 +17,28 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Base de datos: `consulta_medico`
+-- Base de datos: `consultamedico`
 --
+CREATE DATABASE IF NOT EXISTS `consultamedico` DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci;
+USE `consultamedico`;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `a`
+--
+
+CREATE TABLE IF NOT EXISTS `a` (
+  `fd` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+--
+-- Volcado de datos para la tabla `a`
+--
+
+INSERT INTO `a` (`fd`) VALUES
+(1),
+(2);
 
 -- --------------------------------------------------------
 
@@ -89,7 +109,18 @@ CREATE TABLE IF NOT EXISTS `perfiles` (
   `Nombre` char(50) DEFAULT NULL,
   PRIMARY KEY (`IdPerfil`),
   KEY `IdPerfil` (`IdPerfil`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+
+--
+-- Volcado de datos para la tabla `perfiles`
+--
+
+INSERT INTO `perfiles` (`IdPerfil`, `Nombre`) VALUES
+(1, 'sysadmin'),
+(2, 'admin'),
+(3, 'medico'),
+(4, 'auxiliar'),
+(5, 'paciente');
 
 -- --------------------------------------------------------
 
