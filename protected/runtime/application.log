@@ -6481,3 +6481,243 @@ in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
 in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (54)
 in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
 in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:01 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:01 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:01 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:01 [trace] [system.web.filters.CFilterChain] Running filter PerfilesController.filteraccessControl()
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:01 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:01 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:01 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (136)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:01 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (136)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfiles`
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (136)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfiles`
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (136)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:01 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (15)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:01 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\_search.php (12)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (40)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
+2014/01/23 18:46:01 [trace] [system.db.ar.CActiveRecord] Perfiles.count()
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `perfiles` `t`
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:01 [trace] [system.db.ar.CActiveRecord] Perfiles.findAll()
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `perfiles` `t` LIMIT 10
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:01 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:01 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:01 [trace] [system.CModule] Loading "format" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:03 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:03 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:03 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:03 [trace] [system.web.filters.CFilterChain] Running filter PerfilesController.filteraccessControl()
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:03 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:03 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:03 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:03 [trace] [system.db.ar.CActiveRecord] Perfiles.count()
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:03 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:03 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfiles`
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfiles`
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `perfiles` `t`
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:03 [trace] [system.db.ar.CActiveRecord] Perfiles.findAll()
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `perfiles` `t` LIMIT 10
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:03 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:03 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:03 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:06 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:06 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:06 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:06 [trace] [system.web.filters.CFilterChain] Running filter PerfilesController.filteraccessControl()
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:06 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:06 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:06 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (136)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:06 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (136)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfiles`
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (136)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfiles`
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (136)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:06 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (15)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:06 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\_search.php (12)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (40)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
+2014/01/23 18:46:06 [trace] [system.db.ar.CActiveRecord] Perfiles.count()
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:06 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `perfiles` `t`
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:06 [trace] [system.db.ar.CActiveRecord] Perfiles.findAll()
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:06 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `perfiles` `t` LIMIT 10
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:06 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:06 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:06 [trace] [system.CModule] Loading "format" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:27 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:27 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:27 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:27 [trace] [system.web.filters.CFilterChain] Running filter PerfilesController.filteraccessControl()
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:27 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:27 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:27 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:27 [trace] [system.db.ar.CActiveRecord] Perfiles.count()
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:27 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:27 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfiles`
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfiles`
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `perfiles` `t`
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:27 [trace] [system.db.ar.CActiveRecord] Perfiles.findAll()
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `perfiles` `t` LIMIT 10
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:27 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:27 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:46:27 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
