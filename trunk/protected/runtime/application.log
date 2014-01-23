@@ -5208,3 +5208,28 @@ Stack trace:
 REQUEST_URI=/yii/framework/ConsultaMedico/index.php?r=cds
 ---
 2014/01/23 18:00:38 [trace] [system.CModule] Loading "errorHandler" application component
+2014/01/23 18:16:41 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:16:41 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:16:41 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:16:41 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/23 18:16:41 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\SiteController.php (32)
+2014/01/23 18:16:41 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\SiteController.php (32)
+2014/01/23 18:16:41 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\layouts\main.php (55)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\SiteController.php (32)
+2014/01/23 18:16:41 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
