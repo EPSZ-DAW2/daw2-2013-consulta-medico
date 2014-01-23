@@ -3,16 +3,16 @@
 /* @var $model Pruebas */
 
 $this->breadcrumbs=array(
-	'Pruebases'=>array('index'),
-	'Create',
+	'Pruebas'=>array('index'),
+	'Crear prueba',
 );
 
 $this->menu=array(
-	array('label'=>'List Pruebas', 'url'=>array('index')),
-	array('label'=>'Manage Pruebas', 'url'=>array('admin')),
+	array('label'=>'Listar Pruebas', 'url'=>array('index')),
+	array('label'=>'Gestionar Pruebas', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Pruebas</h1>
+<h1>Crear prueba</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

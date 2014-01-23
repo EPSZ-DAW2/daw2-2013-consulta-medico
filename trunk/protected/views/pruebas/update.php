@@ -3,19 +3,19 @@
 /* @var $model Pruebas */
 
 $this->breadcrumbs=array(
-	'Pruebases'=>array('index'),
+	'Pruebas'=>array('index'),
 	$model->IdPrueba=>array('view','id'=>$model->IdPrueba),
-	'Update',
+	'Actualizar Prueba',
 );
 
 $this->menu=array(
-	array('label'=>'List Pruebas', 'url'=>array('index')),
-	array('label'=>'Create Pruebas', 'url'=>array('create')),
-	array('label'=>'View Pruebas', 'url'=>array('view', 'id'=>$model->IdPrueba)),
-	array('label'=>'Manage Pruebas', 'url'=>array('admin')),
+	array('label'=>'Listar Pruebas', 'url'=>array('index')),
+	array('label'=>'Crear Pruebas', 'url'=>array('create')),
+	array('label'=>'Ver Pruebas', 'url'=>array('view', 'id'=>$model->IdPrueba)),
+	array('label'=>'Gestionar Pruebas', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Pruebas <?php echo $model->IdPrueba; ?></h1>
+<h1>Actualizar Pruebas <?php echo $model->IdPrueba; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
