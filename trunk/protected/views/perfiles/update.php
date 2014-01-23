@@ -9,10 +9,10 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Perfiles', 'url'=>array('index')),
-	array('label'=>'Create Perfiles', 'url'=>array('create')),
-	array('label'=>'View Perfiles', 'url'=>array('view', 'id'=>$model->IdPerfil)),
-	array('label'=>'Manage Perfiles', 'url'=>array('admin')),
+	array('label'=>'Listar perfiles', 'url'=>array('index')),
+	array('label'=>'Crear perfil', 'url'=>array('create')),
+	array('label'=>'Ver perfiles', 'url'=>array('view', 'id'=>$model->IdPerfil)),
+	array('label'=>'Administrar perfiles', 'url'=>array('admin')),
 );
 ?>
 
