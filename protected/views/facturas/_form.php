@@ -1,13 +1,13 @@
 <?php
-/* @var $this PerfilesController */
-/* @var $model Perfiles */
+/* @var $this Facturas */
+/* @var $model Facturas */
 /* @var $form CActiveForm */
 ?>
 
 <div class="form">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'perfiles-form',
+	'id'=>'facturas_form',
 	// Please note: When you enable ajax validation, make sure the corresponding
 	// controller action is handling ajax validation correctly.
 	// There is a call to performAjaxValidation() commented in generated controller code.
