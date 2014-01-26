@@ -7654,3 +7654,2042 @@ in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
 in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\views\perfiles\admin.php (54)
 in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\protected\controllers\PerfilesController.php (143)
 in C:\xampp\htdocs\yii\daw2-2013-consulta-medico\index.php (13)
+2014/01/26 17:05:06 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:06 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:06 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:06 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:06 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/26 17:05:06 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/26 17:05:06 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (56)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/26 17:05:06 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:11 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:11 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:11 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:11 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\login.php (23)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:11 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\login.php (30)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:11 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\login.php (52)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:11 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (98)
+2014/01/26 17:05:11 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (98)
+2014/01/26 17:05:11 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:16 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:16 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:16 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:16 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\models\LoginForm.php (71)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (94)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:16 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\models\LoginForm.php (71)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (94)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:16 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:16 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:16 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:16 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:16 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/26 17:05:16 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/26 17:05:16 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (56)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/26 17:05:16 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:19 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:19 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:19 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:20 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:20 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:20 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:20 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:20 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:20 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:20 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:20 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:20 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:20 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:20 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:21 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:21 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:22 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:22 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:22 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:23 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (14)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:23 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (14)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:23 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:23 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (38)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:23 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (68)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:23 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:23 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:23 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:23 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:23 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:24 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:24 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:24 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:24 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (106)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:24 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (106)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:24 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:24 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:24 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:24 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:24 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/26 17:05:24 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/26 17:05:24 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (56)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/26 17:05:24 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:26 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:26 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:26 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:26 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\login.php (23)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:26 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\login.php (30)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:26 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\login.php (52)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:26 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (98)
+2014/01/26 17:05:26 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (98)
+2014/01/26 17:05:26 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:30 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:30 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:30 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:30 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\models\LoginForm.php (71)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (94)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:30 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\models\LoginForm.php (71)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (94)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:30 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:30 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:30 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:30 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:30 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/26 17:05:30 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/26 17:05:30 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (56)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/26 17:05:30 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:32 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:32 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:32 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:32 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:32 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:32 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (46)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:32 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:39 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:39 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:39 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:39 [trace] [system.web.filters.CFilterChain] Running filter PerfilesController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:39 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:39 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:39 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:39 [trace] [system.db.ar.CActiveRecord] Perfiles.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:39 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:39 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfiles`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfiles`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `perfiles` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:39 [trace] [system.db.ar.CActiveRecord] Perfiles.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `perfiles` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:39 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:39 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:39 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:41 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:41 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:41 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:41 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:41 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:41 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:41 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:41 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:41 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:41 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:41 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:41 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:41 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:41 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:45 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:45 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:45 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:45 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:45 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:45 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:45 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (46)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:45 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:46 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:46 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:46 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:46 [trace] [system.web.filters.CFilterChain] Running filter PerfilesController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:46 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:46 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:46 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:46 [trace] [system.db.ar.CActiveRecord] Perfiles.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:46 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:46 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfiles`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfiles`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `perfiles` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:46 [trace] [system.db.ar.CActiveRecord] Perfiles.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `perfiles` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:46 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:46 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:46 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:48 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:48 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:48 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:48 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:48 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:48 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:48 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:48 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:48 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:48 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:48 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:48 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:48 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:48 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:48 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:48 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:50 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:50 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:50 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:50 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:50 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/26 17:05:50 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/26 17:05:50 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (56)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+2014/01/26 17:05:50 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:52 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:52 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:52 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:52 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (14)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:52 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (14)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:52 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:52 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (38)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:52 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (68)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:52 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:52 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:52 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:52 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:52 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:53 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:53 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:53 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:53 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:53 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:53 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:53 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:53 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:53 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:53 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:53 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:53 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:53 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:53 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:53 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:55 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:55 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:55 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:55 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:55 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:55 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:55 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:55 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:55 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (15)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:55 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\_search.php (12)
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (40)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+2014/01/26 17:05:55 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:55 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:55 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:55 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:59 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:59 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:59 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:59 [trace] [system.web.filters.CFilterChain] Running filter PerfilesController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:59 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:59 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:59 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:59 [trace] [system.db.ar.CActiveRecord] Perfiles.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:59 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:59 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfiles`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:59 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfiles`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:59 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `perfiles` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:59 [trace] [system.db.ar.CActiveRecord] Perfiles.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:59 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `perfiles` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:59 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:59 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:05:59 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:00 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:00 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:00 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:00 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:00 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:00 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:00 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (46)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:00 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:01 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:01 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:01 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:01 [trace] [system.web.filters.CFilterChain] Running filter PerfilesController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:01 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:01 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:01 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:01 [trace] [system.db.ar.CActiveRecord] Perfiles.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:01 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:01 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfiles`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfiles`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `perfiles` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:01 [trace] [system.db.ar.CActiveRecord] Perfiles.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `perfiles` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:01 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:01 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:01 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:02 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:02 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:02 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:02 [trace] [system.web.filters.CFilterChain] Running filter PerfilesController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:02 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:02 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:02 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (65)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:02 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (65)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfiles`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (65)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfiles`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (65)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:02 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\_form.php (16)
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\create.php (18)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (79)
+2014/01/26 17:06:02 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\_form.php (32)
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\create.php (18)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (79)
+2014/01/26 17:06:02 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (46)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (79)
+2014/01/26 17:06:04 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:04 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:04 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:04 [trace] [system.web.filters.CFilterChain] Running filter PerfilesController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:04 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:04 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:04 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:04 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfiles`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfiles`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:04 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\admin.php (15)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:04 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\_search.php (12)
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\admin.php (40)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (143)
+2014/01/26 17:06:04 [trace] [system.db.ar.CActiveRecord] Perfiles.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `perfiles` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:04 [trace] [system.db.ar.CActiveRecord] Perfiles.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `perfiles` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:04 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:04 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:06 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:06 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:06 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:06 [trace] [system.web.filters.CFilterChain] Running filter PerfilesController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:06 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:06 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:06 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:06 [trace] [system.db.ar.CActiveRecord] Perfiles.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:06 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:06 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfiles`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:06 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfiles`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:06 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `perfiles` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:06 [trace] [system.db.ar.CActiveRecord] Perfiles.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:06 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `perfiles` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:06 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:06 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:06 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:07 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:07 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:07 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:07 [trace] [system.web.filters.CFilterChain] Running filter PerfilesController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:07 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:07 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:07 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:07 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfiles`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfiles`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:07 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\admin.php (15)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:07 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\_search.php (12)
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\admin.php (40)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (143)
+2014/01/26 17:06:08 [trace] [system.db.ar.CActiveRecord] Perfiles.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `perfiles` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:08 [trace] [system.db.ar.CActiveRecord] Perfiles.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `perfiles` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:08 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:08 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\admin.php (54)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:10 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:10 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:10 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:10 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:10 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:10 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:10 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:10 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:10 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:10 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:10 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:10 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:10 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:10 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:10 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:10 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:12 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:12 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:12 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:12 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:12 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:12 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:12 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (65)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:12 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (65)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (65)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (65)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:12 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\_form.php (16)
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\create.php (18)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (79)
+2014/01/26 17:06:12 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\_form.php (68)
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\create.php (18)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (79)
+2014/01/26 17:06:12 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (46)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (79)
+2014/01/26 17:06:14 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:14 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:14 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:14 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:14 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:14 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:14 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:14 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:14 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:14 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (15)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:14 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\_search.php (12)
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (40)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+2014/01/26 17:06:14 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:14 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:14 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:14 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:14 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:16 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:16 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:16 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:16 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:16 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:16 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:16 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:16 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:16 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:16 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:16 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:16 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:16 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:16 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:16 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:16 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:16 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:17 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:17 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:17 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:17 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:17 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:17 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:17 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:17 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:17 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:17 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (15)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\_search.php (12)
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (40)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+2014/01/26 17:06:17 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:17 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:17 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:17 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:17 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:21 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:21 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:21 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:21 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:21 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:21 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:21 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:21 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:21 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (15)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:21 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\_search.php (12)
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (40)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+2014/01/26 17:06:21 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:21 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` ORDER BY `t`.`IdPrueba` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:21 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:21 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:22 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:22 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:22 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:22 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:22 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:22 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:22 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:22 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:22 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:22 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:22 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (15)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:22 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\_search.php (12)
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (40)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+2014/01/26 17:06:22 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:22 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:22 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:22 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` ORDER BY `t`.`IdCita` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:22 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:22 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:25 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:25 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:25 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:25 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:25 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:25 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:25 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (65)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:25 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (65)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (65)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (65)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:25 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\_form.php (16)
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\create.php (18)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (79)
+2014/01/26 17:06:25 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\_form.php (68)
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\create.php (18)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (79)
+2014/01/26 17:06:25 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\main.php (46)
+in C:\xampp\htdocs\trabajodaw\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (79)
+2014/01/26 17:06:26 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:26 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:26 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:26 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:26 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:26 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:26 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:26 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:26 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:26 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:26 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:26 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:26 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:06:26 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:22:34 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:22:34 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:22:34 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:22:34 [trace] [system.web.filters.CFilterChain] Running filter PerfilesController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:22:34 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:22:34 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:22:34 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:22:34 [trace] [system.db.ar.CActiveRecord] Perfiles.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:22:34 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:22:34 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:22:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfiles`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:22:35 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfiles`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:22:35 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `perfiles` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:22:35 [trace] [system.db.ar.CActiveRecord] Perfiles.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:22:35 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `perfiles` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:22:35 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:22:35 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:22:35 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:41 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:41 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:41 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:41 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:41 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:41 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:41 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:41 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:41 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:41 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:41 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:41 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:41 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:41 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:41 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:41 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:42 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:42 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:42 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:42 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (14)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:42 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (14)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:42 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (34)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:42 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (38)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:42 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\site\contact.php (68)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:42 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\SiteController.php (72)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:42 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:42 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:42 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:42 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:43 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:43 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:43 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:43 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:43 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:43 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:43 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:43 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:43 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:43 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:43 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:43 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:43 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:43 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:43 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:43 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:45 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:45 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:45 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:45 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:45 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:45 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:45 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:45 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (136)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:45 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (15)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:45 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\_search.php (12)
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (40)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+2014/01/26 17:24:45 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:45 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:45 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:45 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\admin.php (62)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (143)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:47 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:47 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:47 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:47 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:47 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:47 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:47 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:47 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:47 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:47 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:47 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:47 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:47 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:47 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:47 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:24:47 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:37 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:37 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:37 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:37 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:37 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:37 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:37 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:37 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:37 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:37 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:37 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:37 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:37 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:37 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:37 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:37 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:38 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:38 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:38 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:38 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:38 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:38 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:38 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:38 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:38 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:38 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:38 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:38 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:38 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:38 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:38 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
+2014/01/26 17:30:38 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\trabajodaw\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\trabajodaw\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\trabajodaw\index.php (13)
