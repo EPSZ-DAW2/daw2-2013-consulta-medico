@@ -3,13 +3,13 @@
 /* @var $model Perfiles */
 
 $this->breadcrumbs=array(
-	'Perfiles'=>array('index'),
+	'Factura'=>array('index'),
 	'Manage',
 );
 
 $this->menu=array(
-	array('label'=>'List Perfiles', 'url'=>array('index')),
-	array('label'=>'Create Perfiles', 'url'=>array('create')),
+	array('label'=>'List Factura', 'url'=>array('index')),
+	array('label'=>'Create Factura', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -26,7 +26,7 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Administrar perfiles</h1>
+<h1>Administrar Factura</h1>
 
 <p>
 Puedes utilizar operadores de comparación (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
@@ -45,8 +45,8 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		'IdPerfil',
-		'Nombre',
+		'IdFactura',
+		'IdPaciente',
 		array(
 			'class'=>'CButtonColumn',
 		),
