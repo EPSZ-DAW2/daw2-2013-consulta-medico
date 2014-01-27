@@ -8,11 +8,11 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Visitas', 'url'=>array('index')),
-	array('label'=>'Create Visitas', 'url'=>array('create')),
-	array('label'=>'Update Visitas', 'url'=>array('update', 'id'=>$model->IdCita)),
-	array('label'=>'Delete Visitas', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdCita),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Visitas', 'url'=>array('admin')),
+	array('label'=>'Listar Visitas', 'url'=>array('index')),
+	array('label'=>'Crear Visitas', 'url'=>array('create')),
+	array('label'=>'Actulizar Visitas', 'url'=>array('update', 'id'=>$model->IdCita)),
+	array('label'=>'Borrar Visitas', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdCita),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Gestionar Visitas', 'url'=>array('admin')),
 );
 ?>
 

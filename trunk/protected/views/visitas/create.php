@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Visitas'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Visitas', 'url'=>array('index')),
-	array('label'=>'Manage Visitas', 'url'=>array('admin')),
+	array('label'=>'Listar Visitas', 'url'=>array('index')),
+	array('label'=>'Gestionar Visitas', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Visitas</h1>
+<h1>Crear Visitas</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
