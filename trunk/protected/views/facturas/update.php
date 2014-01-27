@@ -3,7 +3,7 @@
 /* @var $model Facturas */
 
 $this->breadcrumbs=array(
-	'Facturases'=>array('index'),
+	'Facturas'=>array('index'),
 	$model->IdFactura=>array('view','id'=>$model->IdFactura),
 	'Update',
 );
