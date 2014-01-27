@@ -11,7 +11,7 @@ $this->menu=array(
 	array('label'=>'Listar perfiles', 'url'=>array('index')),
 	array('label'=>'Crear perfil', 'url'=>array('create')),
 	array('label'=>'Actualizar perfil', 'url'=>array('update', 'id'=>$model->IdPerfil)),
-	array('label'=>'Eliminar perfil', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdPerfil),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Eliminar perfil', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdPerfil),'confirm'=>'¿Está seguro que desea borrar este perfil?')),
 	array('label'=>'Administrar perfiles', 'url'=>array('admin')),
 );
 ?>

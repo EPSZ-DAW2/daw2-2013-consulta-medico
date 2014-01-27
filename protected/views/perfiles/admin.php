@@ -4,12 +4,12 @@
 
 $this->breadcrumbs=array(
 	'Perfiles'=>array('index'),
-	'Manage',
+	'Gestionar',
 );
 
 $this->menu=array(
-	array('label'=>'List Perfiles', 'url'=>array('index')),
-	array('label'=>'Create Perfiles', 'url'=>array('create')),
+	array('label'=>'Listar Perfiles', 'url'=>array('index')),
+	array('label'=>'Crear Perfiles', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
