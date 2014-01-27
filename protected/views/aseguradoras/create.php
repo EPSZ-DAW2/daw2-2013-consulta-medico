@@ -8,11 +8,11 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Aseguradoras', 'url'=>array('index')),
-	array('label'=>'Manage Aseguradoras', 'url'=>array('admin')),
+	array('label'=>'Lista de Aseguradoras', 'url'=>array('index')),
+	array('label'=>'Administrar Aseguradoras', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Aseguradoras</h1>
+<h1>Crear Aseguradoras</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
