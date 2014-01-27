@@ -33,6 +33,7 @@
 				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
 				array('label'=>'Perfiles', 'url'=>array('/perfiles'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Pruebas', 'url'=>array('/pruebas'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>'Visitas', 'url'=>array('/visitas'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Facturas', 'url'=>array('/facturas'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Aseguradoras', 'url'=>array('/aseguradoras'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Contact', 'url'=>array('/site/contact')),
