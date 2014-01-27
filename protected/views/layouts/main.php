@@ -30,16 +30,16 @@
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'Home', 'url'=>array('/site/index')),
-				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
+				array('label'=>'Sobre nosotros...', 'url'=>array('/site/page', 'view'=>'about')),
 				array('label'=>'Perfiles', 'url'=>array('/perfiles'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Pruebas', 'url'=>array('/pruebas'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Visitas', 'url'=>array('/visitas'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Facturas', 'url'=>array('/facturas'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Aseguradoras', 'url'=>array('/aseguradoras'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Pacientes', 'url'=>array('/pacientes'), 'visible'=>!Yii::app()->user->isGuest),
-				array('label'=>'Contact', 'url'=>array('/site/contact')),
+				array('label'=>'Contacto', 'url'=>array('/site/contact')),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+				array('label'=>'Salir ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 			),
 		)); ?>
 	</div><!-- mainmenu -->
@@ -54,8 +54,8 @@
 	<div class="clear"></div>
 
 	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
+		Copyright &copy; <?php echo date('Y'); ?> by Universidad de Salamanca.<br/>
+		Todos los derechos reservados.<br/>
 		<?php echo Yii::powered(); ?>
 	</div><!-- footer -->
 
