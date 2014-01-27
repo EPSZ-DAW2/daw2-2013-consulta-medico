@@ -10,7 +10,7 @@
  * The followings are the available model relations:
  * @property Usuarios[] $usuarioses
  */
-class Factura extends CActiveRecord
+class Facturas extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
