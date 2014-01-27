@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Perfiles', 'url'=>array('create')),
-	array('label'=>'Manage Perfiles', 'url'=>array('admin')),
+	array('label'=>'Crear Perfiles', 'url'=>array('create')),
+	array('label'=>'Gestionar Perfiles', 'url'=>array('admin')),
 );
 ?>
 

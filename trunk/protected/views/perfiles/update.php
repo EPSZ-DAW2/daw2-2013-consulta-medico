@@ -5,7 +5,7 @@
 $this->breadcrumbs=array(
 	'Perfiles'=>array('index'),
 	$model->IdPerfil=>array('view','id'=>$model->IdPerfil),
-	'Update',
+	'Actualizar',
 );
 
 $this->menu=array(
@@ -16,6 +16,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Update Perfiles <?php echo $model->IdPerfil; ?></h1>
+<h1>Actualizar Perfiles <?php echo $model->IdPerfil; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
