@@ -9,13 +9,13 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Aseguradoras', 'url'=>array('index')),
-	array('label'=>'Create Aseguradoras', 'url'=>array('create')),
-	array('label'=>'View Aseguradoras', 'url'=>array('view', 'id'=>$model->idAseguradora)),
-	array('label'=>'Manage Aseguradoras', 'url'=>array('admin')),
+	array('label'=>'Lista de Aseguradoras', 'url'=>array('index')),
+	array('label'=>'Crear Aseguradoras', 'url'=>array('create')),
+	array('label'=>'Ver Aseguradoras', 'url'=>array('view', 'id'=>$model->idAseguradora)),
+	array('label'=>'Administrar Aseguradoras', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Aseguradoras <?php echo $model->idAseguradora; ?></h1>
+<h1>Actualizar Aseguradoras <?php echo $model->idAseguradora; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
