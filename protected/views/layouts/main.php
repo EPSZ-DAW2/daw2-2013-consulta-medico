@@ -34,6 +34,7 @@
 				array('label'=>'Perfiles', 'url'=>array('/perfiles'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Pruebas', 'url'=>array('/pruebas'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Facturas', 'url'=>array('/facturas'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>'Aseguradoras', 'url'=>array('/aseguradoras'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Contact', 'url'=>array('/site/contact')),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
