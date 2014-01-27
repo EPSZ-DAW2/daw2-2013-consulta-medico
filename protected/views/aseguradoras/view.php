@@ -16,7 +16,7 @@ $this->menu=array(
 );
 ?>
 
-<h1>View Aseguradoras #<?php echo $model->idAseguradora; ?></h1>
+<h1>Ver Aseguradoras #<?php echo $model->idAseguradora; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
