@@ -1,20 +1,13 @@
 <?php
-/* @var $this PerfilesController */
-/* @var $dataProvider CActiveDataProvider */
+/* @var $this FacturasController */
 
 $this->breadcrumbs=array(
 	'Facturas',
 );
-
-$this->menu=array(
-	array('label'=>'Create Facturas', 'url'=>array('create')),
-	array('label'=>'Manage Facturas', 'url'=>array('admin')),
-);
 ?>
+<h1><?php echo $this->id . '/' . $this->action->id; ?></h1>
 
-<h1>Facturas</h1>
-
-<?php $this->widget('zii.widgets.CListView', array(
-	'dataProvider'=>$dataProvider,
-	'itemView'=>'_view',
-)); ?>
+<p>
+	You may change the content of this page by modifying
+	the file <tt><?php echo __FILE__; ?></tt>.
+</p>
