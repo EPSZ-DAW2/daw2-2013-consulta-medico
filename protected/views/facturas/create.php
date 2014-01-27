@@ -8,11 +8,11 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Facturas', 'url'=>array('index')),
-	array('label'=>'Manage Facturas', 'url'=>array('admin')),
+	array('label'=>'Listar Facturas', 'url'=>array('index')),
+	array('label'=>'Gestionar Facturas', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Facturas</h1>
+<h1>Crear Facturas</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

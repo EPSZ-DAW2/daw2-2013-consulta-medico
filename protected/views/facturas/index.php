@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Facturas', 'url'=>array('create')),
-	array('label'=>'Manage Facturas', 'url'=>array('admin')),
+	array('label'=>'Crear Facturas', 'url'=>array('create')),
+	array('label'=>'Gestionar Facturas', 'url'=>array('admin')),
 );
 ?>
 
