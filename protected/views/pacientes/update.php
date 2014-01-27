@@ -9,13 +9,13 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Pacientes', 'url'=>array('index')),
-	array('label'=>'Create Pacientes', 'url'=>array('create')),
-	array('label'=>'View Pacientes', 'url'=>array('view', 'id'=>$model->IdPaciente)),
-	array('label'=>'Manage Pacientes', 'url'=>array('admin')),
+	array('label'=>'Listar Pacientes', 'url'=>array('index')),
+	array('label'=>'Crear Pacientes', 'url'=>array('create')),
+	array('label'=>'Ver Pacientes', 'url'=>array('view', 'id'=>$model->IdPaciente)),
+	array('label'=>'Gestionar Pacientes', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Pacientes <?php echo $model->IdPaciente; ?></h1>
+<h1>Actualizar Pacientes <?php echo $model->IdPaciente; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Pacientes', 'url'=>array('index')),
-	array('label'=>'Create Pacientes', 'url'=>array('create')),
-	array('label'=>'Update Pacientes', 'url'=>array('update', 'id'=>$model->IdPaciente)),
-	array('label'=>'Delete Pacientes', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdPaciente),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Pacientes', 'url'=>array('admin')),
+	array('label'=>'Listar Pacientes', 'url'=>array('index')),
+	array('label'=>'Crear Pacientes', 'url'=>array('create')),
+	array('label'=>'Actualizar Pacientes', 'url'=>array('update', 'id'=>$model->IdPaciente)),
+	array('label'=>'Borrar Pacientes', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdPaciente),'confirm'=>'¿Está seguro de que desea eliminar este paciente?')),
+	array('label'=>'Gestionar Pacientes', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Pacientes #<?php echo $model->IdPaciente; ?></h1>
+<h1>Ver Pacientes #<?php echo $model->IdPaciente; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
