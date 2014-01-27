@@ -3,7 +3,7 @@
 /* @var $model Aseguradoras */
 
 $this->breadcrumbs=array(
-	'Aseguradorases'=>array('index'),
+	'Aseguradoras'=>array('index'),
 	$model->idAseguradora,
 );
 
