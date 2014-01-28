@@ -11,7 +11,7 @@ $this->menu=array(
 	array('label'=>'Gestionar Pacientes', 'url'=>array('admin')),
 );
 
-
+?>
 <h1>Pacientes</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
