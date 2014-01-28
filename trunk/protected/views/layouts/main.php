@@ -31,7 +31,7 @@
 			'items'=>array(
 				array('label'=>'Inicio', 'url'=>array('/site/index')),
 				array('label'=>'Sobre nosotros...', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Perfiles', 'url'=>array('/perfiles'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>'Perfiles', 'url'=>array('/perfiles'), 'visible'=>!Yii::app()->user->isGuest),//caca
 				array('label'=>'Pruebas', 'url'=>array('/pruebas'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Visitas', 'url'=>array('/visitas'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Facturas', 'url'=>array('/facturas'), 'visible'=>!Yii::app()->user->isGuest),
