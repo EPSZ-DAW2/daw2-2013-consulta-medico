@@ -31,16 +31,14 @@ return array(
 
 	// application components
 	'components'=>array(
-	'mailer' => array(
-      'class' => 'application.extensions.mailer.EMailer',
-      'pathViews' => 'application.views.email',
-      'pathLayouts' => 'application.views.email.layouts'
-	),
-	
-	'components'=>array(
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
+		),
+		'mailer' => array(
+		'class' => 'application.extensions.mailer.EMailer',
+		'pathViews' => 'application.views.email',
+		'pathLayouts' => 'application.views.email.layouts'
 		),
 		// uncomment the following to enable URLs in path-format
 		/*
