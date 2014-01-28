@@ -2,7 +2,7 @@ body
 {
 	margin: 0;
 	padding: 0;
-	color: #555;
+	color: black;
 	font: normal 10pt Arial,Helvetica,sans-serif;
 	background: black;
 }
@@ -11,7 +11,7 @@ body
 {
 	margin-top: 5px;
 	margin-bottom: 5px;
-	background: white;
+	background: grey;
 	border: 1px solid #C9E0ED;
 }
 
@@ -67,7 +67,7 @@ body
 {
 	color:black;
 	background-color:transparent;
-	font-size:12px;
+	font-size:15px;
 	font-weight:bold;
 	text-decoration:none;
 	padding:5px 8px;
@@ -75,8 +75,8 @@ body
 
 #mainmenu ul li a:hover, #mainmenu ul li.active a
 {
-	color: #6399cd;
-	background-color:#EFF4FA;
+	color: black;
+	background-color:orange;
 	text-decoration:none;
 }
 
