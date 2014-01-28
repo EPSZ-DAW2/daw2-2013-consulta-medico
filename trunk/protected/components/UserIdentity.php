@@ -18,6 +18,8 @@ class UserIdentity extends CUserIdentity
 	 */
 	public function authenticate()
 	{
+	
+		$intentos = 0;
 		
 		$users=array(
             // username => password
@@ -40,31 +42,46 @@ class UserIdentity extends CUserIdentity
 		
 		/*$users = Usuarios::model()->findByAttributes(array('usuario'=>$this->username)); 
 		
-		if ($users===null) { // No se encuentra el usuario
+		// Si no se encuentra el usuario
+		if ($users===null) { 
             $this->errorCode=self::ERROR_USERNAME_INVALID;
         } 
-        // $user->clave llama a la columna clave de la table
+        // Si no coincide la contrasenia ($user->clave)
         else if($users->clave !== $this->password)
-        {    
-            $this->errorCode=self::ERROR_PASSWORD_INVALID;
+        {
+			//Miramos cuantos fallos tiene ya ese usuario
+			$sql = "select numFallos from usuarios where usuario='$users->usuario'";
+			$connection = Yii::app() -> db;
+			$command = $connection -> createCommand($sql);
+			$intentos = $command -> execute();
+			//Le añadimos el fallo actual
+			$intentos=$intentos+1;
+			//Y lo actualizamos
+			$sql = "update usuarios set numFallos ='$intentos'where usuario='$users->usuario'";
+			$connection = Yii::app() -> db;
+			$command = $connection -> createCommand($sql);
+			$command -> execute();
+			
+			$this->errorCode=self::ERROR_PASSWORD_INVALID;
+			
         }
         else { // Coinciden usuario y contrasenia: no hay error 
 			$this->_id=$users->usuario;
 			$this->username=$users->usuario;
 			$this->errorCode=self::ERROR_NONE;
 			 
-			/*Consultamos los datos del usuario por el nombre de usuario ($user->username) */
-	//$info_usuario = Usuarios::model()->find('LOWER(usuario)=?', array($users->usuario));
-			/*En las vistas tendremos disponible la fecha y hora de la última conexión*/
-	//$this->setState('FechaHoraUltimaConexion',$info_usuario->FechaHoraUltimaConexion);
+			//Consultamos los datos del usuario por el nombre de usuario ($user->username) 
+	$info_usuario = Usuarios::model()->find('LOWER(usuario)=?', array($users->usuario));
+			//En las vistas tendremos disponible la fecha y hora de la última conexión
+	$this->setState('FechaHoraUltimaConexion',$info_usuario->FechaHoraUltimaConexion);
 			 
-			/*Actualizamos el último login del usuario que está autenticando ($user->usuario) 
+			//Actualizamos el último login del usuario que está autenticando ($user->usuario) 
 			$sql = "update usuarios set FechaHoraUltimaConexion = now() where usuario='$users->usuario'";
 			$connection = Yii::app() -> db;
 			$command = $connection -> createCommand($sql);
 			$command -> execute();
-        }        
-        return !$this->errorCode;*/
+        }  */      
+        return !$this->errorCode;
 	}
 	public function getId(){
 		return $this->_id;
