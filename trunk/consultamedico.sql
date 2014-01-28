@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 23-01-2014 a las 17:47:55
+-- Tiempo de generación: 28-01-2014 a las 21:53:40
 -- Versión del servidor: 5.5.32
 -- Versión de PHP: 5.4.19
 
@@ -109,7 +109,7 @@ CREATE TABLE IF NOT EXISTS `perfiles` (
   `Nombre` char(50) DEFAULT NULL,
   PRIMARY KEY (`IdPerfil`),
   KEY `IdPerfil` (`IdPerfil`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
 
 --
 -- Volcado de datos para la tabla `perfiles`
@@ -120,7 +120,8 @@ INSERT INTO `perfiles` (`IdPerfil`, `Nombre`) VALUES
 (2, 'admin'),
 (3, 'medico'),
 (4, 'auxiliar'),
-(5, 'paciente');
+(5, 'paciente'),
+(6, 'invitado');
 
 -- --------------------------------------------------------
 
@@ -134,6 +135,18 @@ CREATE TABLE IF NOT EXISTS `perfilesusuarios` (
   PRIMARY KEY (`IdPerfil`,`IdUsuario`),
   KEY `IdUsuario` (`IdUsuario`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `perfilesusuarios`
+--
+
+INSERT INTO `perfilesusuarios` (`IdPerfil`, `IdUsuario`) VALUES
+(1, 1),
+(2, 2),
+(3, 3),
+(4, 4),
+(5, 5),
+(6, 6);
 
 -- --------------------------------------------------------
 
@@ -178,13 +191,25 @@ CREATE TABLE IF NOT EXISTS `tiposdiagnosticos` (
 
 CREATE TABLE IF NOT EXISTS `usuarios` (
   `IdUsuario` int(11) NOT NULL AUTO_INCREMENT,
-  `usuario` char(50) DEFAULT NULL,
-  `clave` char(50) DEFAULT NULL,
-  `nombre` char(50) DEFAULT NULL,
-  `FechaHoraUltimaConexion` datetime DEFAULT NULL,
+  `usuario` char(50) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
+  `clave` char(50) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
+  `nombre` char(50) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
+  `FechaHoraUltimaConexion` date DEFAULT NULL,
   `numFallos` int(11) DEFAULT NULL,
   PRIMARY KEY (`IdUsuario`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+
+--
+-- Volcado de datos para la tabla `usuarios`
+--
+
+INSERT INTO `usuarios` (`IdUsuario`, `usuario`, `clave`, `nombre`, `FechaHoraUltimaConexion`, `numFallos`) VALUES
+(1, 'sysadmin', 'sysadmin', 'Agapito', '2014-01-28', NULL),
+(2, 'admin', 'admin', 'Luis', '2014-01-28', NULL),
+(3, 'medico', 'medico', 'Castro', NULL, NULL),
+(4, 'auxiliar', 'auxiliar', 'Francesca', NULL, NULL),
+(5, 'paciente', 'paciente', 'jack', NULL, NULL),
+(6, 'invitado', 'invitado', 'Woody', NULL, NULL);
 
 -- --------------------------------------------------------
 
