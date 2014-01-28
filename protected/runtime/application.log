@@ -18927,3 +18927,938 @@ in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (
 2014/01/28 21:26:28 [trace] [system.CModule] Loading "clientScript" application component
 in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
 in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:00 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:00 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:00 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:00 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:00 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:00:00 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:00:00 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (59)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:00:00 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:02 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:02 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:02 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:02 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (23)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:02 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (30)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:02 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:02 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:00:02 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:00:02 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:06 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:06 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:06 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:06 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (71)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:06 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (71)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:06 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:06 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:06 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:06 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:00:06 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:00:06 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:00:06 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (59)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:00:06 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:40 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:40 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:40 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:40 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (23)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:40 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (30)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:40 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:40 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:08:40 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:08:40 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:45 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:45 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:45 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:45 [trace] [system.db.ar.CActiveRecord] Usuarios.findByAttributes()
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:08:45 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:08:45 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:08:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usuarios`
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:08:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usuarios`
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:08:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `usuarios` `t` WHERE `t`.`usuario`=:yp0 LIMIT 1
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:08:46 [trace] [system.db.ar.CActiveRecord] Usuarios.find()
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (65)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:08:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `usuarios` `t` WHERE LOWER(usuario)=? LIMIT 1
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (65)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:08:46 [trace] [system.db.CDbCommand] Executing SQL: update usuarios set FechaHoraUltimaConexion = now() where usuario='admin'
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (73)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:08:46 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (71)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:46 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (71)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:46 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:46 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:46 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:46 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:46 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:08:46 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:08:46 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (59)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:08:46 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:49 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:49 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:49 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:49 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (106)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:49 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (106)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:49 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:49 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:49 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:49 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:49 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:08:49 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:08:49 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (59)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:08:49 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:51 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:51 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:51 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:51 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (23)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:51 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (30)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:51 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:51 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:08:51 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:08:51 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:56 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:56 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:56 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:56 [trace] [system.db.ar.CActiveRecord] Usuarios.findByAttributes()
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:08:56 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:08:56 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:08:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usuarios`
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:08:57 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usuarios`
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:08:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `usuarios` `t` WHERE `t`.`usuario`=:yp0 LIMIT 1
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:08:57 [trace] [system.db.ar.CActiveRecord] Usuarios.find()
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (65)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:08:57 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `usuarios` `t` WHERE LOWER(usuario)=? LIMIT 1
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (65)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:08:57 [trace] [system.db.CDbCommand] Executing SQL: update usuarios set FechaHoraUltimaConexion = now() where usuario='paciente'
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (73)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:08:57 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (71)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:57 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (71)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:57 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:57 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:57 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:57 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:08:57 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:08:57 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (59)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:08:57 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:59 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:59 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:59 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:59 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (106)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:59 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (106)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:59 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:59 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:59 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:59 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:08:59 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:08:59 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:08:59 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (59)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:08:59 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:02 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:02 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:02 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:02 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (23)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:02 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (30)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:02 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:02 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:09:02 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:09:02 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:12 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:12 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:12 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:12 [trace] [system.db.ar.CActiveRecord] Usuarios.findByAttributes()
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:09:12 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:09:12 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:09:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usuarios`
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:09:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usuarios`
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:09:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `usuarios` `t` WHERE `t`.`usuario`=:yp0 LIMIT 1
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:09:13 [error] [php] Undefined variable: intentos (C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php:52)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute()
+#1 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CInlineValidator->validate()
+#2 C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php(94): LoginForm->validate()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\ConsultaMedico\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/ConsultaMedico/index.php?r=site/login
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:09:13 [trace] [system.CModule] Loading "errorHandler" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:09:35 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:35 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:35 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:35 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (23)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:35 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (30)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:35 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:35 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:09:35 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:09:35 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:39 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:39 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:39 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:09:39 [trace] [system.db.ar.CActiveRecord] Usuarios.findByAttributes()
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:09:39 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:09:39 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:09:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usuarios`
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:09:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usuarios`
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:09:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `usuarios` `t` WHERE `t`.`usuario`=:yp0 LIMIT 1
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:09:40 [error] [php] Undefined variable: intentos (C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php:52)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute()
+#1 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CInlineValidator->validate()
+#2 C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php(94): LoginForm->validate()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\ConsultaMedico\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/ConsultaMedico/index.php?r=site/login
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:09:40 [trace] [system.CModule] Loading "errorHandler" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:10:08 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:10:08 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:10:08 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:10:08 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (23)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:10:08 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (30)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:10:08 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:10:08 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:10:08 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:10:08 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:10:12 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:10:12 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:10:12 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:10:12 [trace] [system.db.ar.CActiveRecord] Usuarios.findByAttributes()
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:10:12 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:10:12 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:10:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usuarios`
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:10:13 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usuarios`
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:10:13 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `usuarios` `t` WHERE `t`.`usuario`=:yp0 LIMIT 1
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:10:13 [trace] [system.db.CDbCommand] Executing SQL: update usuarios set numFallos = 1where usuario='paciente'
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (56)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:10:13 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (56)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:10:13 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'usuario='paciente'' at line 1. The SQL statement executed was: update usuarios set numFallos = 1where usuario='paciente'.
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (56)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:10:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'usuario='paciente'' at line 1. The SQL statement executed was: update usuarios set numFallos = 1where usuario='paciente'' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php(56): CDbCommand->execute()
+#1 C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php(94): CModel->validate()
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\yii\ConsultaMedico\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/ConsultaMedico/index.php?r=site/login
+HTTP_REFERER=http://localhost/yii/ConsultaMedico/index.php?r=site/login
+---
+2014/01/28 22:10:13 [trace] [system.CModule] Loading "errorHandler" application component
+2014/01/28 22:11:33 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:11:33 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:11:33 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:11:33 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (23)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:11:33 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (30)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:11:33 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:11:33 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:11:33 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:11:33 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:11:36 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:11:36 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:11:36 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:11:36 [trace] [system.db.ar.CActiveRecord] Usuarios.findByAttributes()
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:11:36 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:11:36 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:11:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usuarios`
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:11:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usuarios`
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:11:37 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `usuarios` `t` WHERE `t`.`usuario`=:yp0 LIMIT 1
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:11:37 [trace] [system.db.CDbCommand] Executing SQL: update usuarios set numFallos ='1'where usuario='paciente'
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (56)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:11:37 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (23)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:11:37 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (30)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:11:37 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:11:37 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:11:37 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:11:37 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:15:19 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:15:19 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:15:19 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:15:19 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (23)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:15:19 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (30)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:15:19 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:15:19 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:15:19 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:15:19 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:15:25 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:15:25 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:15:25 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:15:26 [trace] [system.db.ar.CActiveRecord] Usuarios.findByAttributes()
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:15:26 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:15:26 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:15:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usuarios`
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:15:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usuarios`
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:15:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `usuarios` `t` WHERE `t`.`usuario`=:yp0 LIMIT 1
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (43)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:15:27 [trace] [system.db.CDbCommand] Executing SQL: select numFallos from usuarios where usuario='paciente'
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (54)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:15:27 [trace] [system.db.CDbCommand] Executing SQL: update usuarios set numFallos ='2'where usuario='paciente'
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\components\UserIdentity.php (62)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+2014/01/28 22:15:27 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (23)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:15:27 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (30)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:15:27 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:15:27 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:15:27 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:15:27 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:18:57 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:18:57 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:18:57 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:18:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (23)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:18:57 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (30)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:18:57 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:18:57 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:18:57 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:18:58 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:01 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:01 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:01 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:11 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:11 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:11 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:11 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (23)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:11 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (30)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:11 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:11 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:19:11 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:19:11 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:15 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:15 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:15 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:15 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (71)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:15 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\models\LoginForm.php (71)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (94)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:15 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:15 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:15 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:15 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:15 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:19:15 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:19:15 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (59)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+2014/01/28 22:19:15 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:17 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:17 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:17 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:17 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (23)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:17 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (30)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:17 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\site\login.php (52)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
+2014/01/28 22:19:17 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:19:17 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+2014/01/28 22:19:17 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\yii\ConsultaMedico\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\yii\ConsultaMedico\index.php (13)
