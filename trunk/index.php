@@ -14,7 +14,7 @@ Yii::createWebApplication($config)->run();
 
 $message = 'Hello World!';
 $mailer = Yii::createComponent('application.extensions.mailer.EMailer');
-$mailer->Host = <your smtp host>;
+$mailer->Host = 'smtp.yiiframework.com';
 $mailer->IsSMTP();
 $mailer->From = 'wei@example.com';
 $mailer->AddReplyTo('wei@example.com');
