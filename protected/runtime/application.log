@@ -14893,3 +14893,78 @@ in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (32)
 2014/01/28 12:16:17 [trace] [system.CModule] Loading "clientScript" application component
 in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (32)
 in C:\xampp\htdocs\svn\index.php (13)
+2014/01/28 12:21:02 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/28 12:21:02 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/28 12:21:02 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/28 12:21:02 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/28 12:21:02 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (32)
+2014/01/28 12:21:02 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (32)
+2014/01/28 12:21:02 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (58)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (32)
+2014/01/28 12:21:02 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/28 12:21:55 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/28 12:21:55 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/28 12:21:55 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/28 12:21:55 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/28 12:21:55 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (32)
+2014/01/28 12:21:55 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (32)
+2014/01/28 12:21:55 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (58)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (32)
+2014/01/28 12:21:55 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/28 12:24:36 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/28 12:24:36 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/28 12:24:36 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/28 12:24:36 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/28 12:24:36 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (32)
+2014/01/28 12:24:36 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (32)
+2014/01/28 12:24:36 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (58)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (32)
+2014/01/28 12:24:36 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\svn\index.php (13)
