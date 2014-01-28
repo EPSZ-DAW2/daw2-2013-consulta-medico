@@ -122,19 +122,6 @@ class PacientesController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$message = 'Hello World!';
-		$mailer = Yii::createComponent('application.extensions.mailer.EMailer');
-		$mailer->Host = 'smtp.yiiframework.com';
-		$mailer->IsSMTP();
-		$mailer->From = 'alejandropoyogarrido@gmail.com';
-		//$mailer->AddReplyTo('wei@example.com');
-		$mailer->AddAddress('carlosmarde@gmail.com');
-		$mailer->FromName = 'Alejandro Poyo';
-		$mailer->CharSet = 'UTF-8';
-		$mailer->Subject = Yii::t('demo', 'Yii rulez!');
-		$mailer->Body = $message;
-		$mailer->Send();
-		
 		$dataProvider=new CActiveDataProvider('Pacientes');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
