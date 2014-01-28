@@ -30,26 +30,6 @@ return array(
 	),
 
 	// application components
-	
-	 'components'=>array('mail' => array(
-		'class' => 'ext.yii-mail.YiiMail',
-		'transportType'=>'smtp',
-		'transportOptions'=>array(
-		'host'=>'smtp.gmail.com',
-		'username'=>'alejandropoyogarrido@gmail.com',
-		'password'=>'poyitoalejandro',
-		'port'=>'465',
-		'encryption'=>'ssl',
-		),
-			'viewPath' => 'application.views.mail',
-			'logging' => true,
-			'dryRun' => false
-	 ),
-	'user'=>array(
-	 // enable cookie-based authentication
-	 'allowAutoLogin'=>true,
-	 
-	),
 	'components'=>array(
 		'user'=>array(
 			// enable cookie-based authentication
