@@ -139,6 +139,7 @@ class FacturasController extends Controller
 	/**
 	 * Manages all models.
 	 */
+	 /**
 	public function actionAdmin()
 	{
 		$model=new Facturas('search');
@@ -149,7 +150,7 @@ class FacturasController extends Controller
 		$this->render('admin',array(
 			'model'=>$model,
 		));
-	}
+	}**/
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
