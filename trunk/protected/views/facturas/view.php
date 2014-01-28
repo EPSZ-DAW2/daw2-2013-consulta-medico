@@ -13,7 +13,7 @@ $this->menu=array(
 	array('label'=>'Actualizar Facturas', 'url'=>array('update', 'id'=>$model->IdFactura)),
 	array('label'=>'Eliminar Facturas', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdFactura),'confirm'=>'¿Estas seguro de que deseas eliminar esta factura?')),
 	array('label'=>'Gestionar Facturas', 'url'=>array('admin')),
-	 array('label'=>'Crear PDF', 'url'=>array('pdf','id'=>$model->id)),
+	 
 );
 ?>
 
