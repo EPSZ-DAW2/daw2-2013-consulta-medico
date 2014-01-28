@@ -11,6 +11,14 @@ $this->menu=array(
 	array('label'=>'Gestionar Pacientes', 'url'=>array('admin')),
 );
 
+Yii::import('ext.yii-mail.YiiMailMessage');
+ $message = new YiiMailMessage;
+ $message->setBody('Message content here with HTML', 'text');
+ $message->subject = 'My Subject';
+ $message->addTo('carlosmarde@gmail.com');
+ $message->from = Yii::app()->params['adminEmail'];
+ Yii::app()->mail->send($message);
+
 ?>
 <h1>Pacientes</h1>
 
