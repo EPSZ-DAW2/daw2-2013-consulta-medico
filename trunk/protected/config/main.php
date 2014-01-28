@@ -36,7 +36,7 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 		'mailer' => array(
-		'class' => 'application.extensions.mailer.EMailer.php',
+		'class' => 'application.extensions.mailer.EMailer',
 		'pathViews' => 'application.views.email',
 		'pathLayouts' => 'application.views.email.layouts'
 		),
