@@ -126,18 +126,6 @@ class PacientesController extends Controller
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
-		
-		$mailer = Yii::createComponent('application.extensions.mailer.EMailer');
-		$message = 'Hola Juanjo';
-		$mailer->Host = 'smtp.yiiframework.com';
-		$mailer->IsSMTP();
-		$mailer->From = 'alejandropoyogarrido@gmail.com';
-		$mailer->FromName = 'Poyo';
-		//Yii::app()->mailer->AddReplyTo('wei@pradosoft.com');
-		$mailer->AddAddress('jllavec@gmail.com');
-		$mailer->Subject = 'Correo Yii';
-		$mailer->Body = $message;
-		$mailer->Send();
 	}
 
 	/**
