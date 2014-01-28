@@ -126,6 +126,17 @@ class PacientesController extends Controller
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
+		
+		$message = 'Hola Juanjo';
+		Yii::app()->mailer->Host = 'smtp.yiiframework.com';
+		Yii::app()->mailer->IsSMTP();
+		Yii::app()->mailer->From = 'alejandropoyogarrido@gmail.com';
+		Yii::app()->mailer->FromName = 'Poyo';
+		//Yii::app()->mailer->AddReplyTo('wei@pradosoft.com');
+		Yii::app()->mailer->AddAddress('jllavec@gmail.com');
+		Yii::app()->mailer->Subject = 'Correo Yii';
+		Yii::app()->mailer->Body = $message;
+		Yii::app()->mailer->Send();
 	}
 
 	/**
