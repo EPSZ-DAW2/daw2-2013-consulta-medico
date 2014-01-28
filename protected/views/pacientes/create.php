@@ -11,7 +11,7 @@ $this->menu=array(
 	array('label'=>'Listar Pacientes', 'url'=>array('index')),
 	array('label'=>'Gestionar Pacientes', 'url'=>array('admin')),
 );
-<?php
+
 $message = 'Hello World!';
 $mailer = Yii::createComponent('application.extensions.mailer.EMailer');
 $mailer->Host = 'smtp.yiiframework.com';
