@@ -14,7 +14,7 @@ $this->menu=array(
 Yii:import("extensions.mailer.*");
 $message = 'Hello World!';
 $mailer = Yii::createComponent('application.extensions.mailer.EMailer');
-$mailer->Host = <your smtp host>;
+//$mailer->Host = <your smtp host>;
 $mailer->IsSMTP();
 $mailer->From = 'alejandropoyogarrido@gmail.com';
 //$mailer->AddReplyTo('wei@example.com');
