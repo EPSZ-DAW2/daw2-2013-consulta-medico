@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 28-01-2014 a las 21:53:40
+-- Tiempo de generación: 28-01-2014 a las 22:36:09
 -- Versión del servidor: 5.5.32
 -- Versión de PHP: 5.4.19
 
@@ -194,7 +194,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `usuario` char(50) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
   `clave` char(50) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
   `nombre` char(50) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
-  `FechaHoraUltimaConexion` date DEFAULT NULL,
+  `FechaHoraUltimaConexion` datetime DEFAULT NULL,
   `numFallos` int(11) DEFAULT NULL,
   PRIMARY KEY (`IdUsuario`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
@@ -204,11 +204,11 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 --
 
 INSERT INTO `usuarios` (`IdUsuario`, `usuario`, `clave`, `nombre`, `FechaHoraUltimaConexion`, `numFallos`) VALUES
-(1, 'sysadmin', 'sysadmin', 'Agapito', '2014-01-28', NULL),
-(2, 'admin', 'admin', 'Luis', '2014-01-28', NULL),
+(1, 'sysadmin', 'sysadmin', 'Agapito', '2014-01-28 00:00:00', NULL),
+(2, 'admin', 'admin', 'Luis', '2014-01-28 00:00:00', NULL),
 (3, 'medico', 'medico', 'Castro', NULL, NULL),
 (4, 'auxiliar', 'auxiliar', 'Francesca', NULL, NULL),
-(5, 'paciente', 'paciente', 'jack', NULL, NULL),
+(5, 'paciente', 'paciente', 'jack', '2014-01-28 00:00:00', 2),
 (6, 'invitado', 'invitado', 'Woody', NULL, NULL);
 
 -- --------------------------------------------------------
