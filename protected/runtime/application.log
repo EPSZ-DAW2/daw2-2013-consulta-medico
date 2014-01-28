@@ -12562,3 +12562,2268 @@ in C:\xampp\htdocs\svn\index.php (13)
 in C:\xampp\htdocs\svn\index.php (13)
 2014/01/27 11:07:04 [trace] [system.CModule] Loading "coreMessages" application component
 in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:11:35 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:11:35 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:11:35 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:11:35 [trace] [system.base.CModule] Loading "gii" module
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:11:35 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:11:35 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:11:35 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:11:35 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:11:36 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:11:36 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:11:36 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:11:36 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:50 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:50 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:50 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:50 [trace] [system.base.CModule] Loading "gii" module
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:50 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:50 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:50 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:50 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW TABLES
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `a`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `a`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `aseguradoras`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `aseguradoras`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `facturas`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `facturas`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pacientes`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pacientes`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfiles`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfiles`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfilesusuarios`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfilesusuarios`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tiposdiagnosticos`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tiposdiagnosticos`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `usuarios`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `usuarios`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `visitas`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:51 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `visitas`
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:52 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:14:52 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:18 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:18 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:18 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:18 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:18 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:18 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:18 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:18 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:18 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:18 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:19 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:19 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:19 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:19 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:19 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:19 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:19 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:19 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:22 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:22 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:22 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:22 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aseguradoras".' in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('aseguradoras')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\svn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/svn/index.php?r=aseguradoras
+HTTP_REFERER=http://localhost/svn/index.php?r=pruebas/index
+---
+2014/01/27 11:33:22 [trace] [system.CModule] Loading "errorHandler" application component
+2014/01/27 11:33:22 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:33:22 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:33:22 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:33:22 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:33:24 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:24 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:24 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:24 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "facturas".' in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('facturas')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\svn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/svn/index.php?r=facturas
+HTTP_REFERER=http://localhost/svn/index.php?r=aseguradoras
+---
+2014/01/27 11:33:24 [trace] [system.CModule] Loading "errorHandler" application component
+2014/01/27 11:33:24 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:33:24 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:33:24 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:33:24 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:33:25 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:25 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:25 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:25 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:25 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:25 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:25 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:25 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:25 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:25 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:26 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:26 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:26 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:26 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:26 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:26 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:26 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:26 [trace] [system.web.filters.CFilterChain] Running filter PerfilesController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:26 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:26 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:26 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:26 [trace] [system.db.ar.CActiveRecord] Perfiles.count()
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:26 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:26 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfiles`
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfiles`
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `perfiles` `t`
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:27 [trace] [system.db.ar.CActiveRecord] Perfiles.findAll()
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `perfiles` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:27 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:27 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:27 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:27 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:27 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:27 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:27 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:33:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aseguradoras".' in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('aseguradoras')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\svn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/svn/index.php?r=aseguradoras
+HTTP_REFERER=http://localhost/svn/index.php?r=pruebas
+---
+2014/01/27 11:33:27 [trace] [system.CModule] Loading "errorHandler" application component
+2014/01/27 11:33:27 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:33:27 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:33:27 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:33:27 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:34:58 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:34:58 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:34:58 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:34:58 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:34:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aseguradoras".' in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('aseguradoras')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\svn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/svn/index.php?r=aseguradoras
+---
+2014/01/27 11:34:58 [trace] [system.CModule] Loading "errorHandler" application component
+2014/01/27 11:34:58 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:34:58 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:34:58 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:34:58 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:35:00 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:00 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:00 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:00 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "facturas".' in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('facturas')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\svn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/svn/index.php?r=facturas
+HTTP_REFERER=http://localhost/svn/index.php?r=aseguradoras
+---
+2014/01/27 11:35:00 [trace] [system.CModule] Loading "errorHandler" application component
+2014/01/27 11:35:00 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:35:00 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:35:00 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:35:00 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:35:02 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:02 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:02 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:02 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:02 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:02 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:02 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:02 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:02 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:02 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:03 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:03 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:03 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:03 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:03 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:03 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:03 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:03 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:03 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:03 [trace] [system.web.filters.CFilterChain] Running filter PerfilesController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:03 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:03 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:03 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:03 [trace] [system.db.ar.CActiveRecord] Perfiles.count()
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:03 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:03 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfiles`
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfiles`
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `perfiles` `t`
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:04 [trace] [system.db.ar.CActiveRecord] Perfiles.findAll()
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:04 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `perfiles` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:04 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:04 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:04 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:09 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:09 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:09 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:09 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:35:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aseguradoras".' in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('aseguradoras')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\svn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/svn/index.php?r=aseguradoras
+HTTP_REFERER=http://localhost/svn/index.php?r=perfiles
+---
+2014/01/27 11:35:09 [trace] [system.CModule] Loading "errorHandler" application component
+2014/01/27 11:35:09 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:35:09 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:35:09 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:35:09 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:37:42 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:42 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:42 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:42 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aseguradoras".' in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('aseguradoras')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\svn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/svn/index.php?r=aseguradoras
+---
+2014/01/27 11:37:42 [trace] [system.CModule] Loading "errorHandler" application component
+2014/01/27 11:37:42 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:37:42 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:37:42 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:37:42 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:37:44 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:44 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:44 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:44 [trace] [system.web.filters.CFilterChain] Running filter VisitasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:44 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:44 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:44 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:44 [trace] [system.db.ar.CActiveRecord] Visitas.count()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:44 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:44 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `visitas` `t`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:45 [trace] [system.db.ar.CActiveRecord] Visitas.findAll()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `visitas` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:45 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:45 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:37:45 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:38:04 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:38:04 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:38:04 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:38:04 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:38:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "facturas".' in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('facturas')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\svn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/svn/index.php?r=facturas
+HTTP_REFERER=http://localhost/svn/index.php?r=visitas
+---
+2014/01/27 11:38:04 [trace] [system.CModule] Loading "errorHandler" application component
+2014/01/27 11:38:04 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:38:04 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:38:04 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:38:04 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:38:57 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:38:57 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:38:57 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:38:57 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:38:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "facturas".' in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('facturas')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\svn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/svn/index.php?r=facturas
+---
+2014/01/27 11:38:57 [trace] [system.CModule] Loading "errorHandler" application component
+2014/01/27 11:38:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:38:57 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:38:57 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:38:57 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 11:38:59 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:38:59 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:38:59 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:38:59 [trace] [system.web.filters.CFilterChain] Running filter AseguradorasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:38:59 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:38:59 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:38:59 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:38:59 [trace] [system.db.ar.CActiveRecord] Aseguradoras.count()
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:38:59 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:38:59 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `aseguradoras`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:00 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `aseguradoras`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `aseguradoras` `t`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:00 [trace] [system.db.ar.CActiveRecord] Aseguradoras.findAll()
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:00 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `aseguradoras` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:00 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:00 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:00 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:41 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:41 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:41 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:41 [trace] [system.web.filters.CFilterChain] Running filter AseguradorasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:41 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:41 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:41 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:41 [trace] [system.db.ar.CActiveRecord] Aseguradoras.count()
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:41 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:41 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `aseguradoras`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:42 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `aseguradoras`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `aseguradoras` `t`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:42 [trace] [system.db.ar.CActiveRecord] Aseguradoras.findAll()
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:42 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `aseguradoras` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:42 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:42 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:42 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:45 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:45 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:45 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:45 [trace] [system.web.filters.CFilterChain] Running filter PruebasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:45 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:45 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:45 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:45 [trace] [system.db.ar.CActiveRecord] Pruebas.count()
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:45 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:45 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `pruebas`
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `pruebas`
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `pruebas` `t`
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:46 [trace] [system.db.ar.CActiveRecord] Pruebas.findAll()
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `pruebas` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:46 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:46 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:46 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\pruebas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PruebasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:48 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:48 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:48 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:48 [trace] [system.web.filters.CFilterChain] Running filter AseguradorasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:48 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:48 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:48 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:48 [trace] [system.db.ar.CActiveRecord] Aseguradoras.count()
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:48 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:48 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `aseguradoras`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:49 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `aseguradoras`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `aseguradoras` `t`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:49 [trace] [system.db.ar.CActiveRecord] Aseguradoras.findAll()
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:49 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `aseguradoras` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:49 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:49 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:49 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:53 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:53 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:53 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:53 [trace] [system.web.filters.CFilterChain] Running filter VisitasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:53 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:53 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:53 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:53 [trace] [system.db.ar.CActiveRecord] Visitas.count()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:53 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:53 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:54 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `visitas` `t`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:55 [trace] [system.db.ar.CActiveRecord] Visitas.findAll()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `visitas` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:55 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:55 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:39:55 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:08 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:08 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:08 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:08 [trace] [system.web.filters.CFilterChain] Running filter VisitasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:08 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:08 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:08 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:08 [trace] [system.db.ar.CActiveRecord] Visitas.count()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:08 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:08 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `visitas` `t`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:09 [trace] [system.db.ar.CActiveRecord] Visitas.findAll()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `visitas` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:09 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:09 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:09 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:10 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:10 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:10 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:10 [trace] [system.web.filters.CFilterChain] Running filter AseguradorasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:10 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:10 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:11 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:11 [trace] [system.db.ar.CActiveRecord] Aseguradoras.count()
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:11 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:11 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `aseguradoras`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:12 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `aseguradoras`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `aseguradoras` `t`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:12 [trace] [system.db.ar.CActiveRecord] Aseguradoras.findAll()
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:12 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `aseguradoras` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:12 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:12 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:12 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:26 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:26 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:26 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:26 [trace] [system.web.filters.CFilterChain] Running filter AseguradorasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:26 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:26 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:26 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (136)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:26 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (136)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `aseguradoras`
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (136)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `aseguradoras`
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (136)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:27 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\admin.php (15)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:27 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\_search.php (12)
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\admin.php (40)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (143)
+2014/01/27 11:41:27 [trace] [system.db.ar.CActiveRecord] Aseguradoras.count()
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\admin.php (55)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `aseguradoras` `t`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\admin.php (55)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:27 [trace] [system.db.ar.CActiveRecord] Aseguradoras.findAll()
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\admin.php (55)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `aseguradoras` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\admin.php (55)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:27 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\admin.php (55)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:28 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\admin.php (55)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:31 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:31 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:31 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:31 [trace] [system.web.filters.CFilterChain] Running filter AseguradorasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:31 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:31 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:31 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:31 [trace] [system.db.ar.CActiveRecord] Aseguradoras.count()
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:31 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:31 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `aseguradoras`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `aseguradoras`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `aseguradoras` `t`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:32 [trace] [system.db.ar.CActiveRecord] Aseguradoras.findAll()
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `aseguradoras` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:32 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:32 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:32 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:36 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:36 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:36 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:36 [trace] [system.web.filters.CFilterChain] Running filter VisitasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:36 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:36 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:36 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:36 [trace] [system.db.ar.CActiveRecord] Visitas.count()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:36 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:36 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:37 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:37 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `visitas` `t`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:37 [trace] [system.db.ar.CActiveRecord] Visitas.findAll()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:37 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `visitas` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:37 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:37 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:37 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:54 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:54 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:54 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:54 [trace] [system.web.filters.CFilterChain] Running filter VisitasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:54 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:54 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:54 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:54 [trace] [system.db.ar.CActiveRecord] Visitas.count()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:54 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:54 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `visitas` `t`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:55 [trace] [system.db.ar.CActiveRecord] Visitas.findAll()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:55 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `visitas` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:55 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:55 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:55 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:57 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:57 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:57 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:57 [trace] [system.web.filters.CFilterChain] Running filter AseguradorasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:57 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:57 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:57 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:57 [trace] [system.db.ar.CActiveRecord] Aseguradoras.count()
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:57 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:57 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `aseguradoras`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:58 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `aseguradoras`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:58 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `aseguradoras` `t`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:58 [trace] [system.db.ar.CActiveRecord] Aseguradoras.findAll()
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:58 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `aseguradoras` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:58 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:58 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:41:58 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:42:01 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:42:01 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:42:01 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:42:01 [trace] [system.web.filters.CFilterChain] Running filter VisitasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:42:01 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:42:01 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:42:01 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:42:01 [trace] [system.db.ar.CActiveRecord] Visitas.count()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:42:01 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:42:01 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:42:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:42:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:42:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `visitas` `t`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:42:02 [trace] [system.db.ar.CActiveRecord] Visitas.findAll()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:42:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `visitas` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:42:02 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:42:02 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:42:02 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:20 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:20 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:20 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:20 [trace] [system.web.filters.CFilterChain] Running filter VisitasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:20 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:20 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:20 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:20 [trace] [system.db.ar.CActiveRecord] Visitas.count()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:20 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:20 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:21 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `visitas` `t`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:21 [trace] [system.db.ar.CActiveRecord] Visitas.findAll()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:21 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `visitas` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:21 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:21 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:21 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:25 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:25 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:25 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:25 [trace] [system.web.filters.CFilterChain] Running filter VisitasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:25 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:25 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:25 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (65)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:25 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (65)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `visitas`
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (65)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:26 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `visitas`
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (65)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:26 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\_form.php (16)
+in C:\xampp\htdocs\svn\protected\views\visitas\create.php (18)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (79)
+2014/01/27 11:45:26 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\_form.php (50)
+in C:\xampp\htdocs\svn\protected\views\visitas\create.php (18)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (79)
+2014/01/27 11:45:26 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (48)
+in C:\xampp\htdocs\svn\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (79)
+2014/01/27 11:45:29 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:29 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:29 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:29 [trace] [system.web.filters.CFilterChain] Running filter VisitasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:29 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:29 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:29 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (136)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:29 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (136)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `visitas`
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (136)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:30 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `visitas`
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (136)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:30 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (15)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:30 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\_search.php (12)
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (40)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+2014/01/27 11:45:30 [trace] [system.db.ar.CActiveRecord] Visitas.count()
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (57)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:30 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `visitas` `t`
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (57)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:31 [trace] [system.db.ar.CActiveRecord] Visitas.findAll()
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (57)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `visitas` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (57)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:31 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (57)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:45:31 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (57)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:26 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:26 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:26 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:26 [trace] [system.web.filters.CFilterChain] Running filter VisitasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:26 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:26 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:26 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (136)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:26 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (136)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `visitas`
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (136)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:27 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `visitas`
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (136)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:27 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (15)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:27 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\_search.php (12)
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (40)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+2014/01/27 11:52:27 [trace] [system.db.ar.CActiveRecord] Visitas.count()
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (57)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `visitas` `t`
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (57)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:27 [trace] [system.db.ar.CActiveRecord] Visitas.findAll()
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (57)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `visitas` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (57)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:27 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (57)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:27 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (57)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:32 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:32 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:32 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:32 [trace] [system.web.filters.CFilterChain] Running filter VisitasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:32 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:32 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:32 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (65)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:32 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (65)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `visitas`
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (65)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:33 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `visitas`
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (65)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:33 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\_form.php (16)
+in C:\xampp\htdocs\svn\protected\views\visitas\create.php (18)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (79)
+2014/01/27 11:52:34 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\_form.php (50)
+in C:\xampp\htdocs\svn\protected\views\visitas\create.php (18)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (79)
+2014/01/27 11:52:34 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (48)
+in C:\xampp\htdocs\svn\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (79)
+2014/01/27 11:52:38 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:38 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:38 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:38 [trace] [system.web.filters.CFilterChain] Running filter VisitasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:38 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:38 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:38 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:38 [trace] [system.db.ar.CActiveRecord] Visitas.count()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:38 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:38 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:39 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `visitas` `t`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:39 [trace] [system.db.ar.CActiveRecord] Visitas.findAll()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `visitas` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:39 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:39 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:39 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:45 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:45 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:45 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:45 [trace] [system.web.filters.CFilterChain] Running filter VisitasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:45 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:45 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:45 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:45 [trace] [system.db.ar.CActiveRecord] Visitas.count()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:45 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:45 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:46 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `visitas` `t`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:46 [trace] [system.db.ar.CActiveRecord] Visitas.findAll()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:46 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `visitas` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:46 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:46 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:46 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:49 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:49 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:49 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:49 [trace] [system.web.filters.CFilterChain] Running filter AseguradorasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:49 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:49 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:49 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:49 [trace] [system.db.ar.CActiveRecord] Aseguradoras.count()
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:49 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:49 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `aseguradoras`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:50 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `aseguradoras`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `aseguradoras` `t`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:50 [trace] [system.db.ar.CActiveRecord] Aseguradoras.findAll()
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:50 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `aseguradoras` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:50 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:50 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 11:52:50 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:39 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:39 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:39 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:39 [trace] [system.web.filters.CFilterChain] Running filter AseguradorasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:39 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:39 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:39 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:39 [trace] [system.db.ar.CActiveRecord] Aseguradoras.count()
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:39 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:39 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `aseguradoras`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:40 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `aseguradoras`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `aseguradoras` `t`
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:40 [trace] [system.db.ar.CActiveRecord] Aseguradoras.findAll()
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:40 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `aseguradoras` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:40 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:40 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:40 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\aseguradoras\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\AseguradorasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:41 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:41 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:41 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:41 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "facturas".' in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('facturas')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\svn\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/svn/index.php?r=facturas
+HTTP_REFERER=http://localhost/svn/index.php?r=aseguradoras
+---
+2014/01/27 12:01:41 [trace] [system.CModule] Loading "errorHandler" application component
+2014/01/27 12:01:42 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (2)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 12:01:42 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 12:01:42 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (34)
+in C:\xampp\htdocs\svn\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 12:01:42 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\controllers\SiteController.php (45)
+2014/01/27 12:01:44 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:44 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:44 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:44 [trace] [system.web.filters.CFilterChain] Running filter VisitasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:44 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:44 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:44 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:44 [trace] [system.db.ar.CActiveRecord] Visitas.count()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:44 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:44 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `visitas`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `visitas` `t`
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:45 [trace] [system.db.ar.CActiveRecord] Visitas.findAll()
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `visitas` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:45 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:45 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:45 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:54 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:54 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:54 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:54 [trace] [system.web.filters.CFilterChain] Running filter VisitasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:54 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:54 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:54 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (65)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:54 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (65)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `visitas`
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (65)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:55 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `visitas`
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (65)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:01:55 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\_form.php (16)
+in C:\xampp\htdocs\svn\protected\views\visitas\create.php (18)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (79)
+2014/01/27 12:01:55 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\_form.php (50)
+in C:\xampp\htdocs\svn\protected\views\visitas\create.php (18)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (79)
+2014/01/27 12:01:55 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (48)
+in C:\xampp\htdocs\svn\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (79)
+2014/01/27 12:02:44 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:02:44 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:02:44 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:02:44 [trace] [system.web.filters.CFilterChain] Running filter VisitasController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:02:44 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:02:44 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:02:44 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (136)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:02:44 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (136)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:02:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `visitas`
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (136)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:02:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `visitas`
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (136)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:02:45 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (15)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:02:45 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\_search.php (12)
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (40)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+2014/01/27 12:02:45 [trace] [system.db.ar.CActiveRecord] Visitas.count()
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (57)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:02:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `visitas` `t`
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (57)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:02:45 [trace] [system.db.ar.CActiveRecord] Visitas.findAll()
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (57)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:02:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `visitas` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (57)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:02:45 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (57)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:02:45 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\visitas\admin.php (57)
+in C:\xampp\htdocs\svn\protected\controllers\VisitasController.php (143)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:44 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:44 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:44 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:44 [trace] [system.web.filters.CFilterChain] Running filter PerfilesController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:44 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:44 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:44 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:44 [trace] [system.db.ar.CActiveRecord] Perfiles.count()
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:44 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:44 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfiles`
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:45 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfiles`
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `perfiles` `t`
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:45 [trace] [system.db.ar.CActiveRecord] Perfiles.findAll()
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:45 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `perfiles` `t` LIMIT 10
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:45 [trace] [system.CModule] Loading "assetManager" application component
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:45 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:45 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\perfiles\index.php (20)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (128)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:46 [trace] [system.CModule] Loading "log" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:46 [trace] [system.CModule] Loading "request" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:46 [trace] [system.CModule] Loading "urlManager" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:46 [trace] [system.web.filters.CFilterChain] Running filter PerfilesController.filteraccessControl()
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:46 [trace] [system.CModule] Loading "user" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:46 [trace] [system.CModule] Loading "session" application component
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:46 [trace] [system.CModule] Loading "db" application component
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (65)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:46 [trace] [system.db.CDbConnection] Opening DB connection
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (65)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `perfiles`
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (65)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:48 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `perfiles`
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (65)
+in C:\xampp\htdocs\svn\index.php (13)
+2014/01/27 12:03:48 [trace] [system.CModule] Loading "widgetFactory" application component
+in C:\xampp\htdocs\svn\protected\views\perfiles\_form.php (16)
+in C:\xampp\htdocs\svn\protected\views\perfiles\create.php (18)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (79)
+2014/01/27 12:03:48 [trace] [system.CModule] Loading "clientScript" application component
+in C:\xampp\htdocs\svn\protected\views\perfiles\_form.php (32)
+in C:\xampp\htdocs\svn\protected\views\perfiles\create.php (18)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (79)
+2014/01/27 12:03:48 [trace] [system.CModule] Loading "coreMessages" application component
+in C:\xampp\htdocs\svn\protected\views\layouts\main.php (48)
+in C:\xampp\htdocs\svn\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\svn\protected\controllers\PerfilesController.php (79)
