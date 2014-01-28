@@ -4,7 +4,7 @@ body
 	padding: 0;
 	color: #555;
 	font: normal 10pt Arial,Helvetica,sans-serif;
-	background: #EFEFEF;
+	background: black;
 }
 
 #page
@@ -65,7 +65,7 @@ body
 
 #mainmenu ul li a
 {
-	color:white;
+	color:black;
 	background-color:transparent;
 	font-size:12px;
 	font-weight:bold;
