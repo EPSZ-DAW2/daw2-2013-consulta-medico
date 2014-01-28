@@ -24,7 +24,7 @@ $mailer->CharSet = 'UTF-8';
 $mailer->Subject = Yii::t('demo', 'Yii rulez!');
 $mailer->Body = $message;
 $mailer->Send();
-
+?>
 <h1>Pacientes</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
