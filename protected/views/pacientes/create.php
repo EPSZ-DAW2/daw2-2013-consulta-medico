@@ -12,18 +12,7 @@ $this->menu=array(
 	array('label'=>'Gestionar Pacientes', 'url'=>array('admin')),
 );
 
-$message = 'Hello World!';
-$mailer = Yii::createComponent('application.extensions.mailer.EMailer');
-$mailer->Host = 'smtp.yiiframework.com';
-$mailer->IsSMTP();
-$mailer->From = 'alejandropoyogarrido@gmail.com';
-//$mailer->AddReplyTo('wei@example.com');
-$mailer->AddAddress('carlosmarde@gmail.com');
-$mailer->FromName = 'Alejandro Poyo';
-$mailer->CharSet = 'UTF-8';
-$mailer->Subject = Yii::t('demo', 'Yii rulez!');
-$mailer->Body = $message;
-$mailer->Send();
+
 ?>
 
 <h1>Crear Pacientes</h1>
