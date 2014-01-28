@@ -9,6 +9,7 @@ $this->breadcrumbs=array(
 $this->menu=array(
 	array('label'=>'Crear Facturas', 'url'=>array('create')),
 	array('label'=>'Gestionar Facturas', 'url'=>array('admin')),
+	 array('label'=>'Crear PDF', 'url'=>array('pdf','id'=>$model->id)),
 );
 ?>
 

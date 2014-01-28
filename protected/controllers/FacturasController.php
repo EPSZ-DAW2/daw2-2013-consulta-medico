@@ -28,7 +28,7 @@ class FacturasController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','pdf'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -43,6 +43,8 @@ class FacturasController extends Controller
 				'users'=>array('*'),
 			),
 		);
+		 
+    }
 	}
 
 	/**
@@ -127,6 +129,12 @@ class FacturasController extends Controller
 			'dataProvider'=>$dataProvider,
 		));
 	}
+	public function actionPdf($id)
+    {
+        $this->render('pdf',array(
+            'model'=>$this->loadModel($id),
+        ));
+    }
 
 	/**
 	 * Manages all models.
@@ -170,4 +178,5 @@ class FacturasController extends Controller
 			Yii::app()->end();
 		}
 	}
+	 
 }
