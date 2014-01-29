@@ -7,7 +7,7 @@
  */
 class UserIdentity extends CUserIdentity
 {
-	private $_id;
+	//private $_id;
 	/**
 	 * Authenticates a user.
 	 * The example implementation makes sure if the username and password
@@ -19,7 +19,7 @@ class UserIdentity extends CUserIdentity
 	public function authenticate()
 	{
 	
-		$intentos = 0;
+		//$intentos = 0;
 		
 		$users=array(
             // username => password
@@ -80,10 +80,12 @@ class UserIdentity extends CUserIdentity
 			$connection = Yii::app() -> db;
 			$command = $connection -> createCommand($sql);
 			$command -> execute();
-        }  */      
-        return !$this->errorCode;
+        }     
+        return !$this->errorCode;*/
 	}
-	public function getId(){
+	/*public function getId(){
 		return $this->_id;
-	}
+		$id=Yii::app()->user->id;
+		$lastLoginTime=Yii::app()->user->lastLoginTime;
+	}*/
 }
