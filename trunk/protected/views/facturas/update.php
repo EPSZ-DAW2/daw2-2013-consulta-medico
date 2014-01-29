@@ -13,6 +13,7 @@ $this->menu=array(
 	array('label'=>'Create Facturas', 'url'=>array('create')),
 	array('label'=>'View Facturas', 'url'=>array('view', 'id'=>$model->IdFactura)),
 	array('label'=>'Manage Facturas', 'url'=>array('admin')),
+	array('label'=>'Generar PDF', 'url'=>array('')),
 );
 ?>
 
