@@ -20,6 +20,9 @@ return array(
 		'application.components.*',
 		'ext.seguridad.*',
 		//'ext.pdf.*',
+		'application.models.*',
+            'application.components.*',
+            'application.extensions.crugemailer.*',
 	),
 
 	'modules'=>array(
