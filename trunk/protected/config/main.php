@@ -20,7 +20,6 @@ return array(
 		'application.components.*',
 		'ext.seguridad.*',
 		//'ext.pdf.*',
-		'ext.YiiMailer.YiiMailer',
 	),
 
 	'modules'=>array(
