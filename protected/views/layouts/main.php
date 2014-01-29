@@ -31,15 +31,21 @@
 		<?php $this->widget('application.extensions.mbmenu.MbMenu',array(
             'items'=>array(
                 array('label'=>'Home', 'url'=>array('/site/index')),
-				array('label'=>'Perfiles', 'url'=>array('/perfiles'),'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>'Perfiles', 'url'=>array('/perfiles/index'),'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Usuarios', 'url'=>array('/usuarios'),'visible'=>!Yii::app()->user->isGuest),
                 array('label'=>'Gestion Medica', 'visible'=>!Yii::app()->user->isGuest,   
                   'items'=>array(
-                    array('label'=>'Pruebas', 'url'=>array('/pruebas')),
-					array('label'=>'Visitas', 'url'=>array('/visitas')),
-					array('label'=>'Facturas', 'url'=>array('/facturas')),
-					array('label'=>'Aseguradoras','url'=>array('/aseguradoras')),
-					array('label'=>'Pacientes', 'url'=>array('/pacientes')),
+                    array('label'=>'Pruebas', 'url'=>array('/pruebas/index')),
+					array('label'=>'Visitas', 'url'=>array('/visitas/index')),
+					array('label'=>'Facturas', 'url'=>array('/facturas/index')),
+					array('label'=>'Aseguradoras','url'=>array('/aseguradoras/index')),
+					array('label'=>'Pacientes', 'url'=>array('/pacientes/index')),
+                  ),
+                ),
+				array('label'=>'Copia de Seguridad', 'visible'=>!Yii::app()->user->isGuest,   
+                  'items'=>array(
+                    array('label'=>'Importar', 'url'=>array('/importar/index')),
+					array('label'=>'Exportar', 'url'=>array('/exportar/index')),
                   ),
                 ),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
