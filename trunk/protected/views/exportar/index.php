@@ -5,9 +5,12 @@ $this->breadcrumbs=array(
 	'Exportar',
 );
 ?>
-<h1><?php echo $this->id . '/' . $this->action->id; ?></h1>
+<h1>Exportar</h1>
 
 <p>
-	You may change the content of this page by modifying
-	the file <tt><?php echo __FILE__; ?></tt>.
+	<form name="exportar" action="">
+		¿Desea usted exportar TODA la base de datos?
+		<input type="submit" value="Si">
+		<input type="submit" value="No">
+	</form>
 </p>
