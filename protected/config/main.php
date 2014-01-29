@@ -38,6 +38,18 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+		'mail' => array(
+            'class' => 'ext.yii-mail.YiiMail',
+            'transportType' => 'smtp',
+            'transportOptions' => array(
+                'host' => 'smtp.gmail.com',
+                'encryption' => 'ssl',
+                'username' => 'giisidaw@gmail.com',
+                'password' => 'giisi2014',
+                'port' => 465,
+            ),
+            'viewPath' => 'application.views.mails',
+        ),
 		// uncomment the following to enable URLs in path-format
 		/*
 		'urlManager'=>array(
