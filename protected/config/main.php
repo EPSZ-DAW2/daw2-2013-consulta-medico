@@ -63,6 +63,21 @@ return array(
 			'password' => '',
 			'charset' => 'utf8',
 		),
+		
+		'crugemailer'=>array(
+            'class' => 'application.extensions.crugemailer.CrugeSwiftMailer',
+            'mailfrom' => 'giisidaw@gmail.com',
+            'transport' => 'gmail' // gmail para usar el stmp de gmail (recomendado), no especificarlo trabajara la librería con la función mail de php
+            /**
+            *
+            * obligatorios si el transporte es gmail
+            */
+            'gmailAcount' => 'giisidaw@gmail.com',
+            'gmailPassword' => 'giisidaw',       
+
+            'subjectprefix' => 'Prefijo que deseas agregar, es opcional - ',
+        ),
+		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
