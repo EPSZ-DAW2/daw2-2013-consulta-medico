@@ -1,14 +1,21 @@
 <?php
 
 /**
- * This is the model class for table "factura".
+ * This is the model class for table "facturas".
  *
- * The followings are the available columns in table 'factura':
- * @property integer $IdPerfil
- * @property string $Nombre
+ * The followings are the available columns in table 'facturas':
+ * @property integer $IdFactura
+ * @property integer $Serie
+ * @property integer $Numero
+ * @property string $Fecha
+ * @property integer $IdPaciente
+ * @property string $Concepto
+ * @property integer $Importe
+ * @property string $FechaCobro
+ * @property string $Notas
  *
  * The followings are the available model relations:
- * @property Usuarios[] $usuarioses
+ * @property Pacientes $idPaciente
  */
 class Facturas extends CActiveRecord
 {
@@ -28,10 +35,13 @@ class Facturas extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('IdFactura', 'length', 'max'=>50),
+			array('Serie, Numero, IdPaciente, Importe', 'numerical', 'integerOnly'=>true),
+			array('Concepto', 'length', 'max'=>50),
+			array('Notas', 'length', 'max'=>150),
+			array('Fecha, FechaCobro', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('IdFactura', 'IdPaciente', 'safe', 'on'=>'search'),
+			array('IdFactura, Serie, Numero, Fecha, IdPaciente, Concepto, Importe, FechaCobro, Notas', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -43,8 +53,7 @@ class Facturas extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'pacientes' => array(self::MANY_MANY, 'Idfacturas
-			', 'pacientes(IdPaciente, IdFactura)'),
+			'idPaciente' => array(self::BELONGS_TO, 'Pacientes', 'IdPaciente'),
 		);
 	}
 
@@ -54,8 +63,15 @@ class Facturas extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'IdPaciente' => 'IdPaciente',
-			'IdFactura' => 'IdFactura',
+			'IdFactura' => 'Id Factura',
+			'Serie' => 'Serie',
+			'Numero' => 'Numero',
+			'Fecha' => 'Fecha',
+			'IdPaciente' => 'Id Paciente',
+			'Concepto' => 'Concepto',
+			'Importe' => 'Importe',
+			'FechaCobro' => 'Fecha Cobro',
+			'Notas' => 'Notas',
 		);
 	}
 
@@ -78,7 +94,14 @@ class Facturas extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('IdFactura',$this->IdFactura);
-		$criteria->compare('IdPaciente',$this->IdPaciente,true);
+		$criteria->compare('Serie',$this->Serie);
+		$criteria->compare('Numero',$this->Numero);
+		$criteria->compare('Fecha',$this->Fecha,true);
+		$criteria->compare('IdPaciente',$this->IdPaciente);
+		$criteria->compare('Concepto',$this->Concepto,true);
+		$criteria->compare('Importe',$this->Importe);
+		$criteria->compare('FechaCobro',$this->FechaCobro,true);
+		$criteria->compare('Notas',$this->Notas,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -89,7 +112,7 @@ class Facturas extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Perfiles the static model class
+	 * @return Facturas the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

@@ -3,21 +3,20 @@
 /* @var $model Facturas */
 
 $this->breadcrumbs=array(
-	'Facturas'=>array('index'),
+	'Facturases'=>array('index'),
 	$model->IdFactura,
 );
 
 $this->menu=array(
-	array('label'=>'Listar Facturas', 'url'=>array('index')),
-	array('label'=>'Crear Facturas', 'url'=>array('create')),
-	array('label'=>'Actualizar Facturas', 'url'=>array('update', 'id'=>$model->IdFactura)),
-	array('label'=>'Eliminar Facturas', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdFactura),'confirm'=>'¿Estas seguro de que deseas eliminar esta factura?')),
-	array('label'=>'Gestionar Facturas', 'url'=>array('admin')),
-	 
+	array('label'=>'List Facturas', 'url'=>array('index')),
+	array('label'=>'Create Facturas', 'url'=>array('create')),
+	array('label'=>'Update Facturas', 'url'=>array('update', 'id'=>$model->IdFactura)),
+	array('label'=>'Delete Facturas', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdFactura),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Manage Facturas', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Ver Facturas #<?php echo $model->IdFactura; ?></h1>
+<h1>View Facturas #<?php echo $model->IdFactura; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

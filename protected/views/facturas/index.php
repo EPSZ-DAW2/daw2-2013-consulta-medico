@@ -3,17 +3,16 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Facturas',
+	'Facturases',
 );
 
 $this->menu=array(
-	array('label'=>'Crear Facturas', 'url'=>array('create')),
-	array('label'=>'Gestionar Facturas', 'url'=>array('admin')),
-	 
+	array('label'=>'Create Facturas', 'url'=>array('create')),
+	array('label'=>'Manage Facturas', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Facturas</h1>
+<h1>Facturases</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,
