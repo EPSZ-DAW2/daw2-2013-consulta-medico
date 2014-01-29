@@ -43,8 +43,6 @@ class FacturasController extends Controller
 				'users'=>array('*'),
 			),
 		);
-		 
-    }
 	}
 
 	/**
@@ -129,17 +127,10 @@ class FacturasController extends Controller
 			'dataProvider'=>$dataProvider,
 		));
 	}
-	public function actionPdf($id)
-    {
-        $this->render('pdf',array(
-            'model'=>$this->loadModel($id),
-        ));
-    }
 
 	/**
 	 * Manages all models.
 	 */
-	 /**
 	public function actionAdmin()
 	{
 		$model=new Facturas('search');
@@ -150,7 +141,7 @@ class FacturasController extends Controller
 		$this->render('admin',array(
 			'model'=>$model,
 		));
-	}**/
+	}
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
@@ -179,5 +170,4 @@ class FacturasController extends Controller
 			Yii::app()->end();
 		}
 	}
-	 
 }
