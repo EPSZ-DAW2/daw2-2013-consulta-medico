@@ -7,7 +7,8 @@
  */
 class UserIdentity extends CUserIdentity
 {
-	//private $_id;
+	private $_id;
+	private $name;
 	/**
 	 * Authenticates a user.
 	 * The example implementation makes sure if the username and password
@@ -19,9 +20,9 @@ class UserIdentity extends CUserIdentity
 	public function authenticate()
 	{
 	
-		//$intentos = 0;
+		$intentos = 0;
 		
-		$users=array(
+		/*$users=array(
             // username => password
             'demo'=>'demo',
             'admin'=>'admin',
@@ -33,14 +34,14 @@ class UserIdentity extends CUserIdentity
 			$this->errorCode=self::ERROR_PASSWORD_INVALID;
 		else
 			$this->errorCode=self::ERROR_NONE;
-		return !$this->errorCode;
+		return !$this->errorCode;*/
 		
 		//IMPORTANTE!!!!!!
 		//Esto de abajo, cuando esten los usuarios en la base de datos hay que descomentarlo
 		//para loguearse con dichos usuarios.
 		
 		
-		/*$users = Usuarios::model()->findByAttributes(array('usuario'=>$this->username)); 
+		$users = Usuarios::model()->findByAttributes(array('usuario'=>$this->username)); 
 		
 		// Si no se encuentra el usuario
 		if ($users===null) { 
@@ -71,9 +72,11 @@ class UserIdentity extends CUserIdentity
 			$this->errorCode=self::ERROR_NONE;
 			 
 			//Consultamos los datos del usuario por el nombre de usuario ($user->username) 
-	$info_usuario = Usuarios::model()->find('LOWER(usuario)=?', array($users->usuario));
+			//$info_usuario = Usuarios::model()->find('LOWER(usuario)=?', array($users->usuario));
 			//En las vistas tendremos disponible la fecha y hora de la última conexión
-	$this->setState('FechaHoraUltimaConexion',$info_usuario->FechaHoraUltimaConexion);
+			$this->setState('FechaHoraUltimaConexion',$users->FechaHoraUltimaConexion);
+			$this->_id=$users->IdUsuario;
+			$this->name=$users->usuario;
 			 
 			//Actualizamos el último login del usuario que está autenticando ($user->usuario) 
 			$sql = "update usuarios set FechaHoraUltimaConexion = now() where usuario='$users->usuario'";
@@ -81,11 +84,16 @@ class UserIdentity extends CUserIdentity
 			$command = $connection -> createCommand($sql);
 			$command -> execute();
         }     
-        return !$this->errorCode;*/
+        return !$this->errorCode;
 	}
-	/*public function getId(){
+	public function getId(){
 		return $this->_id;
-		$id=Yii::app()->user->id;
-		$lastLoginTime=Yii::app()->user->lastLoginTime;
-	}*/
+		//$id=Yii::app()->user->id;
+		//$lastLoginTime=Yii::app()->user->lastLoginTime;
+	}
+	public function getName(){
+		return $this->name;
+		//$id=Yii::app()->user->id;
+		//$lastLoginTime=Yii::app()->user->lastLoginTime;
+	}
 }
