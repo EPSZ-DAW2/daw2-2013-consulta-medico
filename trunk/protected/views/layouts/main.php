@@ -12,7 +12,8 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
 	<![endif]-->
 
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/mbmenu_css/main.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/mbmenu_css/mbmenu.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
@@ -27,21 +28,23 @@
 	</div><!-- header -->
 
 	<div id="mainmenu">
-		<?php $this->widget('zii.widgets.CMenu',array(
-			'items'=>array(
-				array('label'=>'Inicio', 'url'=>array('/site/index')),
-				array('label'=>'Sobre nosotros...', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Perfiles', 'url'=>array('/perfiles'), 'visible'=>!Yii::app()->user->isGuest),//caca
-				array('label'=>'Pruebas', 'url'=>array('/pruebas'), 'visible'=>!Yii::app()->user->isGuest),
-				array('label'=>'Visitas', 'url'=>array('/visitas'), 'visible'=>!Yii::app()->user->isGuest),
-				array('label'=>'Facturas', 'url'=>array('/facturas'), 'visible'=>!Yii::app()->user->isGuest),
-				array('label'=>'Aseguradoras', 'url'=>array('/aseguradoras'), 'visible'=>!Yii::app()->user->isGuest),
-				array('label'=>'Pacientes', 'url'=>array('/pacientes'), 'visible'=>!Yii::app()->user->isGuest),
-				array('label'=>'Contacto', 'url'=>array('/site/contact')),
+		<?php $this->widget('application.extensions.mbmenu.MbMenu',array(
+            'items'=>array(
+                array('label'=>'Home', 'url'=>array('/site/index')),
+				array('label'=>'Perfiles', 'url'=>array('/perfiles'),'visible'=>!Yii::app()->user->isGuest),
+                array('label'=>'Gestion Medica', 'visible'=>!Yii::app()->user->isGuest,   
+                  'items'=>array(
+                    array('label'=>'Pruebas', 'url'=>array('/pruebas')),
+					array('label'=>'Visitas', 'url'=>array('/visitas')),
+					array('label'=>'Facturas', 'url'=>array('/facturas')),
+					array('label'=>'Aseguradoras','url'=>array('/aseguradoras')),
+					array('label'=>'Pacientes', 'url'=>array('/pacientes')),
+                  ),
+                ),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Salir ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-			),
-		)); ?>
+                array('label'=>'Salir ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+            ),
+    )); ?>
 	</div><!-- mainmenu -->
 	<?php if(isset($this->breadcrumbs)):?>
 		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
