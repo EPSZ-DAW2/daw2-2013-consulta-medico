@@ -6,8 +6,6 @@ $this->breadcrumbs=array(
 	'Pacientes',
 );
 
-$this->actionMail();
-
 $this->menu=array(
 	array('label'=>'Crear Pacientes', 'url'=>array('create')),
 	array('label'=>'Gestionar Pacientes', 'url'=>array('admin')),

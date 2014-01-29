@@ -171,27 +171,5 @@ class PacientesController extends Controller
 			Yii::app()->end();
 		}
 	}
-	public function actionMail()
-        {
-            $mailer = Yii::createComponent('application.extensions.mailer.EMailer');
-            $mailer->IsSMTP();
-            $mailer->IsHTML(true);
-            $mailer->Host = "smtp.gmail.com";
-            $mailer->Port = 465;
-            $mailer->SetFrom("giisidaw@gmail.com","Alejandro");
-            $mailer->Subject="Mi asunto";
-            $mailer->MsgHTML("<h1>Holitas</h1>");
-            $mailer->AddAddress("carlosmarde@gmail.com","Carlos Fco.");
-            
-            if(!$mailer->Send()) {
-                echo "Message sent successfully!";
-            }
-            else {
-                echo "Fail to send your message!";
-            }
-           /* $this->render('mail',array(
-            'model'=>$this->loadModel($id),
-            ));*/
-        }
         
 }
