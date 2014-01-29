@@ -122,6 +122,17 @@ class PacientesController extends Controller
 	 */
 	public function actionIndex()
 	{
+		$message = 'Hello World!';
+		Yii::app()->mailer->Host = 'smtp.yiiframework.com';
+		Yii::app()->mailer->IsSMTP();
+		Yii::app()->mailer->From = 'giisidaw@gmail.com';
+		//Yii::app()->mailer->FromName = 'Wei';
+		//Yii::app()->mailer->AddReplyTo('wei@pradosoft.com');
+		Yii::app()->mailer->AddAddress('carlosmarde@gmail.com');
+		Yii::app()->mailer->Subject = 'Yii rulez!';
+		Yii::app()->mailer->Body = $message;
+		Yii::app()->mailer->Send();
+		
 		$dataProvider=new CActiveDataProvider('Pacientes');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
@@ -170,15 +181,5 @@ class PacientesController extends Controller
 			Yii::app()->end();
 		}
 	}
-	$message = 'Hello World!';
-	Yii::app()->mailer->Host = 'smtp.yiiframework.com';
-	Yii::app()->mailer->IsSMTP();
-	Yii::app()->mailer->From = 'giisidaw@gmail.com';
-	//Yii::app()->mailer->FromName = 'Wei';
-	//Yii::app()->mailer->AddReplyTo('wei@pradosoft.com');
-	Yii::app()->mailer->AddAddress('carlosmarde@gmail.com');
-	Yii::app()->mailer->Subject = 'Yii rulez!';
-	Yii::app()->mailer->Body = $message;
-	Yii::app()->mailer->Send();
-        }
+        
 }
