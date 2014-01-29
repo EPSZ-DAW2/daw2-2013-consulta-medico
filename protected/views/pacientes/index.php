@@ -6,7 +6,7 @@ $this->breadcrumbs=array(
 	'Pacientes',
 );
 
-this->actionMail();
+$this->actionMail();
 
 $this->menu=array(
 	array('label'=>'Crear Pacientes', 'url'=>array('create')),
