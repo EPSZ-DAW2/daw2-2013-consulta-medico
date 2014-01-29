@@ -9,7 +9,7 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h1>Login</h1>
+<h1>Página de ingreso</h1>
 
 <p>Introduzca su nombre de usuario y contraseña:</p>
 
