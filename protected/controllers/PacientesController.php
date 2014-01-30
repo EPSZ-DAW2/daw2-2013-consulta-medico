@@ -122,7 +122,7 @@ class PacientesController extends Controller
 	 */
 	public function actionIndex()
 	{
-		//Yii:import("ext.mailer.*");
+		$mail=Yii::app()->Smtpmail;
 		$mail=new PHPMailer();
 		$mail->SetFrom("giisidaw@gmail.com","GIISI");
 		$mail->Subject="Mi asunto";
