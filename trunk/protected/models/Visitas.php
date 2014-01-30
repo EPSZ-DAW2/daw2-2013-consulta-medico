@@ -93,7 +93,7 @@ class Visitas extends CActiveRecord
 
 		$criteria->compare('IdCita',$this->IdCita);
 		$criteria->compare('IdPaciente',$this->IdPaciente);
-		$criteria->compare('Nombre',$this->Notas,true);
+		$criteria->compare('Nombre',$this->Nombre,true);
 		$criteria->compare('Fecha_hora',$this->Fecha_hora,true);
 		$criteria->compare('Notas',$this->Notas,true);
 		$criteria->compare('Estado',$this->Estado,true);
