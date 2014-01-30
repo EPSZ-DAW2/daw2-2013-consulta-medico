@@ -11,8 +11,5 @@ $html='
 </table>
 
 ';
-$mpdf=new mPDF('win-1252','LETTER','','',15,15,25,12,5,7);
-$mpdf->WriteHTML($html);
-$mpdf->Output('Ficha-Contrato-'.$model->num_control.'.pdf','D');
-exit;
+
 ?>
