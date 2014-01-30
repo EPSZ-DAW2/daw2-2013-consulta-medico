@@ -42,6 +42,15 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+		'Smtpmail'=>array(
+            'class'=>'application.extensions.smtpmail.PHPMailer',
+            'Host'=>"smtp.gmail.com",
+            'Username'=>'giisidaw@gmail.com',
+            'Password'=>'giisi2014',
+            'Mailer'=>'smtp',
+            'Port'=>26,
+            'SMTPAuth'=>true, 
+        ),
 		// uncomment the following to enable URLs in path-format
 		/*
 		'urlManager'=>array(
