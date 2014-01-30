@@ -346,7 +346,7 @@ class CGridView extends CBaseListView
 		if(!isset($this->htmlOptions['class']))
 			$this->htmlOptions['class']='grid-view';
 
-		if($this->baseScriptUrl===null)
+		//if($this->baseScriptUrl===null)
 			$this->baseScriptUrl=Yii::app()->getAssetManager()->publish(Yii::getPathOfAlias('zii.widgets.assets')).'/gridview';
 
 		if($this->cssFile!==false)
