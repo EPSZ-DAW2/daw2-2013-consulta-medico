@@ -127,7 +127,7 @@ class PacientesController extends Controller
 		$mail->SetFrom("giisidaw@gmail.com","GIISI");
 		$mail->Subject="Mi asunto";
 		$mail->MsgHTML("<h1>Hola como estas<h1>");
-		$mail->AddAddress("carlosmarde@gmail.com","Carlos Fco");
+		$mail->AddAddress("alejandropoyogarrido@gmail.com","Carlos Fco");
 		$mail->send();
 		
 		$dataProvider=new CActiveDataProvider('Pacientes');
