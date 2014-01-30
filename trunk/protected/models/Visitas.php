@@ -33,12 +33,13 @@ class Visitas extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('IdPaciente', 'numerical', 'integerOnly'=>true),
+			array('Nombre', 'length', 'max'=>50),
 			array('Notas', 'length', 'max'=>150),
 			array('Estado', 'length', 'max'=>50),
 			array('Fecha_hora', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('IdCita, IdPaciente, Fecha_hora, Notas, Estado', 'safe', 'on'=>'search'),
+			array('IdCita, IdPaciente,Nombre, Fecha_hora, Notas, Estado', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -63,6 +64,7 @@ class Visitas extends CActiveRecord
 		return array(
 			'IdCita' => 'Id Cita',
 			'IdPaciente' => 'Id Paciente',
+			'Nombre' => 'Nombre',
 			'Fecha_hora' => 'Fecha Hora',
 			'Notas' => 'Notas',
 			'Estado' => 'Estado',
@@ -89,6 +91,7 @@ class Visitas extends CActiveRecord
 
 		$criteria->compare('IdCita',$this->IdCita);
 		$criteria->compare('IdPaciente',$this->IdPaciente);
+		$criteria->compare('Nombre',$this->Notas,true);
 		$criteria->compare('Fecha_hora',$this->Fecha_hora,true);
 		$criteria->compare('Notas',$this->Notas,true);
 		$criteria->compare('Estado',$this->Estado,true);
