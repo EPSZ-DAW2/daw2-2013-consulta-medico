@@ -22,6 +22,7 @@ class Visitas extends CActiveRecord
 	public function tableName()
 	{
 		return 'visitas';
+		return 'pacientes';
 	}
 
 	/**
