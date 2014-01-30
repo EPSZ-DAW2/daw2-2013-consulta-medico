@@ -54,7 +54,7 @@ class Visitas extends CActiveRecord
 		return array(
 			'pruebases' => array(self::HAS_MANY, 'Pruebas', 'IdCita'),
 			'idPaciente' => array(self::BELONGS_TO, 'Pacientes', 'IdPaciente'),
-			'Nombre' => array(self::HAS_MANY, 'Pacientes', 'Nombre'),
+			'Nombre' => array(self::BELONGS_TO, 'Pacientes', 'Nombre'),
 		);
 	}
 
