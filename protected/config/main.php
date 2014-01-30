@@ -39,6 +39,17 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+		
+		//Authmanager para RBAC--------------------------------------
+		'authManager'=>array(
+				   ‘class’=>’CDbAuthManager’,
+				   ‘connectionID’=>’db’,
+		  //      ‘assignmentTable’=>’tbl_authassignment’,
+		  //      ‘itemTable’=>’tbl_authitem’,
+		  //      ‘itemChildTable’=>’tbl_authitemchild’,
+		),
+		//-----------------------------------------------------------
+		
 		'Smtpmail'=>array(
 			'class'=>'application.extensions.smtpmail.PHPMailer',
             'Host'=>"smtp.gmail.com",
