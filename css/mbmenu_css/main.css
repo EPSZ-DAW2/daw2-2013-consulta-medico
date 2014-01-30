@@ -124,14 +124,15 @@ div.search-form
 
 .portlet
 {
-
+	border-width:15px;
+	
 }
 
 .portlet-decoration
 {
 	padding: 3px 8px;
 	background: url(nav1_active.gif);
-	border-left: 5px solid #6FACCF;
+	
 
 }
 
@@ -149,7 +150,7 @@ div.search-form
 	font-size:0.9em;
 	margin: 0 0 15px 0;
 	padding: 5px 8px;
-	background:#EFFDFF;
+	background: #FFFFFF;
 }
 
 .portlet-content ul
@@ -171,21 +172,25 @@ div.search-form
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	background: #FFFFFF;
 }
 
 .operations li
 {
 	padding-bottom: 2px;
+	background: #FFFFFF;
 }
 
 .operations li a
 {
 	font: bold 12px Arial;
-	color: white;
+	
+	color: #000000;
 	display: block;
 	padding: 2px 0 2px 8px;
 	line-height: 15px;
 	text-decoration: none;
+	background: #FFFFFF;
 }
 
 .operations li a:visited
@@ -195,5 +200,5 @@ div.search-form
 
 .operations li a:hover
 {
-	background: #80CFFF;
+	background: #808080;
 }
