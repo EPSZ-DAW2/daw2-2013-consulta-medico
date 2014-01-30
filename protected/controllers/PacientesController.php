@@ -124,7 +124,7 @@ class PacientesController extends Controller
 	{
 		Yii:import("ext.mailer.*");
 		$mail=new PHPMailer();
-		$mailer->Host = <127.0.0.1>;
+		$mailer->Host = 127.0.0.1;
 		$mailer->IsSMTP();	
 		$mail->SetFrom("giisidaw@gmail.com","GIISI");
 		$mail->Subject="Mi asunto";
