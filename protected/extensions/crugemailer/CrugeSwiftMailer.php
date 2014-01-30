@@ -1,5 +1,5 @@
 <?php 
-//require_once 'SwiftMailerContainer.php';
+
 /**
 *
 * class SwiftMailerContainer container for the lib swiftmailer
@@ -45,6 +45,10 @@ class CrugeSwiftMailer extends CrugeMailerBase implements ICrugeMailer
 		$this->container = new SwiftMailerContainer($this->getConfig());								 				
 	}
 
+	/**
+	 * getConfig 
+	 * @return Array
+	 */
 	public function getConfig() {
 		if(isset($this->gmailAcount)) {
 			if(!filter_var($this->gmailAcount, FILTER_VALIDATE_EMAIL)) {
@@ -71,18 +75,30 @@ class CrugeSwiftMailer extends CrugeMailerBase implements ICrugeMailer
      * @param  array  $to 
      * @param  mixed $from  
      * @param  string $subject
+     * @param string $contentType
+     * @param string $attachment
      * @return boolean
      * 
      */
-	public function sendEmail($body, array $to, array $from = null, $subject = '')
+	public function sendEmail($body, array $to, array $from = null, $subject = '', $contentType = 'text/html', $attachment = null)
 	{		
 		if(empty($from)) {
 			$from = array($this->mailfrom);		
 		}		
-		$message = $this->container->getMessenger($subject)			
+		if(is_null($attachment)) {
+			$message = $this->container->getMessenger($subject)			
 			->setFrom($from)
 			->setTo($to)
-			->setBody($body);		
+			->setBody($body, $contentType);			
+		} else {
+			$attachmentFile = $this->container->getAttachmenter($attachment);
+			$message = $this->container->getMessenger($subject)			
+			->setFrom($from)
+			->setTo($to)
+			->setBody($body, $contentType)
+			->attach($attachmentFile);		
+		}
+		
 		$result = $this->container->getMailer()->send($message);
 		spl_autoload_register(array('YiiBase', 'autoload')); // register Yii autoload
 		if($result) {
@@ -93,6 +109,7 @@ class CrugeSwiftMailer extends CrugeMailerBase implements ICrugeMailer
 	}
 
 	public function t($text){
-			return $text;
+		return $text;
 	}
+
 }

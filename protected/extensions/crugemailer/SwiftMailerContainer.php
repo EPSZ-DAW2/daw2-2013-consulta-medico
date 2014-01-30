@@ -78,4 +78,14 @@ class SwiftMailerContainer
 	{		
 		return Swift_Message::newInstance($suject);
 	}
+
+	/**
+	 *
+	 * @param  string $path 
+	 * @return Swift_Attachment
+	 */
+	public function getAttachmenter($path)
+	{
+		return Swift_Attachment::fromPath($path);
+	}
 }
