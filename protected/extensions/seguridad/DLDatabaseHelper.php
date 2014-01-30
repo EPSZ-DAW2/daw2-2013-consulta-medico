@@ -63,7 +63,6 @@ class DLDatabaseHelper
         $content = ob_get_contents();
         ob_end_clean();
         $content = gzencode($content, 9);
-
         if (is_null($saveName))
         {
             $saveName = date('YmdHms') . ".sql.gz";
