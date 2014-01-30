@@ -15,6 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/mbmenu_css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/mbmenu_css/mbmenu.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/framework/zii/widgets/assets/gridview/styles.css">
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
