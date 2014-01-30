@@ -422,9 +422,9 @@ USE `consultamedico`;\n";
      */
     public static function import($file = '')
     {
-        /*$pdo = Yii::app()->db->pdoInstance;
-        //try 
-        //{*/ 
+        $pdo = Yii::app()->db->pdoInstance;
+        try 
+        {
             if (file_exists($file)) 
             {
                 $sqlStream = file_get_contents($file);
@@ -442,11 +442,11 @@ USE `consultamedico`;\n";
                 //echo "succeed to import the sql data!";
                 return true;
             } 
-       /* } 
+       } 
         catch (PDOException $e) 
         { 
             echo $e->getMessage();
             exit; 
-        }*/
+        }
     }
 }
