@@ -48,8 +48,9 @@ return array(
             'Username'=>'giisidaw@gmail.com',
             'Password'=>'giisi2014',
             'Mailer'=>'smtp',
-            'Port'=>26,
+            'Port'=>587,
             'SMTPAuth'=>true, 
+			'SMTPSecure' => 'tls',
         ),
 		// uncomment the following to enable URLs in path-format
 		/*
