@@ -43,7 +43,7 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 		'Smtpmail'=>array(
-			Yii::import(ext.mailer.*),
+			Yii::import("ext.mailer.*"),
             'Host'=>"smtp.gmail.com",
             'Username'=>'giisidaw@gmail.com',
             'Password'=>'giisi2014',
