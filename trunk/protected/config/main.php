@@ -48,7 +48,7 @@ return array(
             'Username'=>'giisidaw@gmail.com',
             'Password'=>'giisi2014',
             'Mailer'=>'smtp',
-            'Port'=>465,
+            'Port'=>26,
             'SMTPAuth'=>true, 
         ),
 		// uncomment the following to enable URLs in path-format
