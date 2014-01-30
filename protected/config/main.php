@@ -43,7 +43,6 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 		'Smtpmail'=>array(
-            'class'=>'ext.EMailer.*',
             'Host'=>"smtp.gmail.com",
             'Username'=>'giisidaw@gmail.com',
             'Password'=>'giisi2014',
