@@ -130,8 +130,9 @@ div.search-form
 .portlet-decoration
 {
 	padding: 3px 8px;
-	background: #B7D6E7;
+	background: url(nav1_active.gif);
 	border-left: 5px solid #6FACCF;
+
 }
 
 .portlet-title
@@ -140,7 +141,7 @@ div.search-form
 	font-weight: bold;
 	padding: 0;
 	margin: 0;
-	color: #298dcd;
+	color: #FFFFFF;
 }
 
 .portlet-content
