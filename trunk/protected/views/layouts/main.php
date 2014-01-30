@@ -32,7 +32,7 @@
             'items'=>array(
                 array('label'=>'Home', 'url'=>array('/site/index')),
 				array('label'=>'Perfiles', 'url'=>array('/perfiles/index'),'visible'=>!Yii::app()->user->isGuest),
-				array('label'=>'Usuarios', 'url'=>array('/usuarios'),'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>'Usuarios', 'url'=>array('/usuarios/index'),'visible'=>!Yii::app()->user->isGuest),
                 array('label'=>'Gestion Medica', 'visible'=>!Yii::app()->user->isGuest,   
                   'items'=>array(
                     array('label'=>'Pruebas', 'url'=>array('/pruebas/index')),
