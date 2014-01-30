@@ -122,6 +122,15 @@ class PacientesController extends Controller
 	 */
 	public function actionIndex()
 	{
+		Yii:import("ext.mailer.*");
+		$mail=new PHPMailer();
+		$mailer->Host = <127.0.0.1>;
+		$mailer->IsSMTP();	
+		$mail->SetFrom("giisidaw@gmail.com","GIISI");
+		$mail->Subject="Mi asunto";
+		$mail->MsgHTML("<h1>Hola como estas<h1>");
+		$mail->AddAddress("carlosmarde@gmail.com","Carlos Fco");
+		$mail->send();
 		
 		$dataProvider=new CActiveDataProvider('Pacientes');
 		$this->render('index',array(
