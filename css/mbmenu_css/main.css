@@ -12,14 +12,14 @@ body
 	margin-top: 5px;
 	margin-bottom: 5px;
 	background: grey;
-	border: 1px solid #C9E0ED;
+	border: 1px solid #FF9933;
 }
 
 #header
 {
 	margin: 0;
 	padding: 0;
-	border-top: 3px solid #C9E0ED;
+	border-top: 3px solid #FF9933;
 }
 
 #content
@@ -39,7 +39,7 @@ body
 	margin: 10px 20px;
 	font-size: 0.8em;
 	text-align: center;
-	border-top: 1px solid #C9E0ED;
+	border-top: 1px solid #FF9933;
 }
 
 #logo
@@ -101,7 +101,7 @@ div.view
 {
 	padding: 10px;
 	margin: 10px 0;
-	border: 1px solid #C9E0ED;
+	border: 1px solid #FF9933;
 }
 
 div.breadcrumbs
