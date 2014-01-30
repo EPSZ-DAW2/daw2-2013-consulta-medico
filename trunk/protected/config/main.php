@@ -67,7 +67,19 @@ return array(
 			'charset' => 'utf8',
 		),
 		
-		
+		'crugemailer'=>array(
+            'class' => 'application.extensions.crugemailer.CrugeSwiftMailer',
+            'mailfrom' => 'giisidaw@gmail.com',
+            'transport' => 'gmail',
+            /**
+            *
+            * obligatorios si el transporte es gmail
+            */
+            'gmailAcount' => 'giisidaw@gmail.com',
+            'gmailPassword' => 'giisidaw',       
+
+            'subjectprefix' => 'Prefijo que deseas agregar, es opcional - ',
+        ),
 		
 		
 		'errorHandler'=>array(
