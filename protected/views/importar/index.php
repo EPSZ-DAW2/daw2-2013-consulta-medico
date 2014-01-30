@@ -8,6 +8,6 @@ $this->breadcrumbs=array(
 <?php
 
 	
-		DLDatabaseHelper::export(); 
+		DLDatabaseHelper::import('C:\xampp\htdocs\svn\copiadeseguridad.sql');
 	
 ?>
