@@ -20,9 +20,6 @@ return array(
 		'application.components.*',
 		'ext.seguridad.*',
 		//'ext.pdf.*',
-		'application.models.*',
-            'application.components.*',
-            'application.extensions.crugemailer.*',
 	),
 
 	'modules'=>array(
@@ -76,20 +73,6 @@ return array(
 			'password' => '',
 			'charset' => 'utf8',
 		),
-		
-		'crugemailer'=>array(
-            'class' => 'application.extensions.crugemailer.CrugeSwiftMailer',
-            'mailfrom' => 'giisidaw@gmail.com',
-            'transport' => 'gmail',
-            /**
-            *
-            * obligatorios si el transporte es gmail
-            */
-            'gmailAcount' => 'giisidaw@gmail.com',
-            'gmailPassword' => 'giisi2014',       
-
-            'subjectprefix' => 'Prefijo que deseas agregar, es opcional - ',
-        ),
 		
 		
 		'errorHandler'=>array(
