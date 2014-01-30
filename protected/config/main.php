@@ -85,7 +85,7 @@ return array(
             * obligatorios si el transporte es gmail
             */
             'gmailAcount' => 'giisidaw@gmail.com',
-            'gmailPassword' => 'giisidaw',       
+            'gmailPassword' => 'giisi2014',       
 
             'subjectprefix' => 'Prefijo que deseas agregar, es opcional - ',
         ),
