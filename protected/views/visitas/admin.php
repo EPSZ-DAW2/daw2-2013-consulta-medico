@@ -33,7 +33,8 @@ Puedes utilizar operadores de comparación (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</
 o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar como debe ser hecha la comparación.
 </p>
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); 
+	echo Yii::app()->request->baseUrl.'/protected/views/visitas/' ;?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
@@ -51,7 +52,14 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 		'Notas',
 		'Estado',
 		array(
-			'class'=>'CButtonColumn',
+            'class' => 'CButtonColumn',
+			'template' => '{view}{update}{delete}{email}',
+            'buttons'=>array(
+				'email' => array( //botón para la acción nueva
+					'label'=>'Enviar email recordatorio', // titulo del enlace del botón nuevo
+					'imageUrl'=>Yii::app()->request->baseUrl.'/protected/views/visitas/e-mail.png', //ruta icono para el botón
+					//'url'=>'Yii::app()->createUrl("/nombre_modelo/accion_nueva?id=$data->id" )', //url de la acción nueva
+		    )
 		),
-	),
-)); ?>
+        ),
+))); ?>
