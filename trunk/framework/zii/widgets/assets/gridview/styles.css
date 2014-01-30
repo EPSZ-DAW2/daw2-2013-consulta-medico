@@ -25,14 +25,14 @@
 
 .grid-view table.items th
 {
-	color: white;
-	background: url("bg.gif") repeat-x scroll left top white;;
+	color: black;
+	background: url("nav.gif") repeat-x scroll left top white;
 	text-align: center;
 }
 
 .grid-view table.items th a
 {
-	color: #EEE;
+	color: white;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -61,7 +61,7 @@
 
 .grid-view table.items tr.odd
 {
-	background: #E5F1F4;
+	background: #FFCC66;
 }
 
 .grid-view table.items tr.selected
@@ -71,12 +71,12 @@
 
 .grid-view table.items tr:hover.selected
 {
-	background: #CCFF66;
+	background: #808080;
 }
 
 .grid-view table.items tbody tr:hover
 {
-	background: #ECFBD4;
+	background: #808080;
 }
 
 .grid-view .link-column img
