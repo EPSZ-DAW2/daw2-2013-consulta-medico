@@ -43,7 +43,7 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 		'Smtpmail'=>array(
-			'class'=>'application.extensions.smtpmail.PHPMailer',,
+			'class'=>'application.extensions.smtpmail.PHPMailer',
             'Host'=>"smtp.gmail.com",
             'Username'=>'giisidaw@gmail.com',
             'Password'=>'giisi2014',
