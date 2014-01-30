@@ -33,6 +33,7 @@ class Pacientes extends CActiveRecord
 	public function tableName()
 	{
 		return 'pacientes';
+		return 'visitas';
 	}
 
 	/**
