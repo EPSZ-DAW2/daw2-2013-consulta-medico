@@ -47,6 +47,7 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 	'columns'=>array(
 		'IdCita',
 		'IdPaciente',
+		'Nombre',
 		'Fecha_hora',
 		'Notas',
 		'Estado',
