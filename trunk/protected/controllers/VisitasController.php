@@ -173,10 +173,6 @@ class VisitasController extends Controller
 	
 	public function actionEmail()
 	{
-		$dataProvider=new CActiveDataProvider('Visitas');
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
 		
 		$mail=Yii::app()->Smtpmail;
 		$mail->SetFrom("giisidaw@gmail.com","GIISI");
