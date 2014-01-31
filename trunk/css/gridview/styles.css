@@ -25,9 +25,10 @@
 
 .grid-view table.items th
 {
-	color: black;
+	color: white;
 	background: url("nav.gif") repeat-x scroll left top white;
 	text-align: center;
+	
 }
 
 .grid-view table.items th a
