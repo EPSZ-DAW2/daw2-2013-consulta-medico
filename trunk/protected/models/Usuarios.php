@@ -16,6 +16,7 @@
  */
 class Usuarios extends CActiveRecord
 {
+	public $password;
 	/**
 	 * @return string the associated database table name
 	 */
@@ -97,6 +98,13 @@ class Usuarios extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+	
+	/*public function beforeSave() {
+     if (!empty($this->clave))
+		$this->clave=md5($this->clave);
+     return true;
+	}*/
+ 
 
 	/**
 	 * Returns the static model of the specified AR class.
