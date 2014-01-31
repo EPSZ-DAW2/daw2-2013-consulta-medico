@@ -55,10 +55,9 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
             'class' => 'CButtonColumn',
 			'template' => '{view}{update}{delete}{email}',
             'buttons'=>array(
-				'email' => array( //botón para la acción nueva
+					'email' => array(//array( //botón para la acción nueva
 					'label'=>'Enviar email recordatorio', // titulo del enlace del botón nuevo
 					'imageUrl'=>Yii::app()->request->baseUrl.'/protected/views/visitas/e-mail.png', //ruta icono para el botón
-					'url'=>'Yii::app()->createUrl("/mail.php" )', //url de la acción nueva
 		    )
 		),
         ),
