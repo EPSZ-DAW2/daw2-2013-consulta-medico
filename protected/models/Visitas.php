@@ -49,8 +49,8 @@ class Visitas extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'pruebases' => array(self::HAS_MANY, 'Pruebas', 'IdCita'),
-			'idPaciente' => array(self::BELONGS_TO, 'Pacientes', 'IdPaciente'),
+			'pruebas' => array(self::HAS_MANY, 'Pruebas', 'IdCita'),
+			'paciente' => array(self::BELONGS_TO, 'Pacientes', 'IdPaciente'),
 		);
 	}
 
