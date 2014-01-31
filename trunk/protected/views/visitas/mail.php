@@ -1,4 +1,6 @@
+
 <?php
+
 		$mail=Yii::app()->Smtpmail;
 		$mail->SetFrom("giisidaw@gmail.com","GIISI");
 		$mail->Subject="Mi asunto";
