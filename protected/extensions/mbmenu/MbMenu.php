@@ -13,7 +13,7 @@ Yii::import('application.extensions.mbmenu.Browser');
 
 class MbMenu extends CMenu
 {
-    private $baseUrl;
+    public $baseUrl;
     private $nljs;
     
     public $cssFile;       
@@ -106,7 +106,8 @@ class MbMenu extends CMenu
     public function publishAssets()
     {
         $dir = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'source';
-        $this->baseUrl = Yii::app()->getAssetManager()->publish($dir);
+        if (empty($this->baseUrl))
+			$this->baseUrl = Yii::app()->getAssetManager()->publish($dir);
     }
     
     /**

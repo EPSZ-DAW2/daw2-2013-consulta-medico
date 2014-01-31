@@ -15,7 +15,10 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/mbmenu_css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/mbmenu_css/mbmenu.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/framework/zii/widgets/assets/gridview/styles.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/gridview/styles.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/listview/styles.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/detailview/styles.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/pager.css">
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
@@ -30,6 +33,7 @@
 
 	<div id="mainmenu">
 		<?php $this->widget('application.extensions.mbmenu.MbMenu',array(
+			'baseUrl' => Yii::app()->baseUrl.'/css/mbmenu_css',
             'items'=>array(
                 array('label'=>'Home', 'url'=>array('/site/index')),
 				array('label'=>'Perfiles', 'url'=>array('/perfiles/index'),'visible'=>!Yii::app()->user->isGuest),
