@@ -56,7 +56,7 @@ class Aseguradoras extends CActiveRecord
 	{
 		return array(
 			'idAseguradora' => 'Id Aseguradora',
-			'Nombre' => 'Nombre',
+			'Nombre' => 'Nombre Aseguradora',
 			'Notas' => 'Notas',
 		);
 	}

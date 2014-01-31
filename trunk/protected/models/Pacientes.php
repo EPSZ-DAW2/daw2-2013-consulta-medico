@@ -63,10 +63,10 @@ class Pacientes extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'facturases' => array(self::HAS_MANY, 'Facturas', 'IdPaciente'),
-			'idAseguradora0' => array(self::BELONGS_TO, 'Aseguradoras', 'idAseguradora'),
-			'pruebases' => array(self::HAS_MANY, 'Pruebas', 'IdPaciente'),
-			'visitases' => array(self::HAS_MANY, 'Visitas', 'IdPaciente'),
+			'facturas' => array(self::HAS_MANY, 'Facturas', 'IdPaciente'),
+			'aseguradoras' => array(self::BELONGS_TO, 'Aseguradoras', 'idAseguradora'),
+			'pruebas' => array(self::HAS_MANY, 'Pruebas', 'IdPaciente'),
+			'visitas' => array(self::HAS_MANY, 'Visitas', 'IdPaciente'),
 		);
 	}
 
