@@ -60,7 +60,18 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 					'email' => array(//array( //botón para la acción nueva
 					'label'=>'Enviar email recordatorio', // titulo del enlace del botón nuevo
 					'imageUrl'=>Yii::app()->request->baseUrl.'/protected/views/visitas/e-mail.png', //ruta icono para el botón
-					//'url'=>array('/visitas',
+					'click' => 'function()
+								{
+									
+									$mail=Yii::app()->Smtpmail;
+									$mail->SetFrom("giisidaw@gmail.com","GIISI");
+									$mail->Subject="Mi asunto";
+									$mail->MsgHTML("<h1>Hola como estas<h1>");
+									$mail->AddAddress("alejandropoyogarrido@gmail.com","Carlos Fco");
+									$mail->Send();
+									
+								}'
+					
 		    )
 		),
         ),
