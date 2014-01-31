@@ -2,6 +2,9 @@
 
 class ExportarController extends Controller
 {
+	
+		
+	
 	public function actionIndex()
 	{
 		$this->render('index');
@@ -10,6 +13,7 @@ class ExportarController extends Controller
 	public function actionExportar()
 	{
 		$model=new Exportar;
+		//DLDatabaseHelper::export();
 
 		// uncomment the following code to enable ajax-based validation
 		/*
@@ -29,7 +33,7 @@ class ExportarController extends Controller
 				return;
 			}
 		}
-		$this->render('Exportar',array('model'=>$model));
+		$this->render('exportar',array('model'=>$model));
 	}
 
 	// Uncomment the following methods and override them if needed
