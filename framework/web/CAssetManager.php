@@ -98,7 +98,7 @@ class CAssetManager extends CApplicationComponent
 	 *
 	 * @since 1.1.11
 	 */
-	public $forceCopy=true;
+	public $forceCopy=false;
 	/**
 	 * @var string base web accessible path for storing private files
 	 */
