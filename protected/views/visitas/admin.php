@@ -36,6 +36,7 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 <?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); 
 	echo Yii::app()->request->baseUrl.'/protected/views/visitas/' ;?>
 <div class="search-form" style="display:none">
+<div id='AjFlash' class="flash-success" style="display:none"></div>
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
 ));
@@ -60,7 +61,7 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 					'email' => array(//array( //botón para la acción nueva
 					'label'=>'Enviar email recordatorio', // titulo del enlace del botón nuevo
 					'imageUrl'=>Yii::app()->request->baseUrl.'/protected/views/visitas/e-mail.png', //ruta icono para el botón
-					/*'click'=>"function(){
+					'click'=>"function(){
 											$.fn.yiiGridView.update('my-grid', 
 											{  //change my-grid to your grid's name
 												type:'POST',
@@ -72,8 +73,8 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 											})
 											return false;
 										}
-									",*/
-					'url'=>'Yii::app()->controller->createUrl("Email")'
+									",
+					'url'=>'Yii::app()->controller->createUrl("Email",array("id"=>$data->primaryKey))'
 		    )
 		),
         ),
