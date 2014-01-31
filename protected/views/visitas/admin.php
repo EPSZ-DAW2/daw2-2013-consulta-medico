@@ -61,20 +61,7 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 					'email' => array(//array( //botón para la acción nueva
 					'label'=>'Enviar email recordatorio', // titulo del enlace del botón nuevo
 					'imageUrl'=>Yii::app()->request->baseUrl.'/protected/views/visitas/e-mail.png', //ruta icono para el botón
-					'click'=>"function(){
-											$.fn.yiiGridView.update('my-grid', 
-											{  //change my-grid to your grid's name
-												type:'POST',
-												url:$(this).attr('href'),
-												success:function(data) 
-												{
-													$.fn.yiiGridView.update('my-grid'); //change my-grid to your grid's name
-												}
-											})
-											return false;
-										}
-									",
-					'url'=>'Yii::app()->controller->createUrl("Email",array("id"=>$data->primaryKey))'
+					'url'=>'Yii::app()->controller->createUrl("mail",array("fecha"=>$data->Fecha_hora,))',
 		    )
 		),
         ),
