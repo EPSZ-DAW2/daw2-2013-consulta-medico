@@ -33,13 +33,11 @@ class Visitas extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('IdPaciente', 'numerical', 'integerOnly'=>true),
-			array('Nombre','safe'),
 			array('Notas', 'length', 'max'=>150),
 			array('Estado', 'length', 'max'=>50),
 			array('Fecha_hora', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('IdCita, IdPaciente, Fecha_hora, Notas, Estado', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -53,6 +51,7 @@ class Visitas extends CActiveRecord
 		return array(
 			'pruebases' => array(self::HAS_MANY, 'Pruebas', 'IdCita'),
 			'idPaciente' => array(self::BELONGS_TO, 'Pacientes', 'IdPaciente'),
+			'nombre' => array(self::BELONGS_TO, 'Pacientes', 'Nombre'),
 		);
 	}
 
