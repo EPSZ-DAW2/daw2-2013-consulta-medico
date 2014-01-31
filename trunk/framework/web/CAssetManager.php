@@ -203,7 +203,7 @@ class CAssetManager extends CApplicationComponent
 	 * @return string an absolute URL to the published asset
 	 * @throws CException if the asset to be published does not exist.
 	 */
-	public function publish($path,$hashByName=false,$level=-1,$forceCopy=true)
+	public function publish($path,$hashByName=false,$level=-1,$forceCopy=null)
 	{
 		if($forceCopy===null)
 			$forceCopy=$this->forceCopy;
