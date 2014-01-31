@@ -7,7 +7,6 @@ $this->breadcrumbs=array(
 ?>
 <?php
 
-	
 		DLDatabaseHelper::import('C:\xampp\htdocs\svn\copiadeseguridad.sql');
 	
 ?>
