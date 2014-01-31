@@ -28,7 +28,7 @@ class VisitasController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','mail'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -117,11 +117,31 @@ class VisitasController extends Controller
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
 	}
 
+	public function actionMail($fecha)
+	{
+		$mail=Yii::app()->Smtpmail;
+		$mail->SetFrom("giisidaw@gmail.com","GIISI");
+		$mail->Subject="Mi asunto";
+		$mail->MsgHTML("<h1>Usted tiene una cita el $fecha<h1>");
+		$mail->AddAddress("alejandropoyogarrido@gmail.com","Carlos Fco");
+		if(!$mail->Send()) 
+		{
+           echo "Mailer Error: " . $mail->ErrorInfo;
+        }
+		else 
+		{
+            echo "Message sent!";
+        }
+		
+	}
+	
 	/**
 	 * Lists all models.
 	 */
+	
 	public function actionIndex()
 	{
+		//$this->Email();
 		$dataProvider=new CActiveDataProvider('Visitas');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
@@ -169,21 +189,5 @@ class VisitasController extends Controller
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}
-	}
-	
-	public function actionEmail()
-	{
-		
-		$mail=Yii::app()->Smtpmail;
-		$mail->SetFrom("giisidaw@gmail.com","GIISI");
-		$mail->Subject="Mi asunto";
-		$mail->MsgHTML("<h1>Hola como estas<h1>");
-		$mail->AddAddress("alejandropoyogarrido@gmail.com","Carlos Fco");
-		if(!$mail->Send()) {
-            echo "Mailer Error: " . $mail->ErrorInfo;
-        }else {
-            echo "Message sent!";
-        }
-		
 	}
 }
