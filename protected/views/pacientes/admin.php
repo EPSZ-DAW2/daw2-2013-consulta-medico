@@ -61,10 +61,10 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 		'Provincia',
 		'TelFijo',
 		'TelMovil',
-		'Email',
-		'idAseguradora',
-		'Notas',
-		*/
+		'Email',*/
+		'aseguradoras.Nombre',
+		//'Notas',
+		
 		array(
 			'class'=>'CButtonColumn',
 		),
