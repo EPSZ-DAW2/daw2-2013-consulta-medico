@@ -33,6 +33,7 @@ class Visitas extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('IdPaciente', 'numerical', 'integerOnly'=>true),
+			array('Nombre','safe'),
 			array('Notas', 'length', 'max'=>150),
 			array('Estado', 'length', 'max'=>50),
 			array('Fecha_hora', 'safe'),
