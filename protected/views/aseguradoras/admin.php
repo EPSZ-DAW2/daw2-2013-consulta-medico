@@ -45,7 +45,6 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		'idAseguradora',
 		'Nombre',
 		'Notas',
 		array(
