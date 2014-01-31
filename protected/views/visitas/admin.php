@@ -61,7 +61,7 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
             'buttons'=>array(
 					'email' => array(//array( //botón para la acción nueva
 					'label'=>'Enviar email recordatorio', // titulo del enlace del botón nuevo
-					'imageUrl'=>Yii::app()->request->baseUrl.'/protected/views/visitas/e-mail.png', //ruta icono para el botón
+					'imageUrl'=>Yii::app()->request->baseUrl.'css/e-mail.png', //ruta icono para el botón
 					'url'=>'Yii::app()->controller->createUrl("mail",array("fecha"=>$data->Fecha_hora,))',
 		    )
 		),
