@@ -98,7 +98,7 @@ class CAssetManager extends CApplicationComponent
 	 *
 	 * @since 1.1.11
 	 */
-	public $forceCopy=false;
+	public $forceCopy=true;
 	/**
 	 * @var string base web accessible path for storing private files
 	 */
@@ -203,7 +203,7 @@ class CAssetManager extends CApplicationComponent
 	 * @return string an absolute URL to the published asset
 	 * @throws CException if the asset to be published does not exist.
 	 */
-	public function publish($path,$hashByName=false,$level=-1,$forceCopy=null)
+	public function publish($path,$hashByName=false,$level=-1,$forceCopy)
 	{
 		if($forceCopy===null)
 			$forceCopy=$this->forceCopy;
