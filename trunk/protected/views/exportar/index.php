@@ -6,8 +6,7 @@ $this->breadcrumbs=array(
 );
 ?>
 <?php
+	
+	DLDatabaseHelper::export(); 
 
-	
-		DLDatabaseHelper::export(); 
-	
 ?>
