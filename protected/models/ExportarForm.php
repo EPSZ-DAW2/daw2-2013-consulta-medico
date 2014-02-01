@@ -26,8 +26,6 @@ class ExportarForm extends CFormModel
 	{
 		if($this->aseguradoras || $this->facturas || $this->pacientes || $this->perfiles || $this->perfilesusuarios || $this->pruebas || $this->tiposdiagnosticos || $this->usuarios || $this->visitas)
 		{
-			$tablas= array($this->aseguradoras, $this->facturas, $this->pacientes, $this->perfiles, $this->perfilesusuarios, $this->pruebas, $this->tiposdiagnosticos, $this->usuarios, $this->visitas);
-			DLDatabaseHelper::export($tablas); 
 			return true;
 		}
 		else
