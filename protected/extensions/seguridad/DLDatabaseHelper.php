@@ -12,10 +12,10 @@ class DLDatabaseHelper
     public static function export($tablas)
     {
         $pdo = Yii::app()->db->pdoInstance;
-        $mysql = '';
+        $mysql = "SET FOREIGN_KEY_CHECKS=0;\n\r";
         $statments = $pdo->query("show tables");
 		$tablaActual=0;
-		
+
         foreach ($statments as $value) 
         {
 			if($tablas[$tablaActual])
@@ -44,6 +44,8 @@ class DLDatabaseHelper
 			}
 			$tablaActual++;
         } 
+		
+		$mysql. = "SET FOREIGN_KEY_CHECKS=1;\n\r";
 
         ob_start();
         echo $mysql;    
@@ -52,7 +54,6 @@ class DLDatabaseHelper
         $content = gzencode($content, 9);
 		
 		$saveName = date('YmdHms') . ".sql.gz";
-
 		$request = Yii::app()->getRequest();
 		$request->sendFile($saveName, $content);
     }
