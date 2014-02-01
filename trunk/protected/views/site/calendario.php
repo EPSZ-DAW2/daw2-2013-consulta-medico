@@ -1,6 +1,10 @@
 <?php $this->widget('ecalendarview.ECalendarView', array(
-  'id' => 'MyCalendar',
-  'isMondayFirst' => true,
+  'id' => 'MiCalendario',
+  'dataProvider' => array(
+	  'pagination' => array(
+		  'isMondayFirst' => true,
+		)
+	)
   /*
   'weeksInRow' => 1,
   'itemView' => '_view',
