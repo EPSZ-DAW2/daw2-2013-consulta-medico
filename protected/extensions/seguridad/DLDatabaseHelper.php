@@ -9,50 +9,40 @@ class DLDatabaseHelper
 {
     
     //FUNCION QUE EXPORTA LOS DATOS DE LA BASE DE DATOS
-    public static function export($withData = true, $dropTable = false, $saveName = null, $savePath = false)
+    public static function export($tablas)
     {
         $pdo = Yii::app()->db->pdoInstance;
         $mysql = '';
         $statments = $pdo->query("show tables");
-		
-		
+		$tablaActual=0;
 		
         foreach ($statments as $value) 
         {
-            $tableName = $value[0];
-			
-            /*if ($dropTable === true)
-            {
-                $mysql.="DROP TABLE IF EXISTS `$tableName`;\n";
-            }*/
-            //$tableQuery = $pdo->query("show create table `$tableName`");
-            //$createSql = $tableQuery->fetch();
-            //$mysql.=$createSql['Create Table'] . ";\r\n\r\n";
-			
-			
-            if ($withData != 0) 
-            {
-                $itemsQuery = $pdo->query("select * from `$tableName`");
-                $values = "";
-                $items = "";
-                while ($itemQuery = $itemsQuery->fetch(PDO::FETCH_ASSOC)) 
-                {
-                    $itemNames = array_keys($itemQuery);
-                    $itemNames = array_map("addslashes", $itemNames);
-                    $items = join('`,`', $itemNames);
-                    $itemValues = array_values($itemQuery);
-                    $itemValues = array_map("addslashes", $itemValues);
-                    $valueString = join("','", $itemValues);
-                    $valueString = "('" . $valueString . "'),";
-                    $values.="\n" . $valueString;
-                } 
-                if ($values != "") 
-                {
-                    $insertSql = "INSERT INTO `$tableName` (`$items`) VALUES" . rtrim($values, ",") . ";\n\r"; 
-                    $mysql.=$insertSql; 
-                } 
-            } 
-            //$mysql.="/*-----------------------------------------------------*/\n\r"; 
+			if($tablas[$tablaActual])
+			{
+				$tableName = $value[0];
+				
+				$itemsQuery = $pdo->query("select * from `$tableName`");
+				$values = "";
+				$items = "";
+				while ($itemQuery = $itemsQuery->fetch(PDO::FETCH_ASSOC)) 
+				{
+					$itemNames = array_keys($itemQuery);
+					$itemNames = array_map("addslashes", $itemNames);
+					$items = join('`,`', $itemNames);
+					$itemValues = array_values($itemQuery);
+					$itemValues = array_map("addslashes", $itemValues);
+					$valueString = join("','", $itemValues);
+					$valueString = "('" . $valueString . "'),";
+					$values.="\n" . $valueString;
+				} 
+				if ($values != "") 
+				{
+					$insertSql = "INSERT INTO `$tableName` (`$items`) VALUES" . rtrim($values, ",") . ";\n\r"; 
+					$mysql.=$insertSql; 
+				} 
+			}
+			$tablaActual++;
         } 
 
         ob_start();
@@ -60,30 +50,11 @@ class DLDatabaseHelper
         $content = ob_get_contents();
         ob_end_clean();
         $content = gzencode($content, 9);
+		
+		$saveName = date('YmdHms') . ".sql.gz";
 
-        if (is_null($saveName))
-        {
-            $saveName = date('YmdHms') . ".sql.gz";
-        }
-
-        if ($savePath === false)
-        {
-            //header("Content-Type: application/force-download");
-            //header("Content-Type: application/octet-stream");
-            //header("Content-Type: application/download");
-            //header("Content-Description: Download SQL Export");  
-            //header('Content-Disposition: attachment; filename='.$saveName);
-            //echo $content;
-            //die();
-            $request = Yii::app()->getRequest();
-            $request->sendFile($saveName, $content);
-        }
-        else
-        {
-            $filePath = $savePath ? $savePath . '/' . $saveName : $saveName;
-            file_put_contents($filePath, $content);
-            echo "Database file saved: " . $saveName;
-        }
+		$request = Yii::app()->getRequest();
+		$request->sendFile($saveName, $content);
     }
 
 

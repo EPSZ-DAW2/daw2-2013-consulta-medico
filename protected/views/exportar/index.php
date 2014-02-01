@@ -4,26 +4,65 @@
 $this->breadcrumbs=array(
 	'Exportar',
 );
-?>
+
+if(Yii::app()->user->hasFlash('error')):?>
+    <div class="error">
+        <?php echo Yii::app()->user->getFlash('error'); ?>
+    </div>
+<?php endif; ?>
 <div class="yiiForm">
 	<?php echo CHtml::beginForm(); ?>
 	<?php echo CHtml::errorSummary($exportar); ?>
+	
+	<h5>Elija las tablas que desea exportar:</h5>
 	 
 	<div class="simple">
-	<?php echo CHtml::activeLabel($exportar,'username'); ?>
-	<?php echo CHtml::activeTextField($exportar,'username'); ?>
+	<?php echo CHtml::activeCheckBox($exportar,'aseguradoras'); ?>
+	Aseguradoras<br/>
 	</div>
-	 
+	
 	<div class="simple">
-	<?php echo CHtml::activeLabel($exportar,'password'); ?>
-	<?php echo CHtml::activePasswordField($exportar,'password');
-	?>
+	<?php echo CHtml::activeCheckBox($exportar,'facturas'); ?>
+	Facturas<br/>
 	</div>
-	 
+	
+	<div class="simple">
+	<?php echo CHtml::activeCheckBox($exportar,'pacientes'); ?>
+	Pacientes<br/>
+	</div>
+	
+	<div class="simple">
+	<?php echo CHtml::activeCheckBox($exportar,'perfiles'); ?>
+	Perfiles<br/>
+	</div>
+	
+	<div class="simple">
+	<?php echo CHtml::activeCheckBox($exportar,'perfilesusuarios'); ?>
+	Perfiles de Usuarios<br/>
+	</div>
+	
+	<div class="simple">
+	<?php echo CHtml::activeCheckBox($exportar,'pruebas'); ?>
+	Pruebas<br/>
+	</div>
+	
+	<div class="simple">
+	<?php echo CHtml::activeCheckBox($exportar,'tiposdiagnosticos'); ?>
+	Tipos de Diagnósticos<br/>
+	</div>
+	
+	<div class="simple">
+	<?php echo CHtml::activeCheckBox($exportar,'usuarios'); ?>
+	Usuarios<br/>
+	</div>
+	
+	<div class="simple">
+	<?php echo CHtml::activeCheckBox($exportar,'visitas'); ?>
+	Visitas<br/>
+	</div>
+	
 	<div class="action">
-	<?php echo CHtml::activeCheckBox($exportar,'rememberMe'); ?>
-	Remember me next time<br/>
-	<?php echo CHtml::submitButton('Login'); ?>
+	<?php echo CHtml::submitButton('Exportar'); ?>
 	</div>
 	 
 	<?php echo CHtml::endForm(); ?>
