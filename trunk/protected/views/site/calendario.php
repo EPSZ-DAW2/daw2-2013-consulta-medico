@@ -1,5 +1,7 @@
 <?php $this->widget('ecalendarview.ECalendarView', array(
-  'id' => 'MyCalendar',/*
+  'id' => 'MyCalendar',
+  'isMondayFirst' => true,
+  /*
   'weeksInRow' => 1,
   'itemView' => '_view',
   //'cssFile' => 'css/calendar.css',
