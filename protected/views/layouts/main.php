@@ -49,7 +49,7 @@
                 ),
 				array('label'=>'Copia de Seguridad', 'visible'=>!Yii::app()->user->isGuest,   
                   'items'=>array(
-                    array('label'=>'Importar', 'url'=>array('/importar/index')),
+                    array('label'=>'Importar', 'url'=>array('/importar/create')),
 					array('label'=>'Exportar', 'url'=>array('/exportar/index')),
                   ),
                 ),
