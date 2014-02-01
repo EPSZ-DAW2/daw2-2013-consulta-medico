@@ -5,12 +5,9 @@ $this->breadcrumbs=array(
 	'Exportar',
 );
 ?>
-estamos en la exportación
-<?php
-	
-	DLDatabaseHelper::export(); 
+estamos en la exportaciÃ³n
 
-	
-		//DLDatabaseHelper::export(); 
-	
+
+<?	
+	//DLDatabaseHelper::export(); 	
 ?>
