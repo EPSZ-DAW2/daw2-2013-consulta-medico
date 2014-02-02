@@ -63,9 +63,7 @@ class CopiaDeSeguridad{
 			ob_end_clean();
 			
 			//Guardamos el archivo teniendo como nombre, la fecha y hora actual		
-			$nombreArchivo = date('YmdHms') . ".sql";
-			$peticion = Yii::app()->getRequest();
-			$peticion->sendFile($nombreArchivo, $contenido);
+			Yii::app()->request->sendFile(date('YmdHms') . ".sql", $contenido);
 			
 			return true;
 		}catch(PDOException $excepcion){
@@ -154,9 +152,7 @@ class CopiaDeSeguridad{
 			ob_end_clean();
 			
 			//Guardamos el archivo teniendo como nombre, la fecha y hora actual		
-			$nombreFichero = date('YmdHms').".xml";
-			$peticion = Yii::app()->getRequest();
-			$peticion->sendFile($nombreFichero, $contenido);
+			Yii::app()->request->sendFile(date('YmdHms') . ".xml", $contenido);
 			
 			return true;			
 		}catch(PDOException $excepcion){
