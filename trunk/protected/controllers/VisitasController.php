@@ -191,22 +191,29 @@ class VisitasController extends Controller
 		}
 	}
 	
-	public function actionListarEstados($term) 
+	public function actionListarEstados() 
 	{
-		$criteria = new CDbCriteria;
-		$criteria->condition = "LOWER(nombre_estado) like LOWER(:term)";
-		$criteria->params = array(':term'=> '%'.$_GET['term'].'%');
-		$criteria->limit = 30;
-		$data = Estado::model()->findAll($criteria);
-		$arr = array();
-		foreach ($data as $item) {
-		$arr[] = array(
-		'id' => $item->id,
-		'value' => $item->nombre_estado,
-		'label' => $item->nombre_estado,
-		);
-		}
-		echo CJSON::encode($arr);
+		if(Yii::app()->request->isAjaxRequest && isset($_GET['q']))
+       {
+            /* q is the default GET variable name that is used by
+            / the autocomplete widget to pass in user input
+            */
+          $name = $_GET['q']; 
+                    // this was set with the "max" attribute of the CAutoComplete widget
+          $limit = min($_GET['limit'], 50); 
+          $criteria = new CDbCriteria;
+          $criteria->condition = "notas LIKE :sterm";
+          $criteria->params = array(":sterm"=>"%$name%");
+          $criteria->limit = $limit;
+          $userArray = User::model()->findAll($criteria);
+          $returnVal = '';
+          foreach($userArray as $userAccount)
+          {
+             $returnVal .= $userAccount->getAttribute('notas').'|'
+                                         .$userAccount->getAttribute('notas')."\n";
+          }
+          echo $returnVal;
+       }
 	}
 	
 }
