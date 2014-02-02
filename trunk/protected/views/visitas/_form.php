@@ -34,30 +34,30 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'Notas'); ?>
 		<?php 
-		
-			if ($model->Notas!='')
-			{
-				$value=$model->Notas->nombre_estado;
-			}
-			else {
-				$value='';
-			}
-			echo $form->hiddenField($model, 'Notas');
-			$this->widget('zii.widgets.jui.CJuiAutoComplete', array(
-			'name'=>'Notas',
-			'model'=>$model,
-			'value'=>$value,
-			'sourceUrl'=>$this->createUrl('visitas/ListarEstados'),
-			'options'=>array(
-			'minLength'=>'2',
-			'showAnim'=>'fold',
-			'select' => 'js:function(event, ui)
-			{ jQuery("#Visitas").val(ui.item["Notas"]); }',
-			'search'=> 'js:function(event, ui)
-			{ jQuery("#Visitas").val(0); }'
-			),
-			));
-		?>
+		if ($model->Notas!='')
+		{
+			$value=$model->Notas->nombre_estado;
+		}
+		else 
+		{
+			$value='';
+		}
+		echo $form->hiddenField($model, 'Notas');
+		$this->widget('zii.widgets.jui.CJuiAutoComplete', array(
+		'name'=>'notas',
+		'model'=>$model,
+		'value'=>$value,
+		'sourceUrl'=>$this->createUrl('ListarEstados'),
+		'options'=>array(
+		'minLength'=>'2',
+		'showAnim'=>'fold',
+		'select' => 'js:function(event, ui)
+		{ jQuery("#Contrato_estado").val(ui.item["id"]); }',
+		'search'=> 'js:function(event, ui)
+		{ jQuery("#Contrato_estado").val(0); }'
+		),
+		));
+ ?>
 		<?php echo $form->error($model,'Notas'); ?>
 	</div>
 
