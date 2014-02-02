@@ -1,7 +1,7 @@
 <?php
 class ImportarController extends Controller
 {
-	public function actionCreate(){
+	public function actionIndex(){
 		$model=new ImportarForm;
 		if(isset($_POST['ImportarForm'])){
 			$model->attributes=$_POST['ImportarForm'];
@@ -26,6 +26,6 @@ class ImportarController extends Controller
 				}
 			}
 		}
-		$this->render('create',array('model'=>$model));
+		$this->render('index',array('model'=>$model));
 	}
 }?>
