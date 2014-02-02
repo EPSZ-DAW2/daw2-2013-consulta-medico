@@ -7,6 +7,53 @@
  */
 class CopiaDeSeguridad
 {	
+	public static function exportarSQL($tablas)
+    {
+        $pdo = Yii::app()->db->pdoInstance;
+        $statments = $pdo->query("show tables");
+		$tablaActual=0;
+
+        foreach ($statments as $value) 
+        {
+			if($tablas[$tablaActual])
+			{
+				$tableName = $value[0];
+				$mysql.="TRUNCATE TABLE `$tableName`;\n\r";
+				$itemsQuery = $pdo->query("select * from `$tableName`");
+				$values = "";
+				$items = "";
+				while ($itemQuery = $itemsQuery->fetch(PDO::FETCH_ASSOC)) 
+				{
+					$itemNames = array_keys($itemQuery);
+					$itemNames = array_map("addslashes", $itemNames);
+					$items = join('`,`', $itemNames);
+					$itemValues = array_values($itemQuery);
+					$itemValues = array_map("addslashes", $itemValues);
+					$valueString = join("','", $itemValues);
+					$valueString = "('" . $valueString . "'),";
+					$values.="\n" . $valueString;
+				} 
+				if ($values != "") 
+				{
+					$insertSql = "INSERT INTO `$tableName` (`$items`) VALUES" . rtrim($values, ",") . ";\n\r"; 
+					$mysql.=$insertSql; 
+				} 
+			}
+			$tablaActual++;
+        } 
+		
+		//$mysql. = "SET FOREIGN_KEY_CHECKS=1;\n\r";
+
+        ob_start();
+        echo $mysql;    
+        $content = ob_get_contents();
+        ob_end_clean();
+        $content = gzencode($content, 9);
+		
+		$saveName = date('YmdHms') . ".sql.gz";
+		$request = Yii::app()->getRequest();
+		$request->sendFile($saveName, $content);
+    }
     //FUNCION QUE EXPORTA LOS DATOS DE LA BASE DE DATOS
     public static function exportarXML($tablas)
     {
@@ -156,6 +203,7 @@ class CopiaDeSeguridad
 		$bbDD = Yii::app()->db->pdoInstance;
 		try{
 			if(file_exists($archivo)){
+				$bbDD->query("SET FOREIGN_KEY_CHECKS=0;");
 				$ordenSQL = file_get_contents($archivo);
 				$ordenSQL = rtrim($ordenSQL);
 				$nuevaOrden = preg_replace_callback("/\((.*)\)/",create_function('$matches','return str_replace(";"," $$$ ", $matches[0]);'),$ordenSQL);
