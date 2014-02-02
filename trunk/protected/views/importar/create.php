@@ -16,7 +16,7 @@ if ($model->scenario == 'withFile'){
 			  echo $form->error($model, 'archivo'); ?>
 	    </div>
 		<div class="simple">
-		<?php echo $form->checkBox($model,'foraneas'); 
+		<?php echo CHtml::activeCheckBox($model,'foraneas');
 			  echo $form->label($model,'foraneas'); ?>
 		</div>
 		<div class="action">
