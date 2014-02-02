@@ -10,9 +10,15 @@ if ($model->scenario == 'withFile'){
 	));?>
 
 	<div class="yiiForm">
-		<?php echo CHtml::beginForm(); ?>
+		<?php echo CHtml::beginForm();?>
+		<div class="simple">
 		<?php echo $form->fileField($model, 'archivo');
 			  echo $form->error($model, 'archivo'); ?>
+	    </div>
+		<div class="simple">
+		<?php echo $form->checkBox($model,'foraneas'); 
+			  echo $form->label($model,'foraneas'); ?>
+		</div>
 		<div class="action">
 		<?php echo CHtml::submitButton('Importar'); ?>
 		</div>	 

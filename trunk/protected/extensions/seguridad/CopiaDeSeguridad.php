@@ -73,8 +73,53 @@ class CopiaDeSeguridad
 		$peticion->sendFile($nombreFichero, $contenido);
     }
 
-    public static function importarXML($file)
+    public static function importarXML($file,$comprobarCF)
     {
+		function comprobarClavesForaneas($tabla, $nombre, $valor){
+			switch($tabla){
+				case 'facturas':
+					if($nombre=='idPaciente'){
+						$comando = Yii::app()->db->createCommand("SELECT COUNT(*) FROM `pacientes` WHERE `IdPaciente`='".$valor."'");
+						if($comando->queryScalar()<1) return false;
+					}
+					return true;
+				case 'pacientes':
+					if($nombre=='idAseguradora'){
+						$comando = Yii::app()->db->createCommand("SELECT COUNT(*) FROM `aseguradoras` WHERE `idAseguradora`='".$valor."'");
+						if($comando->queryScalar()<1) return false;
+					}
+					return true;
+				case 'perfilesusuarios':
+					if($nombre=='idPerfil'){
+						$comando = Yii::app()->db->createCommand("SELECT COUNT(*) FROM `perfiles` WHERE `IdPerfil`='".$valor."'");
+						if($comando->queryScalar()<1) return false;
+					}else{
+						$comando = Yii::app()->db->createCommand("SELECT COUNT(*) FROM `usuarios` WHERE `IdUsuario`='".$valor."'");
+						if($comando->queryScalar()<1) return false;
+					}
+					return true;
+				case 'pruebas':
+					if($nombre=='IdCita'){
+						$comando = Yii::app()->db->createCommand("SELECT COUNT(*) FROM `visitas` WHERE `IdCita`='".$valor."'");
+						if($comando->queryScalar()<1) return false;
+					}if($nombre=='IdPaciente'){
+						$comando = Yii::app()->db->createCommand("SELECT COUNT(*) FROM `pacientes` WHERE `IdPaciente`='".$valor."'");
+						if($comando->queryScalar()<1) return false;
+					}if($nombre=='IdTipoDiagnostico'){
+						$comando = Yii::app()->db->createCommand("SELECT COUNT(*) FROM `tiposdiagnosticos` WHERE `IdTipoDiagnostico`='".$valor."'");
+						if($comando->queryScalar()<1) return false;
+					}
+					return true;
+				case 'visitas':
+					if($nombre=='idPaciente'){
+						$comando = Yii::app()->db->createCommand("SELECT COUNT(*) FROM `pacientes` WHERE `IdPaciente`='".$valor."'");
+						if($comando->queryScalar()<1) return false;
+					}
+					return true;
+				default:
+					return true;
+			}
+		}
 		$bbDD = Yii::app()->db->pdoInstance;
 		$bbDD->query("SET FOREIGN_KEY_CHECKS=0;");
 
@@ -86,14 +131,22 @@ class CopiaDeSeguridad
 				$bbDD->query("TRUNCATE TABLE `".$atributosTabla->nombre."`;");
 
 				foreach($tabla->campo as $campo){
+					$guardarCampo=1;
 					$nombres="";
 					$valores="";
 					foreach($campo->atributo as $atributo){
 						$atributosAtributo=$atributo->attributes();
+						if($comprobarCF){
+							$valido = comprobarClavesForaneas($atributosTabla->nombre, $atributosAtributo->nombre, $atributosAtributo->valor);
+							if(!$valido){
+								$guardarCampo=0;
+								break;
+							}
+						}
 						$nombres.="`".$atributosAtributo->nombre."`,";
 						$valores.="'".$atributosAtributo->valor."',";
 					}
-					$bbDD->query("INSERT INTO `".$atributosTabla->nombre."` (".substr($nombres,0,-1).") VALUES (".substr($valores,0,-1).");");
+					if($guardarCampo) $bbDD->query("INSERT INTO `".$atributosTabla->nombre."` (".substr($nombres,0,-1).") VALUES (".substr($valores,0,-1).");");
 				}
 			}
 		} 
