@@ -1,3 +1,9 @@
+<?php if(Yii::app()->user->hasFlash('error')):?>
+    <div class="info">
+        <h4><?php echo Yii::app()->user->getFlash('error'); ?></h4>
+    </div>
+<?php endif; ?>
+
 <div class="yiiForm">
 	<?php echo CHtml::beginForm(); ?>
 	
@@ -63,3 +69,9 @@
 	 
 	<?php echo CHtml::endForm(); ?>
 </div>
+
+<?php if(Yii::app()->user->hasFlash('informacion')):?>
+    <div class="info">
+        <?php echo Yii::app()->user->getFlash('informacion'); ?>
+    </div></br>
+<?php endif; ?>
