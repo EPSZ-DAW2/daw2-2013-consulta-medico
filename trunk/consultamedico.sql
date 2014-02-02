@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.0.4.1
+-- version 4.0.9
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 28-01-2014 a las 22:36:09
--- Versión del servidor: 5.5.32
--- Versión de PHP: 5.4.19
+-- Tiempo de generación: 02-02-2014 a las 08:54:12
+-- Versión del servidor: 5.6.14
+-- Versión de PHP: 5.5.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -19,26 +19,6 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `consultamedico`
 --
-CREATE DATABASE IF NOT EXISTS `consultamedico` DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci;
-USE `consultamedico`;
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `a`
---
-
-CREATE TABLE IF NOT EXISTS `a` (
-  `fd` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
-
---
--- Volcado de datos para la tabla `a`
---
-
-INSERT INTO `a` (`fd`) VALUES
-(1),
-(2);
 
 -- --------------------------------------------------------
 
@@ -51,7 +31,23 @@ CREATE TABLE IF NOT EXISTS `aseguradoras` (
   `Nombre` char(50) DEFAULT NULL,
   `Notas` char(150) DEFAULT NULL,
   PRIMARY KEY (`idAseguradora`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
+
+--
+-- Volcado de datos para la tabla `aseguradoras`
+--
+
+INSERT INTO `aseguradoras` (`idAseguradora`, `Nombre`, `Notas`) VALUES
+(1, 'Seguros 1', 'Notas Seguros 1'),
+(2, 'Seguros 2', 'Notas Seguros 2'),
+(3, 'Seguros 3', 'Notas Seguros 3'),
+(4, 'Seguros 4', 'Notas Seguros 4'),
+(5, 'Seguros 5', 'Notas Seguros 5'),
+(6, 'Seguros 6', 'Notas Seguros 6'),
+(7, 'Seguros 7', 'Notas Seguros 7'),
+(8, 'Seguros 8', 'Notas Seguros 8'),
+(9, 'Seguros 9', 'Notas Seguros 9'),
+(10, 'Seguros 10', 'Notas Seguros 10');
 
 -- --------------------------------------------------------
 
@@ -71,7 +67,23 @@ CREATE TABLE IF NOT EXISTS `facturas` (
   `Notas` char(150) DEFAULT NULL,
   PRIMARY KEY (`IdFactura`),
   KEY `IdPaciente` (`IdPaciente`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
+
+--
+-- Volcado de datos para la tabla `facturas`
+--
+
+INSERT INTO `facturas` (`IdFactura`, `Serie`, `Numero`, `Fecha`, `IdPaciente`, `Concepto`, `Importe`, `FechaCobro`, `Notas`) VALUES
+(1, 1, 1, '2001-01-10', 1, 'Concepto 1', 1, '2001-01-11', 'Notas 1'),
+(2, 2, 2, '2002-02-10', 2, 'Concepto 2', 2, '2002-02-11', 'Notas 2'),
+(3, 3, 3, '2003-03-10', 3, 'Concepto 3', 3, '2003-03-11', 'Notas 3'),
+(4, 4, 4, '2004-04-10', 4, 'Concepto 4', 4, '2004-04-11', 'Notas 4'),
+(5, 5, 5, '2005-05-10', 5, 'Concepto 5', 5, '2005-05-11', 'Notas 5'),
+(6, 6, 6, '2006-06-10', 6, 'Concepto 6', 6, '2006-06-11', 'Notas 6'),
+(7, 7, 7, '2007-07-10', 7, 'Concepto 7', 7, '2007-07-11', 'Notas 7'),
+(8, 8, 8, '2008-08-10', 8, 'Concepto 8', 8, '2008-08-11', 'Notas 8'),
+(9, 9, 9, '2009-09-10', 9, 'Concepto 9', 9, '2009-09-11', 'Notas 9'),
+(10, 10, 10, '2010-10-10', 10, 'Concepto 10', 10, '2010-10-11', 'Notas 10');
 
 -- --------------------------------------------------------
 
@@ -96,7 +108,23 @@ CREATE TABLE IF NOT EXISTS `pacientes` (
   `Notas` char(150) DEFAULT NULL,
   PRIMARY KEY (`IdPaciente`),
   KEY `idAseguradora` (`idAseguradora`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
+
+--
+-- Volcado de datos para la tabla `pacientes`
+--
+
+INSERT INTO `pacientes` (`IdPaciente`, `Apellidos`, `Nombre`, `DNI_NIF`, `Fecha_nacimiento`, `Direccion`, `CodPostal`, `Localidad`, `Provincia`, `TelFijo`, `TelMovil`, `Email`, `idAseguradora`, `Notas`) VALUES
+(1, 'Apellido11 Apellido12', 'Nombre 1', '11111111A', '2001-01-01', 'Direccion 1', 11111, 'Localidad 1', 'Provincia 1', 111111111, 111111111, 'paciente1@correo.com', 1, 'Notas 1'),
+(2, 'Apellido21 Apellido22', 'Nombre 2', '22222222B', '2002-02-02', 'Direccion 2', 22222, 'Localidad 2', 'Provincia 2', 222222222, 222222222, 'paciente2@correo.com', 2, 'Notas 2'),
+(3, 'Apellido31 Apellido32', 'Nombre 3', '33333333C', '2003-03-03', 'Direccion 3', 33333, 'Localidad 3', 'Provincia 3', 333333333, 333333333, 'paciente3@correo.com', 3, 'Notas 3'),
+(4, 'Apellido41 Apellido42', 'Nombre 4', '44444444D', '2004-04-04', 'Direccion 4', 44444, 'Localidad 4', 'Provincia 4', 444444444, 444444444, 'paciente4@correo.com', 4, 'Notas 4'),
+(5, 'Apellido51 Apellido52', 'Nombre 5', '55555555E', '2005-05-05', 'Direccion 5', 55555, 'Localidad 5', 'Provincia 5', 555555555, 555555555, 'paciente5@correo.com', 5, 'Notas 5'),
+(6, 'Apellido61 Apellido62', 'Nombre 6', '66666666F', '2006-06-06', 'Direccion 6', 66666, 'Localidad 6', 'Provincia 6', 666666666, 666666666, 'paciente6@correo.com', 6, 'Notas 6'),
+(7, 'Apellido71 Apellido72', 'Nombre 7', '77777777G', '2007-07-07', 'Direccion 7', 77777, 'Localidad 7', 'Provincia 7', 777777777, 777777777, 'paciente7@correo.com', 7, 'Notas 7'),
+(8, 'Apellido81 Apellido82', 'Nombre 8', '88888888H', '2008-08-08', 'Direccion 8', 88888, 'Localidad 8', 'Provincia 8', 888888888, 888888888, 'paciente8@correo.com', 8, 'Notas 8'),
+(9, 'Apellido91 Apellido92', 'Nombre 9', '99999999I', '2009-09-09', 'Direccion 9', 99999, 'Localidad 9', 'Provincia 9', 999999999, 999999999, 'paciente9@correo.com', 9, 'Notas 9'),
+(10, 'Apellido101 Apellido102', 'Nombre 10', '10101010J', '2010-10-10', 'Direccion 1', 10101, 'Localidad 10', 'Provincia 1', 101010101, 101010101, 'paciente10@correo.com', 10, 'Notas 10');
 
 -- --------------------------------------------------------
 
@@ -167,7 +195,23 @@ CREATE TABLE IF NOT EXISTS `pruebas` (
   KEY `IdCita` (`IdCita`),
   KEY `IdPaciente` (`IdPaciente`),
   KEY `IdTipoDiagnostico` (`IdTipoDiagnostico`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
+
+--
+-- Volcado de datos para la tabla `pruebas`
+--
+
+INSERT INTO `pruebas` (`IdPrueba`, `IdCita`, `IdPaciente`, `IdTipoDiagnostico`, `Fecha_Hora`, `Descripcion`, `Tratamiento`, `Notas`) VALUES
+(1, 1, 1, 1, '2001-01-10 00:00:00', 'Descripcion 1', 'Tratamiento 1', 'Notas 1'),
+(2, 2, 2, 2, '2002-02-10 00:00:00', 'Descripcion 2', 'Tratamiento 2', 'Notas 2'),
+(3, 3, 3, 3, '2003-03-10 00:00:00', 'Descripcion 3', 'Tratamiento 3', 'Notas 3'),
+(4, 4, 4, 4, '2004-04-10 00:00:00', 'Descripcion 4', 'Tratamiento 4', 'Notas 4'),
+(5, 5, 5, 5, '2005-05-10 00:00:00', 'Descripcion 5', 'Tratamiento 5', 'Notas 5'),
+(6, 6, 6, 6, '2006-06-10 00:00:00', 'Descripcion 6', 'Tratamiento 6', 'Notas 6'),
+(7, 7, 7, 7, '2007-07-10 00:00:00', 'Descripcion 7', 'Tratamiento 7', 'Notas 7'),
+(8, 8, 8, 8, '2008-08-10 00:00:00', 'Descripcion 8', 'Tratamiento 8', 'Notas 8'),
+(9, 9, 9, 9, '2009-09-10 00:00:00', 'Descripcion 9', 'Tratamiento 9', 'Notas 9'),
+(10, 10, 10, 10, '2010-10-10 00:00:00', 'Descripcion 10', 'Tratamiento 10', 'Notas 10');
 
 -- --------------------------------------------------------
 
@@ -181,7 +225,23 @@ CREATE TABLE IF NOT EXISTS `tiposdiagnosticos` (
   `Plantilla` char(50) DEFAULT NULL,
   `Notas` char(150) DEFAULT NULL,
   PRIMARY KEY (`IdTipoDiagnostico`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
+
+--
+-- Volcado de datos para la tabla `tiposdiagnosticos`
+--
+
+INSERT INTO `tiposdiagnosticos` (`IdTipoDiagnostico`, `Nombre`, `Plantilla`, `Notas`) VALUES
+(1, 'Nombre 1', 'Plantilla 1', 'Notas 1'),
+(2, 'Nombre 2', 'Plantilla 2', 'Notas 2'),
+(3, 'Nombre 3', 'Plantilla 3', 'Notas 3'),
+(4, 'Nombre 4', 'Plantilla 4', 'Notas 4'),
+(5, 'Nombre 5', 'Plantilla 5', 'Notas 5'),
+(6, 'Nombre 6', 'Plantilla 6', 'Notas 6'),
+(7, 'Nombre 7', 'Plantilla 7', 'Notas 7'),
+(8, 'Nombre 8', 'Plantilla 8', 'Notas 8'),
+(9, 'Nombre 9', 'Plantilla 9', 'Notas 9'),
+(10, 'Nombre 10', 'Plantilla 10', 'Notas 10');
 
 -- --------------------------------------------------------
 
@@ -204,12 +264,12 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 --
 
 INSERT INTO `usuarios` (`IdUsuario`, `usuario`, `clave`, `nombre`, `FechaHoraUltimaConexion`, `numFallos`) VALUES
-(1, 'sysadmin', 'sysadmin', 'Agapito', '2014-01-28 00:00:00', NULL),
-(2, 'admin', 'admin', 'Luis', '2014-01-28 00:00:00', NULL),
-(3, 'medico', 'medico', 'Castro', NULL, NULL),
-(4, 'auxiliar', 'auxiliar', 'Francesca', NULL, NULL),
+(1, 'sysadmin', 'sysadmin', 'Agapito', '2014-01-28 00:00:00', 0),
+(2, 'admin', 'admin', 'Luis', '2014-02-01 16:33:09', 0),
+(3, 'medico', 'medico', 'Castro', '0000-00-00 00:00:00', 0),
+(4, 'auxiliar', 'auxiliar', 'Francesca', '0000-00-00 00:00:00', 0),
 (5, 'paciente', 'paciente', 'jack', '2014-01-28 00:00:00', 2),
-(6, 'invitado', 'invitado', 'Woody', NULL, NULL);
+(6, 'invitado', 'invitado', 'Woody', '0000-00-00 00:00:00', 0);
 
 -- --------------------------------------------------------
 
@@ -225,7 +285,23 @@ CREATE TABLE IF NOT EXISTS `visitas` (
   `Estado` char(50) DEFAULT NULL,
   PRIMARY KEY (`IdCita`),
   KEY `IdPaciente` (`IdPaciente`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
+
+--
+-- Volcado de datos para la tabla `visitas`
+--
+
+INSERT INTO `visitas` (`IdCita`, `IdPaciente`, `Fecha_hora`, `Notas`, `Estado`) VALUES
+(1, 1, '2001-01-10 00:00:00', 'Notas 1', 'Estado 1'),
+(2, 2, '2002-02-10 00:00:00', 'Notas 2', 'Estado 2'),
+(3, 3, '2003-03-10 00:00:00', 'Notas 3', 'Estado 3'),
+(4, 4, '2004-04-10 00:00:00', 'Notas 4', 'Estado 4'),
+(5, 5, '2005-05-10 00:00:00', 'Notas 5', 'Estado 5'),
+(6, 6, '2006-06-10 00:00:00', 'Notas 6', 'Estado 6'),
+(7, 7, '2007-07-10 00:00:00', 'Notas 7', 'Estado 7'),
+(8, 8, '2008-08-10 00:00:00', 'Notas 8', 'Estado 8'),
+(9, 9, '2009-09-10 00:00:00', 'Notas 9', 'Estado 9'),
+(10, 10, '2010-10-10 00:00:00', 'Notas 10', 'Estado 10');
 
 --
 -- Restricciones para tablas volcadas
