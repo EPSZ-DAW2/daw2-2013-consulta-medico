@@ -1,28 +1,38 @@
 <?php
-/**
- *
- * Exportar & Importar 
- *
- * 
- */
+//Extensión para importar y exportar la base de datos, tanto en SQL como en XML
 class CopiaDeSeguridad
 {	
+	//Función para exportar en SQL
 	public static function exportarSQL($tablas)
     {
+		//Instanciamos la base de datos 
         $pdo = Yii::app()->db->pdoInstance;
+		
+		//Guardo en un array la información de las tablas
         $statments = $pdo->query("show tables");
+		
+		//Contador para manejar el array parámetro
 		$tablaActual=0;
+		
+		//Aquí iremos almacenando la salida al archivo
 		$mysql="";
 
+		//Vamos recorriendo cada tabla
         foreach ($statments as $value) 
         {
+			//La añadiremos al archivo sólo si el usuario la marcó
 			if($tablas[$tablaActual])
 			{
+				//Guardamos el nombre de la tabla actual
 				$tableName = $value[0];
-				$mysql.="TRUNCATE TABLE `$tableName`;\n\r";
+
+				//Guardamos toda la información de la tabla actual
 				$itemsQuery = $pdo->query("select * from `$tableName`");
+				
 				$values = "";
 				$items = "";
+				
+				//Recorremos cada una de las filas
 				while ($itemQuery = $itemsQuery->fetch(PDO::FETCH_ASSOC)) 
 				{
 					$itemNames = array_keys($itemQuery);
@@ -34,46 +44,66 @@ class CopiaDeSeguridad
 					$valueString = "('" . $valueString . "'),";
 					$values.="\n" . $valueString;
 				} 
+				
+				//Si la tabla tiene filas
 				if ($values != "") 
 				{
-					$insertSql = "INSERT INTO `$tableName` (`$items`) VALUES" . rtrim($values, ",") . ";\n\r"; 
-					$mysql.=$insertSql; 
+					//En el caso de que vayamos a introducir valores, eliminamos antes los actuales que tenga la tabla
+					$mysql.="TRUNCATE TABLE `$tableName`;\n\r";
+					
+					//Orden que insertará los valores exportados
+					$mysql. = "INSERT INTO `$tableName` (`$items`) VALUES" . rtrim($values, ",") . ";\n\r"; 
 				} 
 			}
 			$tablaActual++;
         } 
-		
-		//$mysql. = "SET FOREIGN_KEY_CHECKS=1;\n\r";
 
+		//Preparamos para guardar la variable de salida en el archivo final
         ob_start();
         echo $mysql;    
         $content = ob_get_contents();
         ob_end_clean();
 		
+		//Guardamos el archivo teniendo como nombre, la fecha y hora actual		
 		$saveName = date('YmdHms') . ".sql";
 		$request = Yii::app()->getRequest();
 		$request->sendFile($saveName, $content);
     }
-    //FUNCION QUE EXPORTA LOS DATOS DE LA BASE DE DATOS
+   
+    //Función para exportar en XML
     public static function exportarXML($tablas)
     {
+		//Instanciamos la base de datos 
 		$bbDD = Yii::app()->db->pdoInstance;
+		
+		//Guardo en un array la información de las tablas
         $todasTablas = $bbDD->query("show tables");
+		
+		//Contador para manejar el array parámetro
 		$tablaActual=0;
-		$salida = "<?xml version=\"1.0\" ?>\n"; 
-		$salida .= "<schema>\n"; 
+		
+		//Aquí iremos almacenando la salida al archivo
+		$salida = "<?xml version=\"1.0\" ?>\n<schema>\n"; 
 
-		// iterate over each table and return the fields for each table
+		//Vamos recorriendo cada tabla
 		foreach ($todasTablas as $tabla) 
         {
+			//La añadiremos al archivo sólo si el usuario la marcó
 			if($tablas[$tablaActual]){
+				//Guardamos el nombre de la tabla actual
 				$nombreTabla = $tabla[0];
+				
+				//Guardamos toda la información de la tabla actual
 				$resultadoCampos = $bbDD->query( "SELECT * FROM ".$nombreTabla); 
 				
+				//Guardamos el número de atributos que tiene un campo de la tabla
 				$command = Yii::app()->db->createCommand("SELECT COUNT( * ) FROM information_schema.columns WHERE table_name =  '".$nombreTabla."'");
 				$columnas = $command->queryScalar();
 
-				$contador=0;
+				//Esta variable comprobará si ya hemos introducido la cabecera de la tabla
+				$contador=false;
+				
+				//Recorremos cada una de las filas
 				while ($itemQuery = $resultadoCampos->fetch(PDO::FETCH_ASSOC)) 
 				{
 					$itemNames = array_keys($itemQuery);
@@ -82,26 +112,35 @@ class CopiaDeSeguridad
 					$itemValues = array_values($itemQuery);
 					$itemValues = array_map("addslashes", $itemValues);
 					
-					if($contador==0){
-						$salida .= "<tabla nombre=\"".$nombreTabla."\">\n"; 
-						$salida.= "<campo>\n";
-						foreach(array_combine($itemNames, $itemValues) as $name => $value){
+					//Si no hemos introducio la cabecera
+					if(!$contador){
+						//Introducimos las cabeceras de la tabla y el campo
+						$salida .= "<tabla nombre=\"".$nombreTabla."\">\n<campo>\n"; 
+
+						//Vamos recorriendo los atributos y los añadimos a la salida
+						foreach(array_combine($itemNames, $itemValues) as $name => $value)
 							$salida .= "<atributo nombre=\"".$name."\" valor=\"".$value."\"/>";
-						}
+						
+						//Introducimos la etiqueta de fin de campo
 						$salida.= "</campo>\n";
-						$contador++;
+						$contador=true;
 					}
 					else{
-						$contador2=0;
+						//Introducimos la cabecera del campo
 						$salida.= "<campo>\n";
+						
+						//Vamos recorriendo los atributos y los añadimos a la salida
 						foreach(array_combine($itemNames, $itemValues) as $name => $value){
 							$salida .= "<atributo nombre=\"".$name."\" valor=\"".$value."\"/>";
 						}
+						
+						//Introducimos la etiqueta de fin de campo
 						$salida.= "</campo>\n";
 					}
 				}
 				
-				if($contador!=0){
+				//Si hemos introducido algún campo introducimos la etiqueta de fin de tabla
+				if($contador){
 					$salida .= "</tabla>\n"; 
 				}
 			}
@@ -110,16 +149,19 @@ class CopiaDeSeguridad
 
 		$salida .= "</schema>\n"; 
 		
+		//Preparamos para guardar la variable de salida en el archivo final
         ob_start();
         echo $salida;    
         $contenido = ob_get_contents();
         ob_end_clean();
 		
+		//Guardamos el archivo teniendo como nombre, la fecha y hora actual		
 		$nombreFichero = date('YmdHms') . ".xml";
 		$peticion = Yii::app()->getRequest();
 		$peticion->sendFile($nombreFichero, $contenido);
     }
 
+	
     public static function importarXML($file,$comprobarCF)
     {
 		function comprobarClavesForaneas($tabla, $nombre, $valor){
@@ -199,22 +241,29 @@ class CopiaDeSeguridad
 		} 
     }
 	
+	//Función para exportar en SQL
 	public static function importarSQL($archivo){
+		//Instanciamos la base de datos 
 		$bbDD = Yii::app()->db->pdoInstance;
 		try{
 			if(file_exists($archivo)){
+				//Desactivamos las claves foráneas para evitar un error de este tipo
 				$bbDD->query("SET FOREIGN_KEY_CHECKS=0;");
+				
+				//Recogemos las órdenes del archivo SQL y las preparamos
 				$ordenSQL = file_get_contents($archivo);
 				$ordenSQL = rtrim($ordenSQL);
 				$nuevaOrden = preg_replace_callback("/\((.*)\)/",create_function('$matches','return str_replace(";"," $$$ ", $matches[0]);'),$ordenSQL);
 				$arraySQL = explode(";", $nuevaOrden);
+				
+				//Recorremos cada una de las órdenes
 				foreach($arraySQL as $valor){
+					//Vamos procesando cada órden que nos encontremos
 					if(!empty($valor)){
 						$sql=str_replace(" $$$ ",";", $valor). ";";
 						$bbDD->exec($sql);
 					}
 				}
-				return true;
 			}
 		}catch(PDOException $e){
 			echo $e->getMessage();
