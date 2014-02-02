@@ -11,7 +11,7 @@ class ImportarController extends Controller
 				if($opcion!=null){
 					if(!$opcion)
 					{
-						DLDatabaseHelper::import('C:\xampp\htdocs\svn\estructura.sql');
+						CopiaDeSeguridad::importarSQL('C:\xampp\htdocs\svn\estructura.sql');
 						$this->redirect(Yii::app()->baseUrl);
 					}else
 					{
@@ -19,7 +19,7 @@ class ImportarController extends Controller
 					}
 				}else{
 					$model->archivo->saveAs('C:/xampp/htdocs/svn/temporales/'.strtolower($model->archivo));
-					//DLDatabaseHelper::import('ruta');
+					CopiaDeSeguridad::importarXML('C:/xampp/htdocs/svn/temporales/'.strtolower($model->archivo));
 				}
 			}
 		}
