@@ -12,6 +12,7 @@ class CopiaDeSeguridad
         $pdo = Yii::app()->db->pdoInstance;
         $statments = $pdo->query("show tables");
 		$tablaActual=0;
+		$mysql="";
 
         foreach ($statments as $value) 
         {
@@ -48,9 +49,8 @@ class CopiaDeSeguridad
         echo $mysql;    
         $content = ob_get_contents();
         ob_end_clean();
-        $content = gzencode($content, 9);
 		
-		$saveName = date('YmdHms') . ".sql.gz";
+		$saveName = date('YmdHms') . ".sql";
 		$request = Yii::app()->getRequest();
 		$request->sendFile($saveName, $content);
     }
