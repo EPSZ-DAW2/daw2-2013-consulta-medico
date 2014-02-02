@@ -8,7 +8,7 @@ class ImportarForm extends CFormModel
 	public function rules()
 	{
 		return array(
-			array('archivo','file','types'=>'xml','on' => 'withFile'),
+			array('archivo','file','types'=>'xml,sql','on' => 'withFile'),
 			array('foraneas', 'boolean'),
 			array('opcion', 'safe'),
 		);
