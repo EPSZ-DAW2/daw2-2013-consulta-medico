@@ -27,14 +27,19 @@ class ImportarController extends Controller
 			$modelo->archivo->saveAs($ruta);
 			
 			//Importamos el archivo eligiendo si es xml o sql
-			if($extension=='xml') CopiaDeSeguridad::importarXML($ruta,$modelo->foraneas);
-			elseif($extension=='sql') CopiaDeSeguridad::importarSQL($ruta);
+			if($extension=='xml'){
+				if(CopiaDeSeguridad::importarXML($ruta,$modelo->foraneas))
+					Yii::app()->user->setFlash('informacion','Los datos del archivo XML han sido importados correctamente');
+			}
+			elseif($extension=='sql'){
+				if(CopiaDeSeguridad::importarSQL($ruta))
+					Yii::app()->user->setFlash('informacion','Los datos del archivo SQL han sido importados correctamente');
+			}
+			else Yii::app()->user->setFlash('error','Error: El archivo importado debe ser xml o sql');
 
 			//Borramos el archivo
 			$borrado = unlink($ruta);
 			while(!$borrado) unlink($ruta);
-			
-			Yii::app()->user->setFlash('informacion','Los datos han sido importados correctamente');
         }
 		elseif(isset($_POST['ImportarForm'])){
 			$modelo->attributes=$_POST['ImportarForm'];
