@@ -1,0 +1,177 @@
+<?xml version="1.0" ?>
+<schema>
+<tabla nombre="aseguradoras">
+<campo>
+<atributo nombre="idAseguradora" valor="1"/><atributo nombre="Nombre" valor="Seguros 1"/><atributo nombre="Notas" valor="Notas Seguros 1"/></campo>
+<campo>
+<atributo nombre="idAseguradora" valor="2"/><atributo nombre="Nombre" valor="Seguros 2"/><atributo nombre="Notas" valor="Notas Seguros 2"/></campo>
+<campo>
+<atributo nombre="idAseguradora" valor="3"/><atributo nombre="Nombre" valor="Seguros 3"/><atributo nombre="Notas" valor="Notas Seguros 3"/></campo>
+<campo>
+<atributo nombre="idAseguradora" valor="4"/><atributo nombre="Nombre" valor="Seguros 4"/><atributo nombre="Notas" valor="Notas Seguros 4"/></campo>
+<campo>
+<atributo nombre="idAseguradora" valor="5"/><atributo nombre="Nombre" valor="Seguros 5"/><atributo nombre="Notas" valor="Notas Seguros 5"/></campo>
+<campo>
+<atributo nombre="idAseguradora" valor="6"/><atributo nombre="Nombre" valor="Seguros 6"/><atributo nombre="Notas" valor="Notas Seguros 6"/></campo>
+<campo>
+<atributo nombre="idAseguradora" valor="7"/><atributo nombre="Nombre" valor="Seguros 7"/><atributo nombre="Notas" valor="Notas Seguros 7"/></campo>
+<campo>
+<atributo nombre="idAseguradora" valor="8"/><atributo nombre="Nombre" valor="Seguros 8"/><atributo nombre="Notas" valor="Notas Seguros 8"/></campo>
+<campo>
+<atributo nombre="idAseguradora" valor="9"/><atributo nombre="Nombre" valor="Seguros 9"/><atributo nombre="Notas" valor="Notas Seguros 9"/></campo>
+<campo>
+<atributo nombre="idAseguradora" valor="10"/><atributo nombre="Nombre" valor="Seguros 10"/><atributo nombre="Notas" valor="Notas Seguros 10"/></campo>
+</tabla>
+<tabla nombre="facturas">
+<campo>
+<atributo nombre="IdFactura" valor="1"/><atributo nombre="Serie" valor="1"/><atributo nombre="Numero" valor="1"/><atributo nombre="Fecha" valor="2001-01-10"/><atributo nombre="IdPaciente" valor="1"/><atributo nombre="Concepto" valor="Concepto 1"/><atributo nombre="Importe" valor="1"/><atributo nombre="FechaCobro" valor="2001-01-11"/><atributo nombre="Notas" valor="Notas 1"/></campo>
+<campo>
+<atributo nombre="IdFactura" valor="2"/><atributo nombre="Serie" valor="2"/><atributo nombre="Numero" valor="2"/><atributo nombre="Fecha" valor="2002-02-10"/><atributo nombre="IdPaciente" valor="2"/><atributo nombre="Concepto" valor="Concepto 2"/><atributo nombre="Importe" valor="2"/><atributo nombre="FechaCobro" valor="2002-02-11"/><atributo nombre="Notas" valor="Notas 2"/></campo>
+<campo>
+<atributo nombre="IdFactura" valor="3"/><atributo nombre="Serie" valor="3"/><atributo nombre="Numero" valor="3"/><atributo nombre="Fecha" valor="2003-03-10"/><atributo nombre="IdPaciente" valor="3"/><atributo nombre="Concepto" valor="Concepto 3"/><atributo nombre="Importe" valor="3"/><atributo nombre="FechaCobro" valor="2003-03-11"/><atributo nombre="Notas" valor="Notas 3"/></campo>
+<campo>
+<atributo nombre="IdFactura" valor="4"/><atributo nombre="Serie" valor="4"/><atributo nombre="Numero" valor="4"/><atributo nombre="Fecha" valor="2004-04-10"/><atributo nombre="IdPaciente" valor="4"/><atributo nombre="Concepto" valor="Concepto 4"/><atributo nombre="Importe" valor="4"/><atributo nombre="FechaCobro" valor="2004-04-11"/><atributo nombre="Notas" valor="Notas 4"/></campo>
+<campo>
+<atributo nombre="IdFactura" valor="5"/><atributo nombre="Serie" valor="5"/><atributo nombre="Numero" valor="5"/><atributo nombre="Fecha" valor="2005-05-10"/><atributo nombre="IdPaciente" valor="5"/><atributo nombre="Concepto" valor="Concepto 5"/><atributo nombre="Importe" valor="5"/><atributo nombre="FechaCobro" valor="2005-05-11"/><atributo nombre="Notas" valor="Notas 5"/></campo>
+<campo>
+<atributo nombre="IdFactura" valor="6"/><atributo nombre="Serie" valor="6"/><atributo nombre="Numero" valor="6"/><atributo nombre="Fecha" valor="2006-06-10"/><atributo nombre="IdPaciente" valor="6"/><atributo nombre="Concepto" valor="Concepto 6"/><atributo nombre="Importe" valor="6"/><atributo nombre="FechaCobro" valor="2006-06-11"/><atributo nombre="Notas" valor="Notas 6"/></campo>
+<campo>
+<atributo nombre="IdFactura" valor="7"/><atributo nombre="Serie" valor="7"/><atributo nombre="Numero" valor="7"/><atributo nombre="Fecha" valor="2007-07-10"/><atributo nombre="IdPaciente" valor="7"/><atributo nombre="Concepto" valor="Concepto 7"/><atributo nombre="Importe" valor="7"/><atributo nombre="FechaCobro" valor="2007-07-11"/><atributo nombre="Notas" valor="Notas 7"/></campo>
+<campo>
+<atributo nombre="IdFactura" valor="8"/><atributo nombre="Serie" valor="8"/><atributo nombre="Numero" valor="8"/><atributo nombre="Fecha" valor="2008-08-10"/><atributo nombre="IdPaciente" valor="8"/><atributo nombre="Concepto" valor="Concepto 8"/><atributo nombre="Importe" valor="8"/><atributo nombre="FechaCobro" valor="2008-08-11"/><atributo nombre="Notas" valor="Notas 8"/></campo>
+<campo>
+<atributo nombre="IdFactura" valor="9"/><atributo nombre="Serie" valor="9"/><atributo nombre="Numero" valor="9"/><atributo nombre="Fecha" valor="2009-09-10"/><atributo nombre="IdPaciente" valor="9"/><atributo nombre="Concepto" valor="Concepto 9"/><atributo nombre="Importe" valor="9"/><atributo nombre="FechaCobro" valor="2009-09-11"/><atributo nombre="Notas" valor="Notas 9"/></campo>
+<campo>
+<atributo nombre="IdFactura" valor="10"/><atributo nombre="Serie" valor="10"/><atributo nombre="Numero" valor="10"/><atributo nombre="Fecha" valor="2010-10-10"/><atributo nombre="IdPaciente" valor="10"/><atributo nombre="Concepto" valor="Concepto 10"/><atributo nombre="Importe" valor="10"/><atributo nombre="FechaCobro" valor="2010-10-11"/><atributo nombre="Notas" valor="Notas 10"/></campo>
+</tabla>
+<tabla nombre="pacientes">
+<campo>
+<atributo nombre="IdPaciente" valor="1"/><atributo nombre="Apellidos" valor="Apellido11 Apellido12"/><atributo nombre="Nombre" valor="Nombre 1"/><atributo nombre="DNI_NIF" valor="11111111A"/><atributo nombre="Fecha_nacimiento" valor="2001-01-01"/><atributo nombre="Direccion" valor="Direccion 1"/><atributo nombre="CodPostal" valor="11111"/><atributo nombre="Localidad" valor="Localidad 1"/><atributo nombre="Provincia" valor="Provincia 1"/><atributo nombre="TelFijo" valor="111111111"/><atributo nombre="TelMovil" valor="111111111"/><atributo nombre="Email" valor="paciente1@correo.com"/><atributo nombre="idAseguradora" valor="1"/><atributo nombre="Notas" valor="Notas 1"/></campo>
+<campo>
+<atributo nombre="IdPaciente" valor="2"/><atributo nombre="Apellidos" valor="Apellido21 Apellido22"/><atributo nombre="Nombre" valor="Nombre 2"/><atributo nombre="DNI_NIF" valor="22222222B"/><atributo nombre="Fecha_nacimiento" valor="2002-02-02"/><atributo nombre="Direccion" valor="Direccion 2"/><atributo nombre="CodPostal" valor="22222"/><atributo nombre="Localidad" valor="Localidad 2"/><atributo nombre="Provincia" valor="Provincia 2"/><atributo nombre="TelFijo" valor="222222222"/><atributo nombre="TelMovil" valor="222222222"/><atributo nombre="Email" valor="paciente2@correo.com"/><atributo nombre="idAseguradora" valor="2"/><atributo nombre="Notas" valor="Notas 2"/></campo>
+<campo>
+<atributo nombre="IdPaciente" valor="3"/><atributo nombre="Apellidos" valor="Apellido31 Apellido32"/><atributo nombre="Nombre" valor="Nombre 3"/><atributo nombre="DNI_NIF" valor="33333333C"/><atributo nombre="Fecha_nacimiento" valor="2003-03-03"/><atributo nombre="Direccion" valor="Direccion 3"/><atributo nombre="CodPostal" valor="33333"/><atributo nombre="Localidad" valor="Localidad 3"/><atributo nombre="Provincia" valor="Provincia 3"/><atributo nombre="TelFijo" valor="333333333"/><atributo nombre="TelMovil" valor="333333333"/><atributo nombre="Email" valor="paciente3@correo.com"/><atributo nombre="idAseguradora" valor="3"/><atributo nombre="Notas" valor="Notas 3"/></campo>
+<campo>
+<atributo nombre="IdPaciente" valor="4"/><atributo nombre="Apellidos" valor="Apellido41 Apellido42"/><atributo nombre="Nombre" valor="Nombre 4"/><atributo nombre="DNI_NIF" valor="44444444D"/><atributo nombre="Fecha_nacimiento" valor="2004-04-04"/><atributo nombre="Direccion" valor="Direccion 4"/><atributo nombre="CodPostal" valor="44444"/><atributo nombre="Localidad" valor="Localidad 4"/><atributo nombre="Provincia" valor="Provincia 4"/><atributo nombre="TelFijo" valor="444444444"/><atributo nombre="TelMovil" valor="444444444"/><atributo nombre="Email" valor="paciente4@correo.com"/><atributo nombre="idAseguradora" valor="4"/><atributo nombre="Notas" valor="Notas 4"/></campo>
+<campo>
+<atributo nombre="IdPaciente" valor="5"/><atributo nombre="Apellidos" valor="Apellido51 Apellido52"/><atributo nombre="Nombre" valor="Nombre 5"/><atributo nombre="DNI_NIF" valor="55555555E"/><atributo nombre="Fecha_nacimiento" valor="2005-05-05"/><atributo nombre="Direccion" valor="Direccion 5"/><atributo nombre="CodPostal" valor="55555"/><atributo nombre="Localidad" valor="Localidad 5"/><atributo nombre="Provincia" valor="Provincia 5"/><atributo nombre="TelFijo" valor="555555555"/><atributo nombre="TelMovil" valor="555555555"/><atributo nombre="Email" valor="paciente5@correo.com"/><atributo nombre="idAseguradora" valor="5"/><atributo nombre="Notas" valor="Notas 5"/></campo>
+<campo>
+<atributo nombre="IdPaciente" valor="6"/><atributo nombre="Apellidos" valor="Apellido61 Apellido62"/><atributo nombre="Nombre" valor="Nombre 6"/><atributo nombre="DNI_NIF" valor="66666666F"/><atributo nombre="Fecha_nacimiento" valor="2006-06-06"/><atributo nombre="Direccion" valor="Direccion 6"/><atributo nombre="CodPostal" valor="66666"/><atributo nombre="Localidad" valor="Localidad 6"/><atributo nombre="Provincia" valor="Provincia 6"/><atributo nombre="TelFijo" valor="666666666"/><atributo nombre="TelMovil" valor="666666666"/><atributo nombre="Email" valor="paciente6@correo.com"/><atributo nombre="idAseguradora" valor="6"/><atributo nombre="Notas" valor="Notas 6"/></campo>
+<campo>
+<atributo nombre="IdPaciente" valor="7"/><atributo nombre="Apellidos" valor="Apellido71 Apellido72"/><atributo nombre="Nombre" valor="Nombre 7"/><atributo nombre="DNI_NIF" valor="77777777G"/><atributo nombre="Fecha_nacimiento" valor="2007-07-07"/><atributo nombre="Direccion" valor="Direccion 7"/><atributo nombre="CodPostal" valor="77777"/><atributo nombre="Localidad" valor="Localidad 7"/><atributo nombre="Provincia" valor="Provincia 7"/><atributo nombre="TelFijo" valor="777777777"/><atributo nombre="TelMovil" valor="777777777"/><atributo nombre="Email" valor="paciente7@correo.com"/><atributo nombre="idAseguradora" valor="7"/><atributo nombre="Notas" valor="Notas 7"/></campo>
+<campo>
+<atributo nombre="IdPaciente" valor="8"/><atributo nombre="Apellidos" valor="Apellido81 Apellido82"/><atributo nombre="Nombre" valor="Nombre 8"/><atributo nombre="DNI_NIF" valor="88888888H"/><atributo nombre="Fecha_nacimiento" valor="2008-08-08"/><atributo nombre="Direccion" valor="Direccion 8"/><atributo nombre="CodPostal" valor="88888"/><atributo nombre="Localidad" valor="Localidad 8"/><atributo nombre="Provincia" valor="Provincia 8"/><atributo nombre="TelFijo" valor="888888888"/><atributo nombre="TelMovil" valor="888888888"/><atributo nombre="Email" valor="paciente8@correo.com"/><atributo nombre="idAseguradora" valor="8"/><atributo nombre="Notas" valor="Notas 8"/></campo>
+<campo>
+<atributo nombre="IdPaciente" valor="9"/><atributo nombre="Apellidos" valor="Apellido91 Apellido92"/><atributo nombre="Nombre" valor="Nombre 9"/><atributo nombre="DNI_NIF" valor="99999999I"/><atributo nombre="Fecha_nacimiento" valor="2009-09-09"/><atributo nombre="Direccion" valor="Direccion 9"/><atributo nombre="CodPostal" valor="99999"/><atributo nombre="Localidad" valor="Localidad 9"/><atributo nombre="Provincia" valor="Provincia 9"/><atributo nombre="TelFijo" valor="999999999"/><atributo nombre="TelMovil" valor="999999999"/><atributo nombre="Email" valor="paciente9@correo.com"/><atributo nombre="idAseguradora" valor="9"/><atributo nombre="Notas" valor="Notas 9"/></campo>
+<campo>
+<atributo nombre="IdPaciente" valor="10"/><atributo nombre="Apellidos" valor="Apellido101 Apellido102"/><atributo nombre="Nombre" valor="Nombre 10"/><atributo nombre="DNI_NIF" valor="10101010J"/><atributo nombre="Fecha_nacimiento" valor="2010-10-10"/><atributo nombre="Direccion" valor="Direccion 1"/><atributo nombre="CodPostal" valor="10101"/><atributo nombre="Localidad" valor="Localidad 10"/><atributo nombre="Provincia" valor="Provincia 1"/><atributo nombre="TelFijo" valor="101010101"/><atributo nombre="TelMovil" valor="101010101"/><atributo nombre="Email" valor="paciente10@correo.com"/><atributo nombre="idAseguradora" valor="10"/><atributo nombre="Notas" valor="Notas 10"/></campo>
+</tabla>
+<tabla nombre="perfiles">
+<campo>
+<atributo nombre="IdPerfil" valor="1"/><atributo nombre="Nombre" valor="sysadmin"/></campo>
+<campo>
+<atributo nombre="IdPerfil" valor="2"/><atributo nombre="Nombre" valor="admin"/></campo>
+<campo>
+<atributo nombre="IdPerfil" valor="3"/><atributo nombre="Nombre" valor="medico"/></campo>
+<campo>
+<atributo nombre="IdPerfil" valor="4"/><atributo nombre="Nombre" valor="auxiliar"/></campo>
+<campo>
+<atributo nombre="IdPerfil" valor="5"/><atributo nombre="Nombre" valor="paciente"/></campo>
+<campo>
+<atributo nombre="IdPerfil" valor="6"/><atributo nombre="Nombre" valor="invitado"/></campo>
+</tabla>
+<tabla nombre="perfilesusuarios">
+<campo>
+<atributo nombre="IdPerfil" valor="1"/><atributo nombre="IdUsuario" valor="1"/></campo>
+<campo>
+<atributo nombre="IdPerfil" valor="2"/><atributo nombre="IdUsuario" valor="2"/></campo>
+<campo>
+<atributo nombre="IdPerfil" valor="3"/><atributo nombre="IdUsuario" valor="3"/></campo>
+<campo>
+<atributo nombre="IdPerfil" valor="4"/><atributo nombre="IdUsuario" valor="4"/></campo>
+<campo>
+<atributo nombre="IdPerfil" valor="5"/><atributo nombre="IdUsuario" valor="5"/></campo>
+<campo>
+<atributo nombre="IdPerfil" valor="6"/><atributo nombre="IdUsuario" valor="6"/></campo>
+</tabla>
+<tabla nombre="pruebas">
+<campo>
+<atributo nombre="IdPrueba" valor="1"/><atributo nombre="IdCita" valor="1"/><atributo nombre="IdPaciente" valor="1"/><atributo nombre="IdTipoDiagnostico" valor="1"/><atributo nombre="Fecha_Hora" valor="2001-01-10 00:00:00"/><atributo nombre="Descripcion" valor="Descripcion 1"/><atributo nombre="Tratamiento" valor="Tratamiento 1"/><atributo nombre="Notas" valor="Notas 1"/></campo>
+<campo>
+<atributo nombre="IdPrueba" valor="2"/><atributo nombre="IdCita" valor="2"/><atributo nombre="IdPaciente" valor="2"/><atributo nombre="IdTipoDiagnostico" valor="2"/><atributo nombre="Fecha_Hora" valor="2002-02-10 00:00:00"/><atributo nombre="Descripcion" valor="Descripcion 2"/><atributo nombre="Tratamiento" valor="Tratamiento 2"/><atributo nombre="Notas" valor="Notas 2"/></campo>
+<campo>
+<atributo nombre="IdPrueba" valor="3"/><atributo nombre="IdCita" valor="3"/><atributo nombre="IdPaciente" valor="3"/><atributo nombre="IdTipoDiagnostico" valor="3"/><atributo nombre="Fecha_Hora" valor="2003-03-10 00:00:00"/><atributo nombre="Descripcion" valor="Descripcion 3"/><atributo nombre="Tratamiento" valor="Tratamiento 3"/><atributo nombre="Notas" valor="Notas 3"/></campo>
+<campo>
+<atributo nombre="IdPrueba" valor="4"/><atributo nombre="IdCita" valor="4"/><atributo nombre="IdPaciente" valor="4"/><atributo nombre="IdTipoDiagnostico" valor="4"/><atributo nombre="Fecha_Hora" valor="2004-04-10 00:00:00"/><atributo nombre="Descripcion" valor="Descripcion 4"/><atributo nombre="Tratamiento" valor="Tratamiento 4"/><atributo nombre="Notas" valor="Notas 4"/></campo>
+<campo>
+<atributo nombre="IdPrueba" valor="5"/><atributo nombre="IdCita" valor="5"/><atributo nombre="IdPaciente" valor="5"/><atributo nombre="IdTipoDiagnostico" valor="5"/><atributo nombre="Fecha_Hora" valor="2005-05-10 00:00:00"/><atributo nombre="Descripcion" valor="Descripcion 5"/><atributo nombre="Tratamiento" valor="Tratamiento 5"/><atributo nombre="Notas" valor="Notas 5"/></campo>
+<campo>
+<atributo nombre="IdPrueba" valor="6"/><atributo nombre="IdCita" valor="6"/><atributo nombre="IdPaciente" valor="6"/><atributo nombre="IdTipoDiagnostico" valor="6"/><atributo nombre="Fecha_Hora" valor="2006-06-10 00:00:00"/><atributo nombre="Descripcion" valor="Descripcion 6"/><atributo nombre="Tratamiento" valor="Tratamiento 6"/><atributo nombre="Notas" valor="Notas 6"/></campo>
+<campo>
+<atributo nombre="IdPrueba" valor="7"/><atributo nombre="IdCita" valor="7"/><atributo nombre="IdPaciente" valor="7"/><atributo nombre="IdTipoDiagnostico" valor="7"/><atributo nombre="Fecha_Hora" valor="2007-07-10 00:00:00"/><atributo nombre="Descripcion" valor="Descripcion 7"/><atributo nombre="Tratamiento" valor="Tratamiento 7"/><atributo nombre="Notas" valor="Notas 7"/></campo>
+<campo>
+<atributo nombre="IdPrueba" valor="8"/><atributo nombre="IdCita" valor="8"/><atributo nombre="IdPaciente" valor="8"/><atributo nombre="IdTipoDiagnostico" valor="8"/><atributo nombre="Fecha_Hora" valor="2008-08-10 00:00:00"/><atributo nombre="Descripcion" valor="Descripcion 8"/><atributo nombre="Tratamiento" valor="Tratamiento 8"/><atributo nombre="Notas" valor="Notas 8"/></campo>
+<campo>
+<atributo nombre="IdPrueba" valor="9"/><atributo nombre="IdCita" valor="9"/><atributo nombre="IdPaciente" valor="9"/><atributo nombre="IdTipoDiagnostico" valor="9"/><atributo nombre="Fecha_Hora" valor="2009-09-10 00:00:00"/><atributo nombre="Descripcion" valor="Descripcion 9"/><atributo nombre="Tratamiento" valor="Tratamiento 9"/><atributo nombre="Notas" valor="Notas 9"/></campo>
+<campo>
+<atributo nombre="IdPrueba" valor="10"/><atributo nombre="IdCita" valor="10"/><atributo nombre="IdPaciente" valor="10"/><atributo nombre="IdTipoDiagnostico" valor="10"/><atributo nombre="Fecha_Hora" valor="2010-10-10 00:00:00"/><atributo nombre="Descripcion" valor="Descripcion 10"/><atributo nombre="Tratamiento" valor="Tratamiento 10"/><atributo nombre="Notas" valor="Notas 10"/></campo>
+</tabla>
+<tabla nombre="tiposdiagnosticos">
+<campo>
+<atributo nombre="IdTipoDiagnostico" valor="1"/><atributo nombre="Nombre" valor="Nombre 1"/><atributo nombre="Plantilla" valor="Plantilla 1"/><atributo nombre="Notas" valor="Notas 1"/></campo>
+<campo>
+<atributo nombre="IdTipoDiagnostico" valor="2"/><atributo nombre="Nombre" valor="Nombre 2"/><atributo nombre="Plantilla" valor="Plantilla 2"/><atributo nombre="Notas" valor="Notas 2"/></campo>
+<campo>
+<atributo nombre="IdTipoDiagnostico" valor="3"/><atributo nombre="Nombre" valor="Nombre 3"/><atributo nombre="Plantilla" valor="Plantilla 3"/><atributo nombre="Notas" valor="Notas 3"/></campo>
+<campo>
+<atributo nombre="IdTipoDiagnostico" valor="4"/><atributo nombre="Nombre" valor="Nombre 4"/><atributo nombre="Plantilla" valor="Plantilla 4"/><atributo nombre="Notas" valor="Notas 4"/></campo>
+<campo>
+<atributo nombre="IdTipoDiagnostico" valor="5"/><atributo nombre="Nombre" valor="Nombre 5"/><atributo nombre="Plantilla" valor="Plantilla 5"/><atributo nombre="Notas" valor="Notas 5"/></campo>
+<campo>
+<atributo nombre="IdTipoDiagnostico" valor="6"/><atributo nombre="Nombre" valor="Nombre 6"/><atributo nombre="Plantilla" valor="Plantilla 6"/><atributo nombre="Notas" valor="Notas 6"/></campo>
+<campo>
+<atributo nombre="IdTipoDiagnostico" valor="7"/><atributo nombre="Nombre" valor="Nombre 7"/><atributo nombre="Plantilla" valor="Plantilla 7"/><atributo nombre="Notas" valor="Notas 7"/></campo>
+<campo>
+<atributo nombre="IdTipoDiagnostico" valor="8"/><atributo nombre="Nombre" valor="Nombre 8"/><atributo nombre="Plantilla" valor="Plantilla 8"/><atributo nombre="Notas" valor="Notas 8"/></campo>
+<campo>
+<atributo nombre="IdTipoDiagnostico" valor="9"/><atributo nombre="Nombre" valor="Nombre 9"/><atributo nombre="Plantilla" valor="Plantilla 9"/><atributo nombre="Notas" valor="Notas 9"/></campo>
+<campo>
+<atributo nombre="IdTipoDiagnostico" valor="10"/><atributo nombre="Nombre" valor="Nombre 10"/><atributo nombre="Plantilla" valor="Plantilla 10"/><atributo nombre="Notas" valor="Notas 10"/></campo>
+</tabla>
+<tabla nombre="usuarios">
+<campo>
+<atributo nombre="IdUsuario" valor="1"/><atributo nombre="usuario" valor="sysadmin"/><atributo nombre="clave" valor="sysadmin"/><atributo nombre="nombre" valor="Agapito"/><atributo nombre="FechaHoraUltimaConexion" valor="2014-01-28 00:00:00"/><atributo nombre="numFallos" valor="0"/></campo>
+<campo>
+<atributo nombre="IdUsuario" valor="2"/><atributo nombre="usuario" valor="admin"/><atributo nombre="clave" valor="admin"/><atributo nombre="nombre" valor="Luis"/><atributo nombre="FechaHoraUltimaConexion" valor="2014-02-01 16:33:09"/><atributo nombre="numFallos" valor="0"/></campo>
+<campo>
+<atributo nombre="IdUsuario" valor="3"/><atributo nombre="usuario" valor="medico"/><atributo nombre="clave" valor="medico"/><atributo nombre="nombre" valor="Castro"/><atributo nombre="FechaHoraUltimaConexion" valor="0000-00-00 00:00:00"/><atributo nombre="numFallos" valor="0"/></campo>
+<campo>
+<atributo nombre="IdUsuario" valor="4"/><atributo nombre="usuario" valor="auxiliar"/><atributo nombre="clave" valor="auxiliar"/><atributo nombre="nombre" valor="Francesca"/><atributo nombre="FechaHoraUltimaConexion" valor="0000-00-00 00:00:00"/><atributo nombre="numFallos" valor="0"/></campo>
+<campo>
+<atributo nombre="IdUsuario" valor="5"/><atributo nombre="usuario" valor="paciente"/><atributo nombre="clave" valor="paciente"/><atributo nombre="nombre" valor="jack"/><atributo nombre="FechaHoraUltimaConexion" valor="2014-01-28 00:00:00"/><atributo nombre="numFallos" valor="2"/></campo>
+<campo>
+<atributo nombre="IdUsuario" valor="6"/><atributo nombre="usuario" valor="invitado"/><atributo nombre="clave" valor="invitado"/><atributo nombre="nombre" valor="Woody"/><atributo nombre="FechaHoraUltimaConexion" valor="0000-00-00 00:00:00"/><atributo nombre="numFallos" valor="0"/></campo>
+</tabla>
+<tabla nombre="visitas">
+<campo>
+<atributo nombre="IdCita" valor="1"/><atributo nombre="IdPaciente" valor="1"/><atributo nombre="Fecha_hora" valor="2001-01-10 00:00:00"/><atributo nombre="Notas" valor="Notas 1"/><atributo nombre="Estado" valor="Estado 1"/></campo>
+<campo>
+<atributo nombre="IdCita" valor="2"/><atributo nombre="IdPaciente" valor="2"/><atributo nombre="Fecha_hora" valor="2002-02-10 00:00:00"/><atributo nombre="Notas" valor="Notas 2"/><atributo nombre="Estado" valor="Estado 2"/></campo>
+<campo>
+<atributo nombre="IdCita" valor="3"/><atributo nombre="IdPaciente" valor="3"/><atributo nombre="Fecha_hora" valor="2003-03-10 00:00:00"/><atributo nombre="Notas" valor="Notas 3"/><atributo nombre="Estado" valor="Estado 3"/></campo>
+<campo>
+<atributo nombre="IdCita" valor="4"/><atributo nombre="IdPaciente" valor="4"/><atributo nombre="Fecha_hora" valor="2004-04-10 00:00:00"/><atributo nombre="Notas" valor="Notas 4"/><atributo nombre="Estado" valor="Estado 4"/></campo>
+<campo>
+<atributo nombre="IdCita" valor="5"/><atributo nombre="IdPaciente" valor="5"/><atributo nombre="Fecha_hora" valor="2005-05-10 00:00:00"/><atributo nombre="Notas" valor="Notas 5"/><atributo nombre="Estado" valor="Estado 5"/></campo>
+<campo>
+<atributo nombre="IdCita" valor="6"/><atributo nombre="IdPaciente" valor="6"/><atributo nombre="Fecha_hora" valor="2006-06-10 00:00:00"/><atributo nombre="Notas" valor="Notas 6"/><atributo nombre="Estado" valor="Estado 6"/></campo>
+<campo>
+<atributo nombre="IdCita" valor="7"/><atributo nombre="IdPaciente" valor="7"/><atributo nombre="Fecha_hora" valor="2007-07-10 00:00:00"/><atributo nombre="Notas" valor="Notas 7"/><atributo nombre="Estado" valor="Estado 7"/></campo>
+<campo>
+<atributo nombre="IdCita" valor="8"/><atributo nombre="IdPaciente" valor="8"/><atributo nombre="Fecha_hora" valor="2008-08-10 00:00:00"/><atributo nombre="Notas" valor="Notas 8"/><atributo nombre="Estado" valor="Estado 8"/></campo>
+<campo>
+<atributo nombre="IdCita" valor="9"/><atributo nombre="IdPaciente" valor="9"/><atributo nombre="Fecha_hora" valor="2009-09-10 00:00:00"/><atributo nombre="Notas" valor="Notas 9"/><atributo nombre="Estado" valor="Estado 9"/></campo>
+<campo>
+<atributo nombre="IdCita" valor="10"/><atributo nombre="IdPaciente" valor="10"/><atributo nombre="Fecha_hora" valor="2010-10-10 00:00:00"/><atributo nombre="Notas" valor="Notas 10"/><atributo nombre="Estado" valor="Estado 10"/></campo>
+</tabla>
+</schema>
