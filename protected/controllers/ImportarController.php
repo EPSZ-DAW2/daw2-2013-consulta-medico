@@ -2,16 +2,16 @@
 class ImportarController extends Controller
 {
 	public function actionIndex(){
-		$model=new ImportarForm;
+		$modelo=new ImportarForm;
 		if(isset($_POST['ImportarForm'])){
-			$model->attributes=$_POST['ImportarForm'];
+			$modelo->attributes=$_POST['ImportarForm'];
 			
 			//Recogemos la instancia del archivo subido
-			$model->archivo = CUploadedFile::getInstance($model,'archivo');
+			$modelo->archivo = CUploadedFile::getInstance($modelo,'archivo');
 			
-			$opcion=$model->opcion;
+			$opcion=$modelo->opcion;
 			
-			if ($model->validate()){
+			if ($modelo->validate()){
 				//Comprobamos si estamos en la primera o en la segunda pantalla
 				if($opcion!=null){
 					//Si el usuario elige reestructurar la base de datos
@@ -20,18 +20,18 @@ class ImportarController extends Controller
 						$this->redirect(Yii::app()->baseUrl);
 					}else{
 						//Activamos el escenario de la segunda pantalla
-						$model->scenario = 'withFile';
+						$modelo->scenario = 'conArchivo';
 					}
 				}else{
 					//Guardamos en variables la ruta del archivo y la extensión
-					$ruta='C:/xampp/htdocs/svn/temporales/'.strtolower($model->archivo);
-					$extension = end(explode(".", strtolower($model->archivo))); 
+					$ruta='C:/xampp/htdocs/svn/temporales/'.strtolower($modelo->archivo);
+					$extension = end(explode(".", strtolower($modelo->archivo))); 
 					
 					//Subimos el archivo al servidor
-					$model->archivo->saveAs($ruta);
+					$modelo->archivo->saveAs($ruta);
 					
 					//Importamos el archivo eligiendo si es xml o sql
-					if($extension=='xml') CopiaDeSeguridad::importarXML($ruta,$model->foraneas);
+					if($extension=='xml') CopiaDeSeguridad::importarXML($ruta,$modelo->foraneas);
 					elseif($extension=='sql') CopiaDeSeguridad::importarSQL($ruta);
 
 					//Borramos el archivo
@@ -40,7 +40,7 @@ class ImportarController extends Controller
 				}
 			}
 		}
-		$this->render('index',array('model'=>$model));
+		$this->render('index',array('modelo'=>$modelo));
 	}
 }
 ?>
