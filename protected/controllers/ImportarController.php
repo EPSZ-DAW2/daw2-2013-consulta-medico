@@ -9,11 +9,13 @@ class ImportarController extends Controller
 			//Recogemos la instancia del archivo subido
 			$model->archivo = CUploadedFile::getInstance($model,'archivo');
 			
+			$opcion=$model->opcion;
+			
 			if ($model->validate()){
 				//Comprobamos si estamos en la primera o en la segunda pantalla
-				if($model->opcion!=null){
+				if($opcion!=null){
 					//Si el usuario elige reestructurar la base de datos
-					if(!$opcion){
+					if($opcion){
 						CopiaDeSeguridad::importarSQL('C:/xampp/htdocs/svn/framework/db/schema/estructuraTablas.sql');
 						$this->redirect(Yii::app()->baseUrl);
 					}else{

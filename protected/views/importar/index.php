@@ -5,18 +5,18 @@ if ($model->scenario != 'withFile'){
 	<div class="yiiForm">
 		<?php echo CHtml::beginForm(); ?>
 		
-		<h5>Selecciona esta opción para recargar la estructura de la base de datos (¡borrará todos los datos almacenados!)</h5>
-		
-		<!--Botón de radio para reestructurar la base de datos-->
-		<div class="simple">
-			<?php echo CHtml::activeRadioButton($model,'opcion',array('value'=>0)) . 'Estructura';?>
-		</div>
-		
-		</br><h5>Selecciona esta opción para importar datos previamente extraídos desde el menú "Exportar"</h5>
+		<h5>Selecciona esta opción para importar datos previamente extraídos desde el menú "Exportar"</h5>
 		
 		<!--Botón de radio para importar datos-->
 		<div class="simple">
-			<?php echo CHtml::activeRadioButton($model,'opcion',array('value'=>1)) . 'Datos'; ?>
+			<?php echo CHtml::activeRadioButton($model,'opcion',array('value'=>0)) . 'Datos'; ?>
+		</div>
+		
+		</br><h5>Selecciona esta opción para recargar la estructura de la base de datos (¡borrará todos los datos almacenados!)</h5>
+		
+		<!--Botón de radio para reestructurar la base de datos-->
+		<div class="simple">
+			<?php echo CHtml::activeRadioButton($model,'opcion',array('value'=>1)) . 'Estructura';?>
 		</div></br>
 		
 		<div class="action">

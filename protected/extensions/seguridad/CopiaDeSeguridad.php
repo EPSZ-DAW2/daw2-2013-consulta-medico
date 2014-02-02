@@ -49,7 +49,7 @@ class CopiaDeSeguridad{
 					$mysql.="TRUNCATE TABLE `$tableName`;\n\r";
 					
 					//Orden que insertará los valores exportados
-					$mysql. = "INSERT INTO `$tableName` (`$items`) VALUES" . rtrim($values, ",") . ";\n\r"; 
+					$mysql.= "INSERT INTO `$tableName` (`$items`) VALUES" . rtrim($values, ",") . ";\n\r"; 
 				} 
 			}
 			$tablaActual++;
