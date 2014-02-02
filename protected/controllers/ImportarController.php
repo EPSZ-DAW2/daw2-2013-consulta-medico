@@ -20,6 +20,8 @@ class ImportarController extends Controller
 				}else{
 					$model->archivo->saveAs('C:/xampp/htdocs/svn/temporales/'.strtolower($model->archivo));
 					CopiaDeSeguridad::importarXML('C:/xampp/htdocs/svn/temporales/'.strtolower($model->archivo));
+					$borrado = unlink($file);
+					while(!$borrado) unlink('C:/xampp/htdocs/svn/temporales/'.strtolower($model->archivo));
 				}
 			}
 		}
