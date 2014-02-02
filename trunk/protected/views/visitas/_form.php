@@ -24,12 +24,6 @@
 		<?php echo $form->textField($model,'IdPaciente'); ?>
 		<?php echo $form->error($model,'IdPaciente'); ?>
 	</div>
-	
-	<div class="row">
-		<?php echo $form->labelEx($model,'Nombre'); ?>
-		<?php echo $form->textField($model,'paciente.Nombre'); ?>
-		<?php echo $form->error($model,'Nombre'); ?>
-	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Fecha_hora'); ?>
@@ -39,7 +33,31 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Notas'); ?>
-		<?php echo $form->textField($model,'Notas',array('size'=>60,'maxlength'=>150)); ?>
+		<?php 
+		
+			if ($model->Notas!='')
+			{
+				$value=$model->Notas->nombre_estado;
+			}
+			else {
+				$value='';
+			}
+			echo $form->hiddenField($model, 'Notas');
+			$this->widget('zii.widgets.jui.CJuiAutoComplete', array(
+			'name'=>'Notas',
+			'model'=>$model,
+			'value'=>$value,
+			'sourceUrl'=>$this->createUrl('visitas/ListarEstados'),
+			'options'=>array(
+			'minLength'=>'2',
+			'showAnim'=>'fold',
+			'select' => 'js:function(event, ui)
+			{ jQuery("#Visitas").val(ui.item["Notas"]); }',
+			'search'=> 'js:function(event, ui)
+			{ jQuery("#Visitas").val(0); }'
+			),
+			));
+		?>
 		<?php echo $form->error($model,'Notas'); ?>
 	</div>
 
@@ -52,7 +70,30 @@
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Crear' : 'Guardar'); ?>
 	</div>
-
 <?php $this->endWidget(); ?>
+
+<?php
+
+ $this->widget('CAutoComplete',
+			          array(
+                                        'name'=>'Notas',
+                                        //'value'=>'Notas',									
+                                        'multiple'=>true,
+                                        'url'=>array('visitas/autoCompletarAlgo'),
+                                        'max'=>10, //specifies the max number of items to display
+                                        'minChars'=>2,
+                                        'delay'=>500, //number of milliseconds before lookup occurs
+                                        'matchCase'=>false, //match case when performing a lookup?
+                                        'mustMatch'=>true,
+                                        'htmlOptions'=>array(
+                                            'size'=>'60',
+                                            //'onkeydown' => 'return deshabilitarEnter(event)'
+                                            )
+			          ));
+
+?>
+
+
+
 
 </div><!-- form -->
