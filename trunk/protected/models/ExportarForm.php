@@ -14,11 +14,13 @@ class ExportarForm extends CFormModel
 	public $tiposdiagnosticos=true;
 	public $usuarios=true;
 	public $visitas=true;
+	public $opcion;
 	
 	public function rules()
 	{
 		return array(
 			array('aseguradoras, facturas, pacientes, perfiles, perfilesusuarios, pruebas, tiposdiagnosticos, usuarios, visitas', 'boolean'),
+			array('opcion', 'safe'),
 			
 		);	
 	}
