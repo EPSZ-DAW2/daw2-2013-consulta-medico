@@ -1,10 +1,11 @@
 <?php
 //Extensión para importar y exportar la base de datos, tanto en SQL como en XML
-class CopiaDeSeguridad
-{	
+class CopiaDeSeguridad{	
+
+	/* --- EXPORTACIÓN --- */
+
 	//Función para exportar en SQL
-	public static function exportarSQL($tablas)
-    {
+	public static function exportarSQL($tablas){
 		//Instanciamos la base de datos 
         $pdo = Yii::app()->db->pdoInstance;
 		
@@ -18,11 +19,9 @@ class CopiaDeSeguridad
 		$mysql="";
 
 		//Vamos recorriendo cada tabla
-        foreach ($statments as $value) 
-        {
+        foreach ($statments as $value){
 			//La añadiremos al archivo sólo si el usuario la marcó
-			if($tablas[$tablaActual])
-			{
+			if($tablas[$tablaActual]){
 				//Guardamos el nombre de la tabla actual
 				$tableName = $value[0];
 
@@ -33,8 +32,7 @@ class CopiaDeSeguridad
 				$items = "";
 				
 				//Recorremos cada una de las filas
-				while ($itemQuery = $itemsQuery->fetch(PDO::FETCH_ASSOC)) 
-				{
+				while ($itemQuery = $itemsQuery->fetch(PDO::FETCH_ASSOC)){
 					$itemNames = array_keys($itemQuery);
 					$itemNames = array_map("addslashes", $itemNames);
 					$items = join('`,`', $itemNames);
@@ -46,8 +44,7 @@ class CopiaDeSeguridad
 				} 
 				
 				//Si la tabla tiene filas
-				if ($values != "") 
-				{
+				if ($values != ""){
 					//En el caso de que vayamos a introducir valores, eliminamos antes los actuales que tenga la tabla
 					$mysql.="TRUNCATE TABLE `$tableName`;\n\r";
 					
@@ -71,8 +68,7 @@ class CopiaDeSeguridad
     }
    
     //Función para exportar en XML
-    public static function exportarXML($tablas)
-    {
+    public static function exportarXML($tablas){
 		//Instanciamos la base de datos 
 		$bbDD = Yii::app()->db->pdoInstance;
 		
@@ -86,8 +82,7 @@ class CopiaDeSeguridad
 		$salida = "<?xml version=\"1.0\" ?>\n<schema>\n"; 
 
 		//Vamos recorriendo cada tabla
-		foreach ($todasTablas as $tabla) 
-        {
+		foreach ($todasTablas as $tabla) {
 			//La añadiremos al archivo sólo si el usuario la marcó
 			if($tablas[$tablaActual]){
 				//Guardamos el nombre de la tabla actual
@@ -104,8 +99,7 @@ class CopiaDeSeguridad
 				$contador=false;
 				
 				//Recorremos cada una de las filas
-				while ($itemQuery = $resultadoCampos->fetch(PDO::FETCH_ASSOC)) 
-				{
+				while ($itemQuery = $resultadoCampos->fetch(PDO::FETCH_ASSOC)) {
 					$itemNames = array_keys($itemQuery);
 					$itemNames = array_map("addslashes", $itemNames);
 					
@@ -160,10 +154,14 @@ class CopiaDeSeguridad
 		$peticion = Yii::app()->getRequest();
 		$peticion->sendFile($nombreFichero, $contenido);
     }
-
 	
-    public static function importarXML($file,$comprobarCF)
-    {
+	/* --- EXPORTACIÓN --- */
+	
+	/* --- IMPORTACIÓN --- */
+
+	//Función para importar en XML
+    public static function importarXML($file,$comprobarCF){
+		//Función que comprobará si al introducir un registro, las claves foráneas que posea existen en la tabla
 		function comprobarClavesForaneas($tabla, $nombre, $valor){
 			switch($tabla){
 				case 'facturas':
@@ -209,39 +207,58 @@ class CopiaDeSeguridad
 					return true;
 			}
 		}
+		
+		//Instanciamos la base de datos 
 		$bbDD = Yii::app()->db->pdoInstance;
+		
+		//Desactivamos las claves foráneas para evitar un error de este tipo
 		$bbDD->query("SET FOREIGN_KEY_CHECKS=0;");
 
 		if (file_exists($file)) 
 		{
+			//Cargamos el archivo xml
 			$xml = simplexml_load_file($file);
+			
+			//Vamos recorriendo las tablas
 			foreach($xml->tabla as $tabla){
+				//Buscamos el nombre de la tabla y eliminamos todos los registros que tenga
 				$atributosTabla=$tabla->attributes();
 				$bbDD->query("TRUNCATE TABLE `".$atributosTabla->nombre."`;");
 
+				//Recorremos los campos que tenga la tabla
 				foreach($tabla->campo as $campo){
-					$guardarCampo=1;
+					//Variable para comprobar si hay que guardar el campo
+					$guardarCampo=true;
+					
 					$nombres="";
 					$valores="";
+					
+					//Vamos recorriendo los atributos del campo
 					foreach($campo->atributo as $atributo){
 						$atributosAtributo=$atributo->attributes();
+						
+						//Si el usuario ha elegido que se comprueben las claves foráneas, las comprobamos
 						if($comprobarCF){
 							$valido = comprobarClavesForaneas($atributosTabla->nombre, $atributosAtributo->nombre, $atributosAtributo->valor);
 							if(!$valido){
-								$guardarCampo=0;
+								$guardarCampo=false;
 								break;
 							}
 						}
+						
+						//Si todo está correcto, concatenamos el nombre y el valor del atributo en sus respectivas variables
 						$nombres.="`".$atributosAtributo->nombre."`,";
 						$valores.="'".$atributosAtributo->valor."',";
 					}
+					
+					//Si es seguro guardar el campo, lo insertamos en la base de datos
 					if($guardarCampo) $bbDD->query("INSERT INTO `".$atributosTabla->nombre."` (".substr($nombres,0,-1).") VALUES (".substr($valores,0,-1).");");
 				}
 			}
 		} 
     }
 	
-	//Función para exportar en SQL
+	//Función para importar en SQL
 	public static function importarSQL($archivo){
 		//Instanciamos la base de datos 
 		$bbDD = Yii::app()->db->pdoInstance;
@@ -270,4 +287,7 @@ class CopiaDeSeguridad
 			exit;
 		}
 	}
+	
+	/* --- IMPORTACIÓN --- */
 }
+?>
