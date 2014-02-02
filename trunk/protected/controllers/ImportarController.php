@@ -19,8 +19,12 @@ class ImportarController extends Controller
 					}
 				}else{
 					$ruta='C:/xampp/htdocs/svn/temporales/'.strtolower($model->archivo);
+					$extension = end(explode(".", strtolower($model->archivo))); 
 					$model->archivo->saveAs($ruta);
-					CopiaDeSeguridad::importarXML($ruta,$model->foraneas);
+					
+					if($extension=='xml') CopiaDeSeguridad::importarXML($ruta,$model->foraneas);
+					elseif($extension=='sql') CopiaDeSeguridad::importarSQL($ruta);
+
 					$borrado = unlink($ruta);
 					while(!$borrado) unlink($ruta);
 				}
