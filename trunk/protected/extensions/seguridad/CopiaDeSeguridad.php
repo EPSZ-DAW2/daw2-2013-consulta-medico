@@ -67,7 +67,7 @@ class CopiaDeSeguridad{
 			
 			return true;
 		}catch(PDOException $excepcion){
-			Yii::app()->user->setFlash('error',$excepcion->getMessage());
+			Yii::app()->user->setFlash('error',"Error: ".$excepcion->getMessage());
 			return false;
 		}
     }
@@ -156,7 +156,7 @@ class CopiaDeSeguridad{
 			
 			return true;			
 		}catch(PDOException $excepcion){
-			Yii::app()->user->setFlash('error',$excepcion->getMessage());
+			Yii::app()->user->setFlash('error',"Error: ".$excepcion->getMessage());
 			return false;
 		}
     }
@@ -266,7 +266,7 @@ class CopiaDeSeguridad{
 			
 			return true;
 		}catch(PDOException $excepcion){
-			Yii::app()->user->setFlash('error',$excepcion->getMessage());
+			Yii::app()->user->setFlash('error',"Error: ".$excepcion->getMessage());
 			return false;
 		}
     }
@@ -299,7 +299,7 @@ class CopiaDeSeguridad{
 			
 			return true;
 		}catch(PDOException $excepcion){
-			Yii::app()->user->setFlash('error',$excepcion->getMessage());
+			Yii::app()->user->setFlash('error',"Error: ".$excepcion->getMessage());
 			return false;
 		}
 	}
