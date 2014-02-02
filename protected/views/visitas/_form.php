@@ -39,7 +39,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Estado'); ?>
-		<?php echo $form->textField($model,'Estado',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->dropDownList($model,'Estado',array('1'=>'Pendiente','2'=>'Realizada'), array('options' => array('1'=>array('selected'=>true))));?>
 		<?php echo $form->error($model,'Estado'); ?>
 	</div>
 
