@@ -20,7 +20,7 @@ class ImportarController extends Controller
 				}else{
 					$ruta='C:/xampp/htdocs/svn/temporales/'.strtolower($model->archivo);
 					$model->archivo->saveAs($ruta);
-					CopiaDeSeguridad::importarXML($ruta);
+					CopiaDeSeguridad::importarXML($ruta,$model->foraneas);
 					$borrado = unlink($ruta);
 					while(!$borrado) unlink($ruta);
 				}
