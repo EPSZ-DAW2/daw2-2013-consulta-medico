@@ -15,7 +15,7 @@ class ImportarForm extends CFormModel
 	{
 		return array(
 			//Los archivos sólo podrán ser xml y sql y aparecer cuando el escenario sea con archivo
-			array('archivo','file','types'=>'xml,sql','on' => 'withFile'),
+			array('archivo','file','types'=>'xml,sql','on' => 'conArchivo'),
 			
 			array('foraneas', 'boolean'),
 			array('opcion', 'safe'),
