@@ -1,4 +1,9 @@
-<?php
+<?php if(Yii::app()->user->hasFlash('error')):?>
+    <div class="info">
+        <h4><?php echo Yii::app()->user->getFlash('error'); ?></h4>
+    </div>
+<?php endif; 
+
 //Si estamos en la primera pantalla
 if ($modelo->scenario != 'conArchivo'){
 ?>
@@ -7,25 +12,29 @@ if ($modelo->scenario != 'conArchivo'){
 		
 		<h5>Selecciona esta opción para importar datos previamente extraídos desde el menú "Exportar"</h5>
 		
-		<!--Botón de radio para importar datos-->
-		<div class="simple">
-			<?php echo CHtml::activeRadioButton($modelo,'opcion',array('value'=>0)) . 'Datos'; ?>
+		<!--Botón para importar datos-->
+		<div class="action">
+			<?php echo CHtml::submitButton('Importar Datos',array('name' => 'datos')); ?>
 		</div>
 		
 		</br><h5>Selecciona esta opción para recargar la estructura de la base de datos (¡borrará todos los datos almacenados!)</h5>
 		
-		<!--Botón de radio para reestructurar la base de datos-->
-		<div class="simple">
-			<?php echo CHtml::activeRadioButton($modelo,'opcion',array('value'=>1)) . 'Estructura';?>
-		</div></br>
-		
+		<!--Botón para reestructurar la base de datos-->
 		<div class="action">
-			<?php echo CHtml::submitButton('Aceptar'); ?>
+			<?php echo CHtml::submitButton('Recargar Estructura',array('name' => 'estructura', 'confirm' => "¿Está seguro que desea recargar la estructura de la base de datos? Recuerde que esta acción borrará TODOS los datos almacenados")); ?>
 		</div>
 		
 		<?php echo CHtml::endForm(); ?>
 	</div>
-<?php }else{
+	
+	<?php if(Yii::app()->user->hasFlash('informacion')):?>
+    </br><div class="info">
+        <?php echo Yii::app()->user->getFlash('informacion'); ?>
+    </div>
+	<?php endif; 
+	
+	
+}else{
 	//Inicio el widget
 	$form=$this->beginWidget('CActiveForm', array('id'=>'importar-form','enableAjaxValidation'=>false,'htmlOptions' => array('enctype'=>'multipart/form-data'),)); ?>
 
@@ -47,7 +56,7 @@ if ($modelo->scenario != 'conArchivo'){
 		</div></br>
 		
 		<div class="action">
-		<?php echo CHtml::submitButton('Importar'); ?>
+		<?php echo CHtml::submitButton('Importar',array('name' => 'importarDatos', 'confirm' => "¿Está seguro que desea sobreescribir los datos almacenados")); ?>
 		</div>
 		
 		<?php echo CHtml::endForm(); ?>
