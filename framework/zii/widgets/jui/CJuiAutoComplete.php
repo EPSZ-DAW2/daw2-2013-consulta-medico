@@ -70,6 +70,7 @@ class CJuiAutoComplete extends CJuiInputWidget
 	 * Run this widget.
 	 * This method registers necessary javascript and renders the needed HTML code.
 	 */
+	 
 	public function run()
 	{
 		list($name,$id)=$this->resolveNameID();
