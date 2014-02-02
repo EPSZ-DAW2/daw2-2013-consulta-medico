@@ -11,6 +11,7 @@ if ($model->scenario == 'withFile'){
 
 	<div class="yiiForm">
 		<?php echo CHtml::beginForm();?>
+		El archivo de importación puede ser sql o xml.
 		<div class="simple">
 		<?php echo $form->fileField($model, 'archivo');
 			  echo $form->error($model, 'archivo'); ?>

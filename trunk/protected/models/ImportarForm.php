@@ -17,7 +17,7 @@ class ImportarForm extends CFormModel
 	public function attributeLabels()
 	{
 		return array(
-			'foraneas'=>'Comprobar claves foráneas',
+			'foraneas'=>'Comprobar claves foráneas (sólo con XML)',
 		);
 	}
 }
