@@ -38,10 +38,11 @@ class Facturas extends CActiveRecord
 			array('Serie, Numero, IdPaciente, Importe', 'numerical', 'integerOnly'=>true),
 			array('Concepto', 'length', 'max'=>50),
 			array('Notas', 'length', 'max'=>150),
+			array('Nombre', 'length', 'max'=>150),//
 			array('Fecha, FechaCobro', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('IdFactura, Serie, Numero, Fecha, IdPaciente, Concepto, Importe, FechaCobro, Notas', 'safe', 'on'=>'search'),
+			array('IdFactura, Serie, Numero, Fecha, IdPaciente, Nombre, Concepto, Importe, FechaCobro, Notas', 'safe', 'on'=>'search'),//
 		);
 	}
 
@@ -68,6 +69,7 @@ class Facturas extends CActiveRecord
 			'Numero' => 'Numero',
 			'Fecha' => 'Fecha',
 			'IdPaciente' => 'Id Paciente',
+			'Nombre' => 'Nombre Paciente',
 			'Concepto' => 'Concepto',
 			'Importe' => 'Importe',
 			'FechaCobro' => 'Fecha Cobro',
@@ -92,11 +94,16 @@ class Facturas extends CActiveRecord
 		// @todo Please modify the following code to remove attributes that should not be searched.
 
 		$criteria=new CDbCriteria;
+		
+		$sql="SELECT username, email FROM users";
+		$connection=new CDbConnection("consultamedico");
+		$dataReader=$connection->createCommand($sql)->query();
 
 		$criteria->compare('IdFactura',$this->IdFactura);
 		$criteria->compare('Serie',$this->Serie);
 		$criteria->compare('Numero',$this->Numero);
 		$criteria->compare('Fecha',$this->Fecha,true);
+		$criteria->compare('IdPaciente',$this->IdPaciente);
 		$criteria->compare('IdPaciente',$this->IdPaciente);
 		$criteria->compare('Concepto',$this->Concepto,true);
 		$criteria->compare('Importe',$this->Importe);
