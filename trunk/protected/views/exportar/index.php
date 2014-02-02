@@ -1,21 +1,9 @@
-<?php
-/* @var $this ImportarController */
-
-$this->breadcrumbs=array(
-	'Exportar',
-);
-
-if(Yii::app()->user->hasFlash('error')):?>
-    <div class="error">
-        <?php echo Yii::app()->user->getFlash('error'); ?>
-    </div>
-<?php endif; ?>
 <div class="yiiForm">
 	<?php echo CHtml::beginForm(); ?>
-	<?php echo CHtml::errorSummary($exportar); ?>
 	
 	<h5>Elija las tablas que desea exportar:</h5>
-	 
+	
+	<!--Botones de check de las tablas-->
 	<div class="simple">
 	<?php echo CHtml::activeCheckBox($exportar,'aseguradoras'); ?>
 	Aseguradoras<br/>
@@ -60,21 +48,18 @@ if(Yii::app()->user->hasFlash('error')):?>
 	<?php echo CHtml::activeCheckBox($exportar,'visitas'); ?>
 	Visitas<br/>
 	</div>
-	</br>
-	<h5>Elija el formato en el que desea exportar:</h5>
+	
+	</br><h5>Elija el formato en el que desea exportar:</h5>
+	
+	<!--Botones de radio para el tipo de archivo-->
 	<div class="simple">
 			<?php echo  CHtml::activeRadioButton($exportar,'opcion',array('value'=>0)) . 'XML';
 				  echo  CHtml::activeRadioButton($exportar,'opcion',array('value'=>1)) . 'SQL'; ?>
-	</div>
-	</br>
+	</div></br>
+	
 	<div class="action">
 	<?php echo CHtml::submitButton('Exportar'); ?>
 	</div>
 	 
 	<?php echo CHtml::endForm(); ?>
-</div><!-- yiiForm -->
-
-
-<?	
-	//DLDatabaseHelper::export(); 	
-?>
+</div>
