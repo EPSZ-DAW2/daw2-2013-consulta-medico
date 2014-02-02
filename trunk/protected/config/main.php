@@ -41,13 +41,13 @@ return array(
 		),
 		
 		//Authmanager para RBAC--------------------------------------
-		'authManager'=>array(
+		/*'authManager'=>array(
 				   'class'=>'CDbAuthManager',
 				   'connectionID'=>'db',
 		  //      ‘assignmentTable'=>’tbl_authassignment’,
 		  //      ‘itemTable’=>’tbl_authitem’,
 		  //      ‘itemChildTable’=>’tbl_authitemchild’,
-		),
+		),*/
 		//-----------------------------------------------------------
 		
 		'Smtpmail'=>array(
