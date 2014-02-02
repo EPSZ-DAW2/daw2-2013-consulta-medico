@@ -43,18 +43,18 @@
 			$value='';
 		}
 		echo $form->hiddenField($model, 'Notas');
-		$this->widget('zii.widgets.jui.CJuiAutoComplete', array(
+		$this->widget('CAutoComplete', array(
 		'name'=>'notas',
 		'model'=>$model,
 		'value'=>$value,
-		'sourceUrl'=>$this->createUrl('ListarEstados'),
+		'url'=>$this->createUrl('ListarEstados'),
 		'options'=>array(
 		'minLength'=>'2',
 		'showAnim'=>'fold',
 		'select' => 'js:function(event, ui)
-		{ jQuery("#Contrato_estado").val(ui.item["id"]); }',
+		{ jQuery("#Visitas").val(ui.item["Notas"]); }',
 		'search'=> 'js:function(event, ui)
-		{ jQuery("#Contrato_estado").val(0); }'
+		{ jQuery("#Visitas").val(0); }'
 		),
 		));
  ?>
@@ -71,29 +71,5 @@
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Crear' : 'Guardar'); ?>
 	</div>
 <?php $this->endWidget(); ?>
-
-<?php
-
- $this->widget('CAutoComplete',
-			          array(
-                                        'name'=>'Notas',
-                                        //'value'=>'Notas',									
-                                        'multiple'=>true,
-                                        'url'=>array('visitas/autoCompletarAlgo'),
-                                        'max'=>10, //specifies the max number of items to display
-                                        'minChars'=>2,
-                                        'delay'=>500, //number of milliseconds before lookup occurs
-                                        'matchCase'=>false, //match case when performing a lookup?
-                                        'mustMatch'=>true,
-                                        'htmlOptions'=>array(
-                                            'size'=>'60',
-                                            //'onkeydown' => 'return deshabilitarEnter(event)'
-                                            )
-			          ));
-
-?>
-
-
-
 
 </div><!-- form -->
