@@ -28,7 +28,7 @@ class VisitasController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view','mail'),
+				'actions'=>array('index','view','mail','ListarEstados'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -190,4 +190,23 @@ class VisitasController extends Controller
 			Yii::app()->end();
 		}
 	}
+	
+	public function actionListarEstados($term) 
+	{
+		$criteria = new CDbCriteria;
+		$criteria->condition = "LOWER(nombre_estado) like LOWER(:term)";
+		$criteria->params = array(':term'=> '%'.$_GET['term'].'%');
+		$criteria->limit = 30;
+		$data = Estado::model()->findAll($criteria);
+		$arr = array();
+		foreach ($data as $item) {
+		$arr[] = array(
+		'id' => $item->id,
+		'value' => $item->nombre_estado,
+		'label' => $item->nombre_estado,
+		);
+		}
+		echo CJSON::encode($arr);
+	}
+	
 }
