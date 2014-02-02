@@ -13,7 +13,7 @@ class ExportarController extends Controller
 				//Comprobamos si hay que exportar en SQL o XML
 				if($modelo->opcion) CopiaDeSeguridad::exportarSQL($tablas);
 				else CopiaDeSeguridad::exportarXML($tablas);
-			} 
+			}else Yii::app()->user->setFlash('error','Debes elegir al menos una tabla');
 		}
 		$this->render('index',array('exportar'=>$modelo));
 	}
