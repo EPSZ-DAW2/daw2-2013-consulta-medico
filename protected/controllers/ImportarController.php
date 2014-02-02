@@ -18,10 +18,11 @@ class ImportarController extends Controller
 						$model->scenario = 'withFile';
 					}
 				}else{
-					$model->archivo->saveAs('C:/xampp/htdocs/svn/temporales/'.strtolower($model->archivo));
-					CopiaDeSeguridad::importarXML('C:/xampp/htdocs/svn/temporales/'.strtolower($model->archivo));
-					$borrado = unlink($file);
-					while(!$borrado) unlink('C:/xampp/htdocs/svn/temporales/'.strtolower($model->archivo));
+					$ruta='C:/xampp/htdocs/svn/temporales/'.strtolower($model->archivo);
+					$model->archivo->saveAs($ruta);
+					CopiaDeSeguridad::importarXML($ruta);
+					$borrado = unlink($ruta);
+					while(!$borrado) unlink($ruta);
 				}
 			}
 		}
