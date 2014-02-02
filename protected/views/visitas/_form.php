@@ -27,7 +27,7 @@
 	
 	<div class="row">
 		<?php echo $form->labelEx($model,'Nombre'); ?>
-		<?php echo $form->textField($model,'Nombre'); ?>
+		<?php echo $form->textField($model,'paciente.Nombre'); ?>
 		<?php echo $form->error($model,'Nombre'); ?>
 	</div>
 
