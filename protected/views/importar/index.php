@@ -1,6 +1,6 @@
 <?php
 //Si estamos en la primera pantalla
-if ($model->scenario != 'withFile'){
+if ($model->scenario != 'conArchivo'){
 ?>
 	<div class="yiiForm">
 		<?php echo CHtml::beginForm(); ?>
