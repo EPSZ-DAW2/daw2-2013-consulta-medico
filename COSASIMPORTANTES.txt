@@ -1,2 +1,0 @@
-He llenado la tabla perfiles a mano con los 5 disponibles que hay pero al importar la BBDD y ponerla en el proyecto se
-ha guardado con el nombre consultamedico en vez de consulta_medico y no se si podrá dar problemas
