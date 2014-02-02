@@ -24,6 +24,12 @@
 		<?php echo $form->textField($model,'IdPaciente'); ?>
 		<?php echo $form->error($model,'IdPaciente'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'Nombre'); ?>
+		<?php echo $form->textField($model,'Nombre'); ?>
+		<?php echo $form->error($model,'Nombre'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Fecha_hora'); ?>
