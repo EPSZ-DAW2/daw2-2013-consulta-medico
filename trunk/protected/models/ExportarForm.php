@@ -3,8 +3,7 @@
 
 class ExportarForm extends CFormModel
 {
-	
-	
+	//Botónes de check de cada una de las tablas
 	public $aseguradoras=true;
 	public $facturas=true;
 	public $pacientes=true;
@@ -14,8 +13,11 @@ class ExportarForm extends CFormModel
 	public $tiposdiagnosticos=true;
 	public $usuarios=true;
 	public $visitas=true;
+	
+	//Botón de radio para escoger SQL o XML
 	public $opcion;
 	
+	//Reglas del modelo
 	public function rules()
 	{
 		return array(
@@ -24,12 +26,12 @@ class ExportarForm extends CFormModel
 			
 		);	
 	}
+	
+	//Función para validar los botones de check. Deberá estar activado al menos uno
 	public function validateTables()
 	{
 		if($this->aseguradoras || $this->facturas || $this->pacientes || $this->perfiles || $this->perfilesusuarios || $this->pruebas || $this->tiposdiagnosticos || $this->usuarios || $this->visitas)
-		{
 			return true;
-		}
 		else
 			return false;
 	}
