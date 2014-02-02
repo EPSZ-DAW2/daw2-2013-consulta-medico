@@ -66,9 +66,11 @@ class CopiaDeSeguridad{
 			$nombreArchivo = date('YmdHms') . ".sql";
 			$peticion = Yii::app()->getRequest();
 			$peticion->sendFile($nombreArchivo, $contenido);
+			
+			return true;
 		}catch(PDOException $excepcion){
-			echo $excepcion->getMessage();
-			exit;
+			Yii::app()->user->setFlash('error',$excepcion->getMessage());
+			return false;
 		}
     }
    
@@ -156,9 +158,10 @@ class CopiaDeSeguridad{
 			$peticion = Yii::app()->getRequest();
 			$peticion->sendFile($nombreFichero, $contenido);
 			
+			return true;			
 		}catch(PDOException $excepcion){
-			echo $excepcion->getMessage();
-			exit;
+			Yii::app()->user->setFlash('error',$excepcion->getMessage());
+			return false;
 		}
     }
 	
@@ -168,9 +171,9 @@ class CopiaDeSeguridad{
 
 	//Función para importar en XML
     public static function importarXML($archivo,$comprobarCF){
-		//Función que comprobará si al introducir un registro, las claves foráneas que posea existen en la tabla
-		function comprobarClavesForaneas($tabla, $nombre, $valor){
-			try{
+		try{
+			//Función que comprobará si al introducir un registro, las claves foráneas que posea existen en la tabla
+			function comprobarClavesForaneas($tabla, $nombre, $valor){
 				switch($tabla){
 					case 'facturas':
 						if($nombre=='idPaciente'){
@@ -214,13 +217,8 @@ class CopiaDeSeguridad{
 					default:
 						return true;
 				}
-			}catch(PDOException $excepcion){
-				echo $excepcion->getMessage();
-				exit;
 			}
-		}
 		
-		try{
 			//Instanciamos la base de datos 
 			$bbDD = Yii::app()->db->pdoInstance;
 			
@@ -269,9 +267,11 @@ class CopiaDeSeguridad{
 					}
 				}
 			} 
+			
+			return true;
 		}catch(PDOException $excepcion){
-			echo $excepcion->getMessage();
-			exit;
+			Yii::app()->user->setFlash('error',$excepcion->getMessage());
+			return false;
 		}
     }
 	
@@ -300,9 +300,11 @@ class CopiaDeSeguridad{
 					}
 				}
 			}
+			
+			return true;
 		}catch(PDOException $excepcion){
-			echo $excepcion->getMessage();
-			exit;
+			Yii::app()->user->setFlash('error',$excepcion->getMessage());
+			return false;
 		}
 	}
 	
