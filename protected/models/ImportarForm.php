@@ -4,12 +4,12 @@ class ImportarForm extends CFormModel
 {
 	public $opcion;
 	public $archivo;
-	public $foraneas;
+	public $foraneas=false;
 	public function rules()
 	{
 		return array(
 			array('archivo','file','types'=>'xml','on' => 'withFile'),
-			array('foraneas', 'boolean','on'=>'withFile'),
+			array('foraneas', 'boolean'),
 			array('opcion', 'safe'),
 		);
 	}
