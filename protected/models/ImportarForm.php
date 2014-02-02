@@ -1,9 +1,6 @@
 <?php
 class ImportarForm extends CFormModel
 {
-	//Botón de radio para escoger estructura o datos
-	public $opcion;
-	
 	//Examinador de archivo
 	public $archivo;
 	
@@ -16,9 +13,7 @@ class ImportarForm extends CFormModel
 		return array(
 			//Los archivos sólo podrán ser xml y sql y aparecer cuando el escenario sea con archivo
 			array('archivo','file','types'=>'xml,sql','on' => 'conArchivo'),
-			
 			array('foraneas', 'boolean'),
-			array('opcion', 'safe'),
 		);
 	}
 	
