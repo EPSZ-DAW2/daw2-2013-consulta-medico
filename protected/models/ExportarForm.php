@@ -28,7 +28,7 @@ class ExportarForm extends CFormModel
 	}
 	
 	//Función para validar los botones de check. Deberá estar activado al menos uno
-	public function validateTables()
+	public function validarTablas()
 	{
 		if($this->aseguradoras || $this->facturas || $this->pacientes || $this->perfiles || $this->perfilesusuarios || $this->pruebas || $this->tiposdiagnosticos || $this->usuarios || $this->visitas)
 			return true;
