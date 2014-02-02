@@ -1,6 +1,6 @@
 <?php
 //Si estamos en la primera pantalla
-if ($model->scenario != 'conArchivo'){
+if ($modelo->scenario != 'conArchivo'){
 ?>
 	<div class="yiiForm">
 		<?php echo CHtml::beginForm(); ?>
@@ -9,14 +9,14 @@ if ($model->scenario != 'conArchivo'){
 		
 		<!--Botón de radio para importar datos-->
 		<div class="simple">
-			<?php echo CHtml::activeRadioButton($model,'opcion',array('value'=>0)) . 'Datos'; ?>
+			<?php echo CHtml::activeRadioButton($modelo,'opcion',array('value'=>0)) . 'Datos'; ?>
 		</div>
 		
 		</br><h5>Selecciona esta opción para recargar la estructura de la base de datos (¡borrará todos los datos almacenados!)</h5>
 		
 		<!--Botón de radio para reestructurar la base de datos-->
 		<div class="simple">
-			<?php echo CHtml::activeRadioButton($model,'opcion',array('value'=>1)) . 'Estructura';?>
+			<?php echo CHtml::activeRadioButton($modelo,'opcion',array('value'=>1)) . 'Estructura';?>
 		</div></br>
 		
 		<div class="action">
@@ -36,14 +36,14 @@ if ($model->scenario != 'conArchivo'){
 		
 		<!--Diálogo para elegir el archivo-->
 		<div class="simple">
-		<?php echo $form->fileField($model, 'archivo');
-			  echo $form->error($model, 'archivo'); ?>
+		<?php echo $form->fileField($modelo, 'archivo');
+			  echo $form->error($modelo, 'archivo'); ?>
 	    </div></br>
 		
 		<!--Botón de check para comprobar las claves foráneas-->
 		<div class="simple">
-		<?php echo CHtml::activeCheckBox($model,'foraneas');
-			  echo $form->label($model,'foraneas'); ?>
+		<?php echo CHtml::activeCheckBox($modelo,'foraneas');
+			  echo $form->label($modelo,'foraneas'); ?>
 		</div></br>
 		
 		<div class="action">
