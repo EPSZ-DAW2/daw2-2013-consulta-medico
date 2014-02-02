@@ -60,10 +60,13 @@ if(Yii::app()->user->hasFlash('error')):?>
 	<?php echo CHtml::activeCheckBox($exportar,'visitas'); ?>
 	Visitas<br/>
 	</div>
+	</br>
+	<h5>Elija el formato en el que desea exportar:</h5>
 	<div class="simple">
 			<?php echo  CHtml::activeRadioButton($exportar,'opcion',array('value'=>0)) . 'XML';
 				  echo  CHtml::activeRadioButton($exportar,'opcion',array('value'=>1)) . 'SQL'; ?>
 	</div>
+	</br>
 	<div class="action">
 	<?php echo CHtml::submitButton('Exportar'); ?>
 	</div>
