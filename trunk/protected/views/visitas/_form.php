@@ -34,29 +34,22 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'Notas'); ?>
 		<?php 
-		if ($model->Notas!='')
-		{
-			$value=$model->Notas->nombre_estado;
-		}
-		else 
-		{
-			$value='';
-		}
-		echo $form->hiddenField($model, 'Notas');
-		$this->widget('CAutoComplete', array(
-		'name'=>'notas',
-		'model'=>$model,
-		'value'=>$value,
-		'url'=>$this->createUrl('ListarEstados'),
-		'options'=>array(
-		'minLength'=>'2',
-		'showAnim'=>'fold',
-		'select' => 'js:function(event, ui)
-		{ jQuery("#Visitas").val(ui.item["Notas"]); }',
-		'search'=> 'js:function(event, ui)
-		{ jQuery("#Visitas").val(0); }'
-		),
-		));
+		$this->widget('CAutoComplete',
+			          array(
+                                        'name'=>'nombre',
+                                        'value'=>$model->Notas,
+                                        'multiple'=>true,
+                                        'url'=>array('ficha/autoCompletarAlgo'),
+                                        'max'=>10, //specifies the max number of items to display
+                                        'minChars'=>2,
+                                        'delay'=>500, //number of milliseconds before lookup occurs
+                                        'matchCase'=>false, //match case when performing a lookup?
+                                        'mustMatch'=>true,
+                                        'htmlOptions'=>array(
+                                            'size'=>'30',
+                                            //'onkeydown' => 'return deshabilitarEnter(event)'
+                                            )
+			          ));
  ?>
 		<?php echo $form->error($model,'Notas'); ?>
 	</div>
