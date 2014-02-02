@@ -11,7 +11,7 @@ class ImportarController extends Controller
 				if($opcion!=null){
 					if(!$opcion)
 					{
-						CopiaDeSeguridad::importarSQL('C:\xampp\htdocs\svn\estructura.sql');
+						CopiaDeSeguridad::importarSQL('C:/xampp/htdocs/svn/framework/db/schema/estructuraTablas.sql');
 						$this->redirect(Yii::app()->baseUrl);
 					}else
 					{
