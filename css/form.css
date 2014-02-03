@@ -77,7 +77,7 @@ div.form .row
 	margin: 5px 0;
 }
 
-div.form .row img
+div.form .row .ui-datepicker-trigger
 {
 	position: absolute;
 }
