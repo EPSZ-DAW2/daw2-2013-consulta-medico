@@ -49,15 +49,15 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		'IdCita',
+		array('name'=>'IdCita', 'htmlOptions'=>array('width'=>'40')),
 //		'IdPaciente',
 		'paciente.Nombre',
 		array( 'name'=>'Fecha', 'value'=>'(strtotime($data->Fecha)==0 ? "" : date("d-m-Y H:i:s", strtotime($data->Fecha)))'),
 		'Notas',
-		'Estado',
+		array('name'=>'Estado', 'htmlOptions'=>array('width'=>'50')),
 			array(
 				'class' => 'CButtonColumn',
-				'template' => '{view}{update}{delete}{email}',
+				'template' => '$data->Estado==1 ? "{view}{update}{delete}{email}" : "{view}{update}{delete}"',
 				'buttons'=>array(
 						'email' => array('label'=>'Enviar email recordatorio','imageUrl'=>Yii::app()->request->baseUrl.'/css/e-mail.png','url'=>'Yii::app()->controller->createUrl("mail",array("fecha"=>$data->Fecha,))',
 				)

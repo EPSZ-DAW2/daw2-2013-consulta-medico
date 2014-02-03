@@ -104,7 +104,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Estado'); ?>
-		<?php echo $form->dropDownList($model,'Estado',array('Pendiente'=>'Pendiente','Realizada'=>'Realizada'), array('options' => array('Pendiente'=>array('selected'=>true))));?>
+		<?php echo $form->dropDownList($model,'Estado',array('1'=>'Pendiente','2'=>'Realizada'), array('options' => array('1'=>array('selected'=>true))));?>
 		<?php echo $form->error($model,'Estado'); ?>
 	</div>
 
