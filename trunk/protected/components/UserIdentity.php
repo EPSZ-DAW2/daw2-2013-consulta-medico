@@ -60,18 +60,12 @@ class UserIdentity extends CUserIdentity
 			 
 			//En las vistas tendremos disponible la fecha y hora de la última conexión. Si es la primera vez que ponga el mensaje "primera vez"
 			if ($users->FechaHoraUltimaConexion=="NULL" || $users->FechaHoraUltimaConexion=="") {
-				$this->setState('FechaHoraUltimaConexion',"primera vez");
+				$this->setState('FechaHoraUltimaConexion', date("Y-m-d H:i:s"));
 			}else{
 				$this->setState('FechaHoraUltimaConexion',$users->FechaHoraUltimaConexion);
 			}
 			$this->_id=$users->IdUsuario;
 			$this->name=$users->usuario;
-			 
-			//Actualizamos el último login del usuario que está autenticando ($user->usuario) 
-			/*$sql = "update usuarios set FechaHoraUltimaConexion = now() where usuario='$users->usuario'";
-			$connection = Yii::app() -> db;
-			$command = $connection -> createCommand($sql);
-			$command -> execute();*/
 
 			$users->FechaHoraUltimaConexion=date("Y-m-d H:i:s");
 			$users->numFallos=0;
@@ -86,12 +80,10 @@ class UserIdentity extends CUserIdentity
 	}
 	public function getId(){
 		return $this->_id;
-		//$id=Yii::app()->user->id;
-		//$lastLoginTime=Yii::app()->user->lastLoginTime;
+
 	}
 	public function getName(){
 		return $this->name;
-		//$id=Yii::app()->user->id;
-		//$lastLoginTime=Yii::app()->user->lastLoginTime;
+
 	}
 }

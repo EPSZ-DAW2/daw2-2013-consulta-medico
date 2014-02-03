@@ -11,6 +11,7 @@ class LoginForm extends CFormModel
 	public $password;
 	public $rememberMe;
 	public $verifyCode;
+	public $message;
 
 	private $_identity;
 
@@ -23,7 +24,8 @@ class LoginForm extends CFormModel
 	{
 		return array(
 			// username and password are required
-			array('username, password', 'required'),
+			array('username', 'required', 'message'=>"El nombre de usuario no puede estar en blanco"),
+			array('password', 'required', 'message'=>"La contraseña no puede estar vacía"),
 			// rememberMe needs to be a boolean
 			array('rememberMe', 'boolean'),
 			// password needs to be authenticated
