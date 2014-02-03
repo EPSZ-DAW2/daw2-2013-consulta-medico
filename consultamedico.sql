@@ -292,16 +292,16 @@ CREATE TABLE IF NOT EXISTS `visitas` (
 --
 
 INSERT INTO `visitas` (`IdCita`, `IdPaciente`, `Fecha_hora`, `Notas`, `Estado`) VALUES
-(1, 1, '2001-01-10 00:00:00', 'Notas 1', 'Estado 1'),
-(2, 2, '2002-02-10 00:00:00', 'Notas 2', 'Estado 2'),
-(3, 3, '2003-03-10 00:00:00', 'Notas 3', 'Estado 3'),
-(4, 4, '2004-04-10 00:00:00', 'Notas 4', 'Estado 4'),
-(5, 5, '2005-05-10 00:00:00', 'Notas 5', 'Estado 5'),
-(6, 6, '2006-06-10 00:00:00', 'Notas 6', 'Estado 6'),
-(7, 7, '2007-07-10 00:00:00', 'Notas 7', 'Estado 7'),
-(8, 8, '2008-08-10 00:00:00', 'Notas 8', 'Estado 8'),
-(9, 9, '2009-09-10 00:00:00', 'Notas 9', 'Estado 9'),
-(10, 10, '2010-10-10 00:00:00', 'Notas 10', 'Estado 10');
+(1, 1, '2001-01-10 00:00:00', 'Notas 1', 'Realizada'),
+(2, 2, '2002-02-10 00:00:00', 'Notas 2', 'Realizada'),
+(3, 3, '2003-03-10 00:00:00', 'Notas 3', 'Realizada'),
+(4, 4, '2004-04-10 00:00:00', 'Notas 4', 'Realizada'),
+(5, 5, '2005-05-10 00:00:00', 'Notas 5', 'Realizada'),
+(6, 6, '2006-06-10 00:00:00', 'Notas 6', 'Realizada'),
+(7, 7, '2007-07-10 00:00:00', 'Notas 7', 'Realizada'),
+(8, 8, '2008-08-10 00:00:00', 'Notas 8', 'Realizada'),
+(9, 9, '2009-09-10 00:00:00', 'Notas 9', 'Realizada'),
+(10, 10, '2010-10-10 00:00:00', 'Notas 10', 'Realizada');
 
 --
 -- Restricciones para tablas volcadas
