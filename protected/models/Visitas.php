@@ -63,7 +63,7 @@ class Visitas extends CActiveRecord
 		return array(
 			'IdCita' => 'Id Cita',
 			'IdPaciente' => 'Id Paciente',
-			'Fecha' => 'Fecha Hora',
+			'Fecha' => 'Fecha',
 			'Hora' => 'Hora',
 			'Notas' => 'Notas',
 			'Estado' => 'Estado',
