@@ -82,6 +82,11 @@ div.form .row .ui-datepicker-trigger
 	position: absolute;
 }
 
+div .rememberMe label
+{
+	background: grey;
+}
+
 div.form .hint
 {
 	margin: 0;
@@ -103,7 +108,7 @@ div.form div.error label:first-child,
 div.form label.error,
 div.form span.error
 {
-	color: #C00;
+	color: blue;
 }
 
 div.form div.error input,
@@ -144,8 +149,11 @@ div.form .errorSummary
 
 div.form .errorMessage
 {
-	color: red;
+	background:red;
+	background-size: 400px 20px;
+	color: black;
 	font-size: 0.9em;
+	font-weight:bold;
 }
 
 div.form .errorSummary p
