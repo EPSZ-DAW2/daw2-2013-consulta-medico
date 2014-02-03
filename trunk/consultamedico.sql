@@ -350,6 +350,30 @@ ALTER TABLE `pruebas`
 --
 ALTER TABLE `visitas`
   ADD CONSTRAINT `visitas_ibfk_1` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`);
+  
+ALTER TABLE pacientes ADD FOREIGN KEY(idAseguradora) REFERENCES aseguradoras(idAseguradora) ON DELETE CASCADE;
+ALTER TABLE pacientes ADD FOREIGN KEY(idAseguradora) REFERENCES aseguradoras(idAseguradora) ON UPDATE CASCADE;
+
+ALTER TABLE facturas ADD FOREIGN KEY(IdPaciente) REFERENCES pacientes(IdPaciente) ON DELETE CASCADE;
+ALTER TABLE facturas ADD FOREIGN KEY(IdPaciente) REFERENCES pacientes(IdPaciente) ON UPDATE CASCADE;
+
+ALTER TABLE perfilesusuarios ADD FOREIGN KEY(IdPerfil) REFERENCES perfiles(IdPerfil) ON DELETE CASCADE;
+ALTER TABLE perfilesusuarios ADD FOREIGN KEY(IdPerfil) REFERENCES perfiles(IdPerfil) ON UPDATE CASCADE;
+
+ALTER TABLE perfilesusuarios ADD FOREIGN KEY(IdUsuario) REFERENCES usuarios(IdUsuario) ON DELETE CASCADE;
+ALTER TABLE perfilesusuarios ADD FOREIGN KEY(IdUsuario) REFERENCES usuarios(IdUsuario) ON UPDATE CASCADE;
+
+ALTER TABLE pruebas ADD FOREIGN KEY(IdCita) REFERENCES visitas(IdCita) ON DELETE CASCADE;
+ALTER TABLE pruebas ADD FOREIGN KEY(IdCita) REFERENCES visitas(IdCita) ON UPDATE CASCADE;
+
+ALTER TABLE pruebas ADD FOREIGN KEY(IdPaciente) REFERENCES pacientes(IdPaciente) ON DELETE CASCADE;
+ALTER TABLE pruebas ADD FOREIGN KEY(IdPaciente) REFERENCES pacientes(IdPaciente) ON UPDATE CASCADE;
+
+ALTER TABLE pruebas ADD FOREIGN KEY(IdTipoDiagnostico) REFERENCES tiposdiagnosticos(IdTipoDiagnostico) ON DELETE CASCADE;
+ALTER TABLE pruebas ADD FOREIGN KEY(IdTipoDiagnostico) REFERENCES tiposdiagnosticos(IdTipoDiagnostico) ON UPDATE CASCADE;
+
+ALTER TABLE visitas ADD FOREIGN KEY(IdPaciente) REFERENCES pacientes(IdPaciente) ON DELETE CASCADE;
+ALTER TABLE visitas ADD FOREIGN KEY(IdPaciente) REFERENCES pacientes(IdPaciente) ON UPDATE CASCADE;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
