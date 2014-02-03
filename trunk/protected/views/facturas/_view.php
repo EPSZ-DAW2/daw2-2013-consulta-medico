@@ -33,7 +33,7 @@
 	<?php echo CHtml::encode($data->Importe); ?>
 	<br />
 
-	<?php /*
+	
 	<b><?php echo CHtml::encode($data->getAttributeLabel('FechaCobro')); ?>:</b>
 	<?php echo CHtml::encode($data->FechaCobro); ?>
 	<br />
@@ -42,6 +42,6 @@
 	<?php echo CHtml::encode($data->Notas); ?>
 	<br />
 
-	*/ ?>
+	
 
 </div>
