@@ -35,6 +35,8 @@ if ($modelo->scenario != 'conArchivo'){
 	
 	
 }else{
+	$this->breadcrumbs=array('Importar'=>array('index'),'Datos',);
+
 	//Inicio el widget
 	$form=$this->beginWidget('CActiveForm', array('id'=>'importar-form','enableAjaxValidation'=>false,'htmlOptions' => array('enctype'=>'multipart/form-data'),)); ?>
 
