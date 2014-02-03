@@ -3,7 +3,7 @@
 /* @var $model Facturas */
 
 $this->breadcrumbs=array(
-	'Facturases'=>array('index'),
+	'Facturas'=>array('index'),
 	'Manage',
 );
 
@@ -49,7 +49,8 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 		'Serie',
 		'Numero',
 		'Fecha',
-		'IdPaciente',
+		//'IdPaciente',
+		'paciente.Nombre',
 		'Concepto',
 		/*
 		'Importe',
