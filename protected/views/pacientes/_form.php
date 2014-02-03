@@ -39,9 +39,36 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Fecha_nacimiento'); ?>
-		<?php echo $form->textField($model,'Fecha_nacimiento'); ?>
-		<?php echo $form->error($model,'Fecha_nacimiento'); ?>
-	</div>
+		
+		 <?php
+		 if ($model->Fecha_nacimiento!='') {
+		 $model->Fecha_nacimiento=date('d-m-Y',strtotime($model->Fecha_nacimiento));
+		 }
+		 $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+		 'model'=>$model,
+		 'attribute'=>'Fecha_nacimiento',
+		 'value'=>$model->Fecha_nacimiento,
+		 'language' => 'es',
+		 'htmlOptions' => array('readonly'=>"readonly"),
+		 
+		 'options'=>array(
+		 'autoSize'=>true,
+		 'defaultDate'=>$model->Fecha_nacimiento,
+		 'dateFormat'=>'dd/mm/yy',
+		 'buttonImage'=>Yii::app()->baseUrl.'/css/calendar1.jpg',
+		 'buttonImageOnly'=>true,
+		 'buttonText'=>'Fecha',
+		 'selectOtherMonths'=>true,
+		 'showAnim'=>'slide',
+		 'showButtonPanel'=>true,
+		 'showOn'=>'button',
+		 'showOtherMonths'=>true,
+		 'changeMonth' => 'true',
+		 'changeYear' => 'true',
+		 ),
+		 )); ?>
+		 <?php echo $form->error($model,'Fecha_nacimiento'); ?>
+		</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Direccion'); ?>
