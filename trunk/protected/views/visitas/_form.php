@@ -85,7 +85,7 @@
 			 'name'=>'Notas', 
 			 'model'=>$model, 
 			 'value'=>$value, 
-			 'sourceUrl'=>$this->createUrl('controllers/ListarEstados'), 
+			 'sourceUrl'=>$this->createUrl('ListarEstados'), 
 			 'options'=>array(
 			 'minLength'=>'2', 
 			 'showAnim'=>'fold', 
