@@ -68,6 +68,7 @@ div.form label
 	font-size: 0.9em;
 	display: block;
 	background: url(gridview/nav.png) no-repeat;
+	background-size: 150px 50px;
 	
 }
 
