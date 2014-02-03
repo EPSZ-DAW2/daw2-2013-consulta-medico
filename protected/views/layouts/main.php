@@ -20,6 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/detailview/styles.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/pager.css">
 
+
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
