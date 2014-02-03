@@ -31,6 +31,7 @@ ul.yiiPager a:visited
 	color:#FF8C00;
 	padding:1px 6px;
 	text-decoration:none;
+	background: white;
 }
 
 ul.yiiPager .page a
