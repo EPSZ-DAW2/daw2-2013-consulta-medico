@@ -11,7 +11,7 @@ class ExportarController extends Controller
 				$tablas = array($modelo->aseguradoras, $modelo->facturas, $modelo->pacientes, $modelo->perfiles, $modelo->perfilesusuarios, $modelo->pruebas, $modelo->tiposdiagnosticos, $modelo->usuarios, $modelo->visitas);
 				
 				//Comprobamos si hay que exportar en SQL o XML
-				if($modelo->opcion) CopiaDeSeguridad::exportarSQL($tablas);
+				if($modelo->opcion) CopiaDeSeguridad::exportarSQL($tablas,true);
 				else CopiaDeSeguridad::exportarXML($tablas);
 			}else Yii::app()->user->setFlash('error','Debes elegir al menos una tabla');
 		}

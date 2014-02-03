@@ -5,7 +5,7 @@ class CopiaDeSeguridad{
 	/* --- EXPORTACIÓN --- */
 
 	//Función para exportar en SQL
-	public static function exportarSQL($tablas){
+	public static function exportarSQL($tablas,$externa){
 		try{
 			//Instanciamos la base de datos 
 			$bbDD = Yii::app()->db->pdoInstance;
@@ -63,7 +63,12 @@ class CopiaDeSeguridad{
 			ob_end_clean();
 			
 			//Guardamos el archivo teniendo como nombre, la fecha y hora actual		
-			Yii::app()->request->sendFile(date('YmdHms') . ".sql", $contenido);
+			if($externa) Yii::app()->request->sendFile(date('YmdHms') . ".sql", $contenido);
+			else{
+				$fp = fopen(Yii::app()->basePath . '/../temporales/temporal.sql', 'w');
+				fwrite($fp, $contenido);
+				fclose($fp);
+			}
 			
 			return true;
 		}catch(PDOException $excepcion){
@@ -278,6 +283,9 @@ class CopiaDeSeguridad{
 			$bbDD = Yii::app()->db->pdoInstance;
 			
 			if(file_exists($archivo)){
+				//Exportamos el estado actual de la base de datos
+				CopiaDeSeguridad::exportarSQL(array(true,true,true,true,true,true,true,true,true),false);
+				
 				//Desactivamos las claves foráneas para evitar un error de este tipo
 				$bbDD->query("SET FOREIGN_KEY_CHECKS=0;");
 				
@@ -296,6 +304,9 @@ class CopiaDeSeguridad{
 					}
 				}
 				
+				//Borramos el archivo
+				$borrado = unlink(Yii::app()->basePath . '/../temporales/temporal.sql');
+				
 				return true;
 			}else{
 				Yii::app()->user->setFlash('error',"Error: El archivo no existe");
@@ -303,6 +314,12 @@ class CopiaDeSeguridad{
 			}
 		}catch(PDOException $excepcion){
 			Yii::app()->user->setFlash('error',"Error: ".$excepcion->getMessage());
+			
+			//Restablecemos la base de datos a su estado anterior
+			CopiaDeSeguridad::importarSQL(Yii::app()->basePath . '/../temporales/temporal.sql');
+			
+			//Borramos el archivo
+			$borrado = unlink(Yii::app()->basePath . '/../temporales/temporal.sql');
 			return false;
 		}
 	}
@@ -319,7 +336,7 @@ class CopiaDeSeguridad{
 				$xmlIterator = new SimpleXMLIterator ($archivo, 0, true);
 				for( $xmlIterator->rewind(); $xmlIterator->valid(); $xmlIterator->next() ) {
 					if($xmlIterator->hasChildren()) {
-						var_dump($xmlIterator->current());
+						echo $xmlIterator->getChildren;
 					}
 				}
 				return true;
