@@ -55,7 +55,7 @@
 		 'autoSize'=>true,
 		 'defaultDate'=>$model->Fecha_nacimiento,
 		 'dateFormat'=>'yy/mm/dd',
-		 'buttonImage'=>Yii::app()->baseUrl.'/css/calendar1.jpg',
+		 'buttonImage'=>Yii::app()->baseUrl.'/css/calendar2.png',
 		 'buttonImageOnly'=>true,
 		 'buttonText'=>'Fecha',
 		 'selectOtherMonths'=>true,
