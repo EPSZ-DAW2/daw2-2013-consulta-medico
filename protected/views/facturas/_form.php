@@ -42,6 +42,7 @@
 		<?php echo $form->textField($model,'IdPaciente'); ?>
 		<?php echo $form->error($model,'IdPaciente'); ?>
 	</div>
+	
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Concepto'); ?>
