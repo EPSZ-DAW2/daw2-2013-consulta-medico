@@ -29,3 +29,28 @@ $this->menu=array(
 		'numFallos',
 	),
 )); ?>
+
+<br>
+//Para mostrar los roles y asignarlos
+<ul class="nav nav-tabs nav-stacked">
+
+<?php
+foreach (Yii::app()->authManager->getAuthItems() as $data):
+$enabled = Yii::app()->authManager->checkAccess($data->name, $model->IdUsuario);
+ ?>
+	<li><a href="#">
+		<h4>
+			<?php echo $data->name ?>
+			<?php echo CHtml::link($enabled?"Off":"On", array('usuarios/assign', "id"=>$model->IdUsuario, "item"=>$data->name), array("class"=>"btn"));?>
+		</h4>
+		<p>
+			<?php
+				echo $enabled?"<span style=\"color: green;\"class=\"label\">Activado</span>":"";
+			 	echo $data->description;
+			 ?>
+		</p>
+	</a></li>
+<?php
+endforeach;
+?>
+</ul>
