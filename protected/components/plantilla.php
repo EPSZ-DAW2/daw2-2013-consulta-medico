@@ -3,7 +3,7 @@
 $pdf = Yii::createComponent('application.extensions.MPDF571UPGRADE57.mpdf');
 
 
-public function generarplantilla($plantilla, $datos)
+function generarplantilla($plantilla, $datos)
 {
 	$claves=array_keys($datos);
 	$valores=array_values($datos);
