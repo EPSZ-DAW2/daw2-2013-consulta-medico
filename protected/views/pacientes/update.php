@@ -6,7 +6,7 @@ $this->breadcrumbs=array(
 	'Pacientes'=>array('index'),
 	'cssFile' => false,
 	$model->IdPaciente=>array('view','id'=>$model->IdPaciente),
-	'Update',
+	'Actualizar',
 );
 
 $this->menu=array(
