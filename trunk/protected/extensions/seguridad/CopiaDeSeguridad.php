@@ -221,8 +221,7 @@ class CopiaDeSeguridad{
 			//Desactivamos las claves foráneas para evitar un error de este tipo
 			$bbDD->query("SET FOREIGN_KEY_CHECKS=0;");
 
-			if (file_exists($archivo)) 
-			{
+			if (file_exists($archivo)){
 				//Cargamos el archivo xml
 				$xml = simplexml_load_file($archivo);
 				
@@ -261,10 +260,11 @@ class CopiaDeSeguridad{
 						//Si es seguro guardar el campo, lo insertamos en la base de datos
 						if($guardarCampo) $bbDD->query("INSERT INTO `".$atributosTabla->nombre."` (".substr($nombres,0,-1).") VALUES (".substr($valores,0,-1).");");
 					}
-				}
-			} 
-			
-			return true;
+				}return true;
+			}else{
+				Yii::app()->user->setFlash('error',"Error: El archivo no existe");
+				return false;
+			}
 		}catch(PDOException $excepcion){
 			Yii::app()->user->setFlash('error',"Error: ".$excepcion->getMessage());
 			return false;
@@ -295,9 +295,12 @@ class CopiaDeSeguridad{
 						$bbDD->exec($sql);
 					}
 				}
+				
+				return true;
+			}else{
+				Yii::app()->user->setFlash('error',"Error: El archivo no existe");
+				return false;
 			}
-			
-			return true;
 		}catch(PDOException $excepcion){
 			Yii::app()->user->setFlash('error',"Error: ".$excepcion->getMessage());
 			return false;
@@ -305,5 +308,29 @@ class CopiaDeSeguridad{
 	}
 	
 	/* --- IMPORTACIÓN --- */
+	
+	/* --- VALIDAR --- */
+	
+	//Función para validar un XML
+    public static function validarXML($archivo){
+		try{					
+			if (file_exists($archivo)) {
+				//Cargamos el archivo xml
+				$xmlIterator = new SimpleXMLIterator ($archivo, 0, true);
+				for( $xmlIterator->rewind(); $xmlIterator->valid(); $xmlIterator->next() ) {
+					if($xmlIterator->hasChildren()) {
+						var_dump($xmlIterator->current());
+					}
+				}
+				return true;
+			}else{
+				Yii::app()->user->setFlash('error',"Error: El archivo no existe");
+				return false;
+			}
+		}catch(PDOException $excepcion){
+			Yii::app()->user->setFlash('error',"Error: ".$excepcion->getMessage());
+			return false;
+		}
+    }
 }
 ?>
