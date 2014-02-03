@@ -35,20 +35,20 @@
 		<?php echo $form->labelEx($model,'Fecha'); ?>
 		
 		 <?php
-		 if ($model->Fecha_hora!='') {
-		 $model->Fecha_hora=date('d-m-Y',strtotime($model->v));
+		 if ($model->Fecha!='') {
+		 $model->Fecha=date('d-m-Y',strtotime($model->Fecha));
 		 }
 		 $this->widget('zii.widgets.jui.CJuiDatePicker', array(
 		 'model'=>$model,
-		 'attribute'=>'Fecha_hora',
-		 'value'=>$model->Fecha_hora,
+		 'attribute'=>'Fecha',
+		 'value'=>$model->Fecha,
 		 'language' => 'es',
 		 'htmlOptions' => array('readonly'=>"readonly"),
 		 
 		 'options'=>array(
 		 'autoSize'=>true,
-		 'defaultDate'=>$model->Fecha_hora,
-		 'dateFormat'=>'dd/mm/yy',
+		 'defaultDate'=>$model->Fecha,
+		 'dateFormat'=>'yy/mm/dd',
 		 'buttonImage'=>Yii::app()->baseUrl.'/css/calendar1.jpg',
 		 'buttonImageOnly'=>true,
 		 'buttonText'=>'Fecha',
@@ -61,31 +61,41 @@
 		 'changeYear' => 'true',
 		 ),
 		 )); ?>
-		 <?php echo $form->error($model,'Fecha_Hora'); ?>
+		 <?php echo $form->error($model,'Fecha'); ?>
 		</div>	
-
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'Hora'); ?>
+		<?php echo $form->textField($model,'Hora'); ?>
+		<?php echo $form->error($model,'Hora');?>
+	</div>
+	
 	<div class="row">
 		<?php echo $form->labelEx($model,'Notas'); ?>
-		<?php $this->widget('CAutoComplete',
-          array(
-                         //name of the html field that will be generated
-             'name'=>'notas', 
-                         //replace controller/action with real ids
-             'url'=>array('controller/ListarEstados'), 
-             'max'=>10, //specifies the max number of items to display
- 
-                         //specifies the number of chars that must be entered 
-                         //before autocomplete initiates a lookup
-             'minChars'=>2, 
-             'delay'=>500, //number of milliseconds before lookup occurs
-             'matchCase'=>false, //match case when performing a lookup?
- 
-                         //any additional html attributes that go inside of 
-                         //the input field can be defined here
-             'htmlOptions'=>array('size'=>'40'), 
- 
-             'methodChain'=>".result(function(event,item){\$(\"#notas\").val(item[1]);})",
-             ));
+		<?php 
+			if ($model->Notas!='') 
+			 { 
+				$value=$model->Notas; 
+			 } 
+			 else { 
+			 $value=''; 
+			 }
+			 echo $form->hiddenField($model, 'Notas'); 
+			 $this->widget('zii.widgets.jui.CJuiAutoComplete', array( 
+			 'name'=>'Notas', 
+			 'model'=>$model, 
+			 'value'=>$value, 
+			 'sourceUrl'=>$this->createUrl('controllers/ListarEstados'), 
+			 'options'=>array(
+			 'minLength'=>'2', 
+			 'showAnim'=>'fold', 
+			 'select' => 'js:function(event, ui)
+			 { jQuery("#visitas").val(ui.item["Notas"]); }', 
+			 'search'=> 'js:function(event, ui) 
+			 { jQuery("#visitas").val(0); }' 
+			 ),
+			 ));
+
     ?>
     <?php echo CHtml::hiddenField('notas');
  ?>

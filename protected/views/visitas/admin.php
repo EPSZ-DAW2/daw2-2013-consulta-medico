@@ -52,15 +52,15 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 		'IdCita',
 //		'IdPaciente',
 		'paciente.Nombre',
-		array( 'name'=>'Fecha_hora', 'value'=>'(strtotime($data->Fecha_hora)==0 ? "" : date("d-m-Y H:i:s", strtotime($data->Fecha_hora)))'),
+		array( 'name'=>'Fecha', 'value'=>'(strtotime($data->Fecha)==0 ? "" : date("d-m-Y H:i:s", strtotime($data->Fecha)))'),
 		'Notas',
 		'Estado',
-		array(
-            'class' => 'CButtonColumn',
-			'template' => '{view}{update}{delete}{email}',
-            'buttons'=>array(
-					'email' => array('label'=>'Enviar email recordatorio','imageUrl'=>Yii::app()->request->baseUrl.'/css/e-mail.png','url'=>'Yii::app()->controller->createUrl("mail",array("fecha"=>$data->Fecha_hora,))',
-		    )
-		),
-        ),
+			array(
+				'class' => 'CButtonColumn',
+				'template' => '{view}{update}{delete}{email}',
+				'buttons'=>array(
+						'email' => array('label'=>'Enviar email recordatorio','imageUrl'=>Yii::app()->request->baseUrl.'/css/e-mail.png','url'=>'Yii::app()->controller->createUrl("mail",array("fecha"=>$data->Fecha,))',
+				)
+			),
+			),
 ))); ?>
