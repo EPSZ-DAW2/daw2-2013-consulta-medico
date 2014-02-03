@@ -1,15 +1,12 @@
 <?php
-/* @var $this FacturasController */
-/* @var $model Facturas */
-
 $this->breadcrumbs=array(
 	'Facturas'=>array('index'),
-	'Manage',
+	'Gestionar',
 );
 
 $this->menu=array(
 	array('label'=>'Listar Facturas', 'url'=>array('index')),
-	array('label'=>'Crear Facturas', 'url'=>array('create')),
+	array('label'=>'Crear Factura', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -33,7 +30,7 @@ Puedes utilizar operadores de comparación (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</
 o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar como debe ser hecha la comparación.
 </p>
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+<?php echo CHtml::link('Búsqueda avanzada','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
