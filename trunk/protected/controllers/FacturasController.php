@@ -28,7 +28,7 @@ class FacturasController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','pdf'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -169,5 +169,12 @@ class FacturasController extends Controller
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}
-	}
+	}/*PARA EL PDF*/
+	public function actionPdf($id)
+    {
+		plantilla::generarplantilla($plantilla, array($model->IdFacturas,$model->Series,$model->Numero,$model->Fecha,$model->IdPaciente,$model->IdFacturas,$model->Concepto,$model->Importe,$model->FechaCobro,$model->Notas));
+        $this->render('pdf',array(
+            'model'=>$this->loadModel($id),
+        ));
+    }
 }
