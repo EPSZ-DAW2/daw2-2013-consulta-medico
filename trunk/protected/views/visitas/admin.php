@@ -48,10 +48,6 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 	'id'=>'visitas-grid',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
-	'cssFile' => false,
-	'pager' => array (
-	 'cssFile'=> false
-	)
 	'columns'=>array(
 		'IdCita',
 //		'IdPaciente',
@@ -62,7 +58,9 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 		array(
             'class' => 'CButtonColumn',
 			'template' => '{view}{update}{delete}{email}',
-            'buttons'=>array('email' => '(strcmp($data->Notas,"Pendiente")==0 ? array("label"=>"Enviar email recordatorio","imageUrl"=>Yii::app()->request->baseUrl."/css/e-mail.png","url"=>"Yii::app()->controller->createUrl("mail",array("fecha"=>$data->Fecha_hora,))",))')
+            'buttons'=>array(
+					'email' => array('label'=>'Enviar email recordatorio','imageUrl'=>Yii::app()->request->baseUrl.'/css/e-mail.png','url'=>'Yii::app()->controller->createUrl("mail",array("fecha"=>$data->Fecha_hora,))',
+		    )
 		),
         ),
-)); ?>
+))); ?>
