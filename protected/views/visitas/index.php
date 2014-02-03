@@ -34,7 +34,7 @@ $this->menu=array(
 		 'buttonImage'=>Yii::app()->baseUrl.'/css/calendar1.jpg',
 		 'buttonImageOnly'=>true,
 		 'buttonText'=>'Fecha',
-		 'selectOtherMonths'=>true,
+
 		 'showAnim'=>'fold',
 		 'showButtonPanel'=>true,
 		 'showOn'=>'button',
