@@ -33,7 +33,33 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Fecha'); ?>
-		<?php echo $form->textField($model,'Fecha'); ?>
+		<?php
+		 if ($model->Fecha!='') {
+		 $model->Fecha=date('d-m-Y',strtotime($model->Fecha));
+		 }
+		 $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+		 'model'=>$model,
+		 'attribute'=>'Fecha',
+		 'value'=>$model->Fecha,
+		 'language' => 'es',
+		 'htmlOptions' => array('readonly'=>"readonly"),
+		 
+		 'options'=>array(
+		 'autoSize'=>true,
+		 'defaultDate'=>$model->Fecha,
+		 'dateFormat'=>'yy/mm/dd',
+		 'buttonImage'=>Yii::app()->baseUrl.'/css/calendar1.jpg',
+		 'buttonImageOnly'=>true,
+		 'buttonText'=>'Fecha',
+		 'selectOtherMonths'=>true,
+		 'showAnim'=>'slide',
+		 'showButtonPanel'=>true,
+		 'showOn'=>'button',
+		 'showOtherMonths'=>true,
+		 'changeMonth' => 'true',
+		 'changeYear' => 'true',
+		 ),
+		 )); ?>
 		<?php echo $form->error($model,'Fecha'); ?>
 	</div>
 
