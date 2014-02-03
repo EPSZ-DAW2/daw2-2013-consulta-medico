@@ -191,6 +191,12 @@ class SimpleCalendarWidget extends CWidget {
     private function dayIsInCurrentMonth($day) {
         return $day >= 1 && $day <= $this->daysInCurrentMonth;
     }
+	protected function getCitas(){
+        $cita=null;
+        $cita=Yii::app()->db->createCommand("select Fecha, IdCita from cita group by Fecha")
+            ->queryAll();
+        $this->citas=CHtml::listData($cita,'Fecha','IdCita');
+    }
 }
 
 ?>
