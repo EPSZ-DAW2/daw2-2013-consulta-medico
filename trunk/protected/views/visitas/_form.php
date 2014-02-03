@@ -19,9 +19,15 @@
 
 	<?php echo $form->errorSummary($model); ?>
 
+	<!--<div class="row">
+		<?php //echo $form->labelEx($model,'IdPaciente'); ?>
+		<?php //echo $form->textField($model,'IdPaciente'); ?>
+		<?php //echo $form->error($model,'IdPaciente');?>
+	</div>-->
+	
 	<div class="row">
-		<?php echo $form->labelEx($model,'IdPaciente'); ?>
-		<?php echo $form->textField($model,'IdPaciente'); ?>
+		<?php echo $form->labelEx($model,'NombrePaciente'); ?>
+		<?php echo $form->dropDownList($model,'IdPaciente',CHtml::listData(Pacientes::model()->findAll(),'IdPaciente','Nombre')); ?>
 		<?php echo $form->error($model,'IdPaciente'); ?>
 	</div>
 
