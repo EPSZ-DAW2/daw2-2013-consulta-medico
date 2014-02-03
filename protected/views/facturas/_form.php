@@ -65,7 +65,20 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Nombre'); ?>
-		<?php echo $form->dropDownList($model,'IdPaciente',CHtml::listData(Pacientes::model()->findAll(),'IdPaciente','Nombre')); ?>
+		<?php
+		$this->widget('ext.myAutoComplete', array(
+			'model'=>$model,
+			'attribute'=>'IdPaciente',
+			'name'=>'facturas_autocomplete',
+			'source'=>$this->createUrl('facturas/usersAutocomplete'),  // Controller/Action path for action we created in step 4.
+			// additional javascript options for the autocomplete plugin
+			'options'=>array(
+				'minLength'=>'0',
+			),
+			'htmlOptions'=>array(
+				'style'=>'height:20px;',
+			),        
+		));?>
 															
 		<?php echo $form->error($model,'IdPaciente'); ?>
 		
