@@ -53,11 +53,9 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 		//'IdPaciente',
 		'paciente.Nombre',
 		'Concepto',
-		/*
 		'Importe',
 		'FechaCobro',
 		'Notas',
-		*/
 		array(
 			'class'=>'CButtonColumn',
 				
