@@ -14,26 +14,19 @@ table.detail-view
 table.detail-view th, table.detail-view td
 {
 	font-size: 0.9em;
-	border: 1px white solid;
+	border: 1px #000000 solid;
 	padding: 0.3em 0.6em;
 	vertical-align: top;
+	border: ;
 }
 
 table.detail-view th
 {
 	text-align: right;
 	width: 160px;
+	background:url(nav.png);
 }
 
-table.detail-view tr.odd
-{
-	background:#E5F1F4;
-}
-
-table.detail-view tr.even
-{
-	background:#F8F8F8;
-}
 
 table.detail-view tr.odd th
 {
