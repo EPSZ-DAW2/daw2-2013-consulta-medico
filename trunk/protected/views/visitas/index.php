@@ -23,10 +23,10 @@ $this->menu=array(
 		 $this->widget('zii.widgets.jui.CJuiDatePicker', array(
 		 'model'=>$model,
 		 'attribute'=>'fechaVisita',
+		 'flat'=>true,
 		 'value'=>$model->fechaVisita,
 		 'language' => 'es',
 		 'htmlOptions' => array('readonly'=>"readonly"),
-		 
 		 'options'=>array(
 		 'autoSize'=>true,
 		 'defaultDate'=>$model->fechaVisita,
@@ -35,7 +35,7 @@ $this->menu=array(
 		 'buttonImageOnly'=>true,
 		 'buttonText'=>'Fecha',
 		 'selectOtherMonths'=>true,
-		 'showAnim'=>'slide',
+		 'showAnim'=>'fold',
 		 'showButtonPanel'=>true,
 		 'showOn'=>'button',
 		 'showOtherMonths'=>true,
