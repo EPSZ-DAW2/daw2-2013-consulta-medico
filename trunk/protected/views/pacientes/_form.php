@@ -86,7 +86,7 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'idAseguradora'); ?>
+		<?php echo $form->labelEx($model,'Nombre Aseguradora'); ?>
 		<?php echo $form->dropDownList($model,'idAseguradora',
 		
 			CHtml::listData(Aseguradoras::model()->findAll(),'idAseguradora','Nombre')
