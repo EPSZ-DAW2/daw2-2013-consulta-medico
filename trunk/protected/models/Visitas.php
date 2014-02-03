@@ -19,7 +19,7 @@ class Visitas extends CActiveRecord
 	/**
 	 * @return string the associated database table name
 	 */
-	 public $hora;
+	
 	public function tableName()
 	{
 		return 'visitas';
@@ -36,7 +36,7 @@ class Visitas extends CActiveRecord
 			array('IdPaciente', 'numerical', 'integerOnly'=>true),
 			array('Notas', 'length', 'max'=>150),
 			array('Estado', 'length', 'max'=>50),
-			array('Fecha_hora, hora', 'safe'),
+			array('Fecha, Hora', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 		);
@@ -63,8 +63,8 @@ class Visitas extends CActiveRecord
 		return array(
 			'IdCita' => 'Id Cita',
 			'IdPaciente' => 'Id Paciente',
-			'Fecha_hora' => 'Fecha Hora',
-			'hora' => 'Hora',
+			'Fecha' => 'Fecha Hora',
+			'Hora' => 'Hora',
 			'Notas' => 'Notas',
 			'Estado' => 'Estado',
 		);
@@ -90,7 +90,8 @@ class Visitas extends CActiveRecord
 
 		$criteria->compare('IdCita',$this->IdCita);
 		$criteria->compare('IdPaciente',$this->IdPaciente);
-		$criteria->compare('Fecha_hora',$this->Fecha_hora,true);
+		$criteria->compare('Fecha',$this->Fecha,true);
+		$criteria->compare('Hora',$this->Hora,true);
 		$criteria->compare('Notas',$this->Notas,true);
 		$criteria->compare('Estado',$this->Estado,true);
 
@@ -110,6 +111,6 @@ class Visitas extends CActiveRecord
 	 */
 	public static function model($className=__CLASS__)
 	{
-		return parent::model($className, $hora);
+		return parent::model($className);
 	}
 }
