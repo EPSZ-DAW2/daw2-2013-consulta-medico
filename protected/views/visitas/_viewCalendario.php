@@ -1,8 +1,7 @@
 <?php
 /* @var $this VisitasController */
 /* @var $data Visitas */
-
-if($fecha==$data->Fecha){?>
+?>
 
 <div class="view">
 
@@ -14,12 +13,8 @@ if($fecha==$data->Fecha){?>
 	<?php echo CHtml::encode($data->IdPaciente); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('Fecha')); ?>:</b>
-	<?php echo CHtml::encode($data->Fecha); ?>
-	<br />
-	
-	<b><?php echo CHtml::encode($data->getAttributeLabel('Hora')); ?>:</b>
-	<?php echo CHtml::encode($data->Hora); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('Fecha_hora')); ?>:</b>
+	<?php echo CHtml::encode($data->Fecha_hora); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('Notas')); ?>:</b>
@@ -29,6 +24,6 @@ if($fecha==$data->Fecha){?>
 	<b><?php echo CHtml::encode($data->getAttributeLabel('Estado')); ?>:</b>
 	<?php echo CHtml::encode($data->Estado); ?>
 	<br />
+
+
 </div>
-<?php
-}

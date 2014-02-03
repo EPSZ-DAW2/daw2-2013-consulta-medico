@@ -141,11 +141,17 @@ class VisitasController extends Controller
 	
 	public function actionIndex()
 	{
-		//$this->Email();
-		$dataProvider=new CActiveDataProvider('Visitas');
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
+		$model=new Calendario;
+		
+		if(isset($_POST['fecha'])){
+			$model->attributes=$_POST['Calendario'];
+			$dataProvider=new CActiveDataProvider('Visitas');
+			$fechas=$model->fechaVisita;
+			$this->render('index',array('dataProvider'=>$dataProvider,'fechas'=>$fechas,));
+		}else{
+			$this->render('index',array('model'=>$model,));
+		}
+		
 	}
 
 	/**
