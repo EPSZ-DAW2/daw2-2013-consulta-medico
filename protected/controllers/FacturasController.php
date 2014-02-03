@@ -186,7 +186,7 @@ class FacturasController extends Controller
 	}/*PARA EL PDF*/
 	public function actionPdf($id)
     {
-		plantilla::generarplantilla($plantilla, array($model->IdFacturas,$model->Series,$model->Numero,$model->Fecha,$model->IdPaciente,$model->IdFacturas,$model->Concepto,$model->Importe,$model->FechaCobro,$model->Notas));
+		//plantilla::generarplantilla($plantilla, array($model->IdFacturas,$model->Series,$model->Numero,$model->Fecha,$model->IdPaciente,$model->IdFacturas,$model->Concepto,$model->Importe,$model->FechaCobro,$model->Notas));
         $this->render('pdf',array(
             'model'=>$this->loadModel($id),
         ));
