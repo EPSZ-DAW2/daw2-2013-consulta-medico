@@ -11,10 +11,6 @@
 	'method'=>'get',
 )); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'IdPaciente'); ?>
-		<?php echo $form->textField($model,'IdPaciente'); ?>
-	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'Apellidos'); ?>
@@ -32,19 +28,36 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'Fecha_nacimiento'); ?>
-		<?php echo $form->textField($model,'Fecha_nacimiento'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'Direccion'); ?>
-		<?php echo $form->textField($model,'Direccion',array('size'=>50,'maxlength'=>50)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'CodPostal'); ?>
-		<?php echo $form->textField($model,'CodPostal'); ?>
-	</div>
+		<?php echo $form->labelEx($model,'Fecha_nacimiento'); ?>
+		
+		 <?php
+		 if ($model->Fecha_nacimiento!='') {
+		 $model->Fecha_nacimiento=date('Y/m/d',strtotime($model->Fecha_nacimiento));
+		 }
+		 $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+		 'model'=>$model,
+		 'attribute'=>'Fecha_nacimiento',
+		 'value'=>$model->Fecha_nacimiento,
+		 'language' => 'es',
+		 'htmlOptions' => array('readonly'=>"readonly"),
+		 
+		 'options'=>array(
+		 'autoSize'=>true,
+		 'defaultDate'=>$model->Fecha_nacimiento,
+		 'dateFormat'=>'yy/mm/dd',
+		 'buttonImage'=>Yii::app()->baseUrl.'/css/calendar2.png',
+		 'buttonImageOnly'=>true,
+		 'buttonText'=>'Fecha',
+		 'selectOtherMonths'=>true,
+		 'showAnim'=>'slide',
+		 'showButtonPanel'=>true,
+		 'showOn'=>'button',
+		 'showOtherMonths'=>true,
+		 'changeMonth' => 'true',
+		 'changeYear' => 'true',
+		 ),
+		 )); ?>
+		</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'Localidad'); ?>
@@ -57,29 +70,13 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'TelFijo'); ?>
-		<?php echo $form->textField($model,'TelFijo'); ?>
+		<?php echo $form->labelEx($model,'Nombre Aseguradora'); ?>
+		<?php echo $form->dropDownList($model,'idAseguradora',
+		
+			CHtml::listData(Aseguradoras::model()->findAll(),'idAseguradora','Nombre')
+		); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->label($model,'TelMovil'); ?>
-		<?php echo $form->textField($model,'TelMovil'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'Email'); ?>
-		<?php echo $form->textField($model,'Email',array('size'=>50,'maxlength'=>50)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'idAseguradora'); ?>
-		<?php echo $form->textField($model,'idAseguradora'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'Notas'); ?>
-		<?php echo $form->textField($model,'Notas',array('size'=>60,'maxlength'=>150)); ?>
-	</div>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Buscar'); ?>
