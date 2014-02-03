@@ -3,11 +3,11 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Facturases',
+	'Facturas',
 );
 
 $this->menu=array(
-	array('label'=>'Crear Facturas', 'url'=>array('create')),
+	array('label'=>'Crear Factura', 'url'=>array('create')),
 	array('label'=>'Gestionar Facturas', 'url'=>array('admin')),
 );
 ?>
