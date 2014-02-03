@@ -1,13 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.0.9
+-- version 3.4.5
 -- http://www.phpmyadmin.net
 --
--- Servidor: 127.0.0.1
--- Tiempo de generación: 02-02-2014 a las 08:54:12
--- Versión del servidor: 5.6.14
--- Versión de PHP: 5.5.6
+-- Servidor: localhost
+-- Tiempo de generación: 03-02-2014 a las 13:26:50
+-- Versión del servidor: 5.5.16
+-- Versión de PHP: 5.3.8
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
@@ -22,10 +22,12 @@ SET time_zone = "+00:00";
 
 -- --------------------------------------------------------
 
---
+CREATE DATABASE IF NOT EXISTS `consultamedico` DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci;
+USE `consultamedico`;
 -- Estructura de tabla para la tabla `aseguradoras`
 --
 
+DROP TABLE IF EXISTS `aseguradoras`;
 CREATE TABLE IF NOT EXISTS `aseguradoras` (
   `idAseguradora` int(11) NOT NULL AUTO_INCREMENT,
   `Nombre` char(50) DEFAULT NULL,
@@ -55,6 +57,7 @@ INSERT INTO `aseguradoras` (`idAseguradora`, `Nombre`, `Notas`) VALUES
 -- Estructura de tabla para la tabla `facturas`
 --
 
+DROP TABLE IF EXISTS `facturas`;
 CREATE TABLE IF NOT EXISTS `facturas` (
   `IdFactura` int(11) NOT NULL AUTO_INCREMENT,
   `Serie` int(11) DEFAULT NULL,
@@ -91,6 +94,7 @@ INSERT INTO `facturas` (`IdFactura`, `Serie`, `Numero`, `Fecha`, `IdPaciente`, `
 -- Estructura de tabla para la tabla `pacientes`
 --
 
+DROP TABLE IF EXISTS `pacientes`;
 CREATE TABLE IF NOT EXISTS `pacientes` (
   `IdPaciente` int(11) NOT NULL AUTO_INCREMENT,
   `Apellidos` char(50) DEFAULT NULL,
@@ -132,6 +136,7 @@ INSERT INTO `pacientes` (`IdPaciente`, `Apellidos`, `Nombre`, `DNI_NIF`, `Fecha_
 -- Estructura de tabla para la tabla `perfiles`
 --
 
+DROP TABLE IF EXISTS `perfiles`;
 CREATE TABLE IF NOT EXISTS `perfiles` (
   `IdPerfil` int(11) NOT NULL AUTO_INCREMENT,
   `Nombre` char(50) DEFAULT NULL,
@@ -157,6 +162,7 @@ INSERT INTO `perfiles` (`IdPerfil`, `Nombre`) VALUES
 -- Estructura de tabla para la tabla `perfilesusuarios`
 --
 
+DROP TABLE IF EXISTS `perfilesusuarios`;
 CREATE TABLE IF NOT EXISTS `perfilesusuarios` (
   `IdPerfil` int(11) NOT NULL DEFAULT '0',
   `IdUsuario` int(11) NOT NULL DEFAULT '0',
@@ -182,6 +188,7 @@ INSERT INTO `perfilesusuarios` (`IdPerfil`, `IdUsuario`) VALUES
 -- Estructura de tabla para la tabla `pruebas`
 --
 
+DROP TABLE IF EXISTS `pruebas`;
 CREATE TABLE IF NOT EXISTS `pruebas` (
   `IdPrueba` int(11) NOT NULL AUTO_INCREMENT,
   `IdCita` int(11) DEFAULT NULL,
@@ -219,6 +226,7 @@ INSERT INTO `pruebas` (`IdPrueba`, `IdCita`, `IdPaciente`, `IdTipoDiagnostico`, 
 -- Estructura de tabla para la tabla `tiposdiagnosticos`
 --
 
+DROP TABLE IF EXISTS `tiposdiagnosticos`;
 CREATE TABLE IF NOT EXISTS `tiposdiagnosticos` (
   `IdTipoDiagnostico` int(11) NOT NULL AUTO_INCREMENT,
   `Nombre` char(50) DEFAULT NULL,
@@ -249,6 +257,7 @@ INSERT INTO `tiposdiagnosticos` (`IdTipoDiagnostico`, `Nombre`, `Plantilla`, `No
 -- Estructura de tabla para la tabla `usuarios`
 --
 
+DROP TABLE IF EXISTS `usuarios`;
 CREATE TABLE IF NOT EXISTS `usuarios` (
   `IdUsuario` int(11) NOT NULL AUTO_INCREMENT,
   `usuario` char(50) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
@@ -277,12 +286,14 @@ INSERT INTO `usuarios` (`IdUsuario`, `usuario`, `clave`, `nombre`, `FechaHoraUlt
 -- Estructura de tabla para la tabla `visitas`
 --
 
+DROP TABLE IF EXISTS `visitas`;
 CREATE TABLE IF NOT EXISTS `visitas` (
   `IdCita` int(11) NOT NULL AUTO_INCREMENT,
   `IdPaciente` int(11) DEFAULT NULL,
-  `Fecha_hora` datetime DEFAULT NULL,
+  `Fecha` date DEFAULT NULL,
   `Notas` char(150) DEFAULT NULL,
   `Estado` char(50) DEFAULT NULL,
+  `Hora` time DEFAULT NULL,
   PRIMARY KEY (`IdCita`),
   KEY `IdPaciente` (`IdPaciente`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
@@ -291,17 +302,17 @@ CREATE TABLE IF NOT EXISTS `visitas` (
 -- Volcado de datos para la tabla `visitas`
 --
 
-INSERT INTO `visitas` (`IdCita`, `IdPaciente`, `Fecha_hora`, `Notas`, `Estado`) VALUES
-(1, 1, '2001-01-10 00:00:00', 'Notas 1', 'Realizada'),
-(2, 2, '2002-02-10 00:00:00', 'Notas 2', 'Realizada'),
-(3, 3, '2003-03-10 00:00:00', 'Notas 3', 'Realizada'),
-(4, 4, '2004-04-10 00:00:00', 'Notas 4', 'Realizada'),
-(5, 5, '2005-05-10 00:00:00', 'Notas 5', 'Realizada'),
-(6, 6, '2006-06-10 00:00:00', 'Notas 6', 'Realizada'),
-(7, 7, '2007-07-10 00:00:00', 'Notas 7', 'Realizada'),
-(8, 8, '2008-08-10 00:00:00', 'Notas 8', 'Realizada'),
-(9, 9, '2009-09-10 00:00:00', 'Notas 9', 'Realizada'),
-(10, 10, '2010-10-10 00:00:00', 'Notas 10', 'Realizada');
+INSERT INTO `visitas` (`IdCita`, `IdPaciente`, `Fecha`, `Notas`, `Estado`, `Hora`) VALUES
+(1, 1, '2001-01-10', 'Notas 1', 'Realizada', '00:00:00'),
+(2, 2, '2002-02-10', 'Notas 2', 'Realizada', '00:00:00'),
+(3, 3, '2003-03-10', 'Notas 3', 'Realizada', '00:00:00'),
+(4, 4, '2004-04-10', 'Notas 4', 'Realizada', '00:00:00'),
+(5, 5, '2005-05-10', 'Notas 5', 'Realizada', '00:00:00'),
+(6, 6, '2006-06-10', 'Notas 6', 'Realizada', '00:00:00'),
+(7, 7, '2007-07-10', 'Notas 7', 'Realizada', '00:00:00'),
+(8, 8, '2008-08-10', 'Notas 8', 'Realizada', '00:00:00'),
+(9, 9, '2009-09-10', 'Notas 9', 'Realizada', '00:00:00'),
+(10, 10, '2010-10-10', 'Notas 10', 'Realizada', '00:00:00');
 
 --
 -- Restricciones para tablas volcadas
