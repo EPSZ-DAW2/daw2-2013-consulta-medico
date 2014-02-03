@@ -4,7 +4,7 @@
 
 $this->breadcrumbs=array(
 	'Pacientes'=>array('index'),
-	'Manage',
+	'Administrar',
 );
 
 $this->menu=array(
