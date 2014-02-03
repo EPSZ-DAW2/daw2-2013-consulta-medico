@@ -1,7 +1,8 @@
 <?php
 
 // uncomment the following to define a path alias
-Yii :: setPathOfAlias ('ecalendarview', dirname (__FILE__).' \..\extensions\ecalendarview');
+Yii::setPathOfAlias('ecalendarview', dirname(__FILE__) . '/../extensions/ecalendarview');
+
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
 
@@ -42,13 +43,13 @@ return array(
 		),
 		
 		//Authmanager para RBAC--------------------------------------
-		/*'authManager'=>array(
+		'authManager'=>array(
 				   'class'=>'CDbAuthManager',
 				   'connectionID'=>'db',
 		  //      ‘assignmentTable'=>’tbl_authassignment’,
 		  //      ‘itemTable’=>’tbl_authitem’,
 		  //      ‘itemChildTable’=>’tbl_authitemchild’,
-		),*/
+		),
 		//-----------------------------------------------------------
 		
 		'Smtpmail'=>array(
