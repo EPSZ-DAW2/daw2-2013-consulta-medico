@@ -33,30 +33,35 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Notas'); ?>
-		<?php 
-		$this->widget('CAutoComplete',
-			          array(
-                                        'name'=>'nombre',
-                                        'value'=>$model->Notas,
-                                        'multiple'=>true,
-                                        'url'=>array('ficha/autoCompletarAlgo'),
-                                        'max'=>10, //specifies the max number of items to display
-                                        'minChars'=>2,
-                                        'delay'=>500, //number of milliseconds before lookup occurs
-                                        'matchCase'=>false, //match case when performing a lookup?
-                                        'mustMatch'=>true,
-                                        'htmlOptions'=>array(
-                                            'size'=>'30',
-                                            //'onkeydown' => 'return deshabilitarEnter(event)'
-                                            )
-			          ));
+		<?php $this->widget('CAutoComplete',
+          array(
+                         //name of the html field that will be generated
+             'name'=>'notas', 
+                         //replace controller/action with real ids
+             'url'=>array('controller/ListarEstados'), 
+             'max'=>10, //specifies the max number of items to display
+ 
+                         //specifies the number of chars that must be entered 
+                         //before autocomplete initiates a lookup
+             'minChars'=>2, 
+             'delay'=>500, //number of milliseconds before lookup occurs
+             'matchCase'=>false, //match case when performing a lookup?
+ 
+                         //any additional html attributes that go inside of 
+                         //the input field can be defined here
+             'htmlOptions'=>array('size'=>'40'), 
+ 
+             'methodChain'=>".result(function(event,item){\$(\"#notas\").val(item[1]);})",
+             ));
+    ?>
+    <?php echo CHtml::hiddenField('notas');
  ?>
 		<?php echo $form->error($model,'Notas'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Estado'); ?>
-		<?php echo $form->dropDownList($model,'Estado',array('1'=>'Pendiente','2'=>'Realizada'), array('options' => array('1'=>array('selected'=>true))));?>
+		<?php echo $form->dropDownList($model,'Estado',array('Pendiente'=>'Pendiente','Realizada'=>'Realizada'), array('options' => array('Pendiente'=>array('selected'=>true))));?>
 		<?php echo $form->error($model,'Estado'); ?>
 	</div>
 
