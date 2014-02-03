@@ -23,7 +23,8 @@ $this->menu=array(
 	'attributes'=>array(
 		'IdCita',
 		'IdPaciente',
-		'Fecha_hora',
+		'Fecha',
+		'Hora',
 		'Notas',
 		'Estado',
 	),
