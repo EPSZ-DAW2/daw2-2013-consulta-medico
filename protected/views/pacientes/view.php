@@ -34,7 +34,7 @@ $this->menu=array(
 		'TelFijo',
 		'TelMovil',
 		'Email',
-		'idAseguradora',
+		'aseguradoras.Nombre',
 		'Notas',
 	),
 )); ?>
