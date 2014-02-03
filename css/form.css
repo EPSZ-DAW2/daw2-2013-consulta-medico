@@ -77,6 +77,11 @@ div.form .row
 	margin: 5px 0;
 }
 
+div.form .row img
+{
+	position: absolute;
+}
+
 div.form .hint
 {
 	margin: 0;
