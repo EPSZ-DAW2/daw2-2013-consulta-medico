@@ -42,7 +42,7 @@
 		
 		 <?php
 		 if ($model->Fecha_nacimiento!='') {
-		 $model->Fecha_nacimiento=date('d-m-Y',strtotime($model->Fecha_nacimiento));
+		 $model->Fecha_nacimiento=date('Y/m/d',strtotime($model->Fecha_nacimiento));
 		 }
 		 $this->widget('zii.widgets.jui.CJuiDatePicker', array(
 		 'model'=>$model,
