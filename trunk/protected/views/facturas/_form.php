@@ -38,9 +38,11 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'IdPaciente'); ?>
-		<?php echo $form->textField($model,'IdPaciente'); ?>
+		<?php echo $form->labelEx($model,'Nombre'); ?>
+		<?php echo $form->dropDownList($model,'IdPaciente',CHtml::listData(Pacientes::model()->findAll(),'IdPaciente','Nombre')); ?>
+															
 		<?php echo $form->error($model,'IdPaciente'); ?>
+		
 	</div>
 	
 
