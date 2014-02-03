@@ -1,3 +1,15 @@
+body
+{
+background-color:white;
+}
+h1
+{
+background-color:white;
+}
+p
+{
+background-color:white;
+} 
 @font-face {
 	font-family: 'Gulim_TrueType_0';
 	src: local('Gulim_TrueType_0');
