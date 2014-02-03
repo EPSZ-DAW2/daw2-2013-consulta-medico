@@ -44,6 +44,10 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 	'id'=>'facturas-grid',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
+	'cssFile' => false,
+	'pager' => array (
+	'cssFile'=> false
+	),
 	'columns'=>array(
 		'IdFactura',
 		'Serie',
