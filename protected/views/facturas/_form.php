@@ -60,7 +60,34 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'FechaCobro'); ?>
-		<?php echo $form->textField($model,'FechaCobro'); ?>
+		
+		<?php
+		 if ($model->FechaCobro!='') {
+		 $model->FechaCobro=date('d-m-Y',strtotime($model->FechaCobro));
+		 }
+		 $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+		 'model'=>$model,
+		 'attribute'=>'FechaCobro',
+		 'value'=>$model->FechaCobro,
+		 'language' => 'es',
+		 'htmlOptions' => array('readonly'=>"readonly"),
+		 
+		 'options'=>array(
+		 'autoSize'=>true,
+		 'defaultDate'=>$model->FechaCobro,
+		 'dateFormat'=>'yy/mm/dd',
+		 'buttonImage'=>Yii::app()->baseUrl.'/css/calendar1.jpg',
+		 'buttonImageOnly'=>true,
+		 'buttonText'=>'Fecha',
+		 'selectOtherMonths'=>true,
+		 'showAnim'=>'slide',
+		 'showButtonPanel'=>true,
+		 'showOn'=>'button',
+		 'showOtherMonths'=>true,
+		 'changeMonth' => 'true',
+		 'changeYear' => 'true',
+		 ),
+		 )); ?>
 		<?php echo $form->error($model,'FechaCobro'); ?>
 	</div>
 
