@@ -32,10 +32,37 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'Fecha_hora'); ?>
-		<?php echo $form->textField($model,'Fecha_hora'); ?>
-		<?php echo $form->error($model,'Fecha_hora'); ?>
-	</div>
+		<?php echo $form->labelEx($model,'Fecha'); ?>
+		
+		 <?php
+		 if ($model->Fecha_hora!='') {
+		 $model->Fecha_hora=date('d-m-Y',strtotime($model->v));
+		 }
+		 $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+		 'model'=>$model,
+		 'attribute'=>'Fecha_hora',
+		 'value'=>$model->Fecha_hora,
+		 'language' => 'es',
+		 'htmlOptions' => array('readonly'=>"readonly"),
+		 
+		 'options'=>array(
+		 'autoSize'=>true,
+		 'defaultDate'=>$model->Fecha_hora,
+		 'dateFormat'=>'dd/mm/yy',
+		 'buttonImage'=>Yii::app()->baseUrl.'/css/calendar1.jpg',
+		 'buttonImageOnly'=>true,
+		 'buttonText'=>'Fecha',
+		 'selectOtherMonths'=>true,
+		 'showAnim'=>'slide',
+		 'showButtonPanel'=>true,
+		 'showOn'=>'button',
+		 'showOtherMonths'=>true,
+		 'changeMonth' => 'true',
+		 'changeYear' => 'true',
+		 ),
+		 )); ?>
+		 <?php echo $form->error($model,'Fecha_Hora'); ?>
+		</div>	
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Notas'); ?>
