@@ -4,7 +4,7 @@
 
 $this->breadcrumbs=array(
 	'Aseguradoras'=>array('index'),
-	'Manage',
+	'Administrar',
 );
 
 $this->menu=array(
