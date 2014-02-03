@@ -6,7 +6,7 @@
  * The followings are the available columns in table 'visitas':
  * @property integer $IdCita
  * @property integer $IdPaciente
- * @property string $Fecha_hora
+ * @property string $Fecha
  * @property string $Notas
  * @property string $Estado
  *
