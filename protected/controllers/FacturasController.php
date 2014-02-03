@@ -27,6 +27,10 @@ class FacturasController extends Controller
 	public function accessRules()
 	{
 		return array(
+			array('allow', // allow authenticated user to perform
+				'actions' => array('usersAutocomplete'),
+				'users' => array('*'),
+			),
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view','pdf'),
 				'users'=>array('*'),
@@ -77,6 +81,16 @@ class FacturasController extends Controller
 		$this->render('create',array(
 			'model'=>$model,
 		));
+	}	
+		
+	public function actionUsersAutocomplete() {
+        $term = trim($_GET['term']) ;
+ 
+        if($term !='') {
+			$users =  Facturas::usersAutoComplete($term);
+            echo CJSON::encode($users);
+            Yii::app()->end();
+		}
 	}
 
 	/**
