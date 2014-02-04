@@ -101,7 +101,7 @@ div.form .note
 
 div.form span.required
 {
-	color: red;
+	color: white;
 }
 
 div.form div.error label:first-child,
