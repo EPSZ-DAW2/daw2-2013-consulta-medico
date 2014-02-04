@@ -50,18 +50,17 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 		array('name'=>'Serie', 'headerHtmlOptions'=>array('class'=>'span-1')),
 		array('name'=>'Numero', 'headerHtmlOptions'=>array('class'=>'span-1')),
 		array('name'=>'Fecha', 'headerHtmlOptions'=>array('class'=>'span-2')),
-		array('name'=>'paciente.DNI_NIF', 'filter'=>CHtml::activeTextField($model,'dninif'),),
+		array('name'=>'paciente.DNI_NIF', 'filter'=>CHtml::activeTextField($model,'dninif'),'headerHtmlOptions'=>array('class'=>'span-2')),
 		'Concepto',
-		'Importe',
-		'FechaCobro',
+		array('name'=>'Importe', 'headerHtmlOptions'=>array('class'=>'span-2')),
+		array('name'=>'FechaCobro', 'headerHtmlOptions'=>array('class'=>'span-2')),
 		'Notas',
 		array(
 				'class' => 'CButtonColumn',
 				'template' => '{view}{update}{delete}{pdf}',
 				'buttons'=>array(
-						'pdf' => array('label'=>'Crear Pdf','imageUrl'=>Yii::app()->request->baseUrl.'/css/pdf.png','url'=>'Yii::app()->controller->createUrl("pdf",array("id"=>$data->IdFactura))',
-				)
-			),
-			),
+						'pdf' => array('label'=>'Crear Pdf','imageUrl'=>Yii::app()->request->baseUrl.'/css/pdf.png','url'=>'Yii::app()->controller->createUrl("pdf",array("id"=>$data->IdFactura))',)
+				),
+				'headerHtmlOptions'=>array('class'=>'span-2')),
 	),
 )); ?>
