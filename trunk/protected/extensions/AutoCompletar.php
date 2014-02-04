@@ -1,6 +1,6 @@
 <?php
 Yii::import("zii.widgets.jui.CJuiAutoComplete");
-class myAutoComplete extends CJuiAutoComplete
+class AutoCompletar extends CJuiAutoComplete
 {
  
     /**
