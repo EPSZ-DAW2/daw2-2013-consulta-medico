@@ -11,7 +11,7 @@ $this->menu=array(
 	array('label'=>'Lista de Aseguradoras', 'url'=>array('index')),
 	array('label'=>'Crear Aseguradoras', 'url'=>array('create')),
 	array('label'=>'Actualizar Aseguradoras', 'url'=>array('update', 'id'=>$model->idAseguradora)),
-	array('label'=>'Eliminar Aseguradoras', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idAseguradora),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Eliminar Aseguradoras', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idAseguradora),'confirm'=>'¿Está seguro que desea eliminar la aseguradora?')),
 	array('label'=>'Administrar Aseguradoras', 'url'=>array('admin')),
 );
 ?>
