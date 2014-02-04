@@ -2,6 +2,7 @@
 
 // uncomment the following to define a path alias
 Yii::setPathOfAlias('ecalendarview', dirname(__FILE__) . '/../extensions/ecalendarview');
+//Yii::setPathOfAlias('bootstrap',  dirname(__FILE__).'/../extensions/bootstrap');
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
@@ -22,7 +23,7 @@ return array(
 		'ext.seguridad.*',
 		//'ext.pdf.*',
 	),
-
+	'theme'=>'bootstrap',
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
 		'gii'=>array(
@@ -31,6 +32,9 @@ return array(
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 			//'ipFilters'=>false,
+			/*'generatorPaths'=>array(
+                'bootstrap.gii', // since 0.9.1
+            ),*/
 		),
 	),
 
@@ -41,6 +45,9 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+		/*'bootstrap'=>array(
+            'class'=>'bootstrap.components.Bootstrap',
+        ),*/
 		'ePdf' => array(
         'class'         => 'ext.yii-pdf.EYiiPdf',
         'params'        => array(

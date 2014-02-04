@@ -74,6 +74,7 @@
 		Copyright &copy; <?php echo date('Y'); ?> by Universidad de Salamanca.<br/>
 		Todos los derechos reservados.<br/>
 		<?php echo Yii::powered(); ?>
+		<?php //echo Yii::app()->bootstrap->register(); ?>
 	</div><!-- footer -->
 
 </div><!-- page -->
