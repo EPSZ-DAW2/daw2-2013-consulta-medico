@@ -28,9 +28,24 @@ class VisitasController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view','mail','usersAutocomplete'),
-				'users'=>array('*'),
+				'actions'=>array('usersAutocomplete'),
+				'roles'=>array('sysadmin', 'admin', 'medico', 'auxiliar', 'paciente'),
 			),
+			array('allow',
+				'actions'=>array('create', 'update', 'delete', 'index', 'view', 'mail'),
+				'roles'=>array('sysadmin'),
+			array('allow',
+				'actions'=>array('create', 'update', 'delete', 'index', 'view', 'mail'),
+				'roles'=>array('admin'),
+			array('allow',
+				'actions'=>array('create', 'update', 'delete', 'index', 'view', 'mail'),
+				'roles'=>array('medico'),
+			array('allow',
+				'actions'=>array('create', 'update', 'delete', 'index', 'view', 'mail'),
+				'roles'=>array('auxiliar'),
+			array('allow',
+				'actions'=>array('index', 'view'),
+				'roles'=>array('paciente'),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update','usersAutocomplete'),
 				'users'=>array('@'),
