@@ -18,17 +18,22 @@
 
 	<?php echo $form->errorSummary($model); ?>
 
-	<!--<div class="row">
-		<?php //echo $form->labelEx($model,'IdPaciente'); ?>
-		<?php //echo $form->textField($model,'IdPaciente'); ?>
-		<?php //echo $form->error($model,'IdPaciente');?>
-	</div>-->
-	
-	<div class="row">
-		<?php echo $form->labelEx($model,'NombrePaciente'); ?>
-		<?php echo $form->dropDownList($model,'IdPaciente',CHtml::listData(Pacientes::model()->findAll(),'IdPaciente','Nombre')); ?>
-		<?php echo $form->error($model,'IdPaciente'); ?>
-	</div>
+		<?php echo $form->labelEx($model,'Nombre'); ?>
+		<?php
+		$this->widget('ext.AutoCompletar', array(
+			'model'=>$model,
+			'attribute'=>'IdPaciente',
+			'name'=>'visitas_autocomplete',
+			'source'=>$this->createUrl('visitas/usersAutocomplete'),  // Controller/Action path for action we created in step 4.
+			// additional javascript options for the autocomplete plugin
+			'options'=>array(
+				'minLength'=>'0',
+			),
+			'htmlOptions'=>array(
+				'style'=>'height:20px;',
+			),        
+		));?>
+		<?php echo $form->error($model,'IdPaciente');?>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Fecha'); ?>
@@ -72,24 +77,8 @@
 	<div class="row"> 
 			
   <?php echo $form->label($model,'Notas'); ?>
-  <?php echo $form->hiddenField($model,'Notas',array()); ?>
-  <?php
-		$this->widget('ext.myAutoComplete', array(
-			'model'=>$model,
-			'attribute'=>'IdCita',
-			'name'=>'facturas_autocomplete',
-			'source'=>$this->createUrl('visitas/usersAutocomplete'),  // Controller/Action path for action we created in step 4.
-			// additional javascript options for the autocomplete plugin
-			'options'=>array(
-				'minLength'=>'0',
-			),
-			'htmlOptions'=>array(
-				'style'=>'height:20px;',
-			),        
-		));?>
-    <?php echo CHtml::hiddenField('notas');
- ?>
-		<?php echo $form->error($model,'Notas'); ?>
+  <?php echo $form->textField($model,'Notas'); ?>
+  <?php echo $form->error($model,'Notas'); ?>
 	</div>
 
 	<div class="row">
