@@ -31,6 +31,7 @@ class Aseguradoras extends CActiveRecord
 		return array(
 			array('Nombre', 'length', 'max'=>50),
 			array('Notas', 'length', 'max'=>150),
+			array('Nombre, Notas', 'required'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('idAseguradora, Nombre, Notas', 'safe', 'on'=>'search'),
