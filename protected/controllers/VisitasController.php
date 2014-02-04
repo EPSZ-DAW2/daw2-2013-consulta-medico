@@ -169,13 +169,13 @@ class VisitasController extends Controller
 		));
 	}
 	
-	public function actionMail($fecha,$hora)
+	public function actionMail($fecha,$hora,$correo)
 	{
 		$mail=Yii::app()->Smtpmail;
 		$mail->SetFrom("giisidaw@gmail.com","Hospital");
 		$mail->Subject="Recordatorio Cita";
 		$mail->MsgHTML("<h1>Usted tiene una cita el dia $fecha a las $hora<h1>");
-		$mail->AddAddress("alejandropoyogarrido@gmail.com","Alejandro");
+		$mail->AddAddress(,"Alejandro");
 		if(!$mail->Send()) 
 		{
            echo "Mailer Error: " . $mail->ErrorInfo;
