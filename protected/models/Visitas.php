@@ -19,12 +19,6 @@ class Visitas extends CActiveRecord
 	/**
 	 * @return string the associated database table name
 	 */
-	public $notas_name;
-	
-	public function afterFind() 
-	{
-		$this->notas_name = $this->notass->name;
-	}
 	
 	public function tableName()
 	{
@@ -41,7 +35,7 @@ class Visitas extends CActiveRecord
 		return array(
 			array('IdPaciente', 'numerical', 'integerOnly'=>true),
 			array('Notas', 'length', 'max'=>150),
-			array('nombre', 'length', 'max'=>150),
+			//array('nombre', 'length', 'max'=>150),
 			array('Estado', 'length', 'max'=>50),
 			array('Fecha, Hora', 'safe'),
 			// The following rule is used by search().
@@ -118,13 +112,13 @@ class Visitas extends CActiveRecord
 	 */
 	public static function model($className=__CLASS__)
 	{
-		return parent::model($className, $nombre);
+		return parent::model($className);
 	}
 	
 	public static function usersAutoComplete($name='') {
  
         // Recommended: Secure Way to Write SQL in Yii 
-		$sql= 'SELECT IdCita , Notas AS label FROM visitas WHERE Notas LIKE :name';
+		$sql= 'SELECT IdPaciente ,Nombre AS label FROM pacientes WHERE Nombre LIKE :name';
         $name = $name.'%';
         return Yii::app()->db->createCommand($sql)->queryAll(true,array(':name'=>$name));
     }
