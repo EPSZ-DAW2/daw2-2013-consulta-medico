@@ -32,7 +32,7 @@ class PruebasController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','plantilla'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -169,5 +169,11 @@ class PruebasController extends Controller
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}
+	}
+	
+	//Accion para devolver la plantilla para el IFRAME, o similar...
+	public function actionPlantilla()
+	{
+		echo plantilla::obtenerPlantilla( 'PlantillaFactura'); 
 	}
 }

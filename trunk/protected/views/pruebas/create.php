@@ -18,7 +18,11 @@ $this->menu=array(
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
 
 <div>
-<iframe width="760" height="800" src="<?php echo Yii::app()->request->baseUrl; ?>/Plantillas/PlantillaFactura.html" scrolling="no" frameborder="no" ></iframe>
+<iframe width="760" height="800" src="<?php 
+	//echo '/svn/index.php?r=pruebas/plantilla';
+	echo $this->createUrl( 'plantilla');
+	//$this->createUrl( 'facturas/admin');
+?>" scrolling="no" frameborder="no" ></iframe>
 </div> 
 <?php/*<table border="1" bgcolor="#FFFFFF">
 <tr>
