@@ -5,7 +5,7 @@
 $this->breadcrumbs=array(
 	'Aseguradoras'=>array('index'),
 	$model->idAseguradora=>array('view','id'=>$model->idAseguradora),
-	'Update',
+	'Actualizar',
 );
 
 $this->menu=array(
