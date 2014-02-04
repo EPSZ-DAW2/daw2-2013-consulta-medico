@@ -22,9 +22,10 @@ $html='
 </table>
 
 ';
-
+	//echo CHtml::submitButton('Pdf'); 
 	//plantilla::generarplantilla('facturas', array($model->IdFactura,$model->Serie,$model->Numero,$model->Fecha,$model->IdPaciente,$model->Concepto,$model->Importe,$model->FechaCobro,$model->Notas));
-	plantilla::generarplantilla('facturas', $html);
+		//plantilla::generarplantilla('facturas', $html);
+	
 ?>
 
 

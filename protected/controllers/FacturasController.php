@@ -28,7 +28,7 @@ class FacturasController extends Controller
 	{
 		return array(
 			array('allow', // allow authenticated user to perform
-				'actions' => array('AutoCompletar'),
+				'actions' => array('usersAutocomplete', 'pdf'),
 				'users' => array('*'),
 			),
 			array('allow',  // allow all users to perform 'index' and 'view' actions
@@ -83,17 +83,14 @@ class FacturasController extends Controller
 		));
 	}	
 		
-	public function actionAutoCompletar(){
-		$res = array();
-		$term = Yii::app()->getRequest()->getParam('term', false);
-		if($term){
-			$sql = 'SELECT IdPaciente, DNI_NIF FROM pacientes where DNI_NIF LIKE :name';
-			$cmd = Yii::app()->db->createCommand($sql);
-			$cmd->bindValue(":name","%".strtolower($term)."%", PDO::PARAM_STR);
-			$res = $cmd->queryAll();
+	public function actionAutoCompletar() {
+        $term = trim($_GET['term']) ;
+ 
+        if($term !='') {
+			$users =  Facturas::autoCompletarFacturas($term);
+            echo CJSON::encode($users);
+            Yii::app()->end();
 		}
-		echo CJSON::encode($res);
-		Yii::app()->end();
 	}
 
 	/**
@@ -140,6 +137,14 @@ class FacturasController extends Controller
 	public function actionIndex()
 	{
 		$dataProvider=new CActiveDataProvider('Facturas');
+		/*
+		$mPDF1 = Yii::app()->ePdf->mpdf();
+		
+		$mPDF1->WriteHTML("Hola Mundo");
+		
+		$mPDF1->Output();
+		*/
+		
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -187,11 +192,21 @@ class FacturasController extends Controller
 			Yii::app()->end();
 		}
 	}/*PARA EL PDF*/
-	public function actionPdf($id)
+	public function actionPdf($idpaciente,$idfactura,$serie,$numero,$fecha,$concepto,$importe,$fechac,$notas)
     {
+		
+		
 		//plantilla::generarplantilla($plantilla, array($model->IdFacturas,$model->Series,$model->Numero,$model->Fecha,$model->IdPaciente,$model->IdFacturas,$model->Concepto,$model->Importe,$model->FechaCobro,$model->Notas));
-        $this->render('pdf',array(
-            'model'=>$this->loadModel($id),
-        ));
+	
+	$html="La factura con ID: " . $idfactura."\n\r Numero de Serie: ". $serie . "\n Numero de Factura: ". $numero . "\n Del paciente con ID: ". $idpaciente . "\n Concepto: " . $concepto . "\n Importe de Factura: " . $importe . "\n Notas de Factura: " . $notas;
+	
+	
+	$mPDF1 = Yii::app()->ePdf->mpdf();
+		
+	$mPDF1->WriteHTML($html);
+		
+	$mPDF1->Output();
+	
+        //$this->render('pdf',array('model'=>$this->loadModel($id),));
     }
 }
