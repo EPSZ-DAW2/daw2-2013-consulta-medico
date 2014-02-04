@@ -45,7 +45,7 @@ class Facturas extends CActiveRecord
 			array('Fecha, FechaCobro', 'safe'),
 			array('Serie, Numero, Fecha, Importe, FechaCobro', 'required'),
 			array('IdPaciente', 'required', 'message'=>'El DNI introducido es nulo o inválido.'),
-			array('IdFactura, Serie, Numero, Fecha, IdPaciente, Concepto, Importe, FechaCobro, Notas', 'safe', 'on'=>'search'),
+			array('IdFactura, Serie, Numero, dninif, Fecha, IdPaciente, Concepto, Importe, FechaCobro, Notas', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -97,12 +97,12 @@ class Facturas extends CActiveRecord
 		// @todo Please modify the following code to remove attributes that should not be searched.
 
 		$criteria=new CDbCriteria;
-
+		$criteria->with=array('paciente');
 		$criteria->compare('IdFactura',$this->IdFactura);
 		$criteria->compare('Serie',$this->Serie);
 		$criteria->compare('Numero',$this->Numero);
 		$criteria->compare('Fecha',$this->Fecha,true);
-		$criteria->compare('IdPaciente',$this->IdPaciente);
+		$criteria->compare('paciente.DNI_NIF',$this->dninif);
 		$criteria->compare('Concepto',$this->Concepto,true);
 		$criteria->compare('Importe',$this->Importe);
 		$criteria->compare('FechaCobro',$this->FechaCobro,true);
