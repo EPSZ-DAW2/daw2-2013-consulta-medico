@@ -10,10 +10,9 @@ class plantilla{
 	$valores=array_values($datos);
 	$resultado=str_replace($claves, $valores, $plantilla);
 	
-	$mpdf=new mPDF('win-1252',$plantilla,'','',15,15,25,12,5,7);
-$mpdf->WriteHTML($resultado);
-$mpdf->Output('Plantilla'.$model->num_control.'.pdf','D');
-exit;
+	//$mpdf=new mPDF('win-1252',$plantilla,'','',15,15,25,12,5,7);
+	$mpdf->WriteHTML($resultado);
+$mpdf->Output();
 	
 }
 }
