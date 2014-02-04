@@ -6,7 +6,9 @@
 <div class="view">
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('IdPrueba')); ?>:</b>
-	<?php echo CHtml::link(CHtml::encode($data->IdPrueba), array('view', 'id'=>$data->IdPrueba)); ?>
+	<?php echo CHtml::link(CHtml::encode($data->IdPrueba), array('pruebas/view', 'id'=>$data->IdPrueba));
+	/*echo Yii::app()->createUrl('pruebas/view', array('id'=>$data->IdPrueba));
+	*/?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('IdCita')); ?>:</b>
