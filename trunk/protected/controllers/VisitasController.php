@@ -60,8 +60,22 @@ class VisitasController extends Controller
 	 */
 	public function actionView($id)
 	{
+			//$model=Pruebas::model()->loadModel($id);
+			$model=$this->loadModel($id);
+			$criterio= new CDbCriteria;
+			$criterio->compare( 'IdCita', $model->IdCita);
+			
+			
+			$dataProvider=new CActiveDataProvider('Pruebas', array(
+				'criteria'=>$criterio,
+				'pagination' => array(
+					//'pageSize' => 5
+					)
+				)
+			);
+		
 		$this->render('view',array(
-			'model'=>$this->loadModel($id),
+			'model'=>$this->loadModel($id),'dataProvider'=>$dataProvider
 		));
 	}
 
