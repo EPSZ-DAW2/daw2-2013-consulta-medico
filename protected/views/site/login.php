@@ -46,7 +46,7 @@ $this->breadcrumbs=array(
 		<?php echo $form->error($model,'password'); ?>
 		<p class="hint">
 			Por favor. Si no dispone de una cuenta de usuario contacte con su centro médico.
-		</p>
+		</p> 
 	</div>
 
 	<div class="row rememberMe">
