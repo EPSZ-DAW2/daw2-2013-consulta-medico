@@ -73,24 +73,20 @@
 			
   <?php echo $form->label($model,'Notas'); ?>
   <?php echo $form->hiddenField($model,'Notas',array()); ?>
-  <?php 
-  $this->widget('zii.widgets.jui.CJuiAutoComplete',
-    array(
-      'model'=>$model,
-      'attribute'=>'notas_name',
-      'source'=>$this->createUrl('ListarEstados'),
-      'htmlOptions'=>array('placeholder'=>'Any'),
-      'options'=>
-         array(
-               'showAnim'=>'fold',
-               'select'=>"js:function(hotel, ui) {
-                  $('#notas_id').val(ui.item.id);
-                         }"
-                ),
-      'cssFile'=>false,
-    )); 
-
-    ?>
+  <?php
+		$this->widget('ext.myAutoComplete', array(
+			'model'=>$model,
+			'attribute'=>'IdCita',
+			'name'=>'facturas_autocomplete',
+			'source'=>$this->createUrl('visitas/usersAutocomplete'),  // Controller/Action path for action we created in step 4.
+			// additional javascript options for the autocomplete plugin
+			'options'=>array(
+				'minLength'=>'0',
+			),
+			'htmlOptions'=>array(
+				'style'=>'height:20px;',
+			),        
+		));?>
     <?php echo CHtml::hiddenField('notas');
  ?>
 		<?php echo $form->error($model,'Notas'); ?>
