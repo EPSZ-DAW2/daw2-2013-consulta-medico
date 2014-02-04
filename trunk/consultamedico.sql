@@ -1,13 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.0.4.1
+-- version 3.4.5
 -- http://www.phpmyadmin.net
 --
--- Servidor: 127.0.0.1
--- Tiempo de generación: 03-02-2014 a las 20:37:41
--- Versión del servidor: 5.5.32
--- Versión de PHP: 5.4.19
+-- Servidor: localhost
+-- Tiempo de generación: 04-02-2014 a las 11:03:00
+-- Versión del servidor: 5.5.16
+-- Versión de PHP: 5.3.8
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
@@ -16,9 +16,10 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8 */;
 
+--
 -- Base de datos: `consultamedico`
 --
-CREATE DATABASE IF NOT EXISTS `consultamedico` DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci;
+CREATE DATABASE `consultamedico` DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish_ci;
 USE `consultamedico`;
 
 -- --------------------------------------------------------
@@ -172,6 +173,7 @@ CREATE TABLE IF NOT EXISTS `pacientes` (
   `idAseguradora` int(11) DEFAULT NULL,
   `Notas` char(150) DEFAULT NULL,
   PRIMARY KEY (`IdPaciente`),
+  UNIQUE KEY `DNI_NIF` (`DNI_NIF`),
   KEY `idAseguradora` (`idAseguradora`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
 
@@ -343,12 +345,12 @@ INSERT INTO `usuarios` (`IdUsuario`, `usuario`, `clave`, `nombre`, `FechaHoraUlt
 
 CREATE TABLE IF NOT EXISTS `visitas` (
   `IdCita` int(11) NOT NULL AUTO_INCREMENT,
-  `IdPaciente` int(11) DEFAULT NULL,
-  `Fecha` date DEFAULT NULL,
+  `IdPaciente` int(11) NOT NULL DEFAULT '0',
+  `Fecha` date NOT NULL DEFAULT '0000-00-00',
   `Notas` char(150) DEFAULT NULL,
   `Estado` char(50) DEFAULT NULL,
-  `Hora` time DEFAULT NULL,
-  PRIMARY KEY (`IdCita`),
+  `Hora` time NOT NULL DEFAULT '00:00:00',
+  PRIMARY KEY (`IdCita`,`IdPaciente`,`Fecha`,`Hora`),
   KEY `IdPaciente` (`IdPaciente`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
 
@@ -437,4 +439,3 @@ ALTER TABLE `visitas`
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-
