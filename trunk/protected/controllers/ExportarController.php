@@ -1,6 +1,19 @@
 <?php
 class ExportarController extends Controller
 {
+	public function accessRules()
+	{
+		return array(
+			array('allow', // allow authenticated user to perform
+				'actions' => array('index'),
+				'users' => array('admin'),
+			),
+			array('deny',  // deny all users
+				'users'=>array('*'),
+			),
+		);
+	}
+	
 	public function actionIndex(){
 		$modelo=new ExportarForm;
 		if(isset($_POST['ExportarForm'])){
