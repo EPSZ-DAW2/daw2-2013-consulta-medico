@@ -12,14 +12,14 @@ body
 	margin-top: 5px;
 	margin-bottom: 5px;
 	background: grey;
-	border: 1px solid #C9E0ED;
+	border: 1px solid #FF9933;
 }
 
 #header
 {
 	margin: 0;
 	padding: 0;
-	border-top: 3px solid #C9E0ED;
+	border-top: 3px solid #FF9933;
 }
 
 #content
@@ -30,6 +30,7 @@ body
 #sidebar
 {
 	padding: 20px 20px 20px 0;
+	
 }
 
 #footer
@@ -38,7 +39,7 @@ body
 	margin: 10px 20px;
 	font-size: 0.8em;
 	text-align: center;
-	border-top: 1px solid #C9E0ED;
+	border-top: 1px solid #FF9933;
 }
 
 #logo
@@ -47,38 +48,6 @@ body
 	font-size: 200%;
 }
 
-#mainmenu
-{
-	background:white url(bg.gif) repeat-x left top;
-}
-
-#mainmenu ul
-{
-	padding:6px 20px 5px 20px;
-	margin:0px;
-}
-
-#mainmenu ul li
-{
-	display: inline;
-}
-
-#mainmenu ul li a
-{
-	color:black;
-	background-color:transparent;
-	font-size:15px;
-	font-weight:bold;
-	text-decoration:none;
-	padding:5px 8px;
-}
-
-#mainmenu ul li a:hover, #mainmenu ul li.active a
-{
-	color: black;
-	background-color:orange;
-	text-decoration:none;
-}
 
 div.flash-error, div.flash-notice, div.flash-success
 {
@@ -132,7 +101,7 @@ div.view
 {
 	padding: 10px;
 	margin: 10px 0;
-	border: 1px solid #C9E0ED;
+	border: 1px solid #FF9933;
 }
 
 div.breadcrumbs
@@ -155,14 +124,16 @@ div.search-form
 
 .portlet
 {
-
+	border-width:15px;
+	
 }
 
 .portlet-decoration
 {
 	padding: 3px 8px;
-	background: #B7D6E7;
-	border-left: 5px solid #6FACCF;
+	background: url(nav1_active.gif);
+	
+
 }
 
 .portlet-title
@@ -171,7 +142,7 @@ div.search-form
 	font-weight: bold;
 	padding: 0;
 	margin: 0;
-	color: #298dcd;
+	color: #FFFFFF;
 }
 
 .portlet-content
@@ -179,7 +150,7 @@ div.search-form
 	font-size:0.9em;
 	margin: 0 0 15px 0;
 	padding: 5px 8px;
-	background:#EFFDFF;
+	background: #FFFFFF;
 }
 
 .portlet-content ul
@@ -201,29 +172,33 @@ div.search-form
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	background: #FFFFFF;
 }
 
 .operations li
 {
 	padding-bottom: 2px;
+	background: #FFFFFF;
 }
 
 .operations li a
 {
 	font: bold 12px Arial;
-	color: #0066A4;
+	
+	color: #000000;
 	display: block;
 	padding: 2px 0 2px 8px;
 	line-height: 15px;
 	text-decoration: none;
+	background: #FFFFFF;
 }
 
 .operations li a:visited
 {
-	color: #0066A4;
+	color: #000000;
 }
 
 .operations li a:hover
 {
-	background: #80CFFF;
+	background: #808080;
 }
