@@ -227,6 +227,9 @@ class CopiaDeSeguridad{
 			$bbDD->query("SET FOREIGN_KEY_CHECKS=0;");
 
 			if (file_exists($archivo)){
+				//Exportamos el estado actual de la base de datos
+				CopiaDeSeguridad::exportarSQL(array(true,true,true,true,true,true,true,true,true,true,true,true),false);
+				
 				//Cargamos el archivo xml
 				$xml = simplexml_load_file($archivo);
 				
@@ -265,13 +268,24 @@ class CopiaDeSeguridad{
 						//Si es seguro guardar el campo, lo insertamos en la base de datos
 						if($guardarCampo) $bbDD->query("INSERT INTO `".$atributosTabla->nombre."` (".substr($nombres,0,-1).") VALUES (".substr($valores,0,-1).");");
 					}
-				}return true;
+				}
+				//Borramos el archivo
+				$borrado = unlink(Yii::app()->basePath . '/../temporales/temporal.sql');
+				
+				return true;
 			}else{
 				Yii::app()->user->setFlash('error',"Error: El archivo no existe");
 				return false;
 			}
 		}catch(PDOException $excepcion){
 			Yii::app()->user->setFlash('error',"Error: ".$excepcion->getMessage());
+			
+			//Restablecemos la base de datos a su estado anterior
+			CopiaDeSeguridad::importarSQL(Yii::app()->basePath . '/../temporales/temporal.sql');
+			
+			//Borramos el archivo
+			$borrado = unlink(Yii::app()->basePath . '/../temporales/temporal.sql');
+			
 			return false;
 		}
     }
@@ -284,7 +298,7 @@ class CopiaDeSeguridad{
 			
 			if(file_exists($archivo)){
 				//Exportamos el estado actual de la base de datos
-				CopiaDeSeguridad::exportarSQL(array(true,true,true,true,true,true,true,true,true),false);
+				CopiaDeSeguridad::exportarSQL(array(true,true,true,true,true,true,true,true,true,true,true,true),false);
 				
 				//Desactivamos las claves foráneas para evitar un error de este tipo
 				$bbDD->query("SET FOREIGN_KEY_CHECKS=0;");
@@ -325,29 +339,5 @@ class CopiaDeSeguridad{
 	}
 	
 	/* --- IMPORTACIÓN --- */
-	
-	/* --- VALIDAR --- */
-	
-	//Función para validar un XML
-    public static function validarXML($archivo){
-		try{					
-			if (file_exists($archivo)) {
-				//Cargamos el archivo xml
-				$xmlIterator = new SimpleXMLIterator ($archivo, 0, true);
-				for( $xmlIterator->rewind(); $xmlIterator->valid(); $xmlIterator->next() ) {
-					if($xmlIterator->hasChildren()) {
-						echo $xmlIterator->getChildren;
-					}
-				}
-				return true;
-			}else{
-				Yii::app()->user->setFlash('error',"Error: El archivo no existe");
-				return false;
-			}
-		}catch(PDOException $excepcion){
-			Yii::app()->user->setFlash('error',"Error: ".$excepcion->getMessage());
-			return false;
-		}
-    }
 }
 ?>

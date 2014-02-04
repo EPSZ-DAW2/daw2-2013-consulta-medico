@@ -16,6 +16,21 @@
 	</div>
 	
 	<div class="simple">
+	<?php echo CHtml::activeCheckBox($exportar,'authassignment'); ?>
+	Authassignment<br/>
+	</div>
+	
+	<div class="simple">
+	<?php echo CHtml::activeCheckBox($exportar,'authitem'); ?>
+	Authitem<br/>
+	</div>
+	
+	<div class="simple">
+	<?php echo CHtml::activeCheckBox($exportar,'authitemchild'); ?>
+	Authitemchild<br/>
+	</div>
+	
+	<div class="simple">
 	<?php echo CHtml::activeCheckBox($exportar,'facturas'); ?>
 	Facturas<br/>
 	</div>
