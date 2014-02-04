@@ -5,7 +5,6 @@
 ?>
 
 <div class="form">
-
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'visitas-form',
 	// Please note: When you enable ajax validation, make sure the corresponding
@@ -70,31 +69,26 @@
 		<?php echo $form->error($model,'Hora');?>
 	</div>
 	
-	<div class="row">
-		<?php echo $form->labelEx($model,'Notas'); ?>
-		<?php 
-			if ($model->Notas!='') 
-			 { 
-				$value=$model->Notas; 
-			 } 
-			 else { 
-			 $value=''; 
-			 }
-			 echo $form->hiddenField($model, 'Notas'); 
-			 $this->widget('zii.widgets.jui.CJuiAutoComplete', array( 
-			 'name'=>'Notas', 
-			 'model'=>$model, 
-			 'value'=>$value, 
-			 'sourceUrl'=>$this->createUrl('ListarEstados'), 
-			 'options'=>array(
-			 'minLength'=>'2', 
-			 'showAnim'=>'fold', 
-			 'select' => 'js:function(event, ui)
-			 { jQuery("#visitas").val(ui.item["Notas"]); }', 
-			 'search'=> 'js:function(event, ui) 
-			 { jQuery("#visitas").val(0); }' 
-			 ),
-			 ));
+	<div class="row"> 
+			
+  <?php echo $form->label($model,'Notas'); ?>
+  <?php echo $form->hiddenField($model,'Notas',array()); ?>
+  <?php 
+  $this->widget('zii.widgets.jui.CJuiAutoComplete',
+    array(
+      'model'=>$model,
+      'attribute'=>'notas_name',
+      'source'=>$this->createUrl('ListarEstados'),
+      'htmlOptions'=>array('placeholder'=>'Any'),
+      'options'=>
+         array(
+               'showAnim'=>'fold',
+               'select'=>"js:function(hotel, ui) {
+                  $('#notas_id').val(ui.item.id);
+                         }"
+                ),
+      'cssFile'=>false,
+    )); 
 
     ?>
     <?php echo CHtml::hiddenField('notas');
