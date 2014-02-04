@@ -192,13 +192,23 @@ class FacturasController extends Controller
 			Yii::app()->end();
 		}
 	}/*PARA EL PDF*/
-	public function actionPdf($idpaciente,$idfactura,$serie,$numero,$fecha,$concepto,$importe,$fechac,$notas)
+	public function actionPdf($id)
     {
-		
-		$datos=array($idpaciente,$idfactura,$serie,$numero,$fecha,$concepto,$importe,$fechac,$notas);
-		//plantilla::generarplantilla($plantilla, array($model->IdFacturas,$model->Series,$model->Numero,$model->Fecha,$model->IdPaciente,$model->IdFacturas,$model->Concepto,$model->Importe,$model->FechaCobro,$model->Notas));
-		plantilla::generarplantilla('./Plantillas/PlantillaFactura', $datos);
-	
+		$factura= Facturas::model()->findByPk( $id);
+		if ($factura !== null) {
+			$datos=array(
+				'factura.idfactura' =>$factura->IdFactura,
+				'factura.fecha' =>$factura->Fecha,
+				'factura.idpaciente'=>$factura->IdPaciente,
+				'pacientes.nombre'=>CHtml::value( $factura, 'paciente.Nombre'),
+			);
+				//$serie,$numero,$fecha,$concepto,$importe,$fechac,$notas,$Plantillas);
+			//plantilla::generarplantilla($plantilla, array($model->IdFacturas,$model->Series,$model->Numero,$model->Fecha,$model->IdPaciente,$model->IdFacturas,$model->Concepto,$model->Importe,$model->FechaCobro,$model->Notas));
+			//plantilla::generarPlantilla( 'PlantillaFactura', $datos, false);
+			plantilla::generarPlantilla( 'PlantillaFactura', $datos, true);
+		} else {
+			echo 'Factura no encontrada.';
+		}
 	/*
 	$html="La factura con ID: " . $idfactura."\n\r Numero de Serie: ". $serie . "\n Numero de Factura: ". $numero . "\n Del paciente con ID: ". $idpaciente . "\n Concepto: " . $concepto . "\n Importe de Factura: " . $importe . "\n Notas de Factura: " . $notas;
 	
