@@ -19,6 +19,12 @@ class Visitas extends CActiveRecord
 	/**
 	 * @return string the associated database table name
 	 */
+	public $notas_name;
+	
+	public function afterFind() 
+	{
+		$this->notas_name = $this->notass->name;
+	}
 	
 	public function tableName()
 	{
@@ -35,6 +41,7 @@ class Visitas extends CActiveRecord
 		return array(
 			array('IdPaciente', 'numerical', 'integerOnly'=>true),
 			array('Notas', 'length', 'max'=>150),
+			array('nombre', 'length', 'max'=>150),
 			array('Estado', 'length', 'max'=>50),
 			array('Fecha, Hora', 'safe'),
 			// The following rule is used by search().
@@ -111,6 +118,6 @@ class Visitas extends CActiveRecord
 	 */
 	public static function model($className=__CLASS__)
 	{
-		return parent::model($className);
+		return parent::model($className, $nombre);
 	}
 }
