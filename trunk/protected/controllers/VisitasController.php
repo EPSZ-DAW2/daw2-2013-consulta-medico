@@ -185,13 +185,17 @@ class VisitasController extends Controller
 	{
 		$model=new Calendario;
 		
+		
 		if(isset($_POST['fecha'])){
 			$model->attributes=$_POST['Calendario'];
-			$dataProvider=new CActiveDataProvider('Visitas');
+		
+			
+			$dataProvider=new CActiveDataProvider('Visitas'); 
+			
 			$fechas=$model->fechaVisita;
 			$comando = Yii::app()->db->createCommand('SELECT COUNT(*) FROM visitas where Fecha=\''.$fechas.'\'');
 			if($comando->queryScalar()<1) Yii::app()->user->setFlash('informacion','No hay visitas para el día seleccionado');
-			$this->render('index',array('dataProvider'=>$dataProvider,'fechas'=>$fechas,));
+			$this->render('index',array('dataProvider'=>$dataProvider, 'fechas'=>$fechas));
 		}else{
 			$this->render('index',array('model'=>$model,));
 		}
