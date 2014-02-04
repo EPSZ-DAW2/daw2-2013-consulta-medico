@@ -142,21 +142,35 @@ class VisitasController extends Controller
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
 	}
 
-	public function actionMail($fecha)
+	public function actionAdmin()
+	{
+		$model=new Visitas('search');
+		$model->unsetAttributes();  // clear any default values
+		if(isset($_GET['Visitas']))
+			$model->attributes=$_GET['Visitas'];
+
+		$this->render('admin',array(
+			'model'=>$model,
+		));
+	}
+	
+	public function actionMail($fecha,$hora)
 	{
 		$mail=Yii::app()->Smtpmail;
-		$mail->SetFrom("giisidaw@gmail.com","GIISI");
-		$mail->Subject="Mi asunto";
-		$mail->MsgHTML("<h1>Usted tiene una cita el $fecha<h1>");
-		$mail->AddAddress("alejandropoyogarrido@gmail.com","Carlos Fco");
+		$mail->SetFrom("giisidaw@gmail.com","Hospital");
+		$mail->Subject="Recordatorio Cita";
+		$mail->MsgHTML("<h1>Usted tiene una cita el dia $fecha a las $hora<h1>");
+		$mail->AddAddress("alejandropoyogarrido@gmail.com","Alejandro");
 		if(!$mail->Send()) 
 		{
            echo "Mailer Error: " . $mail->ErrorInfo;
         }
 		else 
 		{
-            echo "Message sent!";
-        }
+            echo "El correo ha sido enviado!";
+				
+		}
+		echo CHtml::link('Volver',array('Admin')); 
 		
 	}
 	
@@ -184,17 +198,7 @@ class VisitasController extends Controller
 	/**
 	 * Manages all models.
 	 */
-	public function actionAdmin()
-	{
-		$model=new Visitas('search');
-		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Visitas']))
-			$model->attributes=$_GET['Visitas'];
-
-		$this->render('admin',array(
-			'model'=>$model,
-		));
-	}
+	
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
