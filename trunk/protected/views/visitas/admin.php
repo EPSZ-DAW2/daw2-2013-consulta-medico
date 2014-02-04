@@ -54,10 +54,10 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 		'paciente.Nombre',
 		array( 'name'=>'Fecha', 'value'=>'(strtotime($data->Fecha)==0 ? "" : date("d-m-Y H:i:s", strtotime($data->Fecha)))'),
 		'Notas',
-		array('name'=>'Estado', 'htmlOptions'=>array('width'=>'50')),
+		'Estado',
 			array(
 				'class' => 'CButtonColumn',
-				'template' => '$data->Estado==1 ? "{view}{update}{delete}{email}" : "{view}{update}{delete}"',
+				'template' => '{view}{update}{delete}{email}',
 				'buttons'=>array(
 						'email' => array('label'=>'Enviar email recordatorio','imageUrl'=>Yii::app()->request->baseUrl.'/css/e-mail.png','url'=>'Yii::app()->controller->createUrl("mail",array("fecha"=>$data->Fecha,))',
 				)
