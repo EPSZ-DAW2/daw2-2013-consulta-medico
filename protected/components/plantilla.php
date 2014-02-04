@@ -1,6 +1,6 @@
 <?php
 /* se deben pasar la plantilla a utilizar y los datos*/
-$pdf = Yii::createComponent('application.yii-pdf.*');
+
 
 class plantilla{
 	public static function generarplantilla($plantilla, $datos)
