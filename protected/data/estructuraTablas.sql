@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 04-02-2014 a las 10:12:22
+-- Tiempo de generación: 05-02-2014 a las 00:43:55
 -- Versión del servidor: 5.6.14
 -- Versión de PHP: 5.5.6
 
@@ -89,8 +89,8 @@ CREATE TABLE IF NOT EXISTS `authitemchild` (
 DROP TABLE IF EXISTS `facturas`;
 CREATE TABLE IF NOT EXISTS `facturas` (
   `IdFactura` int(11) NOT NULL AUTO_INCREMENT,
-  `Serie` int(11) DEFAULT NULL,
-  `Numero` int(11) DEFAULT NULL,
+  `Serie` int(11) NOT NULL DEFAULT '0',
+  `Numero` int(11) NOT NULL DEFAULT '0',
   `Fecha` date DEFAULT NULL,
   `IdPaciente` int(11) DEFAULT NULL,
   `Concepto` char(50) DEFAULT NULL,
@@ -124,6 +124,7 @@ CREATE TABLE IF NOT EXISTS `pacientes` (
   `idAseguradora` int(11) DEFAULT NULL,
   `Notas` char(150) DEFAULT NULL,
   PRIMARY KEY (`IdPaciente`),
+  UNIQUE KEY `DNI_NIF` (`DNI_NIF`),
   KEY `idAseguradora` (`idAseguradora`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
 
@@ -219,11 +220,11 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 DROP TABLE IF EXISTS `visitas`;
 CREATE TABLE IF NOT EXISTS `visitas` (
   `IdCita` int(11) NOT NULL AUTO_INCREMENT,
-  `IdPaciente` int(11) DEFAULT NULL,
-  `Fecha` date DEFAULT NULL,
-  `Notas` char(150) DEFAULT NULL,
+  `IdPaciente` int(11) NOT NULL DEFAULT '0',
+  `Fecha` date NOT NULL DEFAULT '0000-00-00',
+  `Notas` char(150) NOT NULL DEFAULT '',
   `Estado` char(50) DEFAULT NULL,
-  `Hora` time DEFAULT NULL,
+  `Hora` time NOT NULL DEFAULT '00:00:00',
   PRIMARY KEY (`IdCita`),
   KEY `IdPaciente` (`IdPaciente`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
@@ -249,50 +250,34 @@ ALTER TABLE `authitemchild`
 -- Filtros para la tabla `facturas`
 --
 ALTER TABLE `facturas`
-  ADD CONSTRAINT `facturas_ibfk_1` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`),
-  ADD CONSTRAINT `facturas_ibfk_2` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON DELETE CASCADE,
-  ADD CONSTRAINT `facturas_ibfk_3` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON UPDATE CASCADE;
+  ADD CONSTRAINT `facturas_ibfk_1` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `pacientes`
 --
 ALTER TABLE `pacientes`
-  ADD CONSTRAINT `pacientes_ibfk_1` FOREIGN KEY (`idAseguradora`) REFERENCES `aseguradoras` (`idAseguradora`),
-  ADD CONSTRAINT `pacientes_ibfk_2` FOREIGN KEY (`idAseguradora`) REFERENCES `aseguradoras` (`idAseguradora`) ON DELETE CASCADE,
-  ADD CONSTRAINT `pacientes_ibfk_3` FOREIGN KEY (`idAseguradora`) REFERENCES `aseguradoras` (`idAseguradora`) ON UPDATE CASCADE;
+  ADD CONSTRAINT `pacientes_ibfk_1` FOREIGN KEY (`idAseguradora`) REFERENCES `aseguradoras` (`idAseguradora`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `perfilesusuarios`
 --
 ALTER TABLE `perfilesusuarios`
-  ADD CONSTRAINT `perfilesusuarios_ibfk_1` FOREIGN KEY (`IdUsuario`) REFERENCES `usuarios` (`IdUsuario`),
-  ADD CONSTRAINT `perfilesusuarios_ibfk_2` FOREIGN KEY (`IdPerfil`) REFERENCES `perfiles` (`IdPerfil`),
-  ADD CONSTRAINT `perfilesusuarios_ibfk_3` FOREIGN KEY (`IdPerfil`) REFERENCES `perfiles` (`IdPerfil`) ON DELETE CASCADE,
-  ADD CONSTRAINT `perfilesusuarios_ibfk_4` FOREIGN KEY (`IdPerfil`) REFERENCES `perfiles` (`IdPerfil`) ON UPDATE CASCADE,
-  ADD CONSTRAINT `perfilesusuarios_ibfk_5` FOREIGN KEY (`IdUsuario`) REFERENCES `usuarios` (`IdUsuario`) ON DELETE CASCADE,
-  ADD CONSTRAINT `perfilesusuarios_ibfk_6` FOREIGN KEY (`IdUsuario`) REFERENCES `usuarios` (`IdUsuario`) ON UPDATE CASCADE;
+  ADD CONSTRAINT `perfilesusuarios_ibfk_1` FOREIGN KEY (`IdUsuario`) REFERENCES `usuarios` (`IdUsuario`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `perfilesusuarios_ibfk_2` FOREIGN KEY (`IdPerfil`) REFERENCES `perfiles` (`IdPerfil`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `pruebas`
 --
 ALTER TABLE `pruebas`
-  ADD CONSTRAINT `pruebas_ibfk_1` FOREIGN KEY (`IdCita`) REFERENCES `visitas` (`IdCita`),
-  ADD CONSTRAINT `pruebas_ibfk_2` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`),
-  ADD CONSTRAINT `pruebas_ibfk_3` FOREIGN KEY (`IdTipoDiagnostico`) REFERENCES `tiposdiagnosticos` (`IdTipoDiagnostico`),
-  ADD CONSTRAINT `pruebas_ibfk_4` FOREIGN KEY (`IdCita`) REFERENCES `visitas` (`IdCita`) ON DELETE CASCADE,
-  ADD CONSTRAINT `pruebas_ibfk_5` FOREIGN KEY (`IdCita`) REFERENCES `visitas` (`IdCita`) ON UPDATE CASCADE,
-  ADD CONSTRAINT `pruebas_ibfk_6` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON DELETE CASCADE,
-  ADD CONSTRAINT `pruebas_ibfk_7` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON UPDATE CASCADE,
-  ADD CONSTRAINT `pruebas_ibfk_8` FOREIGN KEY (`IdTipoDiagnostico`) REFERENCES `tiposdiagnosticos` (`IdTipoDiagnostico`) ON DELETE CASCADE,
-  ADD CONSTRAINT `pruebas_ibfk_9` FOREIGN KEY (`IdTipoDiagnostico`) REFERENCES `tiposdiagnosticos` (`IdTipoDiagnostico`) ON UPDATE CASCADE;
+  ADD CONSTRAINT `pruebas_ibfk_1` FOREIGN KEY (`IdCita`) REFERENCES `visitas` (`IdCita`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `pruebas_ibfk_2` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `pruebas_ibfk_3` FOREIGN KEY (`IdTipoDiagnostico`) REFERENCES `tiposdiagnosticos` (`IdTipoDiagnostico`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `visitas`
 --
 ALTER TABLE `visitas`
-  ADD CONSTRAINT `visitas_ibfk_1` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`),
-  ADD CONSTRAINT `visitas_ibfk_2` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON DELETE CASCADE,
-  ADD CONSTRAINT `visitas_ibfk_3` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON UPDATE CASCADE;
+  ADD CONSTRAINT `visitas_ibfk_1` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON DELETE CASCADE ON UPDATE CASCADE;
 SET FOREIGN_KEY_CHECKS=1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
