@@ -33,7 +33,7 @@
 				'style'=>'height:20px;',
 			),        
 		));?>
-		<?php echo $form->error($model,'IdPaciente');?>
+		<?php echo $form->error($model,'Nombre');?>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Fecha'); ?>
