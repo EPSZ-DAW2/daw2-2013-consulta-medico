@@ -68,7 +68,7 @@ div.form label
 	font-size: 0.9em;
 	display: block;
 	background: url(gridview/nav.png) no-repeat;
-	background-size: 150px 50px;
+	background-size: 200px 50px;
 	
 }
 
@@ -186,7 +186,7 @@ div.wide.form label
 	margin-right: 10px;
 	position: relative;
 	text-align: right;
-	width: 100px;
+	width: 150px;
 	padding-right:10px;
 	padding-top:5px;
 	padding-bottom:5px;
