@@ -59,7 +59,7 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 				'class' => 'CButtonColumn',
 				'template' => '{view}{update}{delete}{email}',
 				'buttons'=>array(
-						'email' => array('label'=>'Enviar email recordatorio','imageUrl'=>Yii::app()->request->baseUrl.'/css/e-mail.png','url'=>'Yii::app()->controller->createUrl("mail",array("fecha"=>$data->Fecha,))',
+						'email' => array('label'=>'Enviar email recordatorio','imageUrl'=>Yii::app()->request->baseUrl.'/css/e-mail.png','url'=>'Yii::app()->controller->createUrl("mail",array("fecha"=>$data->Fecha,"hora"=>$data->Hora,))',
 				)
 			),
 			),
