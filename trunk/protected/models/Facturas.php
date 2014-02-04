@@ -22,6 +22,7 @@ class Facturas extends CActiveRecord
 	/**
 	 * @return string the associated database table name
 	 */
+	public $DNI_NIF;
 	 
 	public function tableName()
 	{
@@ -73,6 +74,7 @@ class Facturas extends CActiveRecord
 			'Importe' => 'Importe',
 			'FechaCobro' => 'Fecha Cobro',
 			'Notas' => 'Notas',
+			'DNI_NIF' => 'DNI/NIF',
 		);
 	}
 

@@ -87,7 +87,7 @@ class FacturasController extends Controller
 		$res = array();
 		$term = Yii::app()->getRequest()->getParam('term', false);
 		if($term){
-			$sql = 'SELECT IdPaciente, Nombre FROM pacientes where Nombre LIKE :name';
+			$sql = 'SELECT IdPaciente, DNI_NIF FROM pacientes where DNI_NIF LIKE :name';
 			$cmd = Yii::app()->db->createCommand($sql);
 			$cmd->bindValue(":name","%".strtolower($term)."%", PDO::PARAM_STR);
 			$res = $cmd->queryAll();

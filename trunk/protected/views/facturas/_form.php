@@ -64,7 +64,7 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'IdPaciente'); ?>
+		<?php echo $form->labelEx($model,'DNI_NIF'); ?>
 
 		<?php echo $form->hiddenField($model, 'IdPaciente'); ?>
 		<?php
@@ -79,7 +79,7 @@
 				'minLength'=>0,
 				'autoFill'=>false,
 				'focus'=> 'js:function( event, ui ) {
-					$( "#test_autocomplete" ).val( ui.item.Nombre );
+					$( "#test_autocomplete" ).val( ui.item.DNI_NIF );
 					return false;
 				}',
 				'select'=>'js:function( event, ui ) {
@@ -92,7 +92,7 @@
 			'methodChain'=>'.data( "autocomplete" )._renderItem = function( ul, item ) {
 				return $( "<li></li>" )
 					.data( "item.autocomplete", item )
-					.append( "<a>" + item.Nombre +  "</a>" )
+					.append( "<a>" + item.DNI_NIF +  "</a>" )
 					.appendTo( ul );
 			};'
 		));
