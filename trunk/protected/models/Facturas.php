@@ -73,6 +73,7 @@ class Facturas extends CActiveRecord
 			'Fecha' => 'Fecha de emisión',
 			'IdPaciente' => 'Id Paciente',
 			'dninif' => 'DNI/NIF',
+			'paciente.DNI_NIF' => 'DNI/NIF',
 			'Concepto' => 'Concepto',
 			'Importe' => 'Importe',
 			'FechaCobro' => 'Fecha de cobro',
