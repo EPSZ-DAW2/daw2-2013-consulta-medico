@@ -10,8 +10,8 @@ $this->breadcrumbs=array(
 $this->menu=array(
 	array('label'=>'Listar Visitas', 'url'=>array('index')),
 	array('label'=>'Crear Visitas', 'url'=>array('create')),
-	array('label'=>'Actulizar Visitas', 'url'=>array('update', 'id'=>$model->IdCita)),
-	array('label'=>'Borrar Visitas', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdCita),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Actualizar Visitas', 'url'=>array('update', 'id'=>$model->IdCita)),
+	array('label'=>'Borrar Visitas', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdCita),'confirm'=>'Está seguro que desea eliminar este registro?')),
 	array('label'=>'Gestionar Visitas', 'url'=>array('admin')),
 );
 ?>
@@ -29,4 +29,13 @@ $this->menu=array(
 		'Estado',
 	),
 )); 
+?>
+
+<h1>Ver Pruebas #<?php echo $model->IdCita; ?></h1>
+<?php 
+$this->widget('zii.widgets.CListView', array(
+			'dataProvider'=>$dataProvider,
+			'itemView'=>'../pruebas/_view',
+			//'viewData'=>array('fecha'=>$fechas),
+		)); 
 ?>
