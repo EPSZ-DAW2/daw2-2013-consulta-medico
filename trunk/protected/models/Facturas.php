@@ -22,6 +22,7 @@ class Facturas extends CActiveRecord
 	/**
 	 * @return string the associated database table name
 	 */
+	public $dninif;//para busqueda de paciente
 	 
 	public function tableName()
 	{
@@ -37,8 +38,8 @@ class Facturas extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('Serie, Numero, IdPaciente, Importe', 'numerical', 'integerOnly'=>true),
-			array('Serie, Numero','numerical','integerOnly'=>true),
-			array('Serie, Numero', 'length', 'max'=>11),
+			array('Serie, Numero, Importe','numerical','integerOnly'=>true),
+			array('Serie, Numero, Importe', 'length', 'max'=>11),
 			array('Concepto', 'length', 'max'=>50),
 			array('Notas', 'length', 'max'=>150),
 			array('Fecha, FechaCobro', 'safe'),
@@ -70,7 +71,8 @@ class Facturas extends CActiveRecord
 			'Serie' => 'Serie',
 			'Numero' => 'Numero',
 			'Fecha' => 'Fecha de emisión',
-			'IdPaciente' => 'DNI/NIF',
+			'IdPaciente' => 'Id Paciente',
+			'dninif' => 'DNI/NIF',
 			'Concepto' => 'Concepto',
 			'Importe' => 'Importe',
 			'FechaCobro' => 'Fecha de cobro',
