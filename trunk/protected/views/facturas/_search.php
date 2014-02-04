@@ -32,8 +32,8 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'IdPaciente'); ?>
-		<?php echo $form->textField($model,'IdPaciente'); ?>
+		<?php echo $form->label($model,'dninif'); ?>
+		<?php echo $form->textField($model,'dninif'); ?>
 	</div>
 
 	<div class="row">
