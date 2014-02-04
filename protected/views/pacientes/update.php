@@ -4,7 +4,7 @@
 
 $this->breadcrumbs=array(
 	'Pacientes'=>array('index'),
-	'cssFile' => false,
+	//'cssFile' => false,
 	$model->IdPaciente=>array('view','id'=>$model->IdPaciente),
 	'Actualizar',
 );
