@@ -168,6 +168,15 @@ div.form .errorSummary ul
 	padding: 0 0 0 20px;
 }
 
+div .search-form
+{
+	background-color: #FFCC66;
+	border-style:solid;
+	border-color:#000000;
+	border-width:3px;
+}
+
+
 div.wide.form label
 {
 	float: left;
