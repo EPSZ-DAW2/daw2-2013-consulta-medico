@@ -5,7 +5,7 @@
 class plantilla{
 	public static function generarplantilla($plantilla, $datos)
 {
-	$mpdf = YII::app()ePdf->mpdf();
+	$mpdf = YII::app()->ePdf->mpdf();
 	$claves=array_keys($datos);
 	$valores=array_values($datos);
 	$resultado=str_replace($claves, $valores, $plantilla);
