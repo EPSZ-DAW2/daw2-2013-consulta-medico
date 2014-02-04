@@ -57,8 +57,12 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 		'FechaCobro',
 		'Notas',
 		array(
-			'class'=>'CButtonColumn',
-				
-		),
+				'class' => 'CButtonColumn',
+				'template' => '{view}{update}{delete}{pdf}',
+				'buttons'=>array(
+						'pdf' => array('label'=>'Crear Pdf','imageUrl'=>Yii::app()->request->baseUrl.'/css/pdf.png'/*,'url'=>'Yii::app()->controller->createUrl("mail",array("fecha"=>$data->Fecha,))'*/,
+				)
+			),
+			),
 	),
 )); ?>
