@@ -120,4 +120,12 @@ class Visitas extends CActiveRecord
 	{
 		return parent::model($className, $nombre);
 	}
+	
+	public static function usersAutoComplete($name='') {
+ 
+        // Recommended: Secure Way to Write SQL in Yii 
+		$sql= 'SELECT IdCita , Notas AS label FROM visitas WHERE Notas LIKE :name';
+        $name = $name.'%';
+        return Yii::app()->db->createCommand($sql)->queryAll(true,array(':name'=>$name));
+    }
 }
