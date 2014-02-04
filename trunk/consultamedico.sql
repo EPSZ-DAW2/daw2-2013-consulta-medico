@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 04-02-2014 a las 11:16:39
+-- Tiempo de generación: 04-02-2014 a las 22:10:19
 -- Versión del servidor: 5.5.16
 -- Versión de PHP: 5.3.8
 
@@ -331,7 +331,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 --
 
 INSERT INTO `usuarios` (`IdUsuario`, `usuario`, `clave`, `nombre`, `FechaHoraUltimaConexion`, `numFallos`) VALUES
-(1, 'sysadmin', 'sysadmin', 'Agapito', '2014-01-28 00:00:00', 0),
+(1, 'sysadmin', '48a365b4ce1e322a55ae9017f3daf0c0', 'Agapito', '2014-01-28 00:00:00', 0),
 (2, 'admin', 'admin', 'Luis', '2014-02-03 19:10:39', 0),
 (3, 'medico', 'medico', 'Castro', '0000-00-00 00:00:00', 0),
 (4, 'auxiliar', 'auxiliar', 'Francesca', '0000-00-00 00:00:00', 0),
@@ -397,7 +397,7 @@ ALTER TABLE `facturas`
 -- Filtros para la tabla `pacientes`
 --
 ALTER TABLE `pacientes`
-  ADD CONSTRAINT `pacientes_ibfk_1` FOREIGN KEY (`idAseguradora`) REFERENCES `aseguradoras` (`idAseguradora`)ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `pacientes_ibfk_1` FOREIGN KEY (`idAseguradora`) REFERENCES `aseguradoras` (`idAseguradora`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `perfilesusuarios`
@@ -406,7 +406,6 @@ ALTER TABLE `perfilesusuarios`
   ADD CONSTRAINT `perfilesusuarios_ibfk_1` FOREIGN KEY (`IdUsuario`) REFERENCES `usuarios` (`IdUsuario`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `perfilesusuarios_ibfk_2` FOREIGN KEY (`IdPerfil`) REFERENCES `perfiles` (`IdPerfil`) ON DELETE CASCADE ON UPDATE CASCADE;
 
-
 --
 -- Filtros para la tabla `pruebas`
 --
@@ -414,6 +413,7 @@ ALTER TABLE `pruebas`
   ADD CONSTRAINT `pruebas_ibfk_1` FOREIGN KEY (`IdCita`) REFERENCES `visitas` (`IdCita`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `pruebas_ibfk_2` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `pruebas_ibfk_3` FOREIGN KEY (`IdTipoDiagnostico`) REFERENCES `tiposdiagnosticos` (`IdTipoDiagnostico`) ON DELETE CASCADE ON UPDATE CASCADE;
+
 --
 -- Filtros para la tabla `visitas`
 --
