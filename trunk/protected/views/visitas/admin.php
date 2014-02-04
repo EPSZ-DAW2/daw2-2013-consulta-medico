@@ -48,6 +48,8 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 	'id'=>'visitas-grid',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
+	'cssFile'=>false,
+	'pager' => array('cssFile'=>false),
 	'columns'=>array(
 		array('name'=>'IdCita', 'htmlOptions'=>array('width'=>'40')),
 		'paciente.Nombre',
