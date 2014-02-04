@@ -21,8 +21,8 @@ class AutoCompletar extends CJuiAutoComplete
         else
             $this->htmlOptions['IdPaciente']=$id;
  
-        if(isset($this->htmlOptions['Nombre']))
-            $name=$this->htmlOptions['Nombre'];
+        if(isset($this->htmlOptions['DNI_NIF']))
+            $name=$this->htmlOptions['DNI_NIF'];
  
         if($this->hasModel())
             echo CHtml::activeTextField($this->model,$this->attribute,$this->htmlOptions);
