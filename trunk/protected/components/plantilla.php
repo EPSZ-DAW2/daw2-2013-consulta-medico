@@ -32,7 +32,6 @@ class plantilla
 		}	
 		if ($enPDF) {
 			$mpdf = YII::app()->ePdf->mpdf();
-			//$mpdf=new mPDF('win-1252',$plantilla,'','',15,15,25,12,5,7);
 			$mpdf->WriteHTML( $resultado);
 			$mpdf->Output();
 		} else {
