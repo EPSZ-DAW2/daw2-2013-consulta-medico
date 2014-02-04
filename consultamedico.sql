@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 04-02-2014 a las 11:03:00
+-- Tiempo de generación: 04-02-2014 a las 11:16:39
 -- Versión del servidor: 5.5.16
 -- Versión de PHP: 5.3.8
 
@@ -123,15 +123,15 @@ CREATE TABLE IF NOT EXISTS `authitemchild` (
 
 CREATE TABLE IF NOT EXISTS `facturas` (
   `IdFactura` int(11) NOT NULL AUTO_INCREMENT,
-  `Serie` int(11) DEFAULT NULL,
-  `Numero` int(11) DEFAULT NULL,
+  `Serie` int(11) NOT NULL DEFAULT '0',
+  `Numero` int(11) NOT NULL DEFAULT '0',
   `Fecha` date DEFAULT NULL,
   `IdPaciente` int(11) DEFAULT NULL,
   `Concepto` char(50) DEFAULT NULL,
   `Importe` int(11) DEFAULT NULL,
   `FechaCobro` date DEFAULT NULL,
   `Notas` char(150) DEFAULT NULL,
-  PRIMARY KEY (`IdFactura`),
+  PRIMARY KEY (`IdFactura`,`Serie`,`Numero`),
   KEY `IdPaciente` (`IdPaciente`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
 
