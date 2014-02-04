@@ -224,28 +224,4 @@ class VisitasController extends Controller
 		}
 	}
 	
-	/*public function actionListarEstados() 
-	{
-		if (isset($_GET['term'])) 
-		{
-			$criteria=new CDbCriteria;
-			$criteria->alias = "visitas";
-			$criteria->condition = "visitas.Notas like '" . $_GET['term'] . "%'";
-		 
-			$dataProvider = new CActiveDataProvider(get_class(visitas::model()), array('criteria'=>$criteria,‘pagination’=>false,));
-			$notas = $dataProvider->getData();
-		 
-			$return_array = array();
-			foreach($notas as $notass) {
-			  $return_array[] = array(
-							'label'=>$notass->name,
-							'value'=>$notass->name,
-							'id'=>$notass->id,
-							);
-			}
-		 
-			echo CJSON::encode($return_array);
-		 }
-	}*/
-	
 }
