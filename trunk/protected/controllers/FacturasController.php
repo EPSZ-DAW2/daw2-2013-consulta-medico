@@ -200,7 +200,22 @@ class FacturasController extends Controller
 				'factura.idfactura' =>$factura->IdFactura,
 				'factura.fecha' =>$factura->Fecha,
 				'factura.idpaciente'=>$factura->IdPaciente,
+				'factura.numero'=>$factura->Numero,
+				'factura.serie'=>$factura->Serie,
+				'factura.concepto'=>$factura->Concepto,
+				'factura.importe'=>$factura->Importe,
+				'factura.fechacobro'=>$factura->FechaCobro,
+				'factura.notas'=>$factura->Notas,
 				'pacientes.nombre'=>CHtml::value( $factura, 'paciente.Nombre'),
+				'pacientes.apellidos'=>CHtml::value( $factura, 'paciente.Apellidos'),
+				'pacientes.dni_nif'=>CHtml::value( $factura, 'paciente.DNI_NIF'),
+				'pacientes.direccion'=>CHtml::value( $factura, 'paciente.Direccion'),
+				'pacientes.codpostal'=>CHtml::value( $factura, 'paciente.CodPostal'),
+				'pacientes.localidad'=>CHtml::value( $factura, 'paciente.Localidad'),
+				'pacientes.provincia'=>CHtml::value( $factura, 'paciente.Provincia'),
+				'pacientes.telfijo'=>CHtml::value( $factura, 'paciente.TelFijo'),
+				
+				
 			);
 				//$serie,$numero,$fecha,$concepto,$importe,$fechac,$notas,$Plantillas);
 			//plantilla::generarplantilla($plantilla, array($model->IdFacturas,$model->Series,$model->Numero,$model->Fecha,$model->IdPaciente,$model->IdFacturas,$model->Concepto,$model->Importe,$model->FechaCobro,$model->Notas));
