@@ -15,7 +15,7 @@ if($fecha==$data->Fecha){?>
 		<br />
 
 		<b><?php echo CHtml::encode($data->getAttributeLabel('IdPaciente')); ?>:</b>
-		<?php echo CHtml::encode($data->IdPaciente); ?>
+		<?php echo CHtml::encode($data->paciente->DNI_NIF); ?>
 		<br />
 
 		<b><?php echo CHtml::encode($data->getAttributeLabel('Fecha')); ?>:</b>
