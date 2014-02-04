@@ -66,12 +66,11 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'Nombre'); ?>
 		<?php
-		$this->widget('ext.myAutoComplete', array(
+		$this->widget('ext.AutoCompletar', array(
 			'model'=>$model,
 			'attribute'=>'IdPaciente',
 			'name'=>'facturas_autocomplete',
-			'source'=>$this->createUrl('facturas/usersAutocomplete'),  // Controller/Action path for action we created in step 4.
-			// additional javascript options for the autocomplete plugin
+			'source'=>$this->createUrl('facturas/autoCompletar'),
 			'options'=>array(
 				'minLength'=>'0',
 			),
