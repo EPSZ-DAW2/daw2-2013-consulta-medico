@@ -2,7 +2,7 @@
 /* @var $this VisitasController */
 /* @var $data Visitas */
 
-if($fecha==$data->Fecha){?>
+//if($fecha==$data->Fecha){?>
 
 <div class="view">
 	<?php $this->beginWidget('ext.coolfieldset.JCollapsibleFieldset', array(
@@ -36,4 +36,4 @@ if($fecha==$data->Fecha){?>
 	<?php $this->endWidget('ext.coolfieldset.JCollapsibleFieldset'); ?>
 </div>
 <?php
-}
+//}

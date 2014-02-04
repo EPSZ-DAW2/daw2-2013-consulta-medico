@@ -1,6 +1,7 @@
 <?php
 /* @var $this VisitasController */
-/* @var $model CActivemodel */
+/* @var $model CActivemodel Calendario */
+/* @var $dataProvider Filtro de busqueda */
 
 $this->breadcrumbs=array(
 	'Visitas',
@@ -13,7 +14,7 @@ $this->menu=array(
 ?>
 
 <h1>Visitas</h1>
-<?php if(isset($model)){
+<?php if(!isset($dataProvider)){
  echo CHtml::beginForm();
 
 	
@@ -52,15 +53,19 @@ $this->menu=array(
 ?>
 
 <?php 
-if(isset($fechas)){
-	$this->widget('zii.widgets.CListView', array(
-	'dataProvider'=>$dataProvider,
-	'itemView'=>'_view',
-	'viewData'=>array('fecha'=>$fechas),
-));
+if(isset($dataProvider)){
+	if(Yii::app()->user->hasFlash('informacionVisitas')){
+		echo Yii::app()->user->getFlash('informacionVisitas');
+	}else{
+		$this->widget('zii.widgets.CListView', array(
+			'dataProvider'=>$dataProvider,
+			'itemView'=>'_view',
+			//'viewData'=>array('fecha'=>$fechas),
+		));
+	}
 echo CHtml::beginForm();?>
 <div class="action">
-	<?php echo CHtml::submitButton('Volver',array('name' => 'volver')); ?>
+	<?php echo CHtml::submitButton('Volver a calendario',array('name' => 'volver')); ?>
 </div>
 <?php echo CHtml::endForm(); 
 

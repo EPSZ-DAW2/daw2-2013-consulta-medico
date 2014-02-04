@@ -16,6 +16,9 @@
  */
 class Visitas extends CActiveRecord
 {
+
+	public $dninif;//para busqueda de paciente
+	
 	/**
 	 * @return string the associated database table name
 	 */
@@ -64,7 +67,8 @@ class Visitas extends CActiveRecord
 	{
 		return array(
 			'IdCita' => 'Id Cita',
-			'IdPaciente' => 'DNI/NIF',
+			'IdPaciente' => 'Id Paciente',
+			'dninif' => 'DNI/NIF',
 			'Fecha' => 'Fecha',
 			'Hora' => 'Hora',
 			'Notas' => 'Notas',

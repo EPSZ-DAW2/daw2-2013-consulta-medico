@@ -58,20 +58,6 @@ class VisitasController extends Controller
 				'users'=>array('*'),
 			),
 		);
-		return array(
-			
-			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete','mail','ListarEstados','create','update'),
-				'users'=>array('sysadmin,admin,medico,auxiliar'),
-			),
-			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('index','view'),
-				'users'=>array('@'),
-			),
-			array('deny',  // deny all users
-				'users'=>array('*'),
-			),
-		);
 	}
 
 	/**
@@ -118,7 +104,10 @@ class VisitasController extends Controller
         $res = array();
 		$term = Yii::app()->getRequest()->getParam('term', false);
 		if($term){
-			$sql = 'SELECT IdPaciente, DNI_NIF FROM pacientes where DNI_NIF LIKE :name';
+			$sql = 'SELECT IdPaciente, DNI_NIF, Nombre, Apellidos FROM pacientes'
+				. ' WHERE (DNI_NIF LIKE :name) OR (Nombre LIKE :name) OR (Apellidos LIKE :name)'
+				. ' LIMIT 25'
+				;
 			$cmd = Yii::app()->db->createCommand($sql);
 			$cmd->bindValue(":name","%".strtolower($term)."%", PDO::PARAM_STR);
 			$res = $cmd->queryAll();
@@ -199,22 +188,26 @@ class VisitasController extends Controller
 	public function actionIndex()
 	{
 		$model=new Calendario;
-		
-		
-		if(isset($_POST['fecha'])){
+		if(isset($_POST['Calendario'])){
 			$model->attributes=$_POST['Calendario'];
-		
+			$criterio= new CDbCriteria;
+			$criterio->compare( 'Fecha', $model->fechaVisita);
 			
-			$dataProvider=new CActiveDataProvider('Visitas'); 
 			
-			$fechas=$model->fechaVisita;
-			$comando = Yii::app()->db->createCommand('SELECT COUNT(*) FROM visitas where Fecha=\''.$fechas.'\'');
-			if($comando->queryScalar()<1) Yii::app()->user->setFlash('informacion','No hay visitas para el día seleccionado');
-			$this->render('index',array('dataProvider'=>$dataProvider, 'fechas'=>$fechas));
+			$dataProvider=new CActiveDataProvider('Visitas', array(
+				'criteria'=>$criterio,
+				'pagination' => array(
+					//'pageSize' => 5
+					)
+				)
+			);
+			//$fechas=$model->fechaVisita;
+			//$comando = Yii::app()->db->createCommand('SELECT COUNT(*) FROM visitas where Fecha=\''.$fechas.'\'');
+			//if($comando->queryScalar()<1) Yii::app()->user->setFlash('informacionVisitas','No hay visitas para el día seleccionado');
+			$this->render('index',array('dataProvider'=>$dataProvider, 'model'=>$model));
 		}else{
-			$this->render('index',array('model'=>$model,));
+			$this->render('index',array('model'=>$model));
 		}
-		
 	}
 
 	/**

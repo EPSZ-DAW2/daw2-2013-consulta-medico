@@ -51,13 +51,14 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 	'cssFile'=>false,
 	'pager' => array('cssFile'=>false),
 	'columns'=>array(
-		array('name'=>'IdCita', 'htmlOptions'=>array('width'=>'40')),
+		array('name'=>'IdCita', 'headerHtmlOptions'=>array('class'=>'span-1')),
 		'paciente.Nombre',
 		array( 'name'=>'Fecha', 'value'=>'(strtotime($data->Fecha)==0 ? "" : date("d-m-Y H:i:s", strtotime($data->Fecha)))'),
 		'Notas',
 		'Estado',
 		array(
 			'class' => 'CButtonColumn',
+			'headerHtmlOptions'=>array('class'=>'span-2'),
 			'template' =>  '{view}{update}{delete}{email}',
 			'buttons'=>array(
 					'email' => array('label'=>'Enviar email recordatorio',
