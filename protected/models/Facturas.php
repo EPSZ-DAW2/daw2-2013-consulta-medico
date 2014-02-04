@@ -22,6 +22,8 @@ class Facturas extends CActiveRecord
 	/**
 	 * @return string the associated database table name
 	 */
+	public $dni; 
+	 
 	public function tableName()
 	{
 		return 'facturas';
@@ -39,11 +41,17 @@ class Facturas extends CActiveRecord
 			array('Serie, Numero','numerical','integerOnly'=>true),
 			array('Serie, Numero', 'length', 'max'=>11),
 			array('Concepto', 'length', 'max'=>50),
+			array('dni','validarDNI'),
 			array('Notas', 'length', 'max'=>150),
 			array('Fecha, FechaCobro', 'safe'),
-			array('Serie, Numero, Fecha, IdPaciente, Importe, FechaCobro', 'required'),
+			array('Serie, Numero, Fecha, dni, Importe, FechaCobro', 'required'),
 			array('IdFactura, Serie, Numero, Fecha, IdPaciente, Concepto, Importe, FechaCobro, Notas', 'safe', 'on'=>'search'),
 		);
+	}
+	
+	public function validarDNI($attribute,$params)
+	{
+		$this->addError('dni','El DNI/NIF no se encuentra en la base de datos o es incorrecto.');
 	}
 
 	/**
