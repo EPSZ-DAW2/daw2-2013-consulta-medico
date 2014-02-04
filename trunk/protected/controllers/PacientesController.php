@@ -43,6 +43,17 @@ class PacientesController extends Controller
 				'users'=>array('*'),
 			),
 		);
+		/*return array(
+			array('allow', 
+			 'roles'=>array('sysadmin', 'admin', 'medico', 'auxiliar'),
+			 'actions'=>array('assign', 'create','update', 'admin','delete'),
+			 array('allow',  // deny all users
+				'roles'=>array('@'),
+				'actions'=>array('index','view'),
+				
+			),
+			),
+		);*/
 	}
 
 	/**
