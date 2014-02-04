@@ -8,11 +8,11 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Listar Pacientes', 'url'=>array('index')), 'visible'=>!$this->esPerfil('paciente')) 
+	array('label'=>'Listar Pacientes', 'url'=>array('index')),
 	array('label'=>'Crear Pacientes', 'url'=>array('create'), 'visible'=>!$this->esPerfil('paciente')),
 	array('label'=>'Actualizar Pacientes', 'url'=>array('update', 'id'=>$model->IdPaciente)),
-	array('label'=>'Borrar Pacientes', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdPaciente),'confirm'=>'¿Está seguro de que desea eliminar este paciente?')), 'visible'=>!$this->esPerfil('paciente'))
-	array('label'=>'Gestionar Pacientes', 'url'=>array('admin')), 'visible'=>!$this->esPerfil('paciente'))
+	array('label'=>'Borrar Pacientes', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdPaciente),'confirm'=>'¿Está seguro de que desea eliminar este paciente?')),
+	array('label'=>'Gestionar Pacientes', 'url'=>array('admin')),
 );
 ?>
 
