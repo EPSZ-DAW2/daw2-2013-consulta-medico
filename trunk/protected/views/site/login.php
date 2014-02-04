@@ -45,7 +45,7 @@ $this->breadcrumbs=array(
 		<?php echo $form->passwordField($model,'password'); ?>
 		<?php echo $form->error($model,'password'); ?>
 		<p class="hint">
-			Pista: Puede introducir como nombre de usuario y contraseña invitado/invitado para un vistazo general
+			Por favor. Si no dispone de una cuenta de usuario contacte con su centro médico.
 		</p>
 	</div>
 
