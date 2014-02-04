@@ -41,6 +41,7 @@ class Facturas extends CActiveRecord
 			array('Concepto', 'length', 'max'=>50),
 			array('Notas', 'length', 'max'=>150),
 			array('Fecha, FechaCobro', 'safe'),
+			array('Serie, Numero, Fecha, IdPaciente, Importe, FechaCobro', 'required'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('IdFactura, Serie, Numero, Fecha, IdPaciente, Concepto, Importe, FechaCobro, Notas', 'safe', 'on'=>'search'),
