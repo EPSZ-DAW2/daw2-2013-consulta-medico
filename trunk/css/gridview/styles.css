@@ -6,6 +6,7 @@
 .grid-view
 {
 	padding: 15px 0;
+	text-align:center;
 }
 
 .grid-view table.items
@@ -21,6 +22,8 @@
 	font-size: 0.9em;
 	border: 1px white solid;
 	padding: 0.3em;
+	text-align: center;
+	
 }
 
 .grid-view table.items th
@@ -36,6 +39,7 @@
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
+	
 }
 
 .grid-view table.items th a:hover
@@ -58,11 +62,13 @@
 .grid-view table.items tr.even
 {
 	background: #F8F8F8;
+	
 }
 
 .grid-view table.items tr.odd
 {
 	background: #FFCC66;
+	
 }
 
 .grid-view table.items tr.selected
