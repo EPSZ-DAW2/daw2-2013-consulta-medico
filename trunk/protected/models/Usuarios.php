@@ -16,7 +16,15 @@
  */
 class Usuarios extends CActiveRecord
 {
-	public $password;
+	//public $password;
+	
+	public function validatePassword($password){
+		return $this->hashPassword($password)===$this->clave;
+	}
+ 
+	public function hashPassword($password){
+		return md5($password);
+	}
 	/**
 	 * @return string the associated database table name
 	 */
@@ -101,12 +109,6 @@ class Usuarios extends CActiveRecord
 			)
 		));
 	}
-	
-	/*public function beforeSave() {
-     if (!empty($this->clave))
-		$this->clave=md5($this->clave);
-     return true;
-	}*/
  
 
 	/**

@@ -21,11 +21,7 @@ class UserIdentity extends CUserIdentity
 	public function authenticate()
 	{
 	
-		$intentos = 0;
-		
-		//IMPORTANTE!!!!!!
-		//Esto de abajo, cuando esten los usuarios en la base de datos hay que descomentarlo
-		//para loguearse con dichos usuarios.	
+		$intentos = 0;	
 		
 		$users = Usuarios::model()->findByAttributes(array('usuario'=>$this->username)); 
 		
@@ -34,20 +30,9 @@ class UserIdentity extends CUserIdentity
             $this->errorCode=self::ERROR_USERNAME_INVALID;
         } 
         // Si no coincide la contrasenia ($user->clave)
-		else if(($users->clave != $this->password) && $users!==null)
+		else if(($users->clave != md5($this->password)) && $users!==null)
         {
-			/*//Miramos cuantos fallos tiene ya ese usuario
-			$sql = "select numFallos from usuarios where usuario='$users->usuario'";
-			$connection = Yii::app() -> db;
-			$command = $connection -> createCommand($sql);
-			$intentos = $command -> execute();
-			//Le añadimos el fallo actual
-			$intentos=$intentos+1;
-			//Y lo actualizamos
-			$sql = "update usuarios set numFallos ='$intentos'where usuario='$users->usuario'";
-			$connection = Yii::app() -> db;
-			$command = $connection -> createCommand($sql);
-			$command -> execute();*/
+			//Miramos cuantos fallos tiene ya ese usuario y le añadimos el fallo actual
 			$users->numFallos=$users->numFallos+1;
 			
 			$this->errorCode=self::ERROR_PASSWORD_INVALID;
