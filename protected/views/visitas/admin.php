@@ -57,7 +57,7 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 		'Estado',
 			array(
 				'class' => 'CButtonColumn',
-				'template' => '{view}{update}{delete}{email}',
+				'template' => (strcmp('$data->Estado',"No Realizada"))==0 ? '{view}{update}{delete}{email}' : '{view}{update}{delete}',
 				'buttons'=>array(
 						'email' => array('label'=>'Enviar email recordatorio','imageUrl'=>Yii::app()->request->baseUrl.'/css/e-mail.png','url'=>'Yii::app()->controller->createUrl("mail",array("fecha"=>$data->Fecha,"hora"=>$data->Hora,))',
 				)
