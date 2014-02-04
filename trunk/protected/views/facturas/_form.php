@@ -64,20 +64,39 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'Nombre'); ?>
+		<?php echo $form->labelEx($model,'IdPaciente'); ?>
+
+		<?php echo $form->hiddenField($model, 'IdPaciente'); ?>
 		<?php
+		// ext is a shortcut for application.extensions
 		$this->widget('ext.AutoCompletar', array(
-			'model'=>$model,
-			'attribute'=>'IdPaciente',
-			'name'=>'facturas_autocomplete',
-			'source'=>$this->createUrl('facturas/autoCompletar'),
-			'options'=>array(
-				'minLength'=>'0',
-			),
-			'htmlOptions'=>array(
-				'style'=>'height:20px;',
-			),        
-		));?>
+			'name' => 'test_autocomplete',
+			'source' => $this->createUrl('facturas/autoCompletar'),
+		// attribute_value is a custom property that returns the 
+		// name of our related object -ie return $model->related_model->name
+			'value' => $model->isNewRecord ? '': $model->attribute_value,
+			'options' => array(
+				'minLength'=>0,
+				'autoFill'=>false,
+				'focus'=> 'js:function( event, ui ) {
+					$( "#test_autocomplete" ).val( ui.item.Nombre );
+					return false;
+				}',
+				'select'=>'js:function( event, ui ) {
+					$("#'.CHtml::activeId($model,'IdPaciente').'")
+					.val(ui.item.IdPaciente);
+					return false;
+				}'
+			 ),
+			'htmlOptions'=>array('class'=>'input-1', 'autocomplete'=>'off'),
+			'methodChain'=>'.data( "autocomplete" )._renderItem = function( ul, item ) {
+				return $( "<li></li>" )
+					.data( "item.autocomplete", item )
+					.append( "<a>" + item.Nombre +  "</a>" )
+					.appendTo( ul );
+			};'
+		));
+		?>
 															
 		<?php echo $form->error($model,'IdPaciente'); ?>
 		
