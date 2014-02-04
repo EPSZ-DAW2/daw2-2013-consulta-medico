@@ -74,7 +74,7 @@
 			'source' => $this->createUrl('facturas/autoCompletar'),
 		// attribute_value is a custom property that returns the 
 		// name of our related object -ie return $model->related_model->name
-			'value' => $model->isNewRecord ? '': $model->attribute_value,
+			'value' => $model->isNewRecord ? '': $model->paciente->DNI_NIF,
 			'options' => array(
 				'minLength'=>0,
 				'autoFill'=>false,
@@ -155,7 +155,7 @@
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Crear' : 'Guardar'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>
