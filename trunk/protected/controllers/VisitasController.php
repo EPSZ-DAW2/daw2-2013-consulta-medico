@@ -26,13 +26,13 @@ class VisitasController extends Controller
 	 */
 	public function accessRules()
 	{
-		/*return array(
+		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view','mail','ListarEstados'),
+				'actions'=>array('index','view','mail','usersAutocomplete'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update','ListarEstados'),
+				'actions'=>array('create','update','usersAutocomplete'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -42,7 +42,7 @@ class VisitasController extends Controller
 			array('deny',  // deny all users
 				'users'=>array('*'),
 			),
-		);*/
+		);
 		return array(
 			
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -98,6 +98,17 @@ class VisitasController extends Controller
 	 * If update is successful, the browser will be redirected to the 'view' page.
 	 * @param integer $id the ID of the model to be updated
 	 */
+	 
+	 public function actionUsersAutocomplete() {
+        $term = trim($_GET['term']) ;
+ 
+        if($term !='') {
+			$users =  Visitas::usersAutoComplete($term);
+            echo CJSON::encode($users);
+            Yii::app()->end();
+		}
+	}
+	 
 	public function actionUpdate($id)
 	{
 		$model=$this->loadModel($id);
@@ -213,7 +224,7 @@ class VisitasController extends Controller
 		}
 	}
 	
-	public function actionListarEstados() 
+	/*public function actionListarEstados() 
 	{
 		if (isset($_GET['term'])) 
 		{
@@ -235,6 +246,6 @@ class VisitasController extends Controller
 		 
 			echo CJSON::encode($return_array);
 		 }
-	}
+	}*/
 	
 }
