@@ -100,13 +100,16 @@ class VisitasController extends Controller
 	 */
 	 
 	 public function actionUsersAutocomplete() {
-        $term = trim($_GET['term']) ;
- 
-        if($term !='') {
-			$users =  Visitas::usersAutoComplete($term);
-            echo CJSON::encode($users);
-            Yii::app()->end();
+        $res = array();
+		$term = Yii::app()->getRequest()->getParam('term', false);
+		if($term){
+			$sql = 'SELECT IdPaciente, DNI_NIF FROM pacientes where DNI_NIF LIKE :name';
+			$cmd = Yii::app()->db->createCommand($sql);
+			$cmd->bindValue(":name","%".strtolower($term)."%", PDO::PARAM_STR);
+			$res = $cmd->queryAll();
 		}
+		echo CJSON::encode($res);
+		Yii::app()->end();
 	}
 	 
 	public function actionUpdate($id)
