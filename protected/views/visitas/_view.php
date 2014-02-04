@@ -11,7 +11,7 @@
     'legendHtmlOptions'=>array('title'=>'Haz click con el ratón para expandir!')
 	));?>
 		<b><?php echo CHtml::encode($data->getAttributeLabel('IdCita')); ?>:</b>
-		<?php echo CHtml::link(CHtml::encode($data->IdCita), array('view', 'id'=>$data->IdCita)); ?>
+		<?php echo CHtml::link(CHtml::encode($data->IdCita), array('visitas/view', 'id'=>$data->IdCita)); ?>
 		<br />
 
 		<b><?php echo CHtml::encode($data->getAttributeLabel('IdPaciente')); ?>:</b>
