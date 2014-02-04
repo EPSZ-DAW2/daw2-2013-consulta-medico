@@ -5,6 +5,9 @@ class ExportarForm extends CFormModel
 {
 	//Botónes de check de cada una de las tablas
 	public $aseguradoras=true;
+	public $authassignment=true;
+	public $authitem=true;
+	public $authitemchild=true;
 	public $facturas=true;
 	public $pacientes=true;
 	public $perfiles=true;
@@ -21,7 +24,7 @@ class ExportarForm extends CFormModel
 	public function rules()
 	{
 		return array(
-			array('aseguradoras, facturas, pacientes, perfiles, perfilesusuarios, pruebas, tiposdiagnosticos, usuarios, visitas', 'boolean'),
+			array('aseguradoras, authassignment, authitem, authitemchild, facturas, pacientes, perfiles, perfilesusuarios, pruebas, tiposdiagnosticos, usuarios, visitas', 'boolean'),
 			array('opcion', 'safe'),
 			
 		);	
@@ -30,7 +33,7 @@ class ExportarForm extends CFormModel
 	//Función para validar los botones de check. Deberá estar activado al menos uno
 	public function validarTablas()
 	{
-		if($this->aseguradoras || $this->facturas || $this->pacientes || $this->perfiles || $this->perfilesusuarios || $this->pruebas || $this->tiposdiagnosticos || $this->usuarios || $this->visitas)
+		if($this->aseguradoras || $this->authassignment || $this->authitem || $this->authitemchild || $this->facturas || $this->pacientes || $this->perfiles || $this->perfilesusuarios || $this->pruebas || $this->tiposdiagnosticos || $this->usuarios || $this->visitas)
 			return true;
 		else
 			return false;

@@ -1,14 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 3.5.2.2
+-- version 4.0.9
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 01-02-2014 a las 14:29:39
--- Versión del servidor: 5.5.27
--- Versión de PHP: 5.4.7
+-- Tiempo de generación: 04-02-2014 a las 10:12:22
+-- Versión del servidor: 5.6.14
+-- Versión de PHP: 5.5.6
 
 SET FOREIGN_KEY_CHECKS=0;
-SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
@@ -33,7 +33,52 @@ CREATE TABLE IF NOT EXISTS `aseguradoras` (
   `Nombre` char(50) DEFAULT NULL,
   `Notas` char(150) DEFAULT NULL,
   PRIMARY KEY (`idAseguradora`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=13 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `authassignment`
+--
+
+DROP TABLE IF EXISTS `authassignment`;
+CREATE TABLE IF NOT EXISTS `authassignment` (
+  `itemname` varchar(64) COLLATE utf8_spanish_ci NOT NULL,
+  `userid` varchar(64) COLLATE utf8_spanish_ci NOT NULL,
+  `bizrule` text COLLATE utf8_spanish_ci,
+  `data` text COLLATE utf8_spanish_ci,
+  PRIMARY KEY (`itemname`,`userid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `authitem`
+--
+
+DROP TABLE IF EXISTS `authitem`;
+CREATE TABLE IF NOT EXISTS `authitem` (
+  `name` varchar(64) COLLATE utf8_spanish_ci NOT NULL,
+  `type` int(11) NOT NULL,
+  `description` text COLLATE utf8_spanish_ci,
+  `bizrule` text COLLATE utf8_spanish_ci,
+  `data` text COLLATE utf8_spanish_ci,
+  PRIMARY KEY (`name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `authitemchild`
+--
+
+DROP TABLE IF EXISTS `authitemchild`;
+CREATE TABLE IF NOT EXISTS `authitemchild` (
+  `parent` varchar(64) COLLATE utf8_spanish_ci NOT NULL,
+  `child` varchar(64) COLLATE utf8_spanish_ci NOT NULL,
+  PRIMARY KEY (`parent`,`child`),
+  KEY `child` (`child`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 -- --------------------------------------------------------
 
@@ -54,7 +99,7 @@ CREATE TABLE IF NOT EXISTS `facturas` (
   `Notas` char(150) DEFAULT NULL,
   PRIMARY KEY (`IdFactura`),
   KEY `IdPaciente` (`IdPaciente`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=46 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
 
 -- --------------------------------------------------------
 
@@ -80,7 +125,7 @@ CREATE TABLE IF NOT EXISTS `pacientes` (
   `Notas` char(150) DEFAULT NULL,
   PRIMARY KEY (`IdPaciente`),
   KEY `idAseguradora` (`idAseguradora`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=14 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
 
 -- --------------------------------------------------------
 
@@ -130,7 +175,7 @@ CREATE TABLE IF NOT EXISTS `pruebas` (
   KEY `IdCita` (`IdCita`),
   KEY `IdPaciente` (`IdPaciente`),
   KEY `IdTipoDiagnostico` (`IdTipoDiagnostico`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=57 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
 
 -- --------------------------------------------------------
 
@@ -145,7 +190,7 @@ CREATE TABLE IF NOT EXISTS `tiposdiagnosticos` (
   `Plantilla` char(50) DEFAULT NULL,
   `Notas` char(150) DEFAULT NULL,
   PRIMARY KEY (`IdTipoDiagnostico`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=13 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
 
 -- --------------------------------------------------------
 
@@ -161,8 +206,9 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `nombre` char(50) CHARACTER SET utf8 COLLATE utf8_spanish_ci DEFAULT NULL,
   `FechaHoraUltimaConexion` datetime DEFAULT NULL,
   `numFallos` int(11) DEFAULT NULL,
-  PRIMARY KEY (`IdUsuario`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+  PRIMARY KEY (`IdUsuario`),
+  UNIQUE KEY `usuario` (`usuario`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
 
 -- --------------------------------------------------------
 
@@ -174,35 +220,57 @@ DROP TABLE IF EXISTS `visitas`;
 CREATE TABLE IF NOT EXISTS `visitas` (
   `IdCita` int(11) NOT NULL AUTO_INCREMENT,
   `IdPaciente` int(11) DEFAULT NULL,
-  `Fecha_hora` datetime DEFAULT NULL,
+  `Fecha` date DEFAULT NULL,
   `Notas` char(150) DEFAULT NULL,
   `Estado` char(50) DEFAULT NULL,
+  `Hora` time DEFAULT NULL,
   PRIMARY KEY (`IdCita`),
   KEY `IdPaciente` (`IdPaciente`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=35 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
 
 --
 -- Restricciones para tablas volcadas
 --
 
 --
+-- Filtros para la tabla `authassignment`
+--
+ALTER TABLE `authassignment`
+  ADD CONSTRAINT `authassignment_ibfk_1` FOREIGN KEY (`itemname`) REFERENCES `authitem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `authitemchild`
+--
+ALTER TABLE `authitemchild`
+  ADD CONSTRAINT `authitemchild_ibfk_1` FOREIGN KEY (`parent`) REFERENCES `authitem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `authitemchild_ibfk_2` FOREIGN KEY (`child`) REFERENCES `authitem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
 -- Filtros para la tabla `facturas`
 --
 ALTER TABLE `facturas`
-  ADD CONSTRAINT `facturas_ibfk_1` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`);
+  ADD CONSTRAINT `facturas_ibfk_1` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`),
+  ADD CONSTRAINT `facturas_ibfk_2` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON DELETE CASCADE,
+  ADD CONSTRAINT `facturas_ibfk_3` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `pacientes`
 --
 ALTER TABLE `pacientes`
-  ADD CONSTRAINT `pacientes_ibfk_1` FOREIGN KEY (`idAseguradora`) REFERENCES `aseguradoras` (`idAseguradora`);
+  ADD CONSTRAINT `pacientes_ibfk_1` FOREIGN KEY (`idAseguradora`) REFERENCES `aseguradoras` (`idAseguradora`),
+  ADD CONSTRAINT `pacientes_ibfk_2` FOREIGN KEY (`idAseguradora`) REFERENCES `aseguradoras` (`idAseguradora`) ON DELETE CASCADE,
+  ADD CONSTRAINT `pacientes_ibfk_3` FOREIGN KEY (`idAseguradora`) REFERENCES `aseguradoras` (`idAseguradora`) ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `perfilesusuarios`
 --
 ALTER TABLE `perfilesusuarios`
   ADD CONSTRAINT `perfilesusuarios_ibfk_1` FOREIGN KEY (`IdUsuario`) REFERENCES `usuarios` (`IdUsuario`),
-  ADD CONSTRAINT `perfilesusuarios_ibfk_2` FOREIGN KEY (`IdPerfil`) REFERENCES `perfiles` (`IdPerfil`);
+  ADD CONSTRAINT `perfilesusuarios_ibfk_2` FOREIGN KEY (`IdPerfil`) REFERENCES `perfiles` (`IdPerfil`),
+  ADD CONSTRAINT `perfilesusuarios_ibfk_3` FOREIGN KEY (`IdPerfil`) REFERENCES `perfiles` (`IdPerfil`) ON DELETE CASCADE,
+  ADD CONSTRAINT `perfilesusuarios_ibfk_4` FOREIGN KEY (`IdPerfil`) REFERENCES `perfiles` (`IdPerfil`) ON UPDATE CASCADE,
+  ADD CONSTRAINT `perfilesusuarios_ibfk_5` FOREIGN KEY (`IdUsuario`) REFERENCES `usuarios` (`IdUsuario`) ON DELETE CASCADE,
+  ADD CONSTRAINT `perfilesusuarios_ibfk_6` FOREIGN KEY (`IdUsuario`) REFERENCES `usuarios` (`IdUsuario`) ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `pruebas`
@@ -210,13 +278,21 @@ ALTER TABLE `perfilesusuarios`
 ALTER TABLE `pruebas`
   ADD CONSTRAINT `pruebas_ibfk_1` FOREIGN KEY (`IdCita`) REFERENCES `visitas` (`IdCita`),
   ADD CONSTRAINT `pruebas_ibfk_2` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`),
-  ADD CONSTRAINT `pruebas_ibfk_3` FOREIGN KEY (`IdTipoDiagnostico`) REFERENCES `tiposdiagnosticos` (`IdTipoDiagnostico`);
+  ADD CONSTRAINT `pruebas_ibfk_3` FOREIGN KEY (`IdTipoDiagnostico`) REFERENCES `tiposdiagnosticos` (`IdTipoDiagnostico`),
+  ADD CONSTRAINT `pruebas_ibfk_4` FOREIGN KEY (`IdCita`) REFERENCES `visitas` (`IdCita`) ON DELETE CASCADE,
+  ADD CONSTRAINT `pruebas_ibfk_5` FOREIGN KEY (`IdCita`) REFERENCES `visitas` (`IdCita`) ON UPDATE CASCADE,
+  ADD CONSTRAINT `pruebas_ibfk_6` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON DELETE CASCADE,
+  ADD CONSTRAINT `pruebas_ibfk_7` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON UPDATE CASCADE,
+  ADD CONSTRAINT `pruebas_ibfk_8` FOREIGN KEY (`IdTipoDiagnostico`) REFERENCES `tiposdiagnosticos` (`IdTipoDiagnostico`) ON DELETE CASCADE,
+  ADD CONSTRAINT `pruebas_ibfk_9` FOREIGN KEY (`IdTipoDiagnostico`) REFERENCES `tiposdiagnosticos` (`IdTipoDiagnostico`) ON UPDATE CASCADE;
 
 --
 -- Filtros para la tabla `visitas`
 --
 ALTER TABLE `visitas`
-  ADD CONSTRAINT `visitas_ibfk_1` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`);
+  ADD CONSTRAINT `visitas_ibfk_1` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`),
+  ADD CONSTRAINT `visitas_ibfk_2` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON DELETE CASCADE,
+  ADD CONSTRAINT `visitas_ibfk_3` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON UPDATE CASCADE;
 SET FOREIGN_KEY_CHECKS=1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
