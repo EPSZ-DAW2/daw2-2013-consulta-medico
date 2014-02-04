@@ -65,7 +65,7 @@ class CopiaDeSeguridad{
 			//Guardamos el archivo teniendo como nombre, la fecha y hora actual		
 			if($externa) Yii::app()->request->sendFile(date('YmdHms') . ".sql", $contenido);
 			else{
-				$fp = fopen(Yii::app()->basePath . '/../temporales/temporal.sql', 'w');
+				$fp = fopen(Yii::app()->basePath . '/runtime/temporal.sql', 'w');
 				fwrite($fp, $contenido);
 				fclose($fp);
 			}
@@ -270,7 +270,7 @@ class CopiaDeSeguridad{
 					}
 				}
 				//Borramos el archivo
-				$borrado = unlink(Yii::app()->basePath . '/../temporales/temporal.sql');
+				$borrado = unlink(Yii::app()->basePath . '/runtime/temporal.sql');
 				
 				return true;
 			}else{
@@ -281,10 +281,10 @@ class CopiaDeSeguridad{
 			Yii::app()->user->setFlash('error',"Error: ".$excepcion->getMessage());
 			
 			//Restablecemos la base de datos a su estado anterior
-			CopiaDeSeguridad::importarSQL(Yii::app()->basePath . '/../temporales/temporal.sql');
+			CopiaDeSeguridad::importarSQL(Yii::app()->basePath . '/runtime/temporal.sql');
 			
 			//Borramos el archivo
-			$borrado = unlink(Yii::app()->basePath . '/../temporales/temporal.sql');
+			$borrado = unlink(Yii::app()->basePath . '/runtime/temporal.sql');
 			
 			return false;
 		}
@@ -319,7 +319,7 @@ class CopiaDeSeguridad{
 				}
 				
 				//Borramos el archivo
-				$borrado = unlink(Yii::app()->basePath . '/../temporales/temporal.sql');
+				$borrado = unlink(Yii::app()->basePath . '/runtime/temporal.sql');
 				
 				return true;
 			}else{
@@ -330,10 +330,10 @@ class CopiaDeSeguridad{
 			Yii::app()->user->setFlash('error',"Error: ".$excepcion->getMessage());
 			
 			//Restablecemos la base de datos a su estado anterior
-			CopiaDeSeguridad::importarSQL(Yii::app()->basePath . '/../temporales/temporal.sql');
+			CopiaDeSeguridad::importarSQL(Yii::app()->basePath . '/runtime/temporal.sql');
 			
 			//Borramos el archivo
-			$borrado = unlink(Yii::app()->basePath . '/../temporales/temporal.sql');
+			$borrado = unlink(Yii::app()->basePath . '/runtime/temporal.sql');
 			return false;
 		}
 	}
