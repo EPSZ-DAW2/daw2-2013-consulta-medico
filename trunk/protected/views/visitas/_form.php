@@ -53,7 +53,7 @@
 		 'autoSize'=>true,
 		 'defaultDate'=>$model->Fecha,
 		 'dateFormat'=>'yy/mm/dd',
-		 'buttonImage'=>Yii::app()->baseUrl.'/css/calendar1.jpg',
+		 'buttonImage'=>Yii::app()->baseUrl.'/css/calendar2.png',
 		 'buttonImageOnly'=>true,
 		 'buttonText'=>'Fecha',
 		 'selectOtherMonths'=>true,
@@ -83,7 +83,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Estado'); ?>
-		<?php echo $form->dropDownList($model,'Estado',array('1'=>'Pendiente','2'=>'Realizada'), array('options' => array('1'=>array('selected'=>true))));?>
+		<?php echo $form->dropDownList($model,'Estado',array('No Realizada'=>'No Realizada','Realizada'=>'Realizada'), array('options' => array('1'=>array('selected'=>true))));?>
 		<?php echo $form->error($model,'Estado'); ?>
 	</div>
 
