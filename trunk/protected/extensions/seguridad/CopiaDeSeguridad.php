@@ -63,7 +63,7 @@ class CopiaDeSeguridad{
 			ob_end_clean();
 			
 			//Guardamos el archivo teniendo como nombre, la fecha y hora actual		
-			if($externa) Yii::app()->request->sendFile(date('YmdHms') . ".sql", $contenido);
+			if($externa) Yii::app()->request->sendFile('consultamedico'.date('YmdHms') . ".sql", $contenido);
 			else{
 				$fp = fopen(Yii::app()->basePath . '/runtime/temporal.sql', 'w');
 				fwrite($fp, $contenido);
@@ -157,7 +157,7 @@ class CopiaDeSeguridad{
 			ob_end_clean();
 			
 			//Guardamos el archivo teniendo como nombre, la fecha y hora actual		
-			Yii::app()->request->sendFile(date('YmdHms') . ".xml", $contenido);
+			Yii::app()->request->sendFile('consultamedico'.date('YmdHms') . ".xml", $contenido);
 			
 			return true;			
 		}catch(PDOException $excepcion){
