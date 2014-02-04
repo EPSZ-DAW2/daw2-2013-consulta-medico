@@ -20,4 +20,12 @@ class Controller extends CController
 	 * for more details on how to specify this property.
 	 */
 	public $breadcrumbs=array();
+
+	//Devolver si el usuario activo es del perfil recibido o no.
+	public function esPerfil( $perfil)
+	{
+		$mgr= Yii::app()->authManager;
+		$usr= Yii::app()->user;
+		return ($mgr->checkAccess( $perfil, $usr->id));
+	}
 }

@@ -132,8 +132,17 @@ class PacientesController extends Controller
 	 * Lists all models.
 	 */
 	public function actionIndex()
-	{		
-		$dataProvider=new CActiveDataProvider('Pacientes');
+	{
+		$filtro= new CDbCriteria();
+		
+		if ($this->esPerfil('paciente')) {
+			//El 3 debe salir de algun sitio donde se vincule USUARIOS y PACIENTES.
+			$filtro->compare( 'IdPaciente', 3);
+		}
+		
+		$dataProvider=new CActiveDataProvider('Pacientes', array( 
+			'criteria'=>$filtro,
+		));
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));

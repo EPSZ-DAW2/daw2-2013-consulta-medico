@@ -48,8 +48,8 @@ class Pacientes extends CActiveRecord
 			array('DNI_NIF', 'length', 'max'=>9),
 			array('Notas', 'length', 'max'=>150),
 			array('Email', 'email'),
-			array('Fecha_nacimiento', 'safe'),
-			array('Apellidos, Nombre, DNI_NIF, Fecha_nacimiento, Direccion, CodPostal, Localidad, Provincia, TelFijo, TelMovil, Email', 'required'),
+			array('Fecha_nacimiento', 'length', 'max'=>10),
+			array('Apellidos, Nombre, DNI_NIF, Fecha_nacimiento, Direccion, CodPostal, Localidad, Provincia, TelFijo, TelMovil, Email', 'required', 'on'=>'insert,update'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('IdPaciente, Apellidos, Nombre, DNI_NIF, Fecha_nacimiento, Direccion, CodPostal, Localidad, Provincia, TelFijo, TelMovil, Email, idAseguradora, Notas', 'safe', 'on'=>'search'),

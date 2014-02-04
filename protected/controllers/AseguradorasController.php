@@ -110,11 +110,18 @@ class AseguradorasController extends Controller
 	 */
 	public function actionDelete($id)
 	{
-		$this->loadModel($id)->delete();
-
+		$model=$this->loadModel($id);
+		
+		$resultado=Pacientes::model()->countByAttributes(array('idAseguradora'=>$model->idAseguradora));
+		if($resultado>0)
+		{
+			throw new CHttpException(404,'No se puede realizar el borrado');
+		} else {
+		$model->delete();
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 		if(!isset($_GET['ajax']))
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
+		}
 	}
 
 	/**
