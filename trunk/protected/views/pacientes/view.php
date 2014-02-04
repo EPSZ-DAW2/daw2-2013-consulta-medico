@@ -16,7 +16,7 @@ $this->menu=array(
 );
 ?>
 
-<h1>Ver Pacientes #<?php echo $model->IdPaciente; ?></h1>
+<h1>Ver Paciente: <?php echo $model->DNI_NIF; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

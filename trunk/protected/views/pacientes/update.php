@@ -17,6 +17,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Actualizar Pacientes <?php echo $model->IdPaciente; ?></h1>
+<h1>Actualizar Paciente: <?php echo $model->DNI_NIF; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
