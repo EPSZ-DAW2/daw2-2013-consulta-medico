@@ -34,6 +34,7 @@ class Visitas extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('IdPaciente', 'numerical', 'integerOnly'=>true),
+			array('IdPaciente, Fecha, Hora, Estado', 'required'),
 			array('Notas', 'length', 'max'=>150),
 			//array('nombre', 'length', 'max'=>150),
 			array('Estado', 'length', 'max'=>50),
@@ -63,7 +64,7 @@ class Visitas extends CActiveRecord
 	{
 		return array(
 			'IdCita' => 'Id Cita',
-			'IdPaciente' => 'Id Paciente',
+			'IdPaciente' => 'DNI/NIF',
 			'Fecha' => 'Fecha',
 			'Hora' => 'Hora',
 			'Notas' => 'Notas',
@@ -114,12 +115,4 @@ class Visitas extends CActiveRecord
 	{
 		return parent::model($className);
 	}
-	
-	public static function usersAutoComplete($name='') {
- 
-        // Recommended: Secure Way to Write SQL in Yii 
-		$sql= 'SELECT IdPaciente ,Nombre AS label FROM pacientes WHERE Nombre LIKE :name';
-        $name = $name.'%';
-        return Yii::app()->db->createCommand($sql)->queryAll(true,array(':name'=>$name));
-    }
 }
