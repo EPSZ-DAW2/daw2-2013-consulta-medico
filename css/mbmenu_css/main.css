@@ -45,7 +45,21 @@ body
 #logo
 {
 	padding: 10px 20px;
-	font-size: 200%;
+	font-size: 300%;
+	color: white;
+	text-transform: uppercase; 
+	font-family: "Calibri";
+	font-weight: bold;
+	text-shadow: 0.05em 0.05em #333;
+	margin-left: 10%;
+	
+}
+
+#imagen_portada img
+{
+	float: left;
+	width: 97px;
+	height: 97px;
 }
 
 
