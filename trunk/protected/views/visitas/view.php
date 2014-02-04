@@ -28,4 +28,5 @@ $this->menu=array(
 		'Notas',
 		'Estado',
 	),
-)); ?>
+)); 
+?>
