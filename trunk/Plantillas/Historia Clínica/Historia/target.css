@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'Gulim_TrueType_0';
+	src: local('Gulim_TrueType_0');
+	src: url('Gulim_TrueType_0.ttf') format('truetype');
+}
+
+.fmt-0{font-style:normal;font-weight:bold;font-family:Gulim_TrueType_0,Gulim,serif;color:#000000;font-size:10pt;}
+
+@font-face {
+	font-family: 'Gulim_TrueType_1';
+	src: local('Gulim_TrueType_1');
+	src: url('Gulim_TrueType_1.ttf') format('truetype');
+}
+
+.fmt-1{font-style:normal;font-weight:normal;font-family:Gulim_TrueType_1,Gulim,serif;color:#000000;font-size:10pt;}
+
