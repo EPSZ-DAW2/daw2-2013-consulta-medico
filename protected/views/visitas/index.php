@@ -15,6 +15,11 @@ $this->menu=array(
 <h1>Visitas</h1>
 <?php if(isset($model)){
  echo CHtml::beginForm();
+
+	
+		 if ($model->fechaVisita!='') {
+		 $model->fechaVisita=date('d-m-Y',strtotime($model->v));
+		 }
 		 $this->widget('zii.widgets.jui.CJuiDatePicker', array(
 		 'model'=>$model,
 		 'attribute'=>'fechaVisita',
@@ -24,12 +29,12 @@ $this->menu=array(
 		 'htmlOptions' => array('readonly'=>"readonly"),
 		 'options'=>array(
 		 'autoSize'=>true,
-		 'defaultDate'=>date('Y-m-d', time()),
+		 'defaultDate'=>$model->fechaVisita,
 		 'dateFormat'=>'yy-mm-dd',
 		 'buttonImage'=>Yii::app()->baseUrl.'/css/calendar1.jpg',
 		 'buttonImageOnly'=>true,
 		 'buttonText'=>'Fecha',
-		 'selectOtherMonths'=>true,
+
 		 'showAnim'=>'fold',
 		 'showButtonPanel'=>true,
 		 'showOn'=>'button',
@@ -40,7 +45,7 @@ $this->menu=array(
 		 )); ?>
 
 <div class="action">
-	<?php echo CHtml::submitButton('Cargar Visitas',array('name' => 'fecha')); ?>
+	<?php echo CHtml::submitButton('Cargar',array('name' => 'fecha')); ?>
 </div>
 <?php echo CHtml::endForm(); 
 }
@@ -48,20 +53,14 @@ $this->menu=array(
 
 <?php 
 if(isset($fechas)){
-	if(Yii::app()->user->hasFlash('informacion')){?>
-    <div class="info">
-        <h4><?php echo Yii::app()->user->getFlash('informacion'); ?></h4>
-    </div>
-<?php }else
-		{
 	$this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,
 	'itemView'=>'_view',
 	'viewData'=>array('fecha'=>$fechas),
-));}
+));
 echo CHtml::beginForm();?>
 <div class="action">
-	<?php echo CHtml::submitButton('Volver a calendario',array('name' => 'volver')); ?>
+	<?php echo CHtml::submitButton('Volver',array('name' => 'volver')); ?>
 </div>
 <?php echo CHtml::endForm(); 
 
