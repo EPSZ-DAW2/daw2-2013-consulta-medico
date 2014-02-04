@@ -37,6 +37,7 @@ class AutoCompletar extends CJuiAutoComplete
         $options=CJavaScript::encode($this->options);
  
         $js = "jQuery('#{$id}').autocomplete($options){$this->methodChain};";
+		echo $id;
  
         $cs = Yii::app()->getClientScript();
         $cs->registerScript(__CLASS__.'#'.$id, $js);
