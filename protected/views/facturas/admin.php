@@ -60,7 +60,7 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 				'class' => 'CButtonColumn',
 				'template' => '{view}{update}{delete}{pdf}',
 				'buttons'=>array(
-						'pdf' => array('label'=>'Crear Pdf','imageUrl'=>Yii::app()->request->baseUrl.'/css/pdf.png','url'=>'Yii::app()->controller->createUrl("pdf",array("idpaciente"=>$data->IdPaciente,"idfactura"=>$data->IdFactura,"serie"=>$data->Serie,"numero"=>$data->Numero,"fecha"=>$data->Fecha,"concepto"=>$data->Concepto,"importe"=>$data->Importe,"fechac"=>$data->FechaCobro,"notas"=>$data->Notas))',
+						'pdf' => array('label'=>'Crear Pdf','imageUrl'=>Yii::app()->request->baseUrl.'/css/pdf.png','url'=>'Yii::app()->controller->createUrl("pdf",array("id"=>$data->IdFactura))',
 				)
 			),
 			),
