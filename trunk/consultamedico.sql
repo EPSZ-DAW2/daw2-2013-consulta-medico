@@ -431,13 +431,10 @@ ALTER TABLE `pruebas`
 --
 ALTER TABLE `visitas`
   ADD CONSTRAINT `visitas_ibfk_1` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`),
-<<<<<<< .mine
-  ADD CONSTRAINT `visitas_ibfk_2` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON DELETE CASCADE;
-=======
   ADD CONSTRAINT `visitas_ibfk_2` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON DELETE CASCADE,
   ADD CONSTRAINT `visitas_ibfk_3` FOREIGN KEY (`IdPaciente`) REFERENCES `pacientes` (`IdPaciente`) ON UPDATE CASCADE;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
->>>>>>> .r462
+
