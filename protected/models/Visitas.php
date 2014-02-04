@@ -96,6 +96,7 @@ class Visitas extends CActiveRecord
 		$criteria->compare('Hora',$this->Hora,true);
 		$criteria->compare('Notas',$this->Notas,true);
 		$criteria->compare('Estado',$this->Estado,true);
+		
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
