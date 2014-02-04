@@ -50,17 +50,18 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 	'filter'=>$model,
 	'columns'=>array(
 		array('name'=>'IdCita', 'htmlOptions'=>array('width'=>'40')),
-//		'IdPaciente',
 		'paciente.Nombre',
 		array( 'name'=>'Fecha', 'value'=>'(strtotime($data->Fecha)==0 ? "" : date("d-m-Y H:i:s", strtotime($data->Fecha)))'),
 		'Notas',
 		'Estado',
-			array(
-				'class' => 'CButtonColumn',
-				'template' => (strcmp('$data->Estado',"No Realizada"))==0 ? '{view}{update}{delete}{email}' : '{view}{update}{delete}',
-				'buttons'=>array(
-						'email' => array('label'=>'Enviar email recordatorio','imageUrl'=>Yii::app()->request->baseUrl.'/css/e-mail.png','url'=>'Yii::app()->controller->createUrl("mail",array("fecha"=>$data->Fecha,"hora"=>$data->Hora,))',
-				)
-			),
-			),
+		array(
+			'class' => 'CButtonColumn',
+			'template' =>  '{view}{update}{delete}{email}',
+			'buttons'=>array(
+					'email' => array('label'=>'Enviar email recordatorio',
+									 'imageUrl'=>Yii::app()->request->baseUrl.'/css/e-mail.png',
+									 'url'=>'Yii::app()->controller->createUrl("mail",array("fecha"=>$data->Fecha,"hora"=>$data->Hora,))',
+									 'visible'=>'(strcmp($data->Estado,"No Realizada"))==0',)
+		),
+		),
 ))); ?>

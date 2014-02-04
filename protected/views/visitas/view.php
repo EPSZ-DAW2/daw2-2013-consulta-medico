@@ -22,7 +22,7 @@ $this->menu=array(
 	'data'=>$model,
 	'attributes'=>array(
 		'IdCita',
-		'IdPaciente',
+		'paciente.DNI_NIF',
 		'Fecha',
 		'Hora',
 		'Notas',

@@ -18,22 +18,44 @@
 
 	<?php echo $form->errorSummary($model); ?>
 
-		<?php echo $form->labelEx($model,'Nombre'); ?>
+		<div class="row">
+		<?php echo $form->labelEx($model,'IdPaciente'); ?>
+
+		<?php echo $form->hiddenField($model, 'IdPaciente'); ?>
 		<?php
-		$this->widget('ext.AutoCompletar', array(
-			'model'=>$model,
-			'attribute'=>'IdPaciente',
-			'name'=>'visitas_autocomplete',
-			'source'=>$this->createUrl('visitas/usersAutocomplete'),  // Controller/Action path for action we created in step 4.
-			// additional javascript options for the autocomplete plugin
-			'options'=>array(
-				'minLength'=>'0',
-			),
-			'htmlOptions'=>array(
-				'style'=>'height:20px;',
-			),        
-		));?>
-		<?php echo $form->error($model,'Nombre');?>
+		// ext is a shortcut for application.extensions
+		$form->widget('ext.AutoCompletar', array(
+			'name' => 'test_autocomplete',
+			'source' => $this->createUrl('visitas/usersAutocomplete'),
+		// attribute_value is a custom property that returns the 
+		// name of our related object -ie return $model->related_model->name
+			'value' => $model->isNewRecord ? '': $model->paciente->DNI_NIF,
+			'options' => array(
+				'minLength'=>0,
+				'autoFill'=>false,
+				'focus'=> 'js:function( event, ui ) {
+					$( "#test_autocomplete" ).val( ui.item.DNI_NIF );
+					return false;
+				}',
+				'select'=>'js:function( event, ui ) {
+					$("#'.CHtml::activeId($model,'IdPaciente').'")
+					.val(ui.item.IdPaciente);
+					return false;
+				}'
+			 ),
+			'htmlOptions'=>array('class'=>'input-1', 'autocomplete'=>'off'),
+			'methodChain'=>'.data( "autocomplete" )._renderItem = function( ul, item ) {
+				return $( "<li></li>" )
+					.data( "item.autocomplete", item )
+					.append( "<a>" + item.DNI_NIF +  "</a>" )
+					.appendTo( ul );
+			};'
+		));
+		?>
+															
+		<?php echo $form->error($model,'IdPaciente'); ?>
+		
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'Fecha'); ?>
