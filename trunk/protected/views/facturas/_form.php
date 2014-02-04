@@ -70,7 +70,7 @@
 		<?php
 		// ext is a shortcut for application.extensions
 		$form->widget('ext.AutoCompletar', array(
-			'name' => 'test_autocomplete',
+			'name' => 'DNI_NIF',
 			'source' => $this->createUrl('facturas/autoCompletar'),
 		// attribute_value is a custom property that returns the 
 		// name of our related object -ie return $model->related_model->name
@@ -79,7 +79,7 @@
 				'minLength'=>0,
 				'autoFill'=>false,
 				'focus'=> 'js:function( event, ui ) {
-					$( "#test_autocomplete" ).val( ui.item.DNI_NIF );
+					$( "#DNI_NIF" ).val( ui.item.DNI_NIF );
 					return false;
 				}',
 				'select'=>'js:function( event, ui ) {

@@ -22,7 +22,7 @@ class Facturas extends CActiveRecord
 	/**
 	 * @return string the associated database table name
 	 */
-	public $dni; 
+	public $DNI_NIF; 
 	 
 	public function tableName()
 	{
@@ -41,17 +41,61 @@ class Facturas extends CActiveRecord
 			array('Serie, Numero','numerical','integerOnly'=>true),
 			array('Serie, Numero', 'length', 'max'=>11),
 			array('Concepto', 'length', 'max'=>50),
-			array('dni','validarDNI'),
+			array('DNI_NIF','validarDNI'),
 			array('Notas', 'length', 'max'=>150),
 			array('Fecha, FechaCobro', 'safe'),
-			array('Serie, Numero, Fecha, dni, Importe, FechaCobro', 'required'),
+			array('Serie, Numero, Fecha, IdPaciente, Importe, FechaCobro', 'required'),
 			array('IdFactura, Serie, Numero, Fecha, IdPaciente, Concepto, Importe, FechaCobro, Notas', 'safe', 'on'=>'search'),
 		);
 	}
 	
 	public function validarDNI($attribute,$params)
 	{
-		$this->addError('dni','El DNI/NIF no se encuentra en la base de datos o es incorrecto.');
+		function dnivalido($dni)
+		{
+			//Comprobamos longitud
+			if (strlen($dni) != 9) return false;      
+		  
+			//Posibles valores para la letra final 
+			$valoresLetra = array(
+				0 => 'T', 1 => 'R', 2 => 'W', 3 => 'A', 4 => 'G', 5 => 'M',
+				6 => 'Y', 7 => 'F', 8 => 'P', 9 => 'D', 10 => 'X', 11 => 'B',
+				12 => 'N', 13 => 'J', 14 => 'Z', 15 => 'S', 16 => 'Q', 17 => 'V',
+				18 => 'H', 19 => 'L', 20 => 'C', 21 => 'K',22 => 'E'
+			);
+
+			//Comprobar si es un DNI
+			if (preg_match('/^[0-9]{8}[A-Z]$/i', $dni))
+			{
+				//Comprobar letra
+				if (strtoupper($dni[strlen($dni) - 1]) !=
+					$valoresLetra[((int) substr($dni, 0, strlen($dni) - 1)) % 23])
+					return false;
+		 
+				//Todo fue bien 
+				return true; 
+			}
+			//Comprobar si es un NIE
+			else if (preg_match('/^[XYZ][0-9]{7}[A-Z]$/i', $dni))
+			{
+				//Comprobar letra
+				if (strtoupper($dni[strlen($dni) - 1]) !=
+					$valoresLetra[((int) substr($dni, 1, strlen($dni) - 2)) % 23])
+					return false;
+
+				//Todo fue bien
+				return true;
+			}
+			
+			//Cadena no válida  
+			return false; 
+		}
+		
+		if(dnivalido($attribute)){
+			$comando = Yii::app()->db->createCommand('SELECT COUNT(*) FROM pacientes where `DNI_NIF`=\''.$attribute.'\'');
+			if($comando->queryScalar()<1) $this->addError('DNI_NIF','El DNI/NIF seleccionado no se corresponde con ningún paciente.');
+		}else
+			$this->addError('DNI_NIF','El DNI/NIF no es válido.');
 	}
 
 	/**
