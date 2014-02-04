@@ -63,7 +63,7 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 					'email' => array('label'=>'Enviar email recordatorio',
 									 'imageUrl'=>Yii::app()->request->baseUrl.'/css/e-mail.png',
 									 'url'=>'Yii::app()->controller->createUrl("mail",array("fecha"=>$data->Fecha,"hora"=>$data->Hora,))',
-									 'visible'=>'(strcmp($data->Estado,"No Realizada"))=+++++++++++++++++++++++++',)
+									 'visible'=>'(strcmp($data->Estado,"No Realizada"))==0',)
 		),
 		),
 ))); ?>
