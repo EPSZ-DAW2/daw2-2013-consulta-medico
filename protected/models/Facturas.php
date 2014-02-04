@@ -120,10 +120,4 @@ class Facturas extends CActiveRecord
 	{
 		return parent::model($className);
 	}
-	
-	public static function autoCompletarFacturas($name='') {
-		$sql= 'SELECT IdPaciente ,Nombre AS label FROM pacientes WHERE Nombre LIKE :name';
-        $name = $name.'%';
-        return Yii::app()->db->createCommand($sql)->queryAll(true,array(':name'=>$name));
-    }
 }
