@@ -22,7 +22,6 @@ class Facturas extends CActiveRecord
 	/**
 	 * @return string the associated database table name
 	 */
-	 
 	public function tableName()
 	{
 		return 'facturas';
@@ -65,14 +64,14 @@ class Facturas extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'IdFactura' => 'Id Factura',
+			'IdFactura' => 'Factura',
 			'Serie' => 'Serie',
 			'Numero' => 'Numero',
-			'Fecha' => 'Fecha',
+			'Fecha' => 'Fecha de emisión',
 			'IdPaciente' => 'DNI/NIF',
 			'Concepto' => 'Concepto',
 			'Importe' => 'Importe',
-			'FechaCobro' => 'Fecha Cobro',
+			'FechaCobro' => 'Fecha de cobro',
 			'Notas' => 'Notas',
 		);
 	}
