@@ -62,8 +62,29 @@ class PacientesController extends Controller
 	 */
 	public function actionView($id)
 	{
+		$model=$this->loadModel($id);
+			$criterio= new CDbCriteria;
+			$criterio->compare( 'IdPaciente', $model->IdPaciente);
+			
+			
+			$dataProvider1=new CActiveDataProvider('Visitas', array(
+				'criteria'=>$criterio,
+				'pagination' => array(
+					//'pageSize' => 5
+					)
+				)
+			);
+			
+			$dataProvider2=new CActiveDataProvider('Pruebas', array(
+				'criteria'=>$criterio,
+				'pagination' => array(
+					//'pageSize' => 5
+					)
+				)
+			);
+			
 		$this->render('view',array(
-			'model'=>$this->loadModel($id),
+			'model'=>$this->loadModel($id), 'dataProvider1'=>$dataProvider1, 'dataProvider2'=>$dataProvider2, 
 		));
 	}
 
