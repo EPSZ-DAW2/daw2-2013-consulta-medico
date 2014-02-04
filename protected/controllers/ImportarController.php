@@ -8,20 +8,16 @@ class ImportarController extends Controller
 			$modelo->scenario = 'conArchivo';
         }
 		elseif(isset($_POST['estructura'])){
-			$md5 = md5_file(Yii::app()->basePath . '/../framework/db/schema/estructuraTablas.sql');
-			echo $md5;
-			if(strcmp($md5,"d9533743d2d1e33d858b2845c17791ae")==0){
-				CopiaDeSeguridad::importarSQL(Yii::app()->basePath . '/../framework/db/schema/estructuraTablas.sql');
-				Yii::app()->user->setFlash('informacion','Se ha importado correctamente la estructura de la base de datos');
-			}
-			else Yii::app()->user->setFlash('error','El archivo con la estructura de la base de datos está corrupto, contacte con el administrador');
+			CopiaDeSeguridad::importarSQL(Yii::app()->basePath . '/data/estructuraTablas.sql');
+			Yii::app()->user->setFlash('informacion','Se ha importado correctamente la estructura de la base de datos');
         }
 		elseif(isset($_POST['importarDatos'])){
 			//Recogemos la instancia del archivo subido
 			$modelo->archivo = CUploadedFile::getInstance($modelo,'archivo');
 			//Guardamos en variables la ruta del archivo y la extensión
-			$ruta=Yii::app()->basePath . '/../temporales/'.strtolower($modelo->archivo);
-			$extension = end(explode(".", strtolower($modelo->archivo))); 
+			$ruta=Yii::app()->basePath . '/runtime/'.strtolower($modelo->archivo);
+			$archivoPartido=explode(".", strtolower($modelo->archivo));
+			$extension = end($archivoPartido); 
 			
 			//Subimos el archivo al servidor
 			$modelo->archivo->saveAs($ruta);
