@@ -215,20 +215,26 @@ class VisitasController extends Controller
 	
 	public function actionListarEstados() 
 	{
-		$criteria = new CDbCriteria; 
-		$criteria->condition = "LOWER(Notas) like LOWER(:term)"; 
-		$criteria->params = array(':term'=> '%'.$_GET['term'].'%'); 
-		$criteria->limit = 30; 
-		$data = Estado::model()->findAll($criteria); 
-		$arr = array();
-		foreach ($data as $item) {
-		 $arr[] = array(
-		 'id' => $item->id, 
-		 'value' => $item->Notas, 
-		 'label' => $item->Notas, 
-		 );
+		if (isset($_GET['term'])) 
+		{
+			$criteria=new CDbCriteria;
+			$criteria->alias = "visitas";
+			$criteria->condition = "visitas.Notas like '" . $_GET['term'] . "%'";
+		 
+			$dataProvider = new CActiveDataProvider(get_class(visitas::model()), array('criteria'=>$criteria,‘pagination’=>false,));
+			$notas = $dataProvider->getData();
+		 
+			$return_array = array();
+			foreach($notas as $notass) {
+			  $return_array[] = array(
+							'label'=>$notass->name,
+							'value'=>$notass->name,
+							'id'=>$notass->id,
+							);
+			}
+		 
+			echo CJSON::encode($return_array);
 		 }
-		 echo CJSON::encode($arr);
 	}
 	
 }
