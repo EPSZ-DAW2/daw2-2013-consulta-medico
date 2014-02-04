@@ -33,8 +33,8 @@ Puedes utilizar operadores de comparación (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</
 o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar como debe ser hecha la comparación.
 </p>
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); 
-	echo Yii::app()->request->baseUrl.'/protected/views/visitas/' ;?>
+<?php echo CHtml::link('Búsqueda Avanzada','#',array('class'=>'search-button')); 
+
 <div class="search-form" style="display:none">
 <div id='AjFlash' class="flash-success" style="display:none"></div>
 <?php $this->renderPartial('_search',array(
