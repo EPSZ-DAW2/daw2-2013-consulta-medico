@@ -38,3 +38,21 @@ $this->menu=array(
 		'Notas',
 	),
 )); ?>
+
+<h1>Visitas</h1>
+<?php 
+$this->widget('zii.widgets.CListView', array(
+			'dataProvider'=>$dataProvider1,
+			'itemView'=>'../visitas/_view',
+			//'viewData'=>array('fecha'=>$fechas),
+		)); 
+?>
+
+<h1>Pruebas</h1>
+<?php 
+$this->widget('zii.widgets.CListView', array(
+			'dataProvider'=>$dataProvider2,
+			'itemView'=>'../pruebas/_view',
+			//'viewData'=>array('fecha'=>$fechas),
+		)); 
+?>
