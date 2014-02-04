@@ -4,7 +4,7 @@
 /* @var $form CActiveForm */
 ?>
 
-<div class="form">
+<div class="wide form">
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'visitas-form',
 	// Please note: When you enable ajax validation, make sure the corresponding
