@@ -9,10 +9,10 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Lista de Aseguradoras', 'url'=>array('index')),
-	array('label'=>'Crear Aseguradoras', 'url'=>array('create')),
-	array('label'=>'Actualizar Aseguradoras', 'url'=>array('update', 'id'=>$model->idAseguradora)),
-	array('label'=>'Eliminar Aseguradoras', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idAseguradora),'confirm'=>'¿Está seguro que desea eliminar la aseguradora?')),
-	array('label'=>'Administrar Aseguradoras', 'url'=>array('admin')),
+	array('label'=>'Crear Aseguradoras', 'url'=>array('create'), 'visible'=>!$this->esPerfil('paciente')),
+	array('label'=>'Actualizar Aseguradoras', 'url'=>array('update', 'id'=>$model->idAseguradora), 'visible'=>!$this->esPerfil('paciente')),
+	array('label'=>'Eliminar Aseguradoras', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->idAseguradora),'confirm'=>'¿Está seguro que desea eliminar la aseguradora?'), 'visible'=>!$this->esPerfil('paciente')),
+	array('label'=>'Administrar Aseguradoras', 'url'=>array('admin'), 'visible'=>!$this->esPerfil('paciente')),
 );
 ?>
 

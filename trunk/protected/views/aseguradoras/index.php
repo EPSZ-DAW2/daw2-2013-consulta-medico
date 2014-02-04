@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Crear Aseguradoras', 'url'=>array('create')),
-	array('label'=>'Administrar Aseguradoras', 'url'=>array('admin')),
+	array('label'=>'Crear Aseguradoras', 'url'=>array('create'), 'visible'=>!$this->esPerfil('paciente')),
+	array('label'=>'Administrar Aseguradoras', 'url'=>array('admin'), 'visible'=>!$this->esPerfil('paciente')),
 );
 ?>
 
