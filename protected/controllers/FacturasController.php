@@ -83,11 +83,11 @@ class FacturasController extends Controller
 		));
 	}	
 		
-	public function actionUsersAutocomplete() {
+	public function actionAutoCompletar() {
         $term = trim($_GET['term']) ;
  
         if($term !='') {
-			$users =  Facturas::usersAutoComplete($term);
+			$users =  Facturas::autoCompletarFacturas($term);
             echo CJSON::encode($users);
             Yii::app()->end();
 		}
