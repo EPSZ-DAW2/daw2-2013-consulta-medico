@@ -64,12 +64,12 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'DNI_NIF'); ?>
+		<?php echo $form->labelEx($model,'IdPaciente'); ?>
 
 		<?php echo $form->hiddenField($model, 'IdPaciente'); ?>
 		<?php
 		// ext is a shortcut for application.extensions
-		$this->widget('ext.AutoCompletar', array(
+		$form->widget('ext.AutoCompletar', array(
 			'name' => 'test_autocomplete',
 			'source' => $this->createUrl('facturas/autoCompletar'),
 		// attribute_value is a custom property that returns the 
