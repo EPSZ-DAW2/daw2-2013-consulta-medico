@@ -5,6 +5,12 @@
 
 <div class="view">
 
+	<?php $this->beginWidget('ext.coolfieldset.JCollapsibleFieldset', array(
+    'collapsed'=>true,
+    'legend'=> CHtml::encode($data->IdFactura).'-'.CHtml::encode($data->Serie).'-'.CHtml::encode($data->Numero).'---'.CHtml::encode($data->paciente->Nombre).' '.CHtml::encode($data->paciente->Apellidos) ,
+    'legendHtmlOptions'=>array('title'=>'¡Haz click con el ratón para expandir!')
+	));?>
+	
 	<b><?php echo CHtml::encode($data->getAttributeLabel('IdFactura')); ?>:</b>
 	<?php echo CHtml::link(CHtml::encode($data->IdFactura).'-'.CHtml::encode($data->Serie).'-'.CHtml::encode($data->Numero), array('view', 'id'=>$data->IdFactura)); ?>
 	<br />
@@ -33,7 +39,7 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('Notas')); ?>:</b>
 	<?php echo CHtml::encode($data->Notas); ?>
 	<br />
-
 	
-
+	<?php $this->endWidget('ext.coolfieldset.JCollapsibleFieldset'); ?>
+	
 </div>

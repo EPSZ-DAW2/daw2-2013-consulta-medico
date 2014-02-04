@@ -65,26 +65,47 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'IdPaciente'); ?>
-
 		<?php echo $form->hiddenField($model, 'IdPaciente'); ?>
+		<?php $paciente= ($model->paciente !== null) ? $model->paciente : new Pacientes;
+			echo $form->textField($paciente, 'Nombre', array(
+				'value'=>($model->paciente !== null) 
+					? $paciente->Nombre . ' '. $paciente->Apellidos
+					: 'Debe buscar el paciente por DNI/NIF, Nombre o Apellidos.'
+				,				
+				'disabled'=>true,
+				'size'=>50,
+				)
+			);
+			if ($model->paciente !== null) {
+				//echo ' Cliente seleccionado.';
+			} else {
+				//echo '  DNI/NIF'; 
+			}
+		?>
+		<?php echo $form->error($model,'IdPaciente'); ?>
+	</div>
+	<div class="row">
+		<?php echo $form->labelEx($model,'dninif'); ?>
 		<?php
 		// ext is a shortcut for application.extensions
 		$form->widget('ext.AutoCompletar', array(
-			'name' => 'DNI_NIF',
-			'source' => $this->createUrl('facturas/autoCompletar'),
+			'model'=>$model,
+			'attribute'=>'dninif',
+			//'name' => 'test_autocomplete',
+			'source' => $this->createUrl('visitas/usersAutocomplete'),
 		// attribute_value is a custom property that returns the 
 		// name of our related object -ie return $model->related_model->name
-			'value' => $model->isNewRecord ? '': $model->paciente->DNI_NIF,
+			//'value' => $model->isNewRecord ? '': $model->paciente->DNI_NIF,
 			'options' => array(
 				'minLength'=>0,
 				'autoFill'=>false,
 				'focus'=> 'js:function( event, ui ) {
-					$( "#DNI_NIF" ).val( ui.item.DNI_NIF );
+					$( "#'.CHtml::activeId($model,'dninif').'" ).val( ui.item.DNI_NIF );
 					return false;
 				}',
 				'select'=>'js:function( event, ui ) {
-					$("#'.CHtml::activeId($model,'IdPaciente').'")
-					.val(ui.item.IdPaciente);
+					$("#'.CHtml::activeId($model,'IdPaciente').'").val(ui.item.IdPaciente);
+					$("#'.CHtml::activeId($paciente, 'Nombre').'").val(ui.item.Nombre+" "+ui.item.Apellidos);
 					return false;
 				}'
 			 ),
@@ -97,9 +118,6 @@
 			};'
 		));
 		?>
-															
-		<?php echo $form->error($model,'IdPaciente'); ?>
-		
 	</div>
 	
 
