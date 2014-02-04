@@ -28,7 +28,7 @@ class FacturasController extends Controller
 	{
 		return array(
 			array('allow', // allow authenticated user to perform
-				'actions' => array('usersAutocomplete'),
+				'actions' => array('AutoCompletar'),
 				'users' => array('*'),
 			),
 			array('allow',  // allow all users to perform 'index' and 'view' actions
