@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 05-02-2014 a las 00:07:21
+-- Tiempo de generación: 05-02-2014 a las 09:11:21
 -- Versión del servidor: 5.5.16
 -- Versión de PHP: 5.3.8
 
@@ -96,11 +96,11 @@ CREATE TABLE IF NOT EXISTS `authitem` (
 --
 
 INSERT INTO `authitem` (`name`, `type`, `description`, `bizrule`, `data`) VALUES
-('admin', 0, NULL, NULL, NULL),
-('auxiliar', 0, NULL, NULL, NULL),
-('medico', 0, NULL, NULL, NULL),
-('paciente', 0, NULL, NULL, NULL),
-('sysadmin', 0, NULL, NULL, NULL);
+('admin', 0, 'Control total de la aplicación excepto roles', NULL, NULL),
+('auxiliar', 0, 'Vista de médicos, pruebas, citas, etc.', NULL, NULL),
+('medico', 0, 'Gestión de auxiliares, pacientes, pruebas, citas, etc.', NULL, NULL),
+('paciente', 0, 'Puede consultar los datos relacionados con su persona', NULL, NULL),
+('sysadmin', 0, 'Control total de la aplicación', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -332,10 +332,10 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 
 INSERT INTO `usuarios` (`IdUsuario`, `usuario`, `clave`, `nombre`, `FechaHoraUltimaConexion`, `numFallos`) VALUES
 (1, 'sysadmin', '48a365b4ce1e322a55ae9017f3daf0c0', 'Agapito', '2014-02-04 22:19:01', 0),
-(2, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'Luis', '2014-02-04 22:24:01', 0),
+(2, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'Luis', '2014-02-05 00:10:02', 0),
 (3, 'medico', '652044ac6e008761b3e6141748a99880', 'Castro', '2014-02-05 00:04:00', 0),
-(4, 'auxiliar', 'f700cd7088fef1f1986d7776f810a007', 'Francesca', '0000-00-00 00:00:00', 0),
-(5, 'paciente', 'd243800a7d0ba0f87081bcdd832bb05f', 'jack', '2014-01-28 00:00:00', 2);
+(4, 'auxiliar', 'f700cd7088fef1f1986d7776f810a007', 'Francesca', '2014-02-05 00:08:39', 0),
+(5, 'paciente', 'd243800a7d0ba0f87081bcdd832bb05f', 'jack', '2014-02-05 00:09:36', 0);
 
 -- --------------------------------------------------------
 
