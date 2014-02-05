@@ -44,7 +44,7 @@ class UserIdentity extends CUserIdentity
 			$this->errorCode=self::ERROR_NONE;
 			 
 			//En las vistas tendremos disponible la fecha y hora de la última conexión. Si es la primera vez que ponga el mensaje "primera vez"
-			if ($users->FechaHoraUltimaConexion=="NULL" || $users->FechaHoraUltimaConexion=="") {
+			if ($users->FechaHoraUltimaConexion=="NULL" || $users->FechaHoraUltimaConexion=="" || $users->FechaHoraUltimaConexion=="0000-00-00 00:00:00") {
 				$this->setState('FechaHoraUltimaConexion', date("Y-m-d H:i:s"));
 			}else{
 				$this->setState('FechaHoraUltimaConexion',$users->FechaHoraUltimaConexion);
