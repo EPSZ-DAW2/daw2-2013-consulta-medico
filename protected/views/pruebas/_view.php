@@ -35,11 +35,14 @@
 	<?php echo CHtml::encode($data->Tratamiento); ?>
 	<br />
 
-	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('Notas')); ?>:</b>
 	<?php echo CHtml::encode($data->Notas); ?>
-	<br />
-
-	*/ ?>
+	<br/>
 
 </div>
+
+<div>
+<iframe width="760" height="800" src="<?php 
+	echo $this->createUrl( 'plantilla');
+?>" scrolling="no" frameborder="no" ></iframe>
+</div> 
