@@ -28,6 +28,22 @@ $('.search-form form').submit(function(){
 
 <h1>Gestionar Visitas</h1>
 
+<?php
+	if(Yii::app()->user->hasFlash('mail'))
+	{
+		echo Yii::app()->user->getFlash('mail');
+		echo CHtml::beginForm();?>
+		<div class="action">
+			<?php echo CHtml::submitButton('Volver',array('name' => 'volver')); ?>
+		</div>
+		<?php echo CHtml::endForm();
+	}
+	else
+	{
+	
+
+?>	
+
 <p>
 Puedes utilizar operadores de comparación (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
 o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar como debe ser hecha la comparación.
@@ -68,4 +84,4 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 									 'visible'=>'(strcmp($data->Estado,"No Realizada"))==0',)
 		),
 		),
-))); ?>
+)));} ?>

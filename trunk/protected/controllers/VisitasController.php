@@ -185,14 +185,14 @@ class VisitasController extends Controller
 		$mail->AddAddress($res[0]["Email"],"Alejandro");
 		if(!$mail->Send()) 
 		{
-           echo "Mailer Error: " . $mail->ErrorInfo;
+           Yii::app()->user->setFlash('mail','Mailer Error: ' . $mail->ErrorInfo);
         }
 		else 
 		{
-            echo "El correo ha sido enviado!";
+            Yii::app()->user->setFlash('mail','El correo ha sido enviado!');
 				
 		}
-		echo CHtml::link('Volver',array('Admin'));
+		$this->redirect(array('admin'));
 		
 	}
 	
