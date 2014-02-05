@@ -17,7 +17,7 @@
 class Visitas extends CActiveRecord
 {
 
-	public $dninif;//para busqueda de paciente
+	public $nombre;//para busqueda de paciente
 	
 	/**
 	 * @return string the associated database table name
@@ -102,6 +102,7 @@ class Visitas extends CActiveRecord
 
 		$criteria->compare('IdCita',$this->IdCita);
 		$criteria->compare('IdPaciente',$this->IdPaciente);
+		$criteria->compare('paciente.Nombre',$this->nombre);
 		$criteria->compare('Fecha',$this->Fecha,true);
 		$criteria->compare('Hora',$this->Hora,true);
 		$criteria->compare('Notas',$this->Notas,true);
