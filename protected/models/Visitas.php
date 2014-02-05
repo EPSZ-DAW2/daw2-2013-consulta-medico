@@ -44,6 +44,7 @@ class Visitas extends CActiveRecord
 			array('Fecha, Hora', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
+			array('IdCita, IdPaciente, Fecha, Notas, Estado, Hora, dninif', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -56,7 +57,6 @@ class Visitas extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'pruebas' => array(self::HAS_MANY, 'Pruebas', 'IdCita'),
-			'pruebas' => array(self::BELONGS_TO, 'Pruebas', 'IdCita'),
 			'paciente' => array(self::BELONGS_TO, 'Pacientes', 'IdPaciente'),
 			
 		);
@@ -73,6 +73,7 @@ class Visitas extends CActiveRecord
 			'IdPaciente' => 'Id Paciente',
 			'IdTipoDiagnostico'=> 'Id Tipo Diagnostico',
 			'dninif' => 'DNI/NIF',
+			'paciente.DNI_NIF' => 'DNI/NIF',
 			'Fecha' => 'Fecha',
 			'Hora' => 'Hora',
 			'Descripcion'=>'Descripcion',
@@ -101,13 +102,12 @@ class Visitas extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('IdCita',$this->IdCita);
-		$criteria->compare('IdPaciente',$this->IdPaciente);
+		$criteria->compare('paciente.DNI_NIF',$this->dninif);
 		$criteria->compare('paciente.Nombre',$this->nombre);
 		$criteria->compare('Fecha',$this->Fecha,true);
 		$criteria->compare('Hora',$this->Hora,true);
 		$criteria->compare('Notas',$this->Notas,true);
 		$criteria->compare('Estado',$this->Estado,true);
-		
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
