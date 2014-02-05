@@ -52,7 +52,7 @@ class Facturas extends CActiveRecord
 	/**
 	 * @return array relational rules.
 	 */
-	public function relations()
+	public function relations()//Relaciones de las tablas
 	{
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
