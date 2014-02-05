@@ -28,7 +28,7 @@ class FacturasController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','autoCompletar'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -77,14 +77,19 @@ class FacturasController extends Controller
 		));
 	}	
 		
-	public function actionAutoCompletar() {
-        $term = trim($_GET['term']) ;
- 
-        if($term !='') {
-			$users =  Facturas::autoCompletarFacturas($term);
-            echo CJSON::encode($users);
-            Yii::app()->end();
+	 public function actionAutoCompletar() {
+        $res = array();
+		$term = Yii::app()->getRequest()->getParam('term', false);
+		if($term){
+			$sql = 'SELECT IdPaciente, DNI_NIF, Nombre, Apellidos FROM pacientes'
+				. ' WHERE (DNI_NIF LIKE :name) OR (Nombre LIKE :name) OR (Apellidos LIKE :name)'
+				. ' LIMIT 25';
+			$cmd = Yii::app()->db->createCommand($sql);
+			$cmd->bindValue(":name","%".strtolower($term)."%", PDO::PARAM_STR);
+			$res = $cmd->queryAll();
 		}
+		echo CJSON::encode($res);
+		Yii::app()->end();
 	}
 
 	/**
