@@ -28,29 +28,14 @@ class VisitasController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('usersAutocomplete'),
-				'roles'=>array('sysadmin', 'admin', 'medico', 'auxiliar', 'paciente'),
-			),
-			array('allow',
-				'actions'=>array('create', 'update', 'delete', 'index', 'view', 'mail', 'admin'),
-				'roles'=>array('sysadmin', 'admin', 'medico', 'auxiliar'),
-			),
-			
-			array('allow',
-				'actions'=>array('index', 'view'),
+				'actions'=>array('index','view'),
 				'roles'=>array('paciente'),
 			),
-			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update','usersAutocomplete'),
-				'roles'=>array('@'),
+			array('allow',
+				'actions'=>array('create', 'usersAutocomplete','update', 'delete', 'index', 'view', 'mail', 'admin'),
+				'roles'=>array('sysadmin', 'admin', 'medico', 'auxiliar'),
 			),
-			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
-				'roles'=>array('admin'),
-			),
-			array('deny',  // deny all users
-				'roles'=>array('*'),
-			),
+			array('deny'),
 		);
 	}
 
@@ -203,22 +188,26 @@ class VisitasController extends Controller
 	public function actionIndex()
 	{
 		$model=new Calendario;
+		$filtro= new CDbCriteria();
+		
+		if ($this->esPerfil('paciente')) {
+			//El 3 debe salir de algun sitio donde se vincule USUARIOS y PACIENTES.
+			$filtro->compare( 'IdPaciente', 3);
+		}
+		
+		$dataProvider=new CActiveDataProvider('Facturas', array( 'criteria'=>$filtro,));
 		if(isset($_POST['Calendario'])){
 			$model->attributes=$_POST['Calendario'];
 			$criterio= new CDbCriteria;
-			$criterio->compare( 'Fecha', $model->fechaVisita);
-			
+			if($this->esPerfil('paciente'))
+				$criterio->compare( 'IdPaciente', 3);
+			else
+				$criterio->compare( 'Fecha', $model->fechaVisita);
 			
 			$dataProvider=new CActiveDataProvider('Visitas', array(
-				'criteria'=>$criterio,
-				'pagination' => array(
-					//'pageSize' => 5
-					)
-				)
+				'criteria'=>$criterio,)
 			);
-			//$fechas=$model->fechaVisita;
-			//$comando = Yii::app()->db->createCommand('SELECT COUNT(*) FROM visitas where Fecha=\''.$fechas.'\'');
-			//if($comando->queryScalar()<1) Yii::app()->user->setFlash('informacionVisitas','No hay visitas para el día seleccionado');
+			
 			$this->render('index',array('dataProvider'=>$dataProvider, 'model'=>$model));
 		}else{
 			$this->render('index',array('model'=>$model));
