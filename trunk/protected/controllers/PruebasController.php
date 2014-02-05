@@ -174,6 +174,6 @@ class PruebasController extends Controller
 	//Accion para devolver la plantilla para el IFRAME, o similar...
 	public function actionPlantilla()
 	{
-		echo plantilla::obtenerPlantilla( 'PlantillaFactura'); 
+		echo plantilla::obtenerPlantilla( 'PlantillaPrueba'); 
 	}
 }
