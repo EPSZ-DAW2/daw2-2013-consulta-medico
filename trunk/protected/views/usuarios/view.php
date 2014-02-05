@@ -46,7 +46,7 @@ $enabled = Yii::app()->authManager->checkAccess($data->name, $model->IdUsuario);
 		<p>
 			<?php
 				echo $enabled?"<span style=\"color: green;\"class=\"label\">Activado</span>":"";
-			 	echo $data->description;
+			 	//echo $data->description;
 			 ?>
 		</p>
 	</li>
