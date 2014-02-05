@@ -52,8 +52,9 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 	'pager' => array('cssFile'=>false),
 	'columns'=>array(
 		array('name'=>'IdCita', 'headerHtmlOptions'=>array('class'=>'span-1')),
-		'paciente.Nombre',
-		array( 'name'=>'Fecha', 'value'=>'(strtotime($data->Fecha)==0 ? "" : date("d-m-Y H:i:s", strtotime($data->Fecha)))'),
+		array('name'=>'paciente.Nombre', 'headerHtmlOptions'=>array('class'=>'span-2')),
+		array( 'name'=>'Fecha', 'value'=>'(strtotime($data->Fecha)==0 ? "" : date("d-m-Y", strtotime($data->Fecha)))'),
+		array( 'name'=>'Hora', 'value'=>'(strtotime($data->Hora)==0 ? "" : date("H:i:s", strtotime($data->Hora)))'),
 		'Notas',
 		'Estado',
 		array(
@@ -63,7 +64,7 @@ o <b>=</b>) al comienzo de cada uno de los valores de búsqueda para especificar
 			'buttons'=>array(
 					'email' => array('label'=>'Enviar email recordatorio',
 									 'imageUrl'=>Yii::app()->request->baseUrl.'/css/e-mail.png',
-									 'url'=>'Yii::app()->controller->createUrl("mail",array("fecha"=>$data->Fecha,"hora"=>$data->Hora,"correo"=>$data->IdPaciente,))',
+									 'url'=>'Yii::app()->controller->createUrl("mail",array("fecha"=>date("d-m-Y", strtotime($data->Fecha)),"hora"=>date("H:i:s", strtotime($data->Hora)),"correo"=>$data->IdPaciente,))',
 									 'visible'=>'(strcmp($data->Estado,"No Realizada"))==0',)
 		),
 		),
