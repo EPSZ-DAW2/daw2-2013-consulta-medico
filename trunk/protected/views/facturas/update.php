@@ -6,7 +6,7 @@ $this->menu=array(
 	array('label'=>'Crear Factura', 'url'=>array('create'), 'visible'=>!$this->esPerfil('paciente')),
 	array('label'=>'Ver Factura '.$model->IdFactura.'-'.$model->Serie.'-'.$model->Numero, 'url'=>array('view', 'id'=>$model->IdFactura), 'visible'=>!$this->esPerfil('paciente')),
 	array('label'=>'Gestionar Facturas', 'url'=>array('admin'), 'visible'=>!$this->esPerfil('paciente')),
-	array('label'=>'Generar PDF', 'url'=>array(''), 'visible'=>!$this->esPerfil('paciente')),
+	array('label'=>'Generar PDF',  'url'=>array('Pdf', 'id'=>$model->IdFactura), 'visible'=>!$this->esPerfil('paciente')),
 );
 ?>
 
