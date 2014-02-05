@@ -75,7 +75,6 @@ class Visitas extends CActiveRecord
 			'dninif' => 'DNI/NIF',
 			'Fecha' => 'Fecha',
 			'Hora' => 'Hora',
-			'Fecha_Hora'=> 'Fecha y Hora',
 			'Descripcion'=>'Descripcion',
 			'Tratamiento'=>'Tratamiento',
 			'Notas' => 'Notas',
