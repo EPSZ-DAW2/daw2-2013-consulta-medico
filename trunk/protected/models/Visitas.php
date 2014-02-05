@@ -72,8 +72,6 @@ class Visitas extends CActiveRecord
 			'IdPrueba'=> 'Id Prueba',
 			'IdPaciente' => 'Id Paciente',
 			'IdTipoDiagnostico'=> 'Id Tipo Diagnostico',
-			'dninif' => 'DNI/NIF',
-			'paciente.DNI_NIF' => 'DNI/NIF',
 			'Fecha' => 'Fecha',
 			'Hora' => 'Hora',
 			'Descripcion'=>'Descripcion',
@@ -102,8 +100,6 @@ class Visitas extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('IdCita',$this->IdCita);
-		$criteria->compare('paciente.DNI_NIF',$this->dninif);
-		$criteria->compare('paciente.Nombre',$this->nombre);
 		$criteria->compare('Fecha',$this->Fecha,true);
 		$criteria->compare('Hora',$this->Hora,true);
 		$criteria->compare('Notas',$this->Notas,true);
