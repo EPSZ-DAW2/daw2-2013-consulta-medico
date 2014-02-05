@@ -17,7 +17,7 @@
 class Visitas extends CActiveRecord
 {
 
-	public $nombre;//para busqueda de paciente
+	public $dninif;//para busqueda de paciente
 	
 	/**
 	 * @return string the associated database table name
