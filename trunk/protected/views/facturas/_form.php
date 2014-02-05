@@ -92,7 +92,7 @@
 			'model'=>$model,
 			'attribute'=>'dninif',
 			//'name' => 'test_autocomplete',
-			'source' => $this->createUrl('visitas/usersAutocomplete'),
+			'source' => $this->createUrl('facturas/autoCompletar'),
 		// attribute_value is a custom property that returns the 
 		// name of our related object -ie return $model->related_model->name
 			//'value' => $model->isNewRecord ? '': $model->paciente->DNI_NIF,
