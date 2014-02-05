@@ -23,7 +23,7 @@ $this->breadcrumbs=array(
 )); ?>
 <?php if ($model->scenario == 'withCaptcha' && CCaptcha::checkRequirements()): ?>
             <div class="row">
-                <?php echo $form->labelEx($model, 'verifyCode'); ?>
+                <?php echo $form->labelEx($model, 'Código'); ?>
                 <div>
                     <?php $this->widget('CCaptcha'); ?>
                     <?php echo $form->textField($model, 'verifyCode'); ?>

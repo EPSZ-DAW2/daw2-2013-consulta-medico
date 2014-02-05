@@ -9,7 +9,7 @@ class UserIdentity extends CUserIdentity
 {
 	private $_id;
 	private $name;
-	public $verifyCode;
+	//public $verifyCode;
 	/**
 	 * Authenticates a user.
 	 * The example implementation makes sure if the username and password
