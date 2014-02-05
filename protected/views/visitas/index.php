@@ -8,8 +8,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Crear Visitas', 'url'=>array('create')),
-	array('label'=>'Gestionar Visitas', 'url'=>array('admin')),
+	array('label'=>'Crear Visitas', 'url'=>array('create'), 'visible'=>!$this->esPerfil('paciente')),
+	array('label'=>'Gestionar Visitas', 'url'=>array('admin'), 'visible'=>!$this->esPerfil('paciente')),
 );
 ?>
 

@@ -10,9 +10,9 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Listar Visitas', 'url'=>array('index')),
-	array('label'=>'Crear Visitas', 'url'=>array('create')),
+	array('label'=>'Crear Visitas', 'url'=>array('create'), 'visible'=>!$this->esPerfil('paciente')),
 	array('label'=>'Ver Visitas', 'url'=>array('view', 'id'=>$model->IdCita)),
-	array('label'=>'Gestionar Visitas', 'url'=>array('admin')),
+	array('label'=>'Gestionar Visitas', 'url'=>array('admin'), 'visible'=>!$this->esPerfil('paciente')),
 );
 ?>
 
