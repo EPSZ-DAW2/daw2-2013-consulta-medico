@@ -1,8 +1,3 @@
-<?php
-/* @var $this FacturasController */
-/* @var $data Facturas */
-?>
-
 <div class="view">
 
 	<?php $this->beginWidget('ext.coolfieldset.JCollapsibleFieldset', array(
