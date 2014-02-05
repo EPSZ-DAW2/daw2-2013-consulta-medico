@@ -39,14 +39,14 @@ foreach (Yii::app()->authManager->getAuthItems() as $data):
 $enabled = Yii::app()->authManager->checkAccess($data->name, $model->IdUsuario);
  ?>
 	<li>
-		<h4>
+		<h6>
 			<?php echo $data->name ?>
 			<?php echo CHtml::button($enabled?"Desactivar":"Activar", array('onclick' => 'js:document.location.href="index.php?r=usuarios/assign&id='.$model->IdUsuario.'&item='.$data->name.'"'));?>
-		</h4>
+		</h6>
 		<p>
 			<?php
 				echo $enabled?"<span style=\"color: green;\"class=\"label\">Activado</span>":"";
-			 	//echo $data->description;
+			 	echo " ".$data->description;
 			 ?>
 		</p>
 	</li>
