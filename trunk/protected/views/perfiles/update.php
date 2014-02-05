@@ -16,6 +16,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Actualizar Perfiles <?php echo $model->IdPerfil; ?></h1>
+<h1>Actualizar Perfiles <?php echo $model->Nombre; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
