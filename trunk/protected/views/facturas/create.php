@@ -5,8 +5,8 @@
 $this->breadcrumbs=array('Facturas'=>array('index'),'Crear',);
 
 $this->menu=array(
-	array('label'=>'Listar Facturas', 'url'=>array('index')),
-	array('label'=>'Gestionar Facturas', 'url'=>array('admin')),
+	array('label'=>'Listar Facturas', 'url'=>array('index'),),
+	array('label'=>'Gestionar Facturas', 'url'=>array('admin'), 'visible'=>!$this->esPerfil('paciente')),
 );
 ?>
 
