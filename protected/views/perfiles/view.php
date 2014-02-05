@@ -4,24 +4,26 @@
 
 $this->breadcrumbs=array(
 	'Perfiles'=>array('index'),
-	$model->IdPerfil,
+	$model->name,
 );
 
 $this->menu=array(
-	array('label'=>'Listar perfiles', 'url'=>array('index')),
-	array('label'=>'Crear perfil', 'url'=>array('create')),
-	array('label'=>'Actualizar perfil', 'url'=>array('update', 'id'=>$model->IdPerfil)),
-	array('label'=>'Eliminar perfil', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdPerfil),'confirm'=>'¿Está seguro que desea borrar este perfil?')),
-	array('label'=>'Administrar perfiles', 'url'=>array('admin')),
+	array('label'=>'Listar Perfiles', 'url'=>array('index')),
+	array('label'=>'Crear Perfiles', 'url'=>array('create'), 'visible'=>$this->esPerfil('sysadmin')),
+	array('label'=>'Actualizar Perfiles', 'url'=>array('update', 'id'=>$model->name), 'visible'=>$this->esPerfil('sysadmin')),
+	array('label'=>'Eliminar Perfiles', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->name),'confirm'=>'¿Estás seguro que desea eliminar el perfil?'), 'visible'=>$this->esPerfil('sysadmin')),
+	array('label'=>'Gestionar Perfiles', 'url'=>array('admin'), 'visible'=>$this->esPerfil('sysadmin')),
 );
 ?>
 
-<h1>Resumen perfil creado #<?php echo $model->Nombre; ?></h1>
+<h1>Resumen perfil creado #<?php echo $model->name; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(
-		'IdPerfil',
-		'Nombre',
+		'name',
+		'type',
+		'description',
 	),
+	'cssFile' => false,
 )); ?>

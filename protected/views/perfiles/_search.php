@@ -12,13 +12,28 @@
 )); ?>
 
 	<div class="row">
-		<?php echo $form->label($model,'IdPerfil'); ?>
-		<?php echo $form->textField($model,'IdPerfil'); ?>
+		<?php echo $form->label($model,'Nombre'); ?>
+		<?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>64)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'Nombre'); ?>
-		<?php echo $form->textField($model,'Nombre',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->label($model,'Tipo'); ?>
+		<?php echo $form->textField($model,'type'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'Descripción'); ?>
+		<?php echo $form->textArea($model,'description',array('rows'=>6, 'cols'=>50)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'Regla acceso'); ?>
+		<?php echo $form->textArea($model,'bizrule',array('rows'=>6, 'cols'=>50)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'datos'); ?>
+		<?php echo $form->textArea($model,'data',array('rows'=>6, 'cols'=>50)); ?>
 	</div>
 
 	<div class="row buttons">

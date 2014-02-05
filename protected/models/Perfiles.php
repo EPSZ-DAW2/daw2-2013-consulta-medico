@@ -1,13 +1,19 @@
 <?php
 
 /**
- * This is the model class for table "perfiles".
+ * This is the model class for table "authitem".
  *
- * The followings are the available columns in table 'perfiles':
- * @property integer $IdPerfil
- * @property string $Nombre
+ * The followings are the available columns in table 'authitem':
+ * @property string $name
+ * @property integer $type
+ * @property string $description
+ * @property string $bizrule
+ * @property string $data
  *
  * The followings are the available model relations:
+ * @property Authassignment[] $authassignments
+ * @property Authitemchild[] $authitemchildren
+ * @property Authitemchild[] $authitemchildren1
  * @property Usuarios[] $usuarioses
  */
 class Perfiles extends CActiveRecord
@@ -17,7 +23,7 @@ class Perfiles extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'perfiles';
+		return 'authitem';
 	}
 
 	/**
@@ -28,10 +34,13 @@ class Perfiles extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('Nombre', 'length', 'max'=>50),
+			array('name, type', 'required'),
+			array('type', 'numerical', 'integerOnly'=>true),
+			array('name', 'length', 'max'=>64),
+			array('description, bizrule, data', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('IdPerfil, Nombre', 'safe', 'on'=>'search'),
+			array('name, type, description, bizrule, data', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -43,6 +52,9 @@ class Perfiles extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'authassignments' => array(self::HAS_MANY, 'Authassignment', 'itemname'),
+			'authitemchildren' => array(self::HAS_MANY, 'Authitemchild', 'parent'),
+			'authitemchildren1' => array(self::HAS_MANY, 'Authitemchild', 'child'),
 			'usuarioses' => array(self::MANY_MANY, 'Usuarios', 'perfilesusuarios(IdPerfil, IdUsuario)'),
 		);
 	}
@@ -53,8 +65,11 @@ class Perfiles extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'IdPerfil' => 'Id Perfil',
-			'Nombre' => 'Nombre',
+			'name' => 'Name',
+			'type' => 'Type',
+			'description' => 'Description',
+			'bizrule' => 'Bizrule',
+			'data' => 'Data',
 		);
 	}
 
@@ -76,14 +91,14 @@ class Perfiles extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('IdPerfil',$this->IdPerfil);
-		$criteria->compare('Nombre',$this->Nombre,true);
+		$criteria->compare('name',$this->name,true);
+		$criteria->compare('type',$this->type);
+		$criteria->compare('description',$this->description,true);
+		$criteria->compare('bizrule',$this->bizrule,true);
+		$criteria->compare('data',$this->data,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
-			'pagination' => array (
-				'pageSize' => 5 
-			)
 		));
 	}
 

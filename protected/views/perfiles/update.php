@@ -4,18 +4,18 @@
 
 $this->breadcrumbs=array(
 	'Perfiles'=>array('index'),
-	$model->IdPerfil=>array('view','id'=>$model->IdPerfil),
-	'Actualizar',
+	$model->name=>array('view','id'=>$model->name),
+	'Update',
 );
 
 $this->menu=array(
-	array('label'=>'Listar perfiles', 'url'=>array('index')),
-	array('label'=>'Crear perfil', 'url'=>array('create')),
-	array('label'=>'Ver perfiles', 'url'=>array('view', 'id'=>$model->IdPerfil)),
-	array('label'=>'Administrar perfiles', 'url'=>array('admin')),
+	array('label'=>'Listar Perfiles', 'url'=>array('index')),
+	array('label'=>'Crear Perfiles', 'url'=>array('create'), 'visible'=>$this->esPerfil('sysadmin')),
+	array('label'=>'Ver Perfiles', 'url'=>array('view', 'id'=>$model->name), 'visible'=>$this->esPerfil('sysadmin')),
+	array('label'=>'Gestionar Perfiles', 'url'=>array('admin'), 'visible'=>$this->esPerfil('sysadmin')),
 );
 ?>
 
-<h1>Actualizar Perfiles <?php echo $model->Nombre; ?></h1>
+<h1>Actualizar Perfiles <?php echo $model->name; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

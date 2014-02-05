@@ -35,13 +35,13 @@ $this->breadcrumbs=array(
 	<p class="note">Los campos con <span class="required">*</span> son obligatorios.</p>
 
 	<div class="row">
-		<b><?php echo "Nombre de usuario"; ?></b><br>
+		<b><?php echo "Nombre de usuario *"; ?></b><br>
 		<?php echo $form->textField($model,'username'); ?>
 		<?php echo $form->error($model,'username'); ?>
 	</div>
 
 	<div class="row">
-		<b><?php echo "Contraseña"; ?></b><br>
+		<b><?php echo "Contraseña *"; ?></b><br>
 		<?php echo $form->passwordField($model,'password'); ?>
 		<?php echo $form->error($model,'password'); ?>
 		<p class="hint">

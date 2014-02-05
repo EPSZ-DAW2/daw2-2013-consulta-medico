@@ -8,10 +8,10 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Listar Usuarios', 'url'=>array('index')),
-	array('label'=>'Crear Usuarios', 'url'=>array('create')),
-	array('label'=>'Actualizar Usuarios', 'url'=>array('update', 'id'=>$model->IdUsuario)),
-	array('label'=>'Eliminar Usuarios', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdUsuario),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Administrar Usuarios', 'url'=>array('admin')),
+	array('label'=>'Crear Usuarios', 'url'=>array('create'), 'visible'=>$this->esPerfil('sysadmin')),
+	array('label'=>'Actualizar Usuarios', 'url'=>array('update', 'id'=>$model->IdUsuario), 'visible'=>$this->esPerfil('sysadmin')),
+	array('label'=>'Eliminar Usuarios', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdUsuario),'confirm'=>'¿Está seguro que desea eliminar el usuario?'), 'visible'=>$this->esPerfil('sysadmin')),
+	array('label'=>'Gestionar Usuarios', 'url'=>array('admin'), 'visible'=>$this->esPerfil('sysadmin')),
 );
 ?>
 
@@ -19,6 +19,7 @@ $this->menu=array(
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
+	'cssFile' => false,
 	'attributes'=>array(
 		'IdUsuario',
 		'usuario',

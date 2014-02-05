@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Crear Perfiles', 'url'=>array('create')),
-	array('label'=>'Gestionar Perfiles', 'url'=>array('admin')),
+	array('label'=>'Crear Perfiles', 'url'=>array('create'), 'visible'=>$this->esPerfil('sysadmin')),
+	array('label'=>'Gestionar Perfiles', 'url'=>array('admin'), 'visible'=>$this->esPerfil('sysadmin')),
 );
 ?>
 
@@ -17,4 +17,8 @@ $this->menu=array(
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,
 	'itemView'=>'_view',
+	'cssFile' => false,
+	'pager' => array (
+	'cssFile'=> false
+	),
 )); ?>

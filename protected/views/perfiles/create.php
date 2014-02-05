@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Perfiles'=>array('index'),
-	'Crear',
+	'Create',
 );
 
 $this->menu=array(
 	array('label'=>'Listar Perfiles', 'url'=>array('index')),
-	array('label'=>'Gestionar Perfiles', 'url'=>array('admin')),
+	array('label'=>'Gestionar Perfiles', 'url'=>array('admin'), 'visible'=>$this->esPerfil('sysadmin')),
 );
 ?>
 
-<h1>Crear Perfiles</h1>
+<h1>Crear perfiles</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

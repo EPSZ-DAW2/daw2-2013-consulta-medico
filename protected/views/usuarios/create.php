@@ -9,7 +9,7 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Listar Usuarios', 'url'=>array('index')),
-	array('label'=>'Administrar Usuarios', 'url'=>array('admin')),
+	array('label'=>'Gestionar Usuarios', 'url'=>array('admin'), 'visible'=>$this->esPerfil('sysadmin')),
 );
 ?>
 
