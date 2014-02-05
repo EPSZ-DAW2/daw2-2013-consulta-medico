@@ -27,21 +27,20 @@ class FacturasController extends Controller
 	public function accessRules()
 	{
 		return array(
-			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view','autoCompletar'),
-				'users'=>array('*'),
+			array('allow',
+				'actions'=>array('index', 'view'),
+				'roles'=>array('paciente'),
 			),
-			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update','plantilla','Pdf'),
-				'users'=>array('@'),
+			array('allow',
+				'actions'=>array('autoCompletar'),
+				'roles'=>array('sysadmin', 'admin', 'medico', 'auxiliar', 'paciente'),
 			),
-			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
-				'users'=>array('admin','medico'),
+			array('allow',
+				'actions'=>array('create', 'update', 'delete', 'index', 'view','pdf', 'admin'),
+				'roles'=>array('sysadmin', 'admin', 'medico', 'auxiliar'),
 			),
-			array('deny',  // deny all users
-				'users'=>array('*'),
-			),
+			
+			array('deny'),
 		);
 	}
 
