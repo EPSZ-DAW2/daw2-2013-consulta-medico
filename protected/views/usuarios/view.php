@@ -15,7 +15,7 @@ $this->menu=array(
 );
 ?>
 
-<h1>Resumen usuario creado #<?php echo $model->IdUsuario; ?></h1>
+<h1>Resumen usuario creado #<?php echo $model->usuario; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

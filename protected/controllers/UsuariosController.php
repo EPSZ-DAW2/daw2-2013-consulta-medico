@@ -98,7 +98,13 @@ class UsuariosController extends Controller
 
 		if(isset($_POST['Usuarios']))
 		{
+			$old_pswd = $model->clave;
 			$model->attributes=$_POST['Usuarios'];
+			
+			if($model->clave != $old_pswd)
+				$model->clave=md5($model->clave);
+			else
+				$model->clave = $old_pswd;
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->IdUsuario));
 		}
