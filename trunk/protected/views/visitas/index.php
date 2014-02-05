@@ -16,7 +16,6 @@ $this->menu=array(
 <h1>Visitas</h1>
 <?php if(!isset($dataProvider)){
  echo CHtml::beginForm();
-
 	
 		 if ($model->fechaVisita!='') {
 		 $model->fechaVisita=date('d-m-Y',strtotime($model->v));
@@ -35,7 +34,6 @@ $this->menu=array(
 		 'buttonImage'=>Yii::app()->baseUrl.'/css/calendar1.jpg',
 		 'buttonImageOnly'=>true,
 		 'buttonText'=>'Fecha',
-
 		 'showAnim'=>'fold',
 		 'showButtonPanel'=>true,
 		 'showOn'=>'button',

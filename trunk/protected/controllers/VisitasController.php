@@ -195,7 +195,6 @@ class VisitasController extends Controller
 			$filtro->compare( 'IdPaciente', 3);
 		}
 		
-		$dataProvider=new CActiveDataProvider('Facturas', array( 'criteria'=>$filtro,));
 		if(isset($_POST['Calendario'])){
 			$model->attributes=$_POST['Calendario'];
 			$criterio= new CDbCriteria;
@@ -210,7 +209,8 @@ class VisitasController extends Controller
 			
 			$this->render('index',array('dataProvider'=>$dataProvider, 'model'=>$model));
 		}else{
-			$this->render('index',array('model'=>$model));
+			$data=new CActiveDataProvider('Visitas');
+			$this->render('index',array('model'=>$model,'data'=>$data));
 		}
 	}
 
