@@ -28,16 +28,16 @@ class PruebasController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
+				'roles'=>array('sysadmin', 'admin', 'medico'),
 				'actions'=>array('index','view'),
-				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
+				'roles'=>array('medico','admin'),
 				'actions'=>array('create','update','plantilla'),
-				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
+				'roles'=>array('medico','admin','sysadmin'),
 				'actions'=>array('admin','delete'),
-				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
