@@ -59,4 +59,8 @@ or <b>=</b>) al principio de cada búsqueda para especificar como debe realizars
 			'class'=>'CButtonColumn',
 		),
 	),
+	'cssFile' => false,
+	'pager' => array (
+	'cssFile'=> false
+	),
 )); ?>

@@ -30,4 +30,8 @@ $this->menu=array(
 		'Tratamiento',
 		'Notas',
 	),
+	'cssFile' => false,
+	'pager' => array (
+	'cssFile'=> false
+	),
 )); ?>
