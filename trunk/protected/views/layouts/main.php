@@ -38,8 +38,8 @@
 			'baseUrl' => Yii::app()->baseUrl.'/css/mbmenu_css',
             'items'=>array(
                 array('label'=>'Home', 'url'=>array('/site/index')),
-				array('label'=>'Perfiles', 'url'=>array('/perfiles/index'),'visible'=>!Yii::app()->user->isGuest),
-				array('label'=>'Usuarios', 'url'=>array('/usuarios/index'),'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>'Perfiles', 'url'=>array('/perfiles/index'),'visible'=>!Yii::app()->user->isGuest && (!$this->esPerfil('paciente') && !$this->esPerfil('medico') && !$this->esPerfil('auxiliar'))),
+				array('label'=>'Usuarios', 'url'=>array('/usuarios/index'),'visible'=>!Yii::app()->user->isGuest && (!$this->esPerfil('paciente') && !$this->esPerfil('medico') && !$this->esPerfil('auxiliar'))),
                 array('label'=>'Gestion Medica', 'visible'=>!Yii::app()->user->isGuest,   
                   'items'=>array(
                     array('label'=>'Pruebas', 'url'=>array('/pruebas/index')),
@@ -49,7 +49,7 @@
 					array('label'=>'Pacientes', 'url'=>array('/pacientes/index')),
                   ),
                 ),
-				array('label'=>'Copia de Seguridad', 'visible'=>!Yii::app()->user->isGuest,   
+				array('label'=>'Copia de Seguridad', 'visible'=>!Yii::app()->user->isGuest && (!$this->esPerfil('paciente') && !$this->esPerfil('medico') && !$this->esPerfil('auxiliar')),   
                   'items'=>array(
                     array('label'=>'Importar', 'url'=>array('/importar/index')),
 					array('label'=>'Exportar', 'url'=>array('/exportar/index')),
