@@ -1,6 +1,25 @@
 <?php
 class ImportarController extends Controller
 {
+	public function accessRules()
+	{
+		return array(
+			array('allow',
+				'actions'=>array('index'),
+				'roles'=>array('sysadmin', 'admin'),
+			),			
+			array('deny'),
+		);
+	}
+	
+	public function filters()
+	{
+		return array(
+			'accessControl', // perform access control for CRUD operations
+		);
+	}
+	
+
 	public function actionIndex(){
 		$modelo=new ImportarForm;
 		if(isset($_POST['datos'])){
