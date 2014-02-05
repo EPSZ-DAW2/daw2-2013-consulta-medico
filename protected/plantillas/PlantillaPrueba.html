@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+<h3>Prueba Médica</h3>
+<table>
+	<tr>
+		<td>
+		<table align="left">
+			<tr>
+				<td><b>Prueba:</b> </td>
+				<td>{pruebas.descripcion}</td>
+			</tr>
+			<tr>
+				<td><b>Fecha:</b> </td>
+				<td>{pruebas.Fecha_Hora}</td>
+			</tr>
+			<tr>
+				<td><b>Tipos de diagnósticos:</b> </td>
+				<td>{tiposdiagnosticos.nombre}</td>
+			</tr>
+		</table>
+		</td>
+		<td>
+		<table align="right">
+			<tr>
+				<td><b>Nombre del paciente:</b></td>
+				<td>{pacientes.nombre} {pacientes.apellidos}</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+<h5>NOTAS</h5>
+<body>
+	{pruebas.notas}
+</body>
+</html>
