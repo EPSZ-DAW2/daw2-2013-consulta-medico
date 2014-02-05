@@ -5,8 +5,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Listar Facturas', 'url'=>array('index')),
-	array('label'=>'Crear Factura', 'url'=>array('create')),
+	array('label'=>'Listar Facturas', 'url'=>array('index'),),
+	array('label'=>'Crear Factura', 'url'=>array('create'), 'visible'=>!$this->esPerfil('paciente')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
