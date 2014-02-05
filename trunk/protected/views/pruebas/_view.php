@@ -41,8 +41,8 @@
 
 </div>
 
-<div>
+<!--<div>
 <iframe width="760" height="800" src="<?php 
 	echo $this->createUrl( 'plantilla');
 ?>" scrolling="no" frameborder="no" ></iframe>
-</div> 
+</div>--> 
