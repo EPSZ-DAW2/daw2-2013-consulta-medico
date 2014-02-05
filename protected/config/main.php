@@ -47,7 +47,7 @@ return array(
 		),
 		/*'bootstrap'=>array(
             'class'=>'bootstrap.components.Bootstrap',
-        ),*/
+        ),*///CODIGO NECESARIO PARA GENERAR PDF Y PARA UTILIZAR LAS LIBRERIAS NECESARIAS
 		'ePdf' => array(
         'class'         => 'ext.yii-pdf.EYiiPdf',
         'params'        => array(
