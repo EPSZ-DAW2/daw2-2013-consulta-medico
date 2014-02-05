@@ -9,7 +9,7 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Listar Visitas', 'url'=>array('index')),
-	array('label'=>'Crear Visitas', 'url'=>array('create')),
+	array('label'=>'Crear Visitas', 'url'=>array('create'), 'visible'=>!$this->esPerfil('paciente')),
 );
 
 Yii::app()->clientScript->registerScript('search', "

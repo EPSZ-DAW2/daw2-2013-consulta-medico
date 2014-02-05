@@ -9,10 +9,10 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Listar Visitas', 'url'=>array('index')),
-	array('label'=>'Crear Visitas', 'url'=>array('create')),
-	array('label'=>'Actualizar Visitas', 'url'=>array('update', 'id'=>$model->IdCita)),
-	array('label'=>'Borrar Visitas', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdCita),'confirm'=>'Está seguro que desea eliminar este registro?')),
-	array('label'=>'Gestionar Visitas', 'url'=>array('admin')),
+	array('label'=>'Crear Visitas', 'url'=>array('create'), 'visible'=>!$this->esPerfil('paciente')),
+	array('label'=>'Actualizar Visitas', 'url'=>array('update', 'id'=>$model->IdCita), 'visible'=>!$this->esPerfil('paciente')),
+	array('label'=>'Borrar Visitas', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->IdCita),'confirm'=>'Está seguro que desea eliminar este registro?'), 'visible'=>!$this->esPerfil('paciente')),
+	array('label'=>'Gestionar Visitas', 'url'=>array('admin'), 'visible'=>!$this->esPerfil('paciente')),
 );
 ?>
 
