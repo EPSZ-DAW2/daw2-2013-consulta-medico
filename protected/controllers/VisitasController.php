@@ -171,11 +171,17 @@ class VisitasController extends Controller
 	
 	public function actionMail($fecha,$hora,$correo)
 	{
+		$res=array();
+		$term = Yii::app()->getRequest()->getParam('term', false);
+		$sql = 'SELECT Email FROM pacientes WHERE (IdPaciente = '.$correo.')';
+		$cmd = Yii::app()->db->createCommand($sql);
+		$res = $cmd->queryAll();	
+		
 		$mail=Yii::app()->Smtpmail;
 		$mail->SetFrom("giisidaw@gmail.com","Hospital");
 		$mail->Subject="Recordatorio Cita";
 		$mail->MsgHTML("<h1>Usted tiene una cita el dia $fecha a las $hora<h1>");
-		$mail->AddAddress(,"Alejandro");
+		$mail->AddAddress($res[0]["Email"],"Alejandro");
 		if(!$mail->Send()) 
 		{
            echo "Mailer Error: " . $mail->ErrorInfo;
@@ -185,7 +191,7 @@ class VisitasController extends Controller
             echo "El correo ha sido enviado!";
 				
 		}
-		echo CHtml::link('Volver',array('Admin')); 
+		echo CHtml::link('Volver',array('Admin'));
 		
 	}
 	
