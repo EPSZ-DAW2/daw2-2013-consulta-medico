@@ -1,19 +1,9 @@
 <?php
 Yii::import("zii.widgets.jui.CJuiAutoComplete");
-class AutoCompletar extends CJuiAutoComplete
-{
-    /**
-     * @var string the chain of method calls that would be appended at the end of the autocomplete constructor.
-     * For example, ".result(function(...){})" would cause the specified js function to execute
-     * when the user selects an option.
-     */
+class AutoCompletar extends CJuiAutoComplete{
     public $methodChain;
-    /**
-     * Run this widget.
-     * This method registers necessary javascript and renders the needed HTML code.
-     */
-    public function run()
-    {
+
+    public function run(){
         list($name,$id)=$this->resolveNameID();
  
         if(isset($this->htmlOptions['IdPaciente']))
