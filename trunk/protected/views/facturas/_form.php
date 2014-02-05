@@ -1,19 +1,6 @@
-<?php
-/* @var $this FacturasController */
-/* @var $model Facturas */
-/* @var $form CActiveForm */
-?>
-
 <div class="wide form">
 
-<?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'facturas-form',
-	// Please note: When you enable ajax validation, make sure the corresponding
-	// controller action is handling ajax validation correctly.
-	// There is a call to performAjaxValidation() commented in generated controller code.
-	// See class documentation of CActiveForm for details on this.
-	'enableAjaxValidation'=>false,
-)); ?>
+	<?php $form=$this->beginWidget('CActiveForm', array('id'=>'facturas-form','enableAjaxValidation'=>false,)); ?>
 
 	<p class="note">Los campos con <span class="required">*</span> son obligatorios.</p>
 
@@ -34,9 +21,8 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'Fecha'); ?>
 		<?php
-		 if ($model->Fecha!='') {
-		 $model->Fecha=date('d-m-Y',strtotime($model->Fecha));
-		 }
+		 if ($model->Fecha!='') $model->Fecha=date('d-m-Y',strtotime($model->Fecha));
+
 		 $this->widget('zii.widgets.jui.CJuiDatePicker', array(
 		 'model'=>$model,
 		 'attribute'=>'Fecha',
@@ -76,26 +62,17 @@
 				'size'=>50,
 				)
 			);
-			if ($model->paciente !== null) {
-				//echo ' Cliente seleccionado.';
-			} else {
-				//echo '  DNI/NIF'; 
-			}
 		?>
 		<?php echo $form->error($model,'IdPaciente'); ?>
 	</div>
+	
 	<div class="row">
 		<?php echo $form->labelEx($model,'dninif'); ?>
 		<?php
-		// ext is a shortcut for application.extensions
 		$form->widget('ext.AutoCompletar', array(
 			'model'=>$model,
 			'attribute'=>'dninif',
-			//'name' => 'test_autocomplete',
 			'source' => $this->createUrl('facturas/autoCompletar'),
-		// attribute_value is a custom property that returns the 
-		// name of our related object -ie return $model->related_model->name
-			//'value' => $model->isNewRecord ? '': $model->paciente->DNI_NIF,
 			'options' => array(
 				'minLength'=>0,
 				'autoFill'=>false,
@@ -120,7 +97,6 @@
 		?>
 	</div>
 	
-
 	<div class="row">
 		<?php echo $form->labelEx($model,'Concepto'); ?>
 		<?php echo $form->textField($model,'Concepto',array('size'=>50,'maxlength'=>50)); ?>
@@ -178,4 +154,4 @@
 
 <?php $this->endWidget(); ?>
 
-</div><!-- form -->
+</div>
