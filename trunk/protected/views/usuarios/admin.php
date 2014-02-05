@@ -9,7 +9,7 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Listar Usuarios', 'url'=>array('index')),
-	array('label'=>'Crear Usuarios', 'url'=>array('create')),
+	array('label'=>'Crear Usuarios', 'url'=>array('create'), 'visible'=>$this->esPerfil('sysadmin')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -43,6 +43,10 @@ Puedes utilizar operadores de comparación (<, <=, >, >=, <> o =) al comienzo de
 	'id'=>'usuarios-grid',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
+	'cssFile' => false,
+	'pager' => array (
+	'cssFile'=> false
+	),
 	'columns'=>array(
 		'IdUsuario',
 		'usuario',

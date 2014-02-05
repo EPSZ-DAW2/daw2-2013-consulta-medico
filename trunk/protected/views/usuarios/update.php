@@ -10,9 +10,9 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Listar Usuarios', 'url'=>array('index')),
-	array('label'=>'Crear Usuarios', 'url'=>array('create')),
+	array('label'=>'Crear Usuarios', 'url'=>array('create'), 'visible'=>$this->esPerfil('sysadmin')),
 	array('label'=>'Ver Usuarios', 'url'=>array('view', 'id'=>$model->IdUsuario)),
-	array('label'=>'Administrar Usuarios', 'url'=>array('admin')),
+	array('label'=>'Administrar Usuarios', 'url'=>array('admin'), 'visible'=>$this->esPerfil('sysadmin')),
 );
 ?>
 

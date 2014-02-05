@@ -30,7 +30,7 @@ class PerfilesController extends Controller
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				//'controllers'->array('users'),
 				'roles'=>array('sysadmin', 'admin'),
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view', 'assign'),
 				//'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -75,7 +75,7 @@ class PerfilesController extends Controller
 		{
 			$model->attributes=$_POST['Perfiles'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->IdPerfil));
+				$this->redirect(array('view','id'=>$model->name));
 		}
 
 		$this->render('create',array(
@@ -99,7 +99,7 @@ class PerfilesController extends Controller
 		{
 			$model->attributes=$_POST['Perfiles'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->IdPerfil));
+				$this->redirect(array('view','id'=>$model->name));
 		}
 
 		$this->render('update',array(

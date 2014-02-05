@@ -20,13 +20,13 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'usuario'); ?>
+		<?php echo $form->labelEx($model,'usuario *'); ?>
 		<?php echo $form->textField($model,'usuario',array('size'=>50,'maxlength'=>50)); ?>
 		<?php echo $form->error($model,'usuario'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'clave'); ?>
+		<?php echo $form->labelEx($model,'clave *'); ?>
 		<?php echo $form->textField($model,'clave',array('size'=>50,'maxlength'=>50)); ?>
 		<?php echo $form->error($model,'clave'); ?>
 	</div>
