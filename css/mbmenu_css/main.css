@@ -52,12 +52,18 @@ body
 	font-weight: bold;
 	text-shadow: 0.05em 0.05em #333;
 	margin-left: 10%;
-	
 }
 
 #imagen_portada img
 {
 	float: left;
+	width: 97px;
+	height: 97px;
+}
+
+#imagen_portada2 img
+{
+	float: right;
 	width: 97px;
 	height: 97px;
 }
