@@ -149,20 +149,40 @@ class ECalendarViewPagination extends CComponent {
       case ECalendarViewPageSize::WEEK:
         $date = clone($this->getCurrentDate());
         if($this->getPageIndex() >= 0) {
-          $date->add(new DateInterval('P' . 7 * $this->getPageIndex() . 'D'));
+          if (version_compare(PHP_VERSION, '5.3.0') >= 0) {
+            $date->add(new DateInterval('P' . (7 * $this->getPageIndex()) . 'D'));
+          } else {
+            $date->modify( '+' . (7 * $this->getPageIndex()) . ' days');
+          }
         } else {
-          $date->sub(new DateInterval('P' . 7 * (-$this->getPageIndex()) . 'D'));
+          if (version_compare(PHP_VERSION, '5.3.0') >= 0) {
+            $date->sub(new DateInterval('P' . (7 * (-$this->getPageIndex())) . 'D'));
+          } else {
+            $date->modify( '-' . (7 * (-$this->getPageIndex())) . ' days');
+          }
         }
         $dateIndex = $this->getWeekdayIndex($date);
-        $date->sub(new DateInterval('P' . $dateIndex . 'D'));
+        if (version_compare(PHP_VERSION, '5.3.0') >= 0) {
+          $date->sub(new DateInterval('P' . $dateIndex . 'D'));
+        } else {
+          $date->modify( '-' . $dateIndex . ' days');
+        }
         return $date;
 
       case ECalendarViewPageSize::DAY:
         $date = clone($this->getCurrentDate());
         if($this->getPageIndex() >= 0) {
-          $date->add(new DateInterval('P' . $this->getPageIndex() . 'D'));
+          if (version_compare(PHP_VERSION, '5.3.0') >= 0) {
+            $date->add(new DateInterval('P' . $this->getPageIndex() . 'D'));
+          } else {
+            $date->modify( '+' . $this->getPageIndex() . ' days');
+          }
         } else {
-          $date->sub(new DateInterval('P' . (-$this->getPageIndex()) . 'D'));
+          if (version_compare(PHP_VERSION, '5.3.0') >= 0) {
+            $date->sub(new DateInterval('P' . (-$this->getPageIndex()) . 'D'));
+          } else {
+            $date->modify( '-' . (-$this->getPageIndex()) . ' days');
+          }
         }
         return $date;
     }
@@ -185,20 +205,40 @@ class ECalendarViewPagination extends CComponent {
       case ECalendarViewPageSize::WEEK:
         $date = clone($this->getCurrentDate());
         if($this->getPageIndex() >= 0) {
-          $date->add(new DateInterval('P' . 7 * $this->getPageIndex() . 'D'));
+          if (version_compare(PHP_VERSION, '5.3.0') >= 0) {
+            $date->add(new DateInterval('P' . (7 * $this->getPageIndex()) . 'D'));
+          } else {
+            $date->modify( '+' . (7 * $this->getPageIndex()) . ' days');
+          }
         } else {
-          $date->sub(new DateInterval('P' . 7 * (-$this->getPageIndex()) . 'D'));
+          if (version_compare(PHP_VERSION, '5.3.0') >= 0) {
+            $date->sub(new DateInterval('P' . (7 * (-$this->getPageIndex())) . 'D'));
+          } else {
+            $date->modify( '-' . (7 * (-$this->getPageIndex())) . ' days');
+          }
         }
         $dateIndex = $this->getWeekdayReverseIndex($date);
-        $date->add(new DateInterval('P' . $dateIndex . 'D'));
+        if (version_compare(PHP_VERSION, '5.3.0') >= 0) {
+          $date->add(new DateInterval('P' . $dateIndex . 'D'));
+        } else {
+          $date->modify( '+' . $dateIndex . ' days');
+        }
         return $date;
 
       case ECalendarViewPageSize::DAY:
         $date = clone($this->getCurrentDate());
         if($this->getPageIndex() >= 0) {
-          $date->add(new DateInterval('P' . $this->getPageIndex() . 'D'));
+          if (version_compare(PHP_VERSION, '5.3.0') >= 0) {
+            $date->add(new DateInterval('P' . $this->getPageIndex() . 'D'));
+          } else {
+            $date->modify( '+' . $this->getPageIndex() . ' days');
+          }
         } else {
-          $date->sub(new DateInterval('P' . (-$this->getPageIndex()) . 'D'));
+          if (version_compare(PHP_VERSION, '5.3.0') >= 0) {
+            $date->sub(new DateInterval('P' . (-$this->getPageIndex()) . 'D'));
+          } else {
+            $date->modify( '-' . (-$this->getPageIndex()) . ' days');
+          }
         }
         return $date;
     }
@@ -215,12 +255,20 @@ class ECalendarViewPagination extends CComponent {
       case ECalendarViewPageSize::MONTH:
         $date = $this->getFirstRelevantPageDate();
         $offset = (int) ($this->getMonthSize2($date) / 2);
-        $date->add(new DateInterval('P' . $offset . 'D'));
+        if (version_compare(PHP_VERSION, '5.3.0') >= 0) {
+          $date->add(new DateInterval('P' . $offset . 'D'));
+        } else {
+          $date->modify( '+' . $offset . ' days');
+        }
         return $date;
 
       case ECalendarViewPageSize::WEEK:
         $date = $this->getFirstRelevantPageDate();
-        $date->add(new DateInterval('P3D'));
+        if (version_compare(PHP_VERSION, '5.3.0') >= 0) {
+          $date->add(new DateInterval('P3D'));
+        } else {
+          $date->modify( '+3 days');
+        }
         return $date;
 
       case ECalendarViewPageSize::DAY:
@@ -239,7 +287,11 @@ class ECalendarViewPagination extends CComponent {
       case ECalendarViewPageSize::MONTH:
         $date = $this->getFirstRelevantPageDate();
         $dateIndex = $this->getWeekdayIndex($date);
-        $date->sub(new DateInterval('P' . $dateIndex . 'D'));
+        if (version_compare(PHP_VERSION, '5.3.0') >= 0) {
+          $date->sub(new DateInterval('P' . $dateIndex . 'D'));
+        } else {
+          $date->modify( '-' . $dateIndex . ' days');
+        }
         return $date;
 
       case ECalendarViewPageSize::WEEK:
@@ -259,7 +311,11 @@ class ECalendarViewPagination extends CComponent {
       case ECalendarViewPageSize::MONTH:
         $date = $this->getFirstPageDate();
         $dateIndex = $this->getWeekdayIndex($date);
-        $date->add(new DateInterval('P' . (41 - $dateIndex) . 'D'));
+        if (version_compare(PHP_VERSION, '5.3.0') >= 0) {
+          $date->add(new DateInterval('P' . (41 - $dateIndex) . 'D'));
+        } else {
+          $date->modify( '+' . (41 - $dateIndex) . ' days');
+        }
         return $date;
 
       case ECalendarViewPageSize::WEEK:
@@ -337,7 +393,11 @@ class ECalendarViewPagination extends CComponent {
    * @return int The index.
    */
   private function getWeekdayIndex(DateTime $date) {
-    $timestamp = $date->getTimestamp();
+    if (version_compare(PHP_VERSION, '5.3.0') >= 0) {
+      $timestamp = $date->getTimestamp();
+    } else {
+      $timestamp = $date->format('U');
+    }//if
     if($this->_isMondayFirst) {
       return (int) ($date->format('N') - 1);
     } else {

@@ -127,7 +127,7 @@ return array(
 			'connectionString' => 'mysql:host=localhost;dbname=consultamedico',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => '',
+			'password' => 'patata',
 			'charset' => 'utf8',
 		),
 		

@@ -31,7 +31,5 @@ $this->menu=array(
 		'Notas',
 	),
 	'cssFile' => false,
-	'pager' => array (
-	'cssFile'=> false
-	),
+	//'pager' => array ( 'cssFile'=> false ),
 )); ?>

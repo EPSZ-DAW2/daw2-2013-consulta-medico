@@ -65,7 +65,11 @@ class ECalendarViewDataProvider extends CComponent {
           'isCurrentDate' => $this->getPagination()->isCurrentDate($dateIterator),
           'isRelevantDate' => $this->getPagination()->isRelevantDate($dateIterator),
         ));
-      $dateIterator->add(new DateInterval('P1D'));
+      if (version_compare(PHP_VERSION, '5.3.0') >= 0) {
+        $dateIterator->add(new DateInterval('P1D'));
+      } else {
+        $dateIterator->modify( '+1 days');
+      }
     }
 
     return $data;

@@ -13,6 +13,7 @@ $this->menu=array(
 ?>
 
 <h1>Perfiles</h1>
+<h1>Ruta: <?php echo $this->getRoute();?></h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

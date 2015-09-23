@@ -34,7 +34,8 @@
 	</div><!-- header -->
 
 	<div id="mainmenu">
-		<?php $this->widget('application.extensions.mbmenu.MbMenu',array(
+		<?php $this->widget('ext.mbmenu.MbMenu',array(
+            'activateParents'=>true,
 			'baseUrl' => Yii::app()->baseUrl.'/css/mbmenu_css',
             'items'=>array(
                 array('label'=>'Home', 'url'=>array('/site/index')),
